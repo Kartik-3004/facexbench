@@ -1,0 +1,1565 @@
+{
+    "category": "fas_deepfakes",
+    "sub-category": "fas",
+    "dataset": "wmca",
+    "question_type": "MCQ",
+    "num_images": "multiple",
+    "prepend_text": "Face anti-spoofing involves detecting whether a presented face is real or a spoof attempt using methods like photos, videos, or masks. Common attack types include 'Glasses,' 'Print,' 'Replay,' 'Fake Head,' 'Rigid Mask,' 'Flexible Mask,' 'Wig,' and 'Paper Mask.' You have to perform the task of face anti-spoofing.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_1_1.png",
+                "images/wmca_multiple_mcq/question_1_2.png",
+                "images/wmca_multiple_mcq/question_1_3.png"
+            ],
+            "question_text": "How many images are spoof attacks?",
+            "options": [
+                "2",
+                "1",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1"
+        },
+        "2": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_2_1.png",
+                "images/wmca_multiple_mcq/question_2_2.png",
+                "images/wmca_multiple_mcq/question_2_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "Image 3",
+                "Image 1",
+                "Image 3, Image 1",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3, Image 1"
+        },
+        "3": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_3_1.png",
+                "images/wmca_multiple_mcq/question_3_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Image 1",
+                "Both Images",
+                "None of the above",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1"
+        },
+        "4": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_4_1.png",
+                "images/wmca_multiple_mcq/question_4_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Both Images",
+                "None of the above",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "5": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_5_1.png",
+                "images/wmca_multiple_mcq/question_5_2.png"
+            ],
+            "question_text": "Which image is attacked and are of the type Wig?",
+            "options": [
+                "Image 2",
+                "None of the above",
+                "Both Images",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "6": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_6_1.png",
+                "images/wmca_multiple_mcq/question_6_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Image 1 is attack, Image 2 is bonafide",
+                "Image 1 is bonafide, Image 2 is attack",
+                "Both images are bonafide",
+                "Both images are attacks"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Both images are attacks"
+        },
+        "7": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_7_1.png",
+                "images/wmca_multiple_mcq/question_7_2.png"
+            ],
+            "question_text": "Which image is an attack?",
+            "options": [
+                "None of the above",
+                "Image 1",
+                "Image 2",
+                "Both Images"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Both Images"
+        },
+        "8": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_8_1.png",
+                "images/wmca_multiple_mcq/question_8_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Both Images",
+                "Image 2",
+                "None of the above",
+                "Image 1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "9": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_9_1.png",
+                "images/wmca_multiple_mcq/question_9_2.png",
+                "images/wmca_multiple_mcq/question_9_3.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "All images are bonafide",
+                "All images are attacks of different types",
+                "Two images are attacks of the same type",
+                "All images are attacks of the same type"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Two images are attacks of the same type"
+        },
+        "10": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_10_1.png",
+                "images/wmca_multiple_mcq/question_10_2.png",
+                "images/wmca_multiple_mcq/question_10_3.png"
+            ],
+            "question_text": "Which images are of attack type Print?",
+            "options": [
+                "Image 1",
+                "Image 3",
+                "Image 1, Image 2, Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2"
+        },
+        "11": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_11_1.png",
+                "images/wmca_multiple_mcq/question_11_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "Both Images",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "12": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_12_1.png",
+                "images/wmca_multiple_mcq/question_12_2.png"
+            ],
+            "question_text": "Which image is attacked and are of the type Wig?",
+            "options": [
+                "Image 2",
+                "None of the above",
+                "Both Images",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "13": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_13_1.png",
+                "images/wmca_multiple_mcq/question_13_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Image 1",
+                "Image 2",
+                "Both Images",
+                "None of the above"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2"
+        },
+        "14": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_14_1.png",
+                "images/wmca_multiple_mcq/question_14_2.png"
+            ],
+            "question_text": "Which image is attacked and are of the type Wig?",
+            "options": [
+                "Image 1",
+                "Both Images",
+                "None of the above",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "15": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_15_1.png",
+                "images/wmca_multiple_mcq/question_15_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "None of the above",
+                "Image 1",
+                "Both Images",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "16": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_16_1.png",
+                "images/wmca_multiple_mcq/question_16_2.png",
+                "images/wmca_multiple_mcq/question_16_3.png"
+            ],
+            "question_text": "Which images are bonafide?",
+            "options": [
+                "Image 3, Image 1",
+                "None of the above",
+                "Image 1, Image 2",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "17": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_17_1.png",
+                "images/wmca_multiple_mcq/question_17_2.png"
+            ],
+            "question_text": "Which statement is true about the images?",
+            "options": [
+                "Only one image is an attack",
+                "Both images are bonafide",
+                "Both images are attacks of the same type",
+                "Images are attacks of different types"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Images are attacks of different types"
+        },
+        "18": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_18_1.png",
+                "images/wmca_multiple_mcq/question_18_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "None of the above",
+                "Both Images"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "19": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_19_1.png",
+                "images/wmca_multiple_mcq/question_19_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Image 1 is attack, Image 2 is bonafide",
+                "Both images are attacks",
+                "Image 1 is bonafide, Image 2 is attack",
+                "Both images are bonafide"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 is bonafide, Image 2 is attack"
+        },
+        "20": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_20_1.png",
+                "images/wmca_multiple_mcq/question_20_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Image 1 is bonafide, Image 2 is attack",
+                "Image 1 is attack, Image 2 is bonafide",
+                "Both images are attacks",
+                "Both images are bonafide"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 is bonafide, Image 2 is attack"
+        },
+        "21": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_21_1.png",
+                "images/wmca_multiple_mcq/question_21_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Both images are bonafide",
+                "Image 1 is attack, Image 2 is bonafide",
+                "Image 1 is bonafide, Image 2 is attack",
+                "Both images are attacks"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Both images are attacks"
+        },
+        "22": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_22_1.png",
+                "images/wmca_multiple_mcq/question_22_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Both Images",
+                "Image 1",
+                "None of the above",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "23": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_23_1.png",
+                "images/wmca_multiple_mcq/question_23_2.png",
+                "images/wmca_multiple_mcq/question_23_3.png"
+            ],
+            "question_text": "How many images are of attack type Wig?",
+            "options": [
+                "1",
+                "3",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0"
+        },
+        "24": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_24_1.png",
+                "images/wmca_multiple_mcq/question_24_2.png",
+                "images/wmca_multiple_mcq/question_24_3.png"
+            ],
+            "question_text": "Which images are attacks of the same type?",
+            "options": [
+                "Image 1, Image 2",
+                "None of the above",
+                "Image 3, Image 1",
+                "Image 2, Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3, Image 1"
+        },
+        "25": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_25_1.png",
+                "images/wmca_multiple_mcq/question_25_2.png",
+                "images/wmca_multiple_mcq/question_25_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "3",
+                "2",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1"
+        },
+        "26": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_26_1.png",
+                "images/wmca_multiple_mcq/question_26_2.png"
+            ],
+            "question_text": "Which image is an attack?",
+            "options": [
+                "Image 2",
+                "None of the above",
+                "Both Images",
+                "Image 1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Both Images"
+        },
+        "27": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_27_1.png",
+                "images/wmca_multiple_mcq/question_27_2.png",
+                "images/wmca_multiple_mcq/question_27_3.png"
+            ],
+            "question_text": "Are there more bonafide or attack images?",
+            "options": [
+                "More attacks",
+                "Equal number",
+                "Cannot determine",
+                "More bonafide"
+            ],
+            "correct_answer_option": "A",
+            "answer": "More attacks"
+        },
+        "28": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_28_1.png",
+                "images/wmca_multiple_mcq/question_28_2.png",
+                "images/wmca_multiple_mcq/question_28_3.png"
+            ],
+            "question_text": "Which images depict bonafide individuals?",
+            "options": [
+                "Image 1",
+                "Image 1, Image 2",
+                "Image 2",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "29": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_29_1.png",
+                "images/wmca_multiple_mcq/question_29_2.png"
+            ],
+            "question_text": "Which statement is true about the images?",
+            "options": [
+                "Only one image is an attack",
+                "Both images are bonafide",
+                "Both images are attacks of the same type",
+                "Images are attacks of different types"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Images are attacks of different types"
+        },
+        "30": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_30_1.png",
+                "images/wmca_multiple_mcq/question_30_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Both images are bonafide",
+                "Image 1 is attack, Image 2 is bonafide",
+                "Both images are attacks",
+                "Image 1 is bonafide, Image 2 is attack"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 is bonafide, Image 2 is attack"
+        },
+        "31": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_31_1.png",
+                "images/wmca_multiple_mcq/question_31_2.png",
+                "images/wmca_multiple_mcq/question_31_3.png"
+            ],
+            "question_text": "Which images are attacks of the same type?",
+            "options": [
+                "None of the above",
+                "Image 1, Image 2, Image 3",
+                "Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "32": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_32_1.png",
+                "images/wmca_multiple_mcq/question_32_2.png",
+                "images/wmca_multiple_mcq/question_32_3.png"
+            ],
+            "question_text": "How many images are spoof attacks?",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "33": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_33_1.png",
+                "images/wmca_multiple_mcq/question_33_2.png"
+            ],
+            "question_text": "Which statement is true about the images?",
+            "options": [
+                "Only one image is an attack",
+                "Both images are attacks of the same type",
+                "Both images are bonafide",
+                "Images are attacks of different types"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Only one image is an attack"
+        },
+        "34": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_34_1.png",
+                "images/wmca_multiple_mcq/question_34_2.png",
+                "images/wmca_multiple_mcq/question_34_3.png"
+            ],
+            "question_text": "Are there more bonafide or attack images?",
+            "options": [
+                "More attacks",
+                "Cannot determine",
+                "Equal number",
+                "More bonafide"
+            ],
+            "correct_answer_option": "A",
+            "answer": "More attacks"
+        },
+        "35": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_35_1.png",
+                "images/wmca_multiple_mcq/question_35_2.png",
+                "images/wmca_multiple_mcq/question_35_3.png"
+            ],
+            "question_text": "Which images are attacks of the same type?",
+            "options": [
+                "Image 1, Image 2, Image 3",
+                "Image 3, Image 1",
+                "Image 2, Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2, Image 3"
+        },
+        "36": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_36_1.png",
+                "images/wmca_multiple_mcq/question_36_2.png",
+                "images/wmca_multiple_mcq/question_36_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "0",
+                "2",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1"
+        },
+        "37": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_37_1.png",
+                "images/wmca_multiple_mcq/question_37_2.png",
+                "images/wmca_multiple_mcq/question_37_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "0",
+                "2",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1"
+        },
+        "38": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_38_1.png",
+                "images/wmca_multiple_mcq/question_38_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "None of the above",
+                "Both Images",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "39": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_39_1.png",
+                "images/wmca_multiple_mcq/question_39_2.png",
+                "images/wmca_multiple_mcq/question_39_3.png"
+            ],
+            "question_text": "Which image is a bonafide and which are attacks?",
+            "options": [
+                "Image 3 is bonafide, Images 1 and 2 are attacks",
+                "Image 2 is bonafide, Images 1 and 3 are attacks",
+                "Image 1 is bonafide, Images 2 and 3 are attacks",
+                "All are attacks"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 is bonafide, Images 2 and 3 are attacks"
+        },
+        "40": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_40_1.png",
+                "images/wmca_multiple_mcq/question_40_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Image 2",
+                "Both Images",
+                "None of the above",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "41": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_41_1.png",
+                "images/wmca_multiple_mcq/question_41_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "None of the above",
+                "Both Images"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "42": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_42_1.png",
+                "images/wmca_multiple_mcq/question_42_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Both Images",
+                "Image 1",
+                "Image 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "43": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_43_1.png",
+                "images/wmca_multiple_mcq/question_43_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Image 1",
+                "Both Images",
+                "None of the above",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "44": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_44_1.png",
+                "images/wmca_multiple_mcq/question_44_2.png",
+                "images/wmca_multiple_mcq/question_44_3.png"
+            ],
+            "question_text": "How many images are of attack type Wig?",
+            "options": [
+                "2",
+                "1",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0"
+        },
+        "45": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_45_1.png",
+                "images/wmca_multiple_mcq/question_45_2.png"
+            ],
+            "question_text": "Which statement is true about the images?",
+            "options": [
+                "Both images are attacks of the same type",
+                "Images are attacks of different types",
+                "Only one image is an attack",
+                "Both images are bonafide"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images are attacks of different types"
+        },
+        "46": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_46_1.png",
+                "images/wmca_multiple_mcq/question_46_2.png",
+                "images/wmca_multiple_mcq/question_46_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "1",
+                "3",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1"
+        },
+        "47": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_47_1.png",
+                "images/wmca_multiple_mcq/question_47_2.png",
+                "images/wmca_multiple_mcq/question_47_3.png"
+            ],
+            "question_text": "Which images are spoof attacks?",
+            "options": [
+                "None of the above",
+                "Image 1",
+                "Image 2",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "48": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_48_1.png",
+                "images/wmca_multiple_mcq/question_48_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Both Images",
+                "Image 1",
+                "None of the above",
+                "Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2"
+        },
+        "49": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_49_1.png",
+                "images/wmca_multiple_mcq/question_49_2.png",
+                "images/wmca_multiple_mcq/question_49_3.png"
+            ],
+            "question_text": "Which images are bonafide?",
+            "options": [
+                "Image 2, Image 3",
+                "Image 1, Image 2",
+                "None of the above",
+                "Image 3, Image 1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "50": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_50_1.png",
+                "images/wmca_multiple_mcq/question_50_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Both images are attacks",
+                "Image 1 is attack, Image 2 is bonafide",
+                "Image 1 is bonafide, Image 2 is attack",
+                "Both images are bonafide"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Both images are attacks"
+        },
+        "51": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_51_1.png",
+                "images/wmca_multiple_mcq/question_51_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Image 1 is bonafide, Image 2 is attack",
+                "Both images are attacks",
+                "Both images are bonafide",
+                "Image 1 is attack, Image 2 is bonafide"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 is attack, Image 2 is bonafide"
+        },
+        "52": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_52_1.png",
+                "images/wmca_multiple_mcq/question_52_2.png"
+            ],
+            "question_text": "Which statement is true about the images?",
+            "options": [
+                "Both images are bonafide",
+                "Both images are attacks of the same type",
+                "Images are attacks of different types",
+                "Only one image is an attack"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Only one image is an attack"
+        },
+        "53": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_53_1.png",
+                "images/wmca_multiple_mcq/question_53_2.png",
+                "images/wmca_multiple_mcq/question_53_3.png"
+            ],
+            "question_text": "Which images depict bonafide individuals?",
+            "options": [
+                "Image 3",
+                "Image 1, Image 2, Image 3",
+                "Image 3, Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 3"
+        },
+        "54": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_54_1.png",
+                "images/wmca_multiple_mcq/question_54_2.png",
+                "images/wmca_multiple_mcq/question_54_3.png"
+            ],
+            "question_text": "Which images are attacks of the same type?",
+            "options": [
+                "None of the above",
+                "Image 3, Image 1",
+                "Image 1, Image 2",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "55": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_55_1.png",
+                "images/wmca_multiple_mcq/question_55_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "None of the above",
+                "Both Images"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "56": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_56_1.png",
+                "images/wmca_multiple_mcq/question_56_2.png",
+                "images/wmca_multiple_mcq/question_56_3.png"
+            ],
+            "question_text": "Which images are of attack type Print?",
+            "options": [
+                "Image 3, Image 1",
+                "Image 2, Image 3",
+                "None of the above",
+                "Image 1, Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "57": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_57_1.png",
+                "images/wmca_multiple_mcq/question_57_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Image 1 is attack, Image 2 is bonafide",
+                "Both images are bonafide",
+                "Both images are attacks",
+                "Image 1 is bonafide, Image 2 is attack"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 is attack, Image 2 is bonafide"
+        },
+        "58": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_58_1.png",
+                "images/wmca_multiple_mcq/question_58_2.png",
+                "images/wmca_multiple_mcq/question_58_3.png"
+            ],
+            "question_text": "Are there more bonafide or attack images?",
+            "options": [
+                "Cannot determine",
+                "Equal number",
+                "More bonafide",
+                "More attacks"
+            ],
+            "correct_answer_option": "D",
+            "answer": "More attacks"
+        },
+        "59": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_59_1.png",
+                "images/wmca_multiple_mcq/question_59_2.png",
+                "images/wmca_multiple_mcq/question_59_3.png"
+            ],
+            "question_text": "How many images are spoof attacks?",
+            "options": [
+                "0",
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2"
+        },
+        "60": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_60_1.png",
+                "images/wmca_multiple_mcq/question_60_2.png",
+                "images/wmca_multiple_mcq/question_60_3.png"
+            ],
+            "question_text": "Which images are spoof attacks?",
+            "options": [
+                "Image 3",
+                "Image 1",
+                "None of the above",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "61": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_61_1.png",
+                "images/wmca_multiple_mcq/question_61_2.png",
+                "images/wmca_multiple_mcq/question_61_3.png"
+            ],
+            "question_text": "Which images are attacks of the same type?",
+            "options": [
+                "Image 1, Image 2, Image 3",
+                "Image 1",
+                "Image 1, Image 2",
+                "Image 3, Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 3, Image 1"
+        },
+        "62": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_62_1.png",
+                "images/wmca_multiple_mcq/question_62_2.png",
+                "images/wmca_multiple_mcq/question_62_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "1",
+                "0",
+                "3",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1"
+        },
+        "63": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_63_1.png",
+                "images/wmca_multiple_mcq/question_63_2.png",
+                "images/wmca_multiple_mcq/question_63_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "3",
+                "0",
+                "1",
+                "2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0"
+        },
+        "64": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_64_1.png",
+                "images/wmca_multiple_mcq/question_64_2.png",
+                "images/wmca_multiple_mcq/question_64_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "None of the above",
+                "All of the above",
+                "Image 3, Image 1",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3, Image 1"
+        },
+        "65": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_65_1.png",
+                "images/wmca_multiple_mcq/question_65_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Image 1",
+                "None of the above",
+                "Image 2",
+                "Both Images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1"
+        },
+        "66": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_66_1.png",
+                "images/wmca_multiple_mcq/question_66_2.png",
+                "images/wmca_multiple_mcq/question_66_3.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "All images are attacks of different types",
+                "Two images are attacks of the same type",
+                "All images are bonafide",
+                "All images are attacks of the same type"
+            ],
+            "correct_answer_option": "A",
+            "answer": "All images are attacks of different types"
+        },
+        "67": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_67_1.png",
+                "images/wmca_multiple_mcq/question_67_2.png",
+                "images/wmca_multiple_mcq/question_67_3.png"
+            ],
+            "question_text": "Which images depict bonafide individuals?",
+            "options": [
+                "Image 3",
+                "None of the above",
+                "Image 2",
+                "Image 3, Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 3"
+        },
+        "68": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_68_1.png",
+                "images/wmca_multiple_mcq/question_68_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Image 1 is attack, Image 2 is bonafide",
+                "Both images are attacks",
+                "Image 1 is bonafide, Image 2 is attack",
+                "Both images are bonafide"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 is bonafide, Image 2 is attack"
+        },
+        "69": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_69_1.png",
+                "images/wmca_multiple_mcq/question_69_2.png",
+                "images/wmca_multiple_mcq/question_69_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "2",
+                "1",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1"
+        },
+        "70": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_70_1.png",
+                "images/wmca_multiple_mcq/question_70_2.png",
+                "images/wmca_multiple_mcq/question_70_3.png"
+            ],
+            "question_text": "Which images are bonafide?",
+            "options": [
+                "Image 3",
+                "None of the above",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "71": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_71_1.png",
+                "images/wmca_multiple_mcq/question_71_2.png",
+                "images/wmca_multiple_mcq/question_71_3.png"
+            ],
+            "question_text": "Which images are bonafide?",
+            "options": [
+                "Image 1",
+                "Image 1, Image 2",
+                "Image 3",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3"
+        },
+        "72": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_72_1.png",
+                "images/wmca_multiple_mcq/question_72_2.png"
+            ],
+            "question_text": "Which image is an attack?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "None of the above",
+                "Both Images"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "73": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_73_1.png",
+                "images/wmca_multiple_mcq/question_73_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Both images are attacks",
+                "Image 1 is bonafide, Image 2 is attack",
+                "Image 1 is attack, Image 2 is bonafide",
+                "Both images are bonafide"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Both images are attacks"
+        },
+        "74": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_74_1.png",
+                "images/wmca_multiple_mcq/question_74_2.png"
+            ],
+            "question_text": "Which image is attacked and are of the type Wig?",
+            "options": [
+                "None of the above",
+                "Both Images",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "75": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_75_1.png",
+                "images/wmca_multiple_mcq/question_75_2.png",
+                "images/wmca_multiple_mcq/question_75_3.png"
+            ],
+            "question_text": "Which images are spoof attacks?",
+            "options": [
+                "Image 2, Image 3",
+                "Image 1, Image 2, Image 3",
+                "Image 1, Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2, Image 3"
+        },
+        "76": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_76_1.png",
+                "images/wmca_multiple_mcq/question_76_2.png",
+                "images/wmca_multiple_mcq/question_76_3.png"
+            ],
+            "question_text": "Which image is a bonafide and which are attacks?",
+            "options": [
+                "Image 3 is bonafide, Images 1 and 2 are attacks",
+                "Image 1 is bonafide, Images 2 and 3 are attacks",
+                "Image 2 is bonafide, Images 1 and 3 are attacks",
+                "All are attacks"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 3 is bonafide, Images 1 and 2 are attacks"
+        },
+        "77": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_77_1.png",
+                "images/wmca_multiple_mcq/question_77_2.png",
+                "images/wmca_multiple_mcq/question_77_3.png"
+            ],
+            "question_text": "Which images are of attack type Print?",
+            "options": [
+                "None of the above",
+                "Image 2, Image 3",
+                "Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "78": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_78_1.png",
+                "images/wmca_multiple_mcq/question_78_2.png"
+            ],
+            "question_text": "Which statement is true about the images?",
+            "options": [
+                "Only one image is an attack",
+                "Images are attacks of different types",
+                "Both images are attacks of the same type",
+                "Both images are bonafide"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images are attacks of different types"
+        },
+        "79": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_79_1.png",
+                "images/wmca_multiple_mcq/question_79_2.png",
+                "images/wmca_multiple_mcq/question_79_3.png"
+            ],
+            "question_text": "Are there more bonafide or attack images?",
+            "options": [
+                "More attacks",
+                "More bonafide",
+                "Equal number",
+                "Cannot determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "More attacks"
+        },
+        "80": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_80_1.png",
+                "images/wmca_multiple_mcq/question_80_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Image 1",
+                "Both Images",
+                "Image 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "81": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_81_1.png",
+                "images/wmca_multiple_mcq/question_81_2.png",
+                "images/wmca_multiple_mcq/question_81_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "Image 1, Image 2, Image 3",
+                "Image 2",
+                "Image 2, Image 3",
+                "None of the above"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2, Image 3"
+        },
+        "82": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_82_1.png",
+                "images/wmca_multiple_mcq/question_82_2.png",
+                "images/wmca_multiple_mcq/question_82_3.png"
+            ],
+            "question_text": "Which images depict bonafide individuals?",
+            "options": [
+                "Image 1",
+                "None of the above",
+                "Image 2",
+                "Image 2, Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1"
+        },
+        "83": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_83_1.png",
+                "images/wmca_multiple_mcq/question_83_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Both images are bonafide",
+                "Image 1 is bonafide, Image 2 is attack",
+                "Both images are attacks",
+                "Image 1 is attack, Image 2 is bonafide"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Both images are attacks"
+        },
+        "84": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_84_1.png",
+                "images/wmca_multiple_mcq/question_84_2.png",
+                "images/wmca_multiple_mcq/question_84_3.png"
+            ],
+            "question_text": "Which images depict bonafide individuals?",
+            "options": [
+                "Image 1",
+                "Image 3",
+                "Image 3, Image 1",
+                "Image 1, Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1"
+        },
+        "85": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_85_1.png",
+                "images/wmca_multiple_mcq/question_85_2.png",
+                "images/wmca_multiple_mcq/question_85_3.png"
+            ],
+            "question_text": "Which image is a bonafide and which are attacks?",
+            "options": [
+                "Image 1 is bonafide, Images 2 and 3 are attacks",
+                "All are attacks",
+                "Image 2 is bonafide, Images 1 and 3 are attacks",
+                "Image 3 is bonafide, Images 1 and 2 are attacks"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 3 is bonafide, Images 1 and 2 are attacks"
+        },
+        "86": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_86_1.png",
+                "images/wmca_multiple_mcq/question_86_2.png",
+                "images/wmca_multiple_mcq/question_86_3.png"
+            ],
+            "question_text": "Which images are bonafide?",
+            "options": [
+                "Image 2, Image 3",
+                "None of the above",
+                "Image 1, Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "87": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_87_1.png",
+                "images/wmca_multiple_mcq/question_87_2.png",
+                "images/wmca_multiple_mcq/question_87_3.png"
+            ],
+            "question_text": "Which images are spoof attacks?",
+            "options": [
+                "Image 3",
+                "Image 1, Image 2, Image 3",
+                "Image 2",
+                "Image 2, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2, Image 3"
+        },
+        "88": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_88_1.png",
+                "images/wmca_multiple_mcq/question_88_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Image 2",
+                "None of the above",
+                "Both Images",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "89": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_89_1.png",
+                "images/wmca_multiple_mcq/question_89_2.png",
+                "images/wmca_multiple_mcq/question_89_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "Image 1, Image 2, Image 3",
+                "Image 2, Image 3",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "90": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_90_1.png",
+                "images/wmca_multiple_mcq/question_90_2.png",
+                "images/wmca_multiple_mcq/question_90_3.png"
+            ],
+            "question_text": "How many different attack types are present?",
+            "options": [
+                "3",
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2"
+        },
+        "91": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_91_1.png",
+                "images/wmca_multiple_mcq/question_91_2.png",
+                "images/wmca_multiple_mcq/question_91_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "3",
+                "0",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1"
+        },
+        "92": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_92_1.png",
+                "images/wmca_multiple_mcq/question_92_2.png",
+                "images/wmca_multiple_mcq/question_92_3.png"
+            ],
+            "question_text": "How many different attack types are present?",
+            "options": [
+                "1",
+                "3",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2"
+        },
+        "93": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_93_1.png",
+                "images/wmca_multiple_mcq/question_93_2.png"
+            ],
+            "question_text": "Which statement is true about the images?",
+            "options": [
+                "Both images are bonafide",
+                "Images are attacks of different types",
+                "Only one image is an attack",
+                "Both images are attacks of the same type"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Only one image is an attack"
+        },
+        "94": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_94_1.png",
+                "images/wmca_multiple_mcq/question_94_2.png"
+            ],
+            "question_text": "Which statement is true about the images?",
+            "options": [
+                "Only one image is an attack",
+                "Both images are bonafide",
+                "Images are attacks of different types",
+                "Both images are attacks of the same type"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Only one image is an attack"
+        },
+        "95": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_95_1.png",
+                "images/wmca_multiple_mcq/question_95_2.png",
+                "images/wmca_multiple_mcq/question_95_3.png"
+            ],
+            "question_text": "Which images are attacks of the same type?",
+            "options": [
+                "Image 3",
+                "Image 1, Image 2",
+                "Image 2, Image 3",
+                "None of the above"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2, Image 3"
+        },
+        "96": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_96_1.png",
+                "images/wmca_multiple_mcq/question_96_2.png",
+                "images/wmca_multiple_mcq/question_96_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "None of the above",
+                "Image 3, Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "97": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_97_1.png",
+                "images/wmca_multiple_mcq/question_97_2.png",
+                "images/wmca_multiple_mcq/question_97_3.png"
+            ],
+            "question_text": "How many images are of attack type Wig?",
+            "options": [
+                "3",
+                "2",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0"
+        },
+        "98": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_98_1.png",
+                "images/wmca_multiple_mcq/question_98_2.png"
+            ],
+            "question_text": "Which statement is true about the images?",
+            "options": [
+                "Both images are bonafide",
+                "Only one image is an attack",
+                "Both images are attacks of the same type",
+                "Images are attacks of different types"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Only one image is an attack"
+        },
+        "99": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_99_1.png",
+                "images/wmca_multiple_mcq/question_99_2.png",
+                "images/wmca_multiple_mcq/question_99_3.png"
+            ],
+            "question_text": "Which images are spoof attacks?",
+            "options": [
+                "Image 1, Image 2",
+                "Image 2, Image 3",
+                "Image 1, Image 2, Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2, Image 3"
+        },
+        "100": {
+            "image_paths": [
+                "images/wmca_multiple_mcq/question_100_1.png",
+                "images/wmca_multiple_mcq/question_100_2.png"
+            ],
+            "question_text": "Which images are of attack type Replay?",
+            "options": [
+                "Image 1",
+                "Image 2",
+                "Both Images",
+                "None of the above"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2"
+        }
+    }
+}

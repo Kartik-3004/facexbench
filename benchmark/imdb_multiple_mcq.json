@@ -1,0 +1,2590 @@
+{
+    "category": "face_recognition",
+    "sub-category": "celebrity_identification",
+    "dataset": "imdb",
+    "question_type": "MCQ",
+    "num_images": "multiple",
+    "prepend_text": "Celebrity identification involves recognizing and determining the identity of a celebrity based on their facial features in an image. You have to perform the task of celebrity identification.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_1_1.png",
+                "images/imdb_multiple_mcq/question_1_2.png",
+                "images/imdb_multiple_mcq/question_1_3.png",
+                "images/imdb_multiple_mcq/question_1_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Alex Smith'?",
+            "options": [
+                "Image 3",
+                "Image 2",
+                "Image 2 and Image 4",
+                "All of the images"
+            ],
+            "correct_answer_option": "D",
+            "answer": "All of the images"
+        },
+        "2": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_2_1.png",
+                "images/imdb_multiple_mcq/question_2_2.png",
+                "images/imdb_multiple_mcq/question_2_3.png",
+                "images/imdb_multiple_mcq/question_2_4.png",
+                "images/imdb_multiple_mcq/question_2_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                3,
+                5,
+                4,
+                2
+            ],
+            "correct_answer_option": "A",
+            "answer": 3
+        },
+        "3": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_3_1.png",
+                "images/imdb_multiple_mcq/question_3_2.png",
+                "images/imdb_multiple_mcq/question_3_3.png",
+                "images/imdb_multiple_mcq/question_3_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Tim Roth'?",
+            "options": [
+                "Image 2",
+                "Image 1 and Image 4",
+                "Image 4",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 4"
+        },
+        "4": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_4_1.png",
+                "images/imdb_multiple_mcq/question_4_2.png",
+                "images/imdb_multiple_mcq/question_4_3.png",
+                "images/imdb_multiple_mcq/question_4_4.png",
+                "images/imdb_multiple_mcq/question_4_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Amanda Wyss'?",
+            "options": [
+                2,
+                5,
+                1,
+                0
+            ],
+            "correct_answer_option": "A",
+            "answer": 2
+        },
+        "5": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_5_1.png",
+                "images/imdb_multiple_mcq/question_5_2.png",
+                "images/imdb_multiple_mcq/question_5_3.png",
+                "images/imdb_multiple_mcq/question_5_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Jeff Schroeder",
+                "Pat O'Brien",
+                "Eric Valette",
+                "Theo James"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Pat O'Brien"
+        },
+        "6": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_6_1.png",
+                "images/imdb_multiple_mcq/question_6_2.png",
+                "images/imdb_multiple_mcq/question_6_3.png",
+                "images/imdb_multiple_mcq/question_6_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Sharlto Copley'?",
+            "options": [
+                "Image 1 and Image 2 and Image 3",
+                "All of the images",
+                "Image 1 and Image 3 and Image 4",
+                "Image 1 and Image 2 and Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "All of the images"
+        },
+        "7": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_7_1.png",
+                "images/imdb_multiple_mcq/question_7_2.png",
+                "images/imdb_multiple_mcq/question_7_3.png",
+                "images/imdb_multiple_mcq/question_7_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Jim Ford'?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 1 and Image 3 and Image 4",
+                "None of the images",
+                "All of the images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 2"
+        },
+        "8": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_8_1.png",
+                "images/imdb_multiple_mcq/question_8_2.png",
+                "images/imdb_multiple_mcq/question_8_3.png",
+                "images/imdb_multiple_mcq/question_8_4.png",
+                "images/imdb_multiple_mcq/question_8_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Jase Haber'?",
+            "options": [
+                1,
+                2,
+                5,
+                4
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "9": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_9_1.png",
+                "images/imdb_multiple_mcq/question_9_2.png",
+                "images/imdb_multiple_mcq/question_9_3.png",
+                "images/imdb_multiple_mcq/question_9_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Chris Weitz",
+                "Rodrigo Santoro",
+                "Rosanna Arquette",
+                "Ward Horton"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Rosanna Arquette"
+        },
+        "10": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_10_1.png",
+                "images/imdb_multiple_mcq/question_10_2.png",
+                "images/imdb_multiple_mcq/question_10_3.png",
+                "images/imdb_multiple_mcq/question_10_4.png",
+                "images/imdb_multiple_mcq/question_10_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                4,
+                3,
+                5,
+                1
+            ],
+            "correct_answer_option": "A",
+            "answer": 4
+        },
+        "11": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_11_1.png",
+                "images/imdb_multiple_mcq/question_11_2.png",
+                "images/imdb_multiple_mcq/question_11_3.png",
+                "images/imdb_multiple_mcq/question_11_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Laurent Lafitte'?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 1 and Image 4",
+                "Image 2",
+                "Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 and Image 3"
+        },
+        "12": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_12_1.png",
+                "images/imdb_multiple_mcq/question_12_2.png",
+                "images/imdb_multiple_mcq/question_12_3.png",
+                "images/imdb_multiple_mcq/question_12_4.png",
+                "images/imdb_multiple_mcq/question_12_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Chris Eyre'?",
+            "options": [
+                4,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": 4
+        },
+        "13": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_13_1.png",
+                "images/imdb_multiple_mcq/question_13_2.png",
+                "images/imdb_multiple_mcq/question_13_3.png",
+                "images/imdb_multiple_mcq/question_13_4.png",
+                "images/imdb_multiple_mcq/question_13_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Chris Brown'?",
+            "options": [
+                3,
+                5,
+                4,
+                2
+            ],
+            "correct_answer_option": "C",
+            "answer": 4
+        },
+        "14": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_14_1.png",
+                "images/imdb_multiple_mcq/question_14_2.png",
+                "images/imdb_multiple_mcq/question_14_3.png",
+                "images/imdb_multiple_mcq/question_14_4.png",
+                "images/imdb_multiple_mcq/question_14_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Rich Sommer'?",
+            "options": [
+                0,
+                3,
+                4,
+                1
+            ],
+            "correct_answer_option": "C",
+            "answer": 4
+        },
+        "15": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_15_1.png",
+                "images/imdb_multiple_mcq/question_15_2.png",
+                "images/imdb_multiple_mcq/question_15_3.png",
+                "images/imdb_multiple_mcq/question_15_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 2 and Image 3",
+                "Image 1 and Image 4",
+                "Image 1 and Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 and Image 4"
+        },
+        "16": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_16_1.png",
+                "images/imdb_multiple_mcq/question_16_2.png",
+                "images/imdb_multiple_mcq/question_16_3.png",
+                "images/imdb_multiple_mcq/question_16_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Xiaolu Li'?",
+            "options": [
+                "Image 2 and Image 3 and Image 4",
+                "Image 1, Image 4",
+                "Image 1, Image 2",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 and Image 3 and Image 4"
+        },
+        "17": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_17_1.png",
+                "images/imdb_multiple_mcq/question_17_2.png",
+                "images/imdb_multiple_mcq/question_17_3.png",
+                "images/imdb_multiple_mcq/question_17_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Felicia Farr'?",
+            "options": [
+                "Image 1 and Image 2 and Image 3",
+                "All of the images",
+                "Image 2 and Image 3",
+                "Image 1 and Image 2 and Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 2 and Image 4"
+        },
+        "18": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_18_1.png",
+                "images/imdb_multiple_mcq/question_18_2.png",
+                "images/imdb_multiple_mcq/question_18_3.png",
+                "images/imdb_multiple_mcq/question_18_4.png",
+                "images/imdb_multiple_mcq/question_18_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                2,
+                4,
+                5,
+                1
+            ],
+            "correct_answer_option": "A",
+            "answer": 2
+        },
+        "19": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_19_1.png",
+                "images/imdb_multiple_mcq/question_19_2.png",
+                "images/imdb_multiple_mcq/question_19_3.png",
+                "images/imdb_multiple_mcq/question_19_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Molly C. Quinn'?",
+            "options": [
+                "Image 3 and Image 4",
+                "Image 1 and Image 2 and Image 3",
+                "Image 2 and Image 4",
+                "All of the images"
+            ],
+            "correct_answer_option": "D",
+            "answer": "All of the images"
+        },
+        "20": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_20_1.png",
+                "images/imdb_multiple_mcq/question_20_2.png",
+                "images/imdb_multiple_mcq/question_20_3.png",
+                "images/imdb_multiple_mcq/question_20_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Tevin Campbell'?",
+            "options": [
+                "Image 2",
+                "Image 4",
+                "Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "21": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_21_1.png",
+                "images/imdb_multiple_mcq/question_21_2.png",
+                "images/imdb_multiple_mcq/question_21_3.png",
+                "images/imdb_multiple_mcq/question_21_4.png",
+                "images/imdb_multiple_mcq/question_21_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Catherine Reitman'?",
+            "options": [
+                1,
+                5,
+                4,
+                2
+            ],
+            "correct_answer_option": "B",
+            "answer": 5
+        },
+        "22": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_22_1.png",
+                "images/imdb_multiple_mcq/question_22_2.png",
+                "images/imdb_multiple_mcq/question_22_3.png",
+                "images/imdb_multiple_mcq/question_22_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'John Cusack'?",
+            "options": [
+                "Image 2",
+                "Image 3",
+                "Image 1",
+                "Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 3"
+        },
+        "23": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_23_1.png",
+                "images/imdb_multiple_mcq/question_23_2.png",
+                "images/imdb_multiple_mcq/question_23_3.png",
+                "images/imdb_multiple_mcq/question_23_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Terrell Owens'?",
+            "options": [
+                "Image 2 and Image 3 and Image 4",
+                "Image 2 and Image 3",
+                "All of the images",
+                "Image 1 and Image 2 and Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 2 and Image 4"
+        },
+        "24": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_24_1.png",
+                "images/imdb_multiple_mcq/question_24_2.png",
+                "images/imdb_multiple_mcq/question_24_3.png",
+                "images/imdb_multiple_mcq/question_24_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Eric Keenleyside'?",
+            "options": [
+                "Image 1 and Image 4",
+                "Image 2 and Image 3 and Image 4",
+                "Image 1 and Image 2",
+                "Image 1 and Image 2 and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 4"
+        },
+        "25": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_25_1.png",
+                "images/imdb_multiple_mcq/question_25_2.png",
+                "images/imdb_multiple_mcq/question_25_3.png",
+                "images/imdb_multiple_mcq/question_25_4.png",
+                "images/imdb_multiple_mcq/question_25_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                4,
+                1,
+                5,
+                2
+            ],
+            "correct_answer_option": "D",
+            "answer": 2
+        },
+        "26": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_26_1.png",
+                "images/imdb_multiple_mcq/question_26_2.png",
+                "images/imdb_multiple_mcq/question_26_3.png",
+                "images/imdb_multiple_mcq/question_26_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'June Carter Cash'?",
+            "options": [
+                "Image 3",
+                "Image 4",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "27": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_27_1.png",
+                "images/imdb_multiple_mcq/question_27_2.png",
+                "images/imdb_multiple_mcq/question_27_3.png",
+                "images/imdb_multiple_mcq/question_27_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 3 and Image 4",
+                "Image 2 and Image 3",
+                "Image 1 and Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 3 and Image 4"
+        },
+        "28": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_28_1.png",
+                "images/imdb_multiple_mcq/question_28_2.png",
+                "images/imdb_multiple_mcq/question_28_3.png",
+                "images/imdb_multiple_mcq/question_28_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Madge Sinclair'?",
+            "options": [
+                "Image 1",
+                "Image 1 and Image 2",
+                "Image 2 and Image 4",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 3"
+        },
+        "29": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_29_1.png",
+                "images/imdb_multiple_mcq/question_29_2.png",
+                "images/imdb_multiple_mcq/question_29_3.png",
+                "images/imdb_multiple_mcq/question_29_4.png",
+                "images/imdb_multiple_mcq/question_29_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Fredro Starr'?",
+            "options": [
+                2,
+                0,
+                3,
+                1
+            ],
+            "correct_answer_option": "A",
+            "answer": 2
+        },
+        "30": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_30_1.png",
+                "images/imdb_multiple_mcq/question_30_2.png",
+                "images/imdb_multiple_mcq/question_30_3.png",
+                "images/imdb_multiple_mcq/question_30_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Neil Jordan'?",
+            "options": [
+                "Image 1 and Image 3 and Image 4",
+                "Image 2",
+                "Image 2, Image 3, Image 4",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 3 and Image 4"
+        },
+        "31": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_31_1.png",
+                "images/imdb_multiple_mcq/question_31_2.png",
+                "images/imdb_multiple_mcq/question_31_3.png",
+                "images/imdb_multiple_mcq/question_31_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Andy Roddick'?",
+            "options": [
+                "Image 1 and Image 2 and Image 3",
+                "Image 1 and Image 3",
+                "Image 1 and Image 3 and Image 4",
+                "Image 1 and Image 2 and Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 2 and Image 4"
+        },
+        "32": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_32_1.png",
+                "images/imdb_multiple_mcq/question_32_2.png",
+                "images/imdb_multiple_mcq/question_32_3.png",
+                "images/imdb_multiple_mcq/question_32_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Roshon Fegan'?",
+            "options": [
+                "Image 1 and Image 4",
+                "Image 1 and Image 3 and Image 4",
+                "Image 3 and Image 4",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 3 and Image 4"
+        },
+        "33": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_33_1.png",
+                "images/imdb_multiple_mcq/question_33_2.png",
+                "images/imdb_multiple_mcq/question_33_3.png",
+                "images/imdb_multiple_mcq/question_33_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Sibylla Deen'?",
+            "options": [
+                "Image 3",
+                "Image 1, Image 3",
+                "Image 2, Image 4",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 3"
+        },
+        "34": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_34_1.png",
+                "images/imdb_multiple_mcq/question_34_2.png",
+                "images/imdb_multiple_mcq/question_34_3.png",
+                "images/imdb_multiple_mcq/question_34_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Keely Shaye Smith'?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 1 and Image 3",
+                "Image 1 and Image 4",
+                "All of the images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 2"
+        },
+        "35": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_35_1.png",
+                "images/imdb_multiple_mcq/question_35_2.png",
+                "images/imdb_multiple_mcq/question_35_3.png",
+                "images/imdb_multiple_mcq/question_35_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Stoney Jackson'?",
+            "options": [
+                "Image 2 and Image 3 and Image 4",
+                "Image 1, Image 2, Image 3",
+                "Image 1, Image 2",
+                "All of the images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 and Image 3 and Image 4"
+        },
+        "36": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_36_1.png",
+                "images/imdb_multiple_mcq/question_36_2.png",
+                "images/imdb_multiple_mcq/question_36_3.png",
+                "images/imdb_multiple_mcq/question_36_4.png",
+                "images/imdb_multiple_mcq/question_36_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Chris O'Donnell'?",
+            "options": [
+                1,
+                4,
+                0,
+                5
+            ],
+            "correct_answer_option": "D",
+            "answer": 5
+        },
+        "37": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_37_1.png",
+                "images/imdb_multiple_mcq/question_37_2.png",
+                "images/imdb_multiple_mcq/question_37_3.png",
+                "images/imdb_multiple_mcq/question_37_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Rena Sofer'?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 1",
+                "Image 3",
+                "All of the images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 3"
+        },
+        "38": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_38_1.png",
+                "images/imdb_multiple_mcq/question_38_2.png",
+                "images/imdb_multiple_mcq/question_38_3.png",
+                "images/imdb_multiple_mcq/question_38_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Joy Enriquez'?",
+            "options": [
+                "All of the images",
+                "Image 2",
+                "Image 1",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "All of the images"
+        },
+        "39": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_39_1.png",
+                "images/imdb_multiple_mcq/question_39_2.png",
+                "images/imdb_multiple_mcq/question_39_3.png",
+                "images/imdb_multiple_mcq/question_39_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Allan Arkush'?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 1 and Image 3 and Image 4",
+                "Image 1 and Image 2 and Image 4",
+                "Image 3 and Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 and Image 3"
+        },
+        "40": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_40_1.png",
+                "images/imdb_multiple_mcq/question_40_2.png",
+                "images/imdb_multiple_mcq/question_40_3.png",
+                "images/imdb_multiple_mcq/question_40_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Rebecca Pidgeon'?",
+            "options": [
+                "Image 2",
+                "Image 4",
+                "Image 1",
+                "Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 3"
+        },
+        "41": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_41_1.png",
+                "images/imdb_multiple_mcq/question_41_2.png",
+                "images/imdb_multiple_mcq/question_41_3.png",
+                "images/imdb_multiple_mcq/question_41_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Dana Daurey'?",
+            "options": [
+                "Image 3",
+                "Image 4",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 4"
+        },
+        "42": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_42_1.png",
+                "images/imdb_multiple_mcq/question_42_2.png",
+                "images/imdb_multiple_mcq/question_42_3.png",
+                "images/imdb_multiple_mcq/question_42_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Grace Rolek'?",
+            "options": [
+                "Image 2 and Image 4",
+                "Image 2 and Image 3 and Image 4",
+                "Image 3 and Image 4",
+                "Image 1 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 and Image 4"
+        },
+        "43": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_43_1.png",
+                "images/imdb_multiple_mcq/question_43_2.png",
+                "images/imdb_multiple_mcq/question_43_3.png",
+                "images/imdb_multiple_mcq/question_43_4.png",
+                "images/imdb_multiple_mcq/question_43_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                1,
+                4,
+                2,
+                5
+            ],
+            "correct_answer_option": "B",
+            "answer": 4
+        },
+        "44": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_44_1.png",
+                "images/imdb_multiple_mcq/question_44_2.png",
+                "images/imdb_multiple_mcq/question_44_3.png",
+                "images/imdb_multiple_mcq/question_44_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Greta Gerwig'?",
+            "options": [
+                "Image 2",
+                "Image 4",
+                "Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3"
+        },
+        "45": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_45_1.png",
+                "images/imdb_multiple_mcq/question_45_2.png",
+                "images/imdb_multiple_mcq/question_45_3.png",
+                "images/imdb_multiple_mcq/question_45_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Naya Rivera'?",
+            "options": [
+                "None of the images",
+                "Image 2 and Image 3 and Image 4",
+                "Image 1 and Image 2 and Image 3",
+                "Image 1 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2 and Image 3 and Image 4"
+        },
+        "46": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_46_1.png",
+                "images/imdb_multiple_mcq/question_46_2.png",
+                "images/imdb_multiple_mcq/question_46_3.png",
+                "images/imdb_multiple_mcq/question_46_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Kevin Gage'?",
+            "options": [
+                "Image 1 and Image 4",
+                "Image 1 and Image 3 and Image 4",
+                "Image 3 and Image 4",
+                "Image 1 and Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3 and Image 4"
+        },
+        "47": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_47_1.png",
+                "images/imdb_multiple_mcq/question_47_2.png",
+                "images/imdb_multiple_mcq/question_47_3.png",
+                "images/imdb_multiple_mcq/question_47_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Pia Zadora'?",
+            "options": [
+                "Image 1 and Image 4",
+                "Image 2 and Image 3",
+                "None of the images",
+                "All of the images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 4"
+        },
+        "48": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_48_1.png",
+                "images/imdb_multiple_mcq/question_48_2.png",
+                "images/imdb_multiple_mcq/question_48_3.png",
+                "images/imdb_multiple_mcq/question_48_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Charlie Rowe'?",
+            "options": [
+                "Image 1 and Image 2 and Image 4",
+                "Image 1 and Image 3 and Image 4",
+                "Image 2 and Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 3 and Image 4"
+        },
+        "49": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_49_1.png",
+                "images/imdb_multiple_mcq/question_49_2.png",
+                "images/imdb_multiple_mcq/question_49_3.png",
+                "images/imdb_multiple_mcq/question_49_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Steven Cojocaru'?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 1",
+                "Image 2 and Image 3 and Image 4",
+                "Image 1 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 3 and Image 4"
+        },
+        "50": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_50_1.png",
+                "images/imdb_multiple_mcq/question_50_2.png",
+                "images/imdb_multiple_mcq/question_50_3.png",
+                "images/imdb_multiple_mcq/question_50_4.png",
+                "images/imdb_multiple_mcq/question_50_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                5,
+                4,
+                3,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "51": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_51_1.png",
+                "images/imdb_multiple_mcq/question_51_2.png",
+                "images/imdb_multiple_mcq/question_51_3.png",
+                "images/imdb_multiple_mcq/question_51_4.png",
+                "images/imdb_multiple_mcq/question_51_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Jordan Bridges'?",
+            "options": [
+                1,
+                4,
+                3,
+                2
+            ],
+            "correct_answer_option": "D",
+            "answer": 2
+        },
+        "52": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_52_1.png",
+                "images/imdb_multiple_mcq/question_52_2.png",
+                "images/imdb_multiple_mcq/question_52_3.png",
+                "images/imdb_multiple_mcq/question_52_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Erin Daniels'?",
+            "options": [
+                "Image 1, Image 2, Image 3",
+                "Image 1, Image 3, Image 4",
+                "Image 2, Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "53": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_53_1.png",
+                "images/imdb_multiple_mcq/question_53_2.png",
+                "images/imdb_multiple_mcq/question_53_3.png",
+                "images/imdb_multiple_mcq/question_53_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'Graham Moore'?",
+            "options": [
+                "Image 3",
+                "Image 2",
+                "Image 4",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 3"
+        },
+        "54": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_54_1.png",
+                "images/imdb_multiple_mcq/question_54_2.png",
+                "images/imdb_multiple_mcq/question_54_3.png",
+                "images/imdb_multiple_mcq/question_54_4.png",
+                "images/imdb_multiple_mcq/question_54_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Theresa Saldana'?",
+            "options": [
+                4,
+                1,
+                0,
+                3
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "55": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_55_1.png",
+                "images/imdb_multiple_mcq/question_55_2.png",
+                "images/imdb_multiple_mcq/question_55_3.png",
+                "images/imdb_multiple_mcq/question_55_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Marijana Jankovic'?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 2 and Image 4",
+                "None of the images",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 3"
+        },
+        "56": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_56_1.png",
+                "images/imdb_multiple_mcq/question_56_2.png",
+                "images/imdb_multiple_mcq/question_56_3.png",
+                "images/imdb_multiple_mcq/question_56_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Tyler Perry'?",
+            "options": [
+                "Image 1 and Image 2 and Image 3",
+                "Image 3",
+                "Image 1 and Image 2",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 2 and Image 3"
+        },
+        "57": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_57_1.png",
+                "images/imdb_multiple_mcq/question_57_2.png",
+                "images/imdb_multiple_mcq/question_57_3.png",
+                "images/imdb_multiple_mcq/question_57_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Michael Godere",
+                "Terry Jastrow",
+                "Sarah Silverman",
+                "\u00d3lafur Darri \u00d3lafsson"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Michael Godere"
+        },
+        "58": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_58_1.png",
+                "images/imdb_multiple_mcq/question_58_2.png",
+                "images/imdb_multiple_mcq/question_58_3.png",
+                "images/imdb_multiple_mcq/question_58_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Ryan Hansen'?",
+            "options": [
+                "Image 3 and Image 4",
+                "Image 1 and Image 2 and Image 4",
+                "None of the images",
+                "Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 3 and Image 4"
+        },
+        "59": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_59_1.png",
+                "images/imdb_multiple_mcq/question_59_2.png",
+                "images/imdb_multiple_mcq/question_59_3.png",
+                "images/imdb_multiple_mcq/question_59_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Amy Harris",
+                "Om Puri",
+                "Chitrangda Singh",
+                "Shane Stanley"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Om Puri"
+        },
+        "60": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_60_1.png",
+                "images/imdb_multiple_mcq/question_60_2.png",
+                "images/imdb_multiple_mcq/question_60_3.png",
+                "images/imdb_multiple_mcq/question_60_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 1 and Image 3",
+                "Image 1 and Image 4",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 and Image 4"
+        },
+        "61": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_61_1.png",
+                "images/imdb_multiple_mcq/question_61_2.png",
+                "images/imdb_multiple_mcq/question_61_3.png",
+                "images/imdb_multiple_mcq/question_61_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 2 and Image 4",
+                "Image 3 and Image 4",
+                "Image 1 and Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 and Image 3"
+        },
+        "62": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_62_1.png",
+                "images/imdb_multiple_mcq/question_62_2.png",
+                "images/imdb_multiple_mcq/question_62_3.png",
+                "images/imdb_multiple_mcq/question_62_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Dean Jagger'?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 1, Image 3",
+                "Image 2, Image 3, Image 4",
+                "Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 3"
+        },
+        "63": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_63_1.png",
+                "images/imdb_multiple_mcq/question_63_2.png",
+                "images/imdb_multiple_mcq/question_63_3.png",
+                "images/imdb_multiple_mcq/question_63_4.png",
+                "images/imdb_multiple_mcq/question_63_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Ah In Yoo'?",
+            "options": [
+                3,
+                4,
+                2,
+                0
+            ],
+            "correct_answer_option": "C",
+            "answer": 2
+        },
+        "64": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_64_1.png",
+                "images/imdb_multiple_mcq/question_64_2.png",
+                "images/imdb_multiple_mcq/question_64_3.png",
+                "images/imdb_multiple_mcq/question_64_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 3 and Image 4",
+                "Image 1 and Image 4",
+                "Image 2 and Image 4",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2 and Image 3"
+        },
+        "65": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_65_1.png",
+                "images/imdb_multiple_mcq/question_65_2.png",
+                "images/imdb_multiple_mcq/question_65_3.png",
+                "images/imdb_multiple_mcq/question_65_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Carlos Ponce'?",
+            "options": [
+                "Image 1 and Image 3 and Image 4",
+                "Image 3",
+                "Image 2 and Image 3 and Image 4",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2 and Image 3"
+        },
+        "66": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_66_1.png",
+                "images/imdb_multiple_mcq/question_66_2.png",
+                "images/imdb_multiple_mcq/question_66_3.png",
+                "images/imdb_multiple_mcq/question_66_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Sterling Hayden'?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 3, Image 4",
+                "Image 1, Image 2, Image 4",
+                "Image 2, Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 3"
+        },
+        "67": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_67_1.png",
+                "images/imdb_multiple_mcq/question_67_2.png",
+                "images/imdb_multiple_mcq/question_67_3.png",
+                "images/imdb_multiple_mcq/question_67_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'Chan-wook Park'?",
+            "options": [
+                "Image 2",
+                "Image 3",
+                "Image 1",
+                "Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 3"
+        },
+        "68": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_68_1.png",
+                "images/imdb_multiple_mcq/question_68_2.png",
+                "images/imdb_multiple_mcq/question_68_3.png",
+                "images/imdb_multiple_mcq/question_68_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Craig Robinson'?",
+            "options": [
+                "None of the images",
+                "Image 4",
+                "Image 1 and Image 2 and Image 4",
+                "Image 2 and Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 and Image 2 and Image 4"
+        },
+        "69": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_69_1.png",
+                "images/imdb_multiple_mcq/question_69_2.png",
+                "images/imdb_multiple_mcq/question_69_3.png",
+                "images/imdb_multiple_mcq/question_69_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Nick Offerman'?",
+            "options": [
+                "Image 1 and Image 2 and Image 4",
+                "None of the images",
+                "Image 2 and Image 4",
+                "All of the images"
+            ],
+            "correct_answer_option": "D",
+            "answer": "All of the images"
+        },
+        "70": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_70_1.png",
+                "images/imdb_multiple_mcq/question_70_2.png",
+                "images/imdb_multiple_mcq/question_70_3.png",
+                "images/imdb_multiple_mcq/question_70_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 2 and Image 4",
+                "Image 1 and Image 2",
+                "Image 2 and Image 3",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 and Image 4"
+        },
+        "71": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_71_1.png",
+                "images/imdb_multiple_mcq/question_71_2.png",
+                "images/imdb_multiple_mcq/question_71_3.png",
+                "images/imdb_multiple_mcq/question_71_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'Charlotte Sullivan'?",
+            "options": [
+                "Image 4",
+                "Image 2",
+                "Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 4"
+        },
+        "72": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_72_1.png",
+                "images/imdb_multiple_mcq/question_72_2.png",
+                "images/imdb_multiple_mcq/question_72_3.png",
+                "images/imdb_multiple_mcq/question_72_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Anneke Kim Sarnau",
+                "George Chakiris",
+                "Michael Rapaport",
+                "Yun-Fat Chow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "George Chakiris"
+        },
+        "73": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_73_1.png",
+                "images/imdb_multiple_mcq/question_73_2.png",
+                "images/imdb_multiple_mcq/question_73_3.png",
+                "images/imdb_multiple_mcq/question_73_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Jack Weston'?",
+            "options": [
+                "Image 1",
+                "Image 4",
+                "Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2"
+        },
+        "74": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_74_1.png",
+                "images/imdb_multiple_mcq/question_74_2.png",
+                "images/imdb_multiple_mcq/question_74_3.png",
+                "images/imdb_multiple_mcq/question_74_4.png",
+                "images/imdb_multiple_mcq/question_74_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Kevin Rodney Sullivan'?",
+            "options": [
+                4,
+                1,
+                5,
+                3
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "75": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_75_1.png",
+                "images/imdb_multiple_mcq/question_75_2.png",
+                "images/imdb_multiple_mcq/question_75_3.png",
+                "images/imdb_multiple_mcq/question_75_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'James Ivory'?",
+            "options": [
+                "Image 1 and Image 2 and Image 4",
+                "Image 1 and Image 4",
+                "Image 2",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2 and Image 3"
+        },
+        "76": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_76_1.png",
+                "images/imdb_multiple_mcq/question_76_2.png",
+                "images/imdb_multiple_mcq/question_76_3.png",
+                "images/imdb_multiple_mcq/question_76_4.png",
+                "images/imdb_multiple_mcq/question_76_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                4,
+                3,
+                1,
+                5
+            ],
+            "correct_answer_option": "C",
+            "answer": 1
+        },
+        "77": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_77_1.png",
+                "images/imdb_multiple_mcq/question_77_2.png",
+                "images/imdb_multiple_mcq/question_77_3.png",
+                "images/imdb_multiple_mcq/question_77_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Greg Kean'?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 4",
+                "Image 2",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 3"
+        },
+        "78": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_78_1.png",
+                "images/imdb_multiple_mcq/question_78_2.png",
+                "images/imdb_multiple_mcq/question_78_3.png",
+                "images/imdb_multiple_mcq/question_78_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'John Goodman'?",
+            "options": [
+                "Image 1, Image 3, Image 4",
+                "Image 1",
+                "Image 3",
+                "Image 3, Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "79": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_79_1.png",
+                "images/imdb_multiple_mcq/question_79_2.png",
+                "images/imdb_multiple_mcq/question_79_3.png",
+                "images/imdb_multiple_mcq/question_79_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Jane McGregor'?",
+            "options": [
+                "Image 2",
+                "Image 4",
+                "Image 1",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        },
+        "80": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_80_1.png",
+                "images/imdb_multiple_mcq/question_80_2.png",
+                "images/imdb_multiple_mcq/question_80_3.png",
+                "images/imdb_multiple_mcq/question_80_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Theresa Randle",
+                "Matt Groening",
+                "Hiner Saleem",
+                "Galen Gering"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Galen Gering"
+        },
+        "81": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_81_1.png",
+                "images/imdb_multiple_mcq/question_81_2.png",
+                "images/imdb_multiple_mcq/question_81_3.png",
+                "images/imdb_multiple_mcq/question_81_4.png",
+                "images/imdb_multiple_mcq/question_81_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Jonathan Goldstein'?",
+            "options": [
+                2,
+                0,
+                1,
+                4
+            ],
+            "correct_answer_option": "D",
+            "answer": 4
+        },
+        "82": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_82_1.png",
+                "images/imdb_multiple_mcq/question_82_2.png",
+                "images/imdb_multiple_mcq/question_82_3.png",
+                "images/imdb_multiple_mcq/question_82_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Hugh Laurie'?",
+            "options": [
+                "All of the images",
+                "Image 2 and Image 3 and Image 4",
+                "Image 1 and Image 2",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2 and Image 3"
+        },
+        "83": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_83_1.png",
+                "images/imdb_multiple_mcq/question_83_2.png",
+                "images/imdb_multiple_mcq/question_83_3.png",
+                "images/imdb_multiple_mcq/question_83_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Ry\u00f4ko Yonekura",
+                "Josh Pais",
+                "Herb Edelman",
+                "Donald Trump Jr."
+            ],
+            "correct_answer_option": "B",
+            "answer": "Josh Pais"
+        },
+        "84": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_84_1.png",
+                "images/imdb_multiple_mcq/question_84_2.png",
+                "images/imdb_multiple_mcq/question_84_3.png",
+                "images/imdb_multiple_mcq/question_84_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Brittany Ashton Holmes'?",
+            "options": [
+                "Image 1, Image 3",
+                "Image 2, Image 3, Image 4",
+                "Image 2 and Image 3 and Image 4",
+                "All of the images"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2 and Image 3 and Image 4"
+        },
+        "85": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_85_1.png",
+                "images/imdb_multiple_mcq/question_85_2.png",
+                "images/imdb_multiple_mcq/question_85_3.png",
+                "images/imdb_multiple_mcq/question_85_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Tyler Christopher'?",
+            "options": [
+                "Image 2, Image 4",
+                "Image 1, Image 3, Image 4",
+                "Image 2 and Image 3 and Image 4",
+                "Image 1, Image 2, Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2 and Image 3 and Image 4"
+        },
+        "86": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_86_1.png",
+                "images/imdb_multiple_mcq/question_86_2.png",
+                "images/imdb_multiple_mcq/question_86_3.png",
+                "images/imdb_multiple_mcq/question_86_4.png",
+                "images/imdb_multiple_mcq/question_86_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'William Devane'?",
+            "options": [
+                3,
+                2,
+                0,
+                4
+            ],
+            "correct_answer_option": "A",
+            "answer": 3
+        },
+        "87": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_87_1.png",
+                "images/imdb_multiple_mcq/question_87_2.png",
+                "images/imdb_multiple_mcq/question_87_3.png",
+                "images/imdb_multiple_mcq/question_87_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'John Patrick Shanley'?",
+            "options": [
+                "Image 1",
+                "Image 4",
+                "Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2"
+        },
+        "88": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_88_1.png",
+                "images/imdb_multiple_mcq/question_88_2.png",
+                "images/imdb_multiple_mcq/question_88_3.png",
+                "images/imdb_multiple_mcq/question_88_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Kanye West",
+                "Raquel Beaudene",
+                "Bret Loehr",
+                "Peter Friedman"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Peter Friedman"
+        },
+        "89": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_89_1.png",
+                "images/imdb_multiple_mcq/question_89_2.png",
+                "images/imdb_multiple_mcq/question_89_3.png",
+                "images/imdb_multiple_mcq/question_89_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 1 and Image 4",
+                "Image 3 and Image 4",
+                "Image 1 and Image 2",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 3 and Image 4"
+        },
+        "90": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_90_1.png",
+                "images/imdb_multiple_mcq/question_90_2.png",
+                "images/imdb_multiple_mcq/question_90_3.png",
+                "images/imdb_multiple_mcq/question_90_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 2 and Image 4",
+                "Image 3 and Image 4",
+                "Image 1 and Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 2"
+        },
+        "91": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_91_1.png",
+                "images/imdb_multiple_mcq/question_91_2.png",
+                "images/imdb_multiple_mcq/question_91_3.png",
+                "images/imdb_multiple_mcq/question_91_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Denys Arcand'?",
+            "options": [
+                "Image 4",
+                "Image 1",
+                "Image 2",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "92": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_92_1.png",
+                "images/imdb_multiple_mcq/question_92_2.png",
+                "images/imdb_multiple_mcq/question_92_3.png",
+                "images/imdb_multiple_mcq/question_92_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Gerald Anderson'?",
+            "options": [
+                "Image 2 and Image 4",
+                "Image 1 and Image 3",
+                "Image 1 and Image 2",
+                "Image 2 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 and Image 2"
+        },
+        "93": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_93_1.png",
+                "images/imdb_multiple_mcq/question_93_2.png",
+                "images/imdb_multiple_mcq/question_93_3.png",
+                "images/imdb_multiple_mcq/question_93_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Dee Dee Davis",
+                "Rachele Brooke Smith",
+                "Elisabeth Harnois",
+                "Trisha Krishnan"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Dee Dee Davis"
+        },
+        "94": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_94_1.png",
+                "images/imdb_multiple_mcq/question_94_2.png",
+                "images/imdb_multiple_mcq/question_94_3.png",
+                "images/imdb_multiple_mcq/question_94_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Sheila Allen",
+                "Christian Meier",
+                "Marie Kremer",
+                "Melvin Van Peebles"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Melvin Van Peebles"
+        },
+        "95": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_95_1.png",
+                "images/imdb_multiple_mcq/question_95_2.png",
+                "images/imdb_multiple_mcq/question_95_3.png",
+                "images/imdb_multiple_mcq/question_95_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Deborah Shelton'?",
+            "options": [
+                "Image 1",
+                "Image 4",
+                "Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3"
+        },
+        "96": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_96_1.png",
+                "images/imdb_multiple_mcq/question_96_2.png",
+                "images/imdb_multiple_mcq/question_96_3.png",
+                "images/imdb_multiple_mcq/question_96_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Karin Viard'?",
+            "options": [
+                "Image 1",
+                "Image 2",
+                "Image 3",
+                "Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 4"
+        },
+        "97": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_97_1.png",
+                "images/imdb_multiple_mcq/question_97_2.png",
+                "images/imdb_multiple_mcq/question_97_3.png",
+                "images/imdb_multiple_mcq/question_97_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Andrea Marcovicci",
+                "Howard Zieff",
+                "Kevin Anderson",
+                "Melody Thomas Scott"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Andrea Marcovicci"
+        },
+        "98": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_98_1.png",
+                "images/imdb_multiple_mcq/question_98_2.png",
+                "images/imdb_multiple_mcq/question_98_3.png",
+                "images/imdb_multiple_mcq/question_98_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Louis Zorich'?",
+            "options": [
+                "Image 4",
+                "Image 1 and Image 2 and Image 3",
+                "Image 1 and Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2 and Image 3"
+        },
+        "99": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_99_1.png",
+                "images/imdb_multiple_mcq/question_99_2.png",
+                "images/imdb_multiple_mcq/question_99_3.png",
+                "images/imdb_multiple_mcq/question_99_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Karolina Kurkova'?",
+            "options": [
+                "Image 1",
+                "Image 3, Image 4",
+                "All of the images",
+                "Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 4"
+        },
+        "100": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_100_1.png",
+                "images/imdb_multiple_mcq/question_100_2.png",
+                "images/imdb_multiple_mcq/question_100_3.png",
+                "images/imdb_multiple_mcq/question_100_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Kierston Wareing",
+                "Tina Majorino",
+                "Tony Hendra",
+                "Alexis Cruz"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Tina Majorino"
+        },
+        "101": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_101_1.png",
+                "images/imdb_multiple_mcq/question_101_2.png",
+                "images/imdb_multiple_mcq/question_101_3.png",
+                "images/imdb_multiple_mcq/question_101_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 2 and Image 4",
+                "Image 1 and Image 2",
+                "Image 2 and Image 3",
+                "Image 1 and Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2"
+        },
+        "102": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_102_1.png",
+                "images/imdb_multiple_mcq/question_102_2.png",
+                "images/imdb_multiple_mcq/question_102_3.png",
+                "images/imdb_multiple_mcq/question_102_4.png",
+                "images/imdb_multiple_mcq/question_102_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                3,
+                4,
+                5,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "103": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_103_1.png",
+                "images/imdb_multiple_mcq/question_103_2.png",
+                "images/imdb_multiple_mcq/question_103_3.png",
+                "images/imdb_multiple_mcq/question_103_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 3 and Image 4",
+                "Image 2 and Image 3",
+                "Image 2 and Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 3 and Image 4"
+        },
+        "104": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_104_1.png",
+                "images/imdb_multiple_mcq/question_104_2.png",
+                "images/imdb_multiple_mcq/question_104_3.png",
+                "images/imdb_multiple_mcq/question_104_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Bree Turner'?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "Image 3",
+                "Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "105": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_105_1.png",
+                "images/imdb_multiple_mcq/question_105_2.png",
+                "images/imdb_multiple_mcq/question_105_3.png",
+                "images/imdb_multiple_mcq/question_105_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'Eric Dane'?",
+            "options": [
+                "Image 1",
+                "Image 4",
+                "Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3"
+        },
+        "106": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_106_1.png",
+                "images/imdb_multiple_mcq/question_106_2.png",
+                "images/imdb_multiple_mcq/question_106_3.png",
+                "images/imdb_multiple_mcq/question_106_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Carson Daly'?",
+            "options": [
+                "Image 2 and Image 3 and Image 4",
+                "Image 4",
+                "Image 3 and Image 4",
+                "Image 1 and Image 2 and Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 2 and Image 4"
+        },
+        "107": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_107_1.png",
+                "images/imdb_multiple_mcq/question_107_2.png",
+                "images/imdb_multiple_mcq/question_107_3.png",
+                "images/imdb_multiple_mcq/question_107_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 2 and Image 4",
+                "Image 1 and Image 4",
+                "Image 1 and Image 2",
+                "Image 3 and Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 3 and Image 4"
+        },
+        "108": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_108_1.png",
+                "images/imdb_multiple_mcq/question_108_2.png",
+                "images/imdb_multiple_mcq/question_108_3.png",
+                "images/imdb_multiple_mcq/question_108_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Wil Traval",
+                "Rainer Bock",
+                "Selina Cadell",
+                "Mark Millar"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Wil Traval"
+        },
+        "109": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_109_1.png",
+                "images/imdb_multiple_mcq/question_109_2.png",
+                "images/imdb_multiple_mcq/question_109_3.png",
+                "images/imdb_multiple_mcq/question_109_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Kata Dob\u00f3'?",
+            "options": [
+                "Image 2",
+                "Image 3",
+                "Image 1 and Image 4",
+                "Image 1 and Image 2 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 2 and Image 3"
+        },
+        "110": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_110_1.png",
+                "images/imdb_multiple_mcq/question_110_2.png",
+                "images/imdb_multiple_mcq/question_110_3.png",
+                "images/imdb_multiple_mcq/question_110_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Ashley Eckstein'?",
+            "options": [
+                "Image 2",
+                "Image 3",
+                "Image 1",
+                "Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 4"
+        },
+        "111": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_111_1.png",
+                "images/imdb_multiple_mcq/question_111_2.png",
+                "images/imdb_multiple_mcq/question_111_3.png",
+                "images/imdb_multiple_mcq/question_111_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'Sasha Mitchell'?",
+            "options": [
+                "Image 2",
+                "Image 3",
+                "Image 1",
+                "Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "112": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_112_1.png",
+                "images/imdb_multiple_mcq/question_112_2.png",
+                "images/imdb_multiple_mcq/question_112_3.png",
+                "images/imdb_multiple_mcq/question_112_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Kevin Dobson",
+                "Eric Ritter",
+                "Robert Carradine",
+                "Christina de Leon"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Robert Carradine"
+        },
+        "113": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_113_1.png",
+                "images/imdb_multiple_mcq/question_113_2.png",
+                "images/imdb_multiple_mcq/question_113_3.png",
+                "images/imdb_multiple_mcq/question_113_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Alyson Reed'?",
+            "options": [
+                "Image 2",
+                "Image 3",
+                "Image 1",
+                "Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "114": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_114_1.png",
+                "images/imdb_multiple_mcq/question_114_2.png",
+                "images/imdb_multiple_mcq/question_114_3.png",
+                "images/imdb_multiple_mcq/question_114_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'Julie Moran'?",
+            "options": [
+                "Image 1",
+                "Image 4",
+                "Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 4"
+        },
+        "115": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_115_1.png",
+                "images/imdb_multiple_mcq/question_115_2.png",
+                "images/imdb_multiple_mcq/question_115_3.png",
+                "images/imdb_multiple_mcq/question_115_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Patrick Dewaere'?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 1 and Image 2 and Image 4",
+                "Image 1 and Image 2 and Image 3",
+                "None of the images"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2 and Image 4"
+        },
+        "116": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_116_1.png",
+                "images/imdb_multiple_mcq/question_116_2.png",
+                "images/imdb_multiple_mcq/question_116_3.png",
+                "images/imdb_multiple_mcq/question_116_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Jessica De Gouw'?",
+            "options": [
+                "Image 3",
+                "Image 1 and Image 3 and Image 4",
+                "Image 3 and Image 4",
+                "Image 2 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 3 and Image 4"
+        },
+        "117": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_117_1.png",
+                "images/imdb_multiple_mcq/question_117_2.png",
+                "images/imdb_multiple_mcq/question_117_3.png",
+                "images/imdb_multiple_mcq/question_117_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Alison Pill'?",
+            "options": [
+                "Image 3",
+                "Image 1 and Image 2",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2"
+        },
+        "118": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_118_1.png",
+                "images/imdb_multiple_mcq/question_118_2.png",
+                "images/imdb_multiple_mcq/question_118_3.png",
+                "images/imdb_multiple_mcq/question_118_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Montel Williams'?",
+            "options": [
+                "Image 3",
+                "Image 1",
+                "Image 2",
+                "Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 4"
+        },
+        "119": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_119_1.png",
+                "images/imdb_multiple_mcq/question_119_2.png",
+                "images/imdb_multiple_mcq/question_119_3.png",
+                "images/imdb_multiple_mcq/question_119_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Maxim Gaudette'?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 1 and Image 2",
+                "Image 1",
+                "Image 1 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2"
+        },
+        "120": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_120_1.png",
+                "images/imdb_multiple_mcq/question_120_2.png",
+                "images/imdb_multiple_mcq/question_120_3.png",
+                "images/imdb_multiple_mcq/question_120_4.png",
+                "images/imdb_multiple_mcq/question_120_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Anatole Taubman'?",
+            "options": [
+                4,
+                2,
+                5,
+                0
+            ],
+            "correct_answer_option": "A",
+            "answer": 4
+        },
+        "121": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_121_1.png",
+                "images/imdb_multiple_mcq/question_121_2.png",
+                "images/imdb_multiple_mcq/question_121_3.png",
+                "images/imdb_multiple_mcq/question_121_4.png",
+                "images/imdb_multiple_mcq/question_121_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                5,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "122": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_122_1.png",
+                "images/imdb_multiple_mcq/question_122_2.png",
+                "images/imdb_multiple_mcq/question_122_3.png",
+                "images/imdb_multiple_mcq/question_122_4.png",
+                "images/imdb_multiple_mcq/question_122_5.png"
+            ],
+            "question_text": "How many images have the celebrity 'Sheryl Lee'?",
+            "options": [
+                5,
+                0,
+                3,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "123": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_123_1.png",
+                "images/imdb_multiple_mcq/question_123_2.png",
+                "images/imdb_multiple_mcq/question_123_3.png",
+                "images/imdb_multiple_mcq/question_123_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'Lucy Brown'?",
+            "options": [
+                "Image 2",
+                "Image 4",
+                "Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "124": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_124_1.png",
+                "images/imdb_multiple_mcq/question_124_2.png",
+                "images/imdb_multiple_mcq/question_124_3.png",
+                "images/imdb_multiple_mcq/question_124_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Frankie Rayder'?",
+            "options": [
+                "Image 4",
+                "Image 1, Image 2, Image 4",
+                "All of the images",
+                "Image 1 and Image 2 and Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 2 and Image 4"
+        },
+        "125": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_125_1.png",
+                "images/imdb_multiple_mcq/question_125_2.png",
+                "images/imdb_multiple_mcq/question_125_3.png",
+                "images/imdb_multiple_mcq/question_125_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'David Cage'?",
+            "options": [
+                "Image 3",
+                "Image 1 and Image 3 and Image 4",
+                "Image 1 and Image 2",
+                "Image 2 and Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 and Image 2"
+        },
+        "126": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_126_1.png",
+                "images/imdb_multiple_mcq/question_126_2.png",
+                "images/imdb_multiple_mcq/question_126_3.png",
+                "images/imdb_multiple_mcq/question_126_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Demet Akbag",
+                "Art Bell",
+                "Larry Pine",
+                "Tevin Campbell"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Demet Akbag"
+        },
+        "127": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_127_1.png",
+                "images/imdb_multiple_mcq/question_127_2.png",
+                "images/imdb_multiple_mcq/question_127_3.png",
+                "images/imdb_multiple_mcq/question_127_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Cristela Alonzo'?",
+            "options": [
+                "Image 2, Image 3",
+                "All of the images",
+                "Image 1, Image 2, Image 3",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 3"
+        },
+        "128": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_128_1.png",
+                "images/imdb_multiple_mcq/question_128_2.png",
+                "images/imdb_multiple_mcq/question_128_3.png",
+                "images/imdb_multiple_mcq/question_128_4.png"
+            ],
+            "question_text": "Which image is of the celebrity 'Jan Hooks'?",
+            "options": [
+                "Image 4",
+                "Image 1",
+                "Image 2",
+                "Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 3"
+        },
+        "129": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_129_1.png",
+                "images/imdb_multiple_mcq/question_129_2.png",
+                "images/imdb_multiple_mcq/question_129_3.png",
+                "images/imdb_multiple_mcq/question_129_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'Rich Eisen'?",
+            "options": [
+                "Image 1",
+                "Image 2",
+                "Image 4",
+                "Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 3"
+        },
+        "130": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_130_1.png",
+                "images/imdb_multiple_mcq/question_130_2.png",
+                "images/imdb_multiple_mcq/question_130_3.png",
+                "images/imdb_multiple_mcq/question_130_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Gerald Anderson'?",
+            "options": [
+                "Image 1, Image 2",
+                "Image 1 and Image 4",
+                "None of the images",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 4"
+        },
+        "131": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_131_1.png",
+                "images/imdb_multiple_mcq/question_131_2.png",
+                "images/imdb_multiple_mcq/question_131_3.png",
+                "images/imdb_multiple_mcq/question_131_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Timur Bekmambetov'?",
+            "options": [
+                "Image 1 and Image 3 and Image 4",
+                "Image 2 and Image 4",
+                "Image 1 and Image 2 and Image 3",
+                "None of the images"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 and Image 2 and Image 3"
+        },
+        "132": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_132_1.png",
+                "images/imdb_multiple_mcq/question_132_2.png",
+                "images/imdb_multiple_mcq/question_132_3.png",
+                "images/imdb_multiple_mcq/question_132_4.png"
+            ],
+            "question_text": "Which images have the celebrity 'Jon Michael Davis'?",
+            "options": [
+                "Image 2 and Image 3",
+                "All of the images",
+                "Image 4",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "All of the images"
+        },
+        "133": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_133_1.png",
+                "images/imdb_multiple_mcq/question_133_2.png",
+                "images/imdb_multiple_mcq/question_133_3.png",
+                "images/imdb_multiple_mcq/question_133_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Sophie Hunter'?",
+            "options": [
+                "Image 2 and Image 3 and Image 4",
+                "None of the images",
+                "All of the images",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "All of the images"
+        },
+        "134": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_134_1.png",
+                "images/imdb_multiple_mcq/question_134_2.png",
+                "images/imdb_multiple_mcq/question_134_3.png",
+                "images/imdb_multiple_mcq/question_134_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'Anna Friel'?",
+            "options": [
+                "Image 1",
+                "Image 2",
+                "Image 4",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 4"
+        },
+        "135": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_135_1.png",
+                "images/imdb_multiple_mcq/question_135_2.png",
+                "images/imdb_multiple_mcq/question_135_3.png",
+                "images/imdb_multiple_mcq/question_135_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'James Woods'?",
+            "options": [
+                "Image 3 and Image 4",
+                "Image 1 and Image 2",
+                "Image 4",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 3 and Image 4"
+        },
+        "136": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_136_1.png",
+                "images/imdb_multiple_mcq/question_136_2.png",
+                "images/imdb_multiple_mcq/question_136_3.png",
+                "images/imdb_multiple_mcq/question_136_4.png",
+                "images/imdb_multiple_mcq/question_136_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                4,
+                2,
+                5,
+                1
+            ],
+            "correct_answer_option": "C",
+            "answer": 5
+        },
+        "137": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_137_1.png",
+                "images/imdb_multiple_mcq/question_137_2.png",
+                "images/imdb_multiple_mcq/question_137_3.png",
+                "images/imdb_multiple_mcq/question_137_4.png"
+            ],
+            "question_text": "Which image does not contain the celebrity 'Jerry Hall'?",
+            "options": [
+                "Image 1",
+                "Image 3",
+                "Image 2",
+                "Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "138": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_138_1.png",
+                "images/imdb_multiple_mcq/question_138_2.png",
+                "images/imdb_multiple_mcq/question_138_3.png",
+                "images/imdb_multiple_mcq/question_138_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Lawrence Makoare",
+                "Bruno Tonioli",
+                "Jennifer Rae Daykin",
+                "Louis Mustillo"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Bruno Tonioli"
+        },
+        "139": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_139_1.png",
+                "images/imdb_multiple_mcq/question_139_2.png",
+                "images/imdb_multiple_mcq/question_139_3.png",
+                "images/imdb_multiple_mcq/question_139_4.png",
+                "images/imdb_multiple_mcq/question_139_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                5,
+                3,
+                1,
+                4
+            ],
+            "correct_answer_option": "B",
+            "answer": 3
+        },
+        "140": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_140_1.png",
+                "images/imdb_multiple_mcq/question_140_2.png",
+                "images/imdb_multiple_mcq/question_140_3.png",
+                "images/imdb_multiple_mcq/question_140_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 2 and Image 4",
+                "Image 1 and Image 4",
+                "Image 3 and Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2 and Image 4"
+        },
+        "141": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_141_1.png",
+                "images/imdb_multiple_mcq/question_141_2.png",
+                "images/imdb_multiple_mcq/question_141_3.png",
+                "images/imdb_multiple_mcq/question_141_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Frances Lee McCain'?",
+            "options": [
+                "Image 1, Image 3",
+                "Image 1 and Image 2 and Image 3",
+                "Image 2, Image 3",
+                "Image 1, Image 3, Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2 and Image 3"
+        },
+        "142": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_142_1.png",
+                "images/imdb_multiple_mcq/question_142_2.png",
+                "images/imdb_multiple_mcq/question_142_3.png",
+                "images/imdb_multiple_mcq/question_142_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Aislinn Derbez'?",
+            "options": [
+                "Image 1 and Image 3 and Image 4",
+                "Image 2 and Image 3",
+                "Image 1 and Image 2",
+                "All of the images"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 and Image 2"
+        },
+        "143": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_143_1.png",
+                "images/imdb_multiple_mcq/question_143_2.png",
+                "images/imdb_multiple_mcq/question_143_3.png",
+                "images/imdb_multiple_mcq/question_143_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Jordan Bridges",
+                "Richard Burton",
+                "Ann Ryerson",
+                "Kristina Hughes"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Richard Burton"
+        },
+        "144": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_144_1.png",
+                "images/imdb_multiple_mcq/question_144_2.png",
+                "images/imdb_multiple_mcq/question_144_3.png",
+                "images/imdb_multiple_mcq/question_144_4.png",
+                "images/imdb_multiple_mcq/question_144_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                2,
+                1,
+                3,
+                4
+            ],
+            "correct_answer_option": "D",
+            "answer": 4
+        },
+        "145": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_145_1.png",
+                "images/imdb_multiple_mcq/question_145_2.png",
+                "images/imdb_multiple_mcq/question_145_3.png",
+                "images/imdb_multiple_mcq/question_145_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Jera Sky",
+                "Vinnie Jones",
+                "Jon Hurwitz",
+                "Mackenzie Gray"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Vinnie Jones"
+        },
+        "146": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_146_1.png",
+                "images/imdb_multiple_mcq/question_146_2.png",
+                "images/imdb_multiple_mcq/question_146_3.png",
+                "images/imdb_multiple_mcq/question_146_4.png",
+                "images/imdb_multiple_mcq/question_146_5.png"
+            ],
+            "question_text": "How many unique celebrities are present in these images?",
+            "options": [
+                2,
+                5,
+                4,
+                3
+            ],
+            "correct_answer_option": "B",
+            "answer": 5
+        },
+        "147": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_147_1.png",
+                "images/imdb_multiple_mcq/question_147_2.png",
+                "images/imdb_multiple_mcq/question_147_3.png",
+                "images/imdb_multiple_mcq/question_147_4.png"
+            ],
+            "question_text": "Which images contain the celebrity 'Tyson Apostol'?",
+            "options": [
+                "Image 2 and Image 4",
+                "Image 2",
+                "Image 2 and Image 3 and Image 4",
+                "Image 1 and Image 2 and Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2 and Image 3 and Image 4"
+        },
+        "148": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_148_1.png",
+                "images/imdb_multiple_mcq/question_148_2.png",
+                "images/imdb_multiple_mcq/question_148_3.png",
+                "images/imdb_multiple_mcq/question_148_4.png"
+            ],
+            "question_text": "Which pair of images share the same celebrity?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 1 and Image 2",
+                "Image 3 and Image 4",
+                "Image 2 and Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3 and Image 4"
+        },
+        "149": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_149_1.png",
+                "images/imdb_multiple_mcq/question_149_2.png",
+                "images/imdb_multiple_mcq/question_149_3.png",
+                "images/imdb_multiple_mcq/question_149_4.png"
+            ],
+            "question_text": "What is the name of the most frequently occurring celebrity in these images?",
+            "options": [
+                "Josh Keaton",
+                "Jelka van Houten",
+                "Eva Green",
+                "Hyun Bin"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Eva Green"
+        },
+        "150": {
+            "image_paths": [
+                "images/imdb_multiple_mcq/question_150_1.png",
+                "images/imdb_multiple_mcq/question_150_2.png",
+                "images/imdb_multiple_mcq/question_150_3.png",
+                "images/imdb_multiple_mcq/question_150_4.png"
+            ],
+            "question_text": "Which images do not have the celebrity 'Timilee Romolini'?",
+            "options": [
+                "Image 2 and Image 3 and Image 4",
+                "Image 4",
+                "Image 2",
+                "Image 3, Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 and Image 3 and Image 4"
+        }
+    }
+}

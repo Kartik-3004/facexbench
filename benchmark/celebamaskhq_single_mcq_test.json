@@ -1,0 +1,1411 @@
+{
+    "category": "face_localization",
+    "sub-category": "segmentation",
+    "dataset": "celebamaskhq",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "prepend_text": "Face segmentation involves dividing a facial image into distinct regions such as eyes, nose, mouth, and other facial features. You have to perform the task of face segmentation.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_1.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "necklace",
+                "hat",
+                "eye glasses"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "2": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_2.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "necklace",
+                "nose",
+                "upper lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "necklace"
+        },
+        "3": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_3.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "eye glasses",
+                "None of the above",
+                "necklace"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "4": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_4.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "left eyebrow",
+                "left eye",
+                "cloth"
+            ],
+            "correct_answer_option": "C",
+            "answer": "left eye"
+        },
+        "5": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_5.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "eye glasses",
+                "earring",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "6": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_6.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "neck",
+                "eye glasses",
+                "face"
+            ],
+            "correct_answer_option": "C",
+            "answer": "eye glasses"
+        },
+        "7": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_7.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "right eye",
+                "cloth",
+                "eye glasses"
+            ],
+            "correct_answer_option": "D",
+            "answer": "eye glasses"
+        },
+        "8": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_8.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "earring",
+                "hat",
+                "necklace"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "9": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_9.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "right eye",
+                "lower lip",
+                "necklace"
+            ],
+            "correct_answer_option": "D",
+            "answer": "necklace"
+        },
+        "10": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_10.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "eye glasses",
+                "necklace",
+                "earring"
+            ],
+            "correct_answer_option": "D",
+            "answer": "earring"
+        },
+        "11": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_11.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "upper lip",
+                "cloth",
+                "right ear"
+            ],
+            "correct_answer_option": "D",
+            "answer": "right ear"
+        },
+        "12": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_12.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "hair",
+                "nose",
+                "right ear"
+            ],
+            "correct_answer_option": "D",
+            "answer": "right ear"
+        },
+        "13": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_13.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "eye glasses",
+                "hat",
+                "necklace"
+            ],
+            "correct_answer_option": "A",
+            "answer": "earring"
+        },
+        "14": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_14.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "lower lip",
+                "inner mouth",
+                "hat"
+            ],
+            "correct_answer_option": "D",
+            "answer": "hat"
+        },
+        "15": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_15.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "cloth",
+                "necklace",
+                "neck",
+                "right ear"
+            ],
+            "correct_answer_option": "B",
+            "answer": "necklace"
+        },
+        "16": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_16.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "eye glasses",
+                "hat",
+                "earring",
+                "necklace"
+            ],
+            "correct_answer_option": "C",
+            "answer": "earring"
+        },
+        "17": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_17.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "necklace",
+                "eye glasses",
+                "earring"
+            ],
+            "correct_answer_option": "C",
+            "answer": "eye glasses"
+        },
+        "18": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_18.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "necklace",
+                "None of the above",
+                "eye glasses",
+                "earring"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "19": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_19.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "left eyebrow",
+                "face",
+                "necklace"
+            ],
+            "correct_answer_option": "D",
+            "answer": "necklace"
+        },
+        "20": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_20.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "left eye",
+                "left ear",
+                "upper lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "left ear"
+        },
+        "21": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_21.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "earring",
+                "left eyebrow",
+                "inner mouth"
+            ],
+            "correct_answer_option": "B",
+            "answer": "earring"
+        },
+        "22": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_22.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "right eyebrow",
+                "upper lip",
+                "right ear"
+            ],
+            "correct_answer_option": "D",
+            "answer": "right ear"
+        },
+        "23": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_23.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "earring",
+                "None of the above",
+                "necklace"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "24": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_24.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "necklace",
+                "earring",
+                "eye glasses"
+            ],
+            "correct_answer_option": "C",
+            "answer": "earring"
+        },
+        "25": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_25.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "necklace",
+                "eye glasses",
+                "hat"
+            ],
+            "correct_answer_option": "A",
+            "answer": "earring"
+        },
+        "26": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_26.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "hair",
+                "right eyebrow",
+                "earring"
+            ],
+            "correct_answer_option": "D",
+            "answer": "earring"
+        },
+        "27": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_27.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "lower lip",
+                "right eye",
+                "eye glasses"
+            ],
+            "correct_answer_option": "D",
+            "answer": "eye glasses"
+        },
+        "28": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_28.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "eye glasses",
+                "hat",
+                "necklace"
+            ],
+            "correct_answer_option": "B",
+            "answer": "eye glasses"
+        },
+        "29": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_29.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "eye glasses",
+                "necklace",
+                "earring"
+            ],
+            "correct_answer_option": "D",
+            "answer": "earring"
+        },
+        "30": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_30.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "earring",
+                "hat",
+                "eye glasses"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "31": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_31.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "earring",
+                "hair",
+                "right eye"
+            ],
+            "correct_answer_option": "B",
+            "answer": "earring"
+        },
+        "32": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_32.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "eye glasses",
+                "None of the above",
+                "necklace"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "33": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_33.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "lower lip",
+                "face",
+                "left ear"
+            ],
+            "correct_answer_option": "D",
+            "answer": "left ear"
+        },
+        "34": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_34.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left ear",
+                "nose",
+                "hair",
+                "eye glasses"
+            ],
+            "correct_answer_option": "D",
+            "answer": "eye glasses"
+        },
+        "35": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_35.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "eye glasses",
+                "necklace",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "36": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_36.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "inner mouth",
+                "right eye",
+                "hat"
+            ],
+            "correct_answer_option": "D",
+            "answer": "hat"
+        },
+        "37": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_37.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "eye glasses",
+                "necklace",
+                "earring"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "38": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_38.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "earring",
+                "necklace",
+                "cloth"
+            ],
+            "correct_answer_option": "C",
+            "answer": "necklace"
+        },
+        "39": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_39.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "necklace",
+                "eye glasses",
+                "hat"
+            ],
+            "correct_answer_option": "A",
+            "answer": "earring"
+        },
+        "40": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_40.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "eye glasses",
+                "None of the above",
+                "earring"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "41": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_41.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hat",
+                "inner mouth",
+                "nose",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "hat"
+        },
+        "42": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_42.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "necklace",
+                "None of the above",
+                "hat"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "43": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_43.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "nose",
+                "necklace",
+                "face"
+            ],
+            "correct_answer_option": "C",
+            "answer": "necklace"
+        },
+        "44": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_44.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "left eyebrow",
+                "inner mouth",
+                "left eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "45": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_45.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "eye glasses",
+                "None of the above",
+                "earring",
+                "necklace"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "46": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_46.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "necklace",
+                "earring",
+                "eye glasses"
+            ],
+            "correct_answer_option": "C",
+            "answer": "earring"
+        },
+        "47": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_47.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "eye glasses",
+                "right ear",
+                "lower lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "eye glasses"
+        },
+        "48": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_48.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "None of the above",
+                "hat",
+                "necklace"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "49": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_49.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "eye glasses",
+                "necklace",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "50": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_50.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "earring",
+                "eye glasses",
+                "right eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "eye glasses"
+        },
+        "51": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_51.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "cloth",
+                "left eye",
+                "inner mouth",
+                "nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "52": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_52.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "necklace",
+                "eye glasses",
+                "earring",
+                "hat"
+            ],
+            "correct_answer_option": "C",
+            "answer": "earring"
+        },
+        "53": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_53.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "eye glasses",
+                "necklace",
+                "hat"
+            ],
+            "correct_answer_option": "A",
+            "answer": "earring"
+        },
+        "54": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_54.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "nose",
+                "necklace",
+                "neck"
+            ],
+            "correct_answer_option": "C",
+            "answer": "necklace"
+        },
+        "55": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_55.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "eye glasses",
+                "upper lip",
+                "neck",
+                "left eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "eye glasses"
+        },
+        "56": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_56.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "earring",
+                "right ear",
+                "hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "earring"
+        },
+        "57": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_57.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "necklace",
+                "eye glasses",
+                "hat",
+                "earring"
+            ],
+            "correct_answer_option": "B",
+            "answer": "eye glasses"
+        },
+        "58": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_58.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "eye glasses",
+                "right eye",
+                "inner mouth",
+                "hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "eye glasses"
+        },
+        "59": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_59.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "inner mouth",
+                "left eyebrow",
+                "left eye"
+            ],
+            "correct_answer_option": "B",
+            "answer": "inner mouth"
+        },
+        "60": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_60.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "right eye",
+                "neck",
+                "eye glasses"
+            ],
+            "correct_answer_option": "D",
+            "answer": "eye glasses"
+        },
+        "61": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_61.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "eye glasses",
+                "necklace",
+                "hat"
+            ],
+            "correct_answer_option": "A",
+            "answer": "earring"
+        },
+        "62": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_62.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left ear",
+                "neck",
+                "right eyebrow",
+                "hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "left ear"
+        },
+        "63": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_63.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "hat",
+                "upper lip",
+                "inner mouth"
+            ],
+            "correct_answer_option": "B",
+            "answer": "hat"
+        },
+        "64": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_64.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "hat",
+                "eye glasses",
+                "earring"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "65": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_65.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "necklace",
+                "hat",
+                "eye glasses"
+            ],
+            "correct_answer_option": "A",
+            "answer": "earring"
+        },
+        "66": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_66.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "necklace",
+                "left eye",
+                "face",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "necklace"
+        },
+        "67": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_67.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "necklace",
+                "earring",
+                "hat"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "68": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_68.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "necklace",
+                "None of the above",
+                "hat",
+                "eye glasses"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "69": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_69.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "neck",
+                "right eye",
+                "eye glasses"
+            ],
+            "correct_answer_option": "D",
+            "answer": "eye glasses"
+        },
+        "70": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_70.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "necklace",
+                "hat",
+                "eye glasses"
+            ],
+            "correct_answer_option": "A",
+            "answer": "earring"
+        },
+        "71": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_71.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "cloth",
+                "inner mouth",
+                "neck",
+                "eye glasses"
+            ],
+            "correct_answer_option": "D",
+            "answer": "eye glasses"
+        },
+        "72": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_72.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "upper lip",
+                "hair",
+                "right ear"
+            ],
+            "correct_answer_option": "D",
+            "answer": "right ear"
+        },
+        "73": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_73.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "earring",
+                "eye glasses",
+                "necklace"
+            ],
+            "correct_answer_option": "D",
+            "answer": "necklace"
+        },
+        "74": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_74.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "neck",
+                "necklace",
+                "inner mouth"
+            ],
+            "correct_answer_option": "C",
+            "answer": "necklace"
+        },
+        "75": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_75.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "necklace",
+                "None of the above",
+                "earring"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "76": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_76.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "earring",
+                "eye glasses",
+                "necklace"
+            ],
+            "correct_answer_option": "B",
+            "answer": "earring"
+        },
+        "77": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_77.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "necklace",
+                "hat",
+                "eye glasses"
+            ],
+            "correct_answer_option": "D",
+            "answer": "eye glasses"
+        },
+        "78": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_78.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "None of the above",
+                "hat",
+                "eye glasses"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "79": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_79.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "hat",
+                "hair",
+                "nose"
+            ],
+            "correct_answer_option": "B",
+            "answer": "hat"
+        },
+        "80": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_80.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "eye glasses",
+                "right eyebrow",
+                "face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "eye glasses"
+        },
+        "81": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_81.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left ear",
+                "upper lip",
+                "lower lip",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "left ear"
+        },
+        "82": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_82.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "necklace",
+                "eye glasses",
+                "hat",
+                "earring"
+            ],
+            "correct_answer_option": "D",
+            "answer": "earring"
+        },
+        "83": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_83.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "neck",
+                "left eye",
+                "right ear",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "C",
+            "answer": "right ear"
+        },
+        "84": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_84.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hat",
+                "face",
+                "right eyebrow",
+                "lower lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "hat"
+        },
+        "85": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_85.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "necklace",
+                "right ear",
+                "left eyebrow",
+                "earring"
+            ],
+            "correct_answer_option": "A",
+            "answer": "necklace"
+        },
+        "86": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_86.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "cloth",
+                "hair",
+                "eye glasses"
+            ],
+            "correct_answer_option": "D",
+            "answer": "eye glasses"
+        },
+        "87": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_87.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "eye glasses",
+                "None of the above",
+                "earring",
+                "hat"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "88": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_88.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "eye glasses",
+                "None of the above",
+                "hat"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "89": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_89.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "earring",
+                "eye glasses",
+                "necklace"
+            ],
+            "correct_answer_option": "B",
+            "answer": "earring"
+        },
+        "90": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_90.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "neck",
+                "right ear",
+                "left ear",
+                "inner mouth"
+            ],
+            "correct_answer_option": "B",
+            "answer": "right ear"
+        },
+        "91": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_91.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "hat",
+                "None of the above",
+                "necklace",
+                "eye glasses"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "92": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_92.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "inner mouth",
+                "upper lip",
+                "neck"
+            ],
+            "correct_answer_option": "B",
+            "answer": "inner mouth"
+        },
+        "93": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_93.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "necklace",
+                "eye glasses",
+                "hat"
+            ],
+            "correct_answer_option": "A",
+            "answer": "earring"
+        },
+        "94": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_94.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "necklace",
+                "face",
+                "left eye",
+                "lower lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "necklace"
+        },
+        "95": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_95.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "left eyebrow",
+                "eye glasses",
+                "hat"
+            ],
+            "correct_answer_option": "D",
+            "answer": "hat"
+        },
+        "96": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_96.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "left eyebrow",
+                "eye glasses",
+                "left ear"
+            ],
+            "correct_answer_option": "A",
+            "answer": "hair"
+        },
+        "97": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_97.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "neck",
+                "right eye",
+                "inner mouth",
+                "left eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "98": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_98.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right ear",
+                "hat",
+                "left ear",
+                "hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "hat"
+        },
+        "99": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_99.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "cloth",
+                "necklace",
+                "inner mouth",
+                "left eye"
+            ],
+            "correct_answer_option": "B",
+            "answer": "necklace"
+        },
+        "100": {
+            "image_paths": [
+                "images/celebamaskhq_single_mcq_test/question_100.png"
+            ],
+            "question_text": "Which region is segmented out with white color?",
+            "options": [
+                "earring",
+                "None of the above",
+                "hat",
+                "eye glasses"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        }
+    }
+}

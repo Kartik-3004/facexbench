@@ -1,0 +1,1411 @@
+{
+    "category": "attributes_expression",
+    "sub-category": "expression",
+    "dataset": "rafdb",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "prepend_text": "Facial expression recognition involves identifying the emotional state of a person based on their facial expressions in an image. You have to perform the task of facial expression recognition.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_1.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Sad",
+                "Surprise",
+                "Disgust",
+                "Happy"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Surprise"
+        },
+        "2": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_2.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Anger",
+                "Surprise",
+                "Disgust",
+                "Sad"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Sad"
+        },
+        "3": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_3.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Fear",
+                "Happy",
+                "Surprise",
+                "Neutral"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Happy"
+        },
+        "4": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_4.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Disgust",
+                "Happy",
+                "Surprise",
+                "Anger"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Happy"
+        },
+        "5": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_5.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Happy",
+                "Neutral",
+                "Disgust",
+                "Fear"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Happy"
+        },
+        "6": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_6.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Sad",
+                "Disgust",
+                "Neutral",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "7": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_7.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Surprise",
+                "Anger",
+                "Disgust",
+                "Neutral"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Disgust"
+        },
+        "8": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_8.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Anger",
+                "Neutral",
+                "Surprise",
+                "Fear"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Surprise"
+        },
+        "9": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_9.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Fear",
+                "Surprise",
+                "Sad",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "10": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_10.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Happy",
+                "Anger",
+                "Fear",
+                "Disgust"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Happy"
+        },
+        "11": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_11.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Fear",
+                "Happy",
+                "Neutral",
+                "Sad"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Sad"
+        },
+        "12": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_12.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Fear",
+                "Happy",
+                "Anger",
+                "Surprise"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Happy"
+        },
+        "13": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_13.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Surprise",
+                "Happy",
+                "Neutral",
+                "Fear"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Happy"
+        },
+        "14": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_14.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Happy",
+                "Surprise",
+                "Disgust",
+                "Neutral"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Neutral"
+        },
+        "15": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_15.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Disgust",
+                "Anger",
+                "Surprise",
+                "Sad"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Surprise"
+        },
+        "16": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_16.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Surprise",
+                "Happy",
+                "Anger",
+                "Neutral"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Neutral"
+        },
+        "17": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_17.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Fear",
+                "Neutral",
+                "Happy",
+                "Sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Neutral"
+        },
+        "18": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_18.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Anger",
+                "Disgust",
+                "Surprise",
+                "Sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Disgust"
+        },
+        "19": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_19.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Surprise",
+                "Disgust",
+                "Fear",
+                "Neutral"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Neutral"
+        },
+        "20": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_20.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Anger",
+                "Disgust",
+                "Happy",
+                "Surprise"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Happy"
+        },
+        "21": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_21.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Anger",
+                "Sad",
+                "Neutral",
+                "Happy"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Sad"
+        },
+        "22": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_22.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Disgust",
+                "Neutral",
+                "Sad",
+                "Surprise"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Surprise"
+        },
+        "23": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_23.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Surprise",
+                "Fear",
+                "Neutral",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "24": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_24.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Sad",
+                "Surprise",
+                "Anger",
+                "Neutral"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Sad"
+        },
+        "25": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_25.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Anger",
+                "Sad",
+                "Neutral",
+                "Fear"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Sad"
+        },
+        "26": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_26.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Happy",
+                "Fear",
+                "Anger",
+                "Disgust"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Happy"
+        },
+        "27": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_27.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Disgust",
+                "Fear",
+                "Happy",
+                "Sad"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Disgust"
+        },
+        "28": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_28.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Disgust",
+                "Neutral",
+                "Surprise",
+                "Anger"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Neutral"
+        },
+        "29": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_29.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Sad",
+                "Fear",
+                "Happy",
+                "Anger"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Anger"
+        },
+        "30": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_30.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Sad",
+                "Surprise",
+                "Anger",
+                "Happy"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Surprise"
+        },
+        "31": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_31.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Anger",
+                "Happy",
+                "Disgust",
+                "Surprise"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Anger"
+        },
+        "32": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_32.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Neutral",
+                "Sad",
+                "Happy",
+                "Surprise"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Happy"
+        },
+        "33": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_33.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Sad",
+                "Surprise",
+                "Neutral",
+                "Disgust"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Disgust"
+        },
+        "34": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_34.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Anger",
+                "Happy",
+                "Fear",
+                "Sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Happy"
+        },
+        "35": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_35.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Disgust",
+                "Neutral",
+                "Fear",
+                "Sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Neutral"
+        },
+        "36": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_36.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Fear",
+                "Sad",
+                "Neutral",
+                "Disgust"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Fear"
+        },
+        "37": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_37.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Fear",
+                "Disgust",
+                "Happy",
+                "Surprise"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Happy"
+        },
+        "38": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_38.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Anger",
+                "Disgust",
+                "Happy",
+                "Sad"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Happy"
+        },
+        "39": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_39.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Sad",
+                "Neutral",
+                "Anger",
+                "Fear"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Anger"
+        },
+        "40": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_40.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Sad",
+                "Anger",
+                "Fear",
+                "Happy"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Fear"
+        },
+        "41": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_41.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Fear",
+                "Neutral",
+                "Sad",
+                "Anger"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Sad"
+        },
+        "42": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_42.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Fear",
+                "Neutral",
+                "Disgust",
+                "Surprise"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Neutral"
+        },
+        "43": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_43.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Happy",
+                "Sad",
+                "Fear",
+                "Neutral"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Sad"
+        },
+        "44": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_44.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Neutral",
+                "Fear",
+                "Sad",
+                "Disgust"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Sad"
+        },
+        "45": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_45.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Anger",
+                "Surprise",
+                "Happy",
+                "Sad"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Anger"
+        },
+        "46": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_46.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Disgust",
+                "Happy",
+                "Neutral",
+                "Anger"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Happy"
+        },
+        "47": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_47.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Surprise",
+                "Sad",
+                "Happy",
+                "Neutral"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Happy"
+        },
+        "48": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_48.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Sad",
+                "Surprise",
+                "Neutral",
+                "Anger"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Sad"
+        },
+        "49": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_49.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Sad",
+                "Happy",
+                "Anger",
+                "Neutral"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Neutral"
+        },
+        "50": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_50.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Neutral",
+                "Surprise",
+                "Fear",
+                "Sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Surprise"
+        },
+        "51": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_51.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Fear",
+                "Neutral",
+                "Surprise",
+                "Disgust"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Neutral"
+        },
+        "52": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_52.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Surprise",
+                "Neutral",
+                "Disgust",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "53": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_53.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Happy",
+                "Disgust",
+                "Neutral",
+                "Sad"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Happy"
+        },
+        "54": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_54.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Anger",
+                "Happy",
+                "Disgust",
+                "Fear"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Fear"
+        },
+        "55": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_55.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Surprise",
+                "Anger",
+                "Neutral",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "56": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_56.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Surprise",
+                "Sad",
+                "Fear",
+                "Disgust"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Sad"
+        },
+        "57": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_57.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Happy",
+                "Surprise",
+                "Fear",
+                "Anger"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Happy"
+        },
+        "58": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_58.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Fear",
+                "Happy",
+                "Surprise",
+                "Sad"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Surprise"
+        },
+        "59": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_59.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Fear",
+                "Neutral",
+                "Disgust",
+                "Happy"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Disgust"
+        },
+        "60": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_60.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Fear",
+                "Surprise",
+                "Anger",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "61": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_61.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Sad",
+                "Surprise",
+                "Neutral",
+                "Disgust"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Sad"
+        },
+        "62": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_62.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Sad",
+                "Happy",
+                "Neutral",
+                "Fear"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Happy"
+        },
+        "63": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_63.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Disgust",
+                "Anger",
+                "Surprise",
+                "Fear"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Surprise"
+        },
+        "64": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_64.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Neutral",
+                "Sad",
+                "Fear",
+                "Surprise"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Neutral"
+        },
+        "65": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_65.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Sad",
+                "Fear",
+                "Neutral",
+                "Disgust"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Neutral"
+        },
+        "66": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_66.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Happy",
+                "Surprise",
+                "Neutral",
+                "Sad"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Happy"
+        },
+        "67": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_67.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Sad",
+                "Surprise",
+                "Anger",
+                "Disgust"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Disgust"
+        },
+        "68": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_68.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Disgust",
+                "Sad",
+                "Surprise",
+                "Fear"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Sad"
+        },
+        "69": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_69.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Surprise",
+                "Happy",
+                "Fear",
+                "Neutral"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Surprise"
+        },
+        "70": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_70.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Anger",
+                "Happy",
+                "Surprise",
+                "Neutral"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Happy"
+        },
+        "71": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_71.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Disgust",
+                "Neutral",
+                "Fear",
+                "Surprise"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Neutral"
+        },
+        "72": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_72.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Sad",
+                "Anger",
+                "Surprise",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "73": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_73.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Disgust",
+                "Happy",
+                "Anger",
+                "Surprise"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Happy"
+        },
+        "74": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_74.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Disgust",
+                "Surprise",
+                "Neutral",
+                "Sad"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Neutral"
+        },
+        "75": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_75.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Surprise",
+                "Disgust",
+                "Anger",
+                "Fear"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Surprise"
+        },
+        "76": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_76.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Fear",
+                "Neutral",
+                "Anger",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "77": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_77.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Fear",
+                "Happy",
+                "Anger",
+                "Disgust"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Fear"
+        },
+        "78": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_78.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Happy",
+                "Disgust",
+                "Neutral",
+                "Sad"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Happy"
+        },
+        "79": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_79.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Anger",
+                "Disgust",
+                "Sad",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "80": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_80.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Disgust",
+                "Fear",
+                "Happy",
+                "Neutral"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Happy"
+        },
+        "81": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_81.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Fear",
+                "Happy",
+                "Neutral",
+                "Disgust"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Happy"
+        },
+        "82": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_82.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Sad",
+                "Anger",
+                "Surprise",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "83": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_83.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Anger",
+                "Neutral",
+                "Surprise",
+                "Happy"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Neutral"
+        },
+        "84": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_84.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Fear",
+                "Sad",
+                "Disgust",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "85": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_85.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Surprise",
+                "Sad",
+                "Happy",
+                "Neutral"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Neutral"
+        },
+        "86": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_86.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Neutral",
+                "Anger",
+                "Fear",
+                "Happy"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Anger"
+        },
+        "87": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_87.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Disgust",
+                "Anger",
+                "Fear",
+                "Sad"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Sad"
+        },
+        "88": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_88.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Happy",
+                "Neutral",
+                "Sad",
+                "Disgust"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Sad"
+        },
+        "89": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_89.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Neutral",
+                "Anger",
+                "Surprise",
+                "Fear"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Fear"
+        },
+        "90": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_90.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Sad",
+                "Fear",
+                "Happy",
+                "Disgust"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Happy"
+        },
+        "91": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_91.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Surprise",
+                "Neutral",
+                "Sad",
+                "Happy"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Sad"
+        },
+        "92": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_92.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Neutral",
+                "Fear",
+                "Surprise",
+                "Happy"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Surprise"
+        },
+        "93": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_93.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Happy",
+                "Surprise",
+                "Sad",
+                "Neutral"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Neutral"
+        },
+        "94": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_94.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Happy",
+                "Sad",
+                "Neutral",
+                "Fear"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Sad"
+        },
+        "95": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_95.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Surprise",
+                "Anger",
+                "Disgust",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "96": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_96.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Happy",
+                "Neutral",
+                "Sad",
+                "Anger"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Sad"
+        },
+        "97": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_97.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Anger",
+                "Neutral",
+                "Fear",
+                "Happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Happy"
+        },
+        "98": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_98.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "Surprise",
+                "Disgust",
+                "Sad",
+                "Anger"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Disgust"
+        },
+        "99": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_99.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "Surprise",
+                "Disgust",
+                "Neutral",
+                "Happy"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Neutral"
+        },
+        "100": {
+            "image_paths": [
+                "images/rafdb_single_mcq_train/question_100.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "Anger",
+                "Happy",
+                "Surprise",
+                "Neutral"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Neutral"
+        }
+    }
+}

@@ -1,0 +1,711 @@
+{
+    "category": "face_localization",
+    "sub-category": "crowd_counting",
+    "dataset": "shanghaitech",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "prepend_text": "Crowd counting involves estimating the number of people present in an image, typically in a crowded scene. You have to perform the task of crowd counting.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_1.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                36,
+                40,
+                38,
+                35
+            ],
+            "correct_answer_option": "C",
+            "answer": 38
+        },
+        "2": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_2.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                82,
+                79,
+                80,
+                83
+            ],
+            "correct_answer_option": "C",
+            "answer": 80
+        },
+        "3": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_3.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                48,
+                45,
+                47,
+                50
+            ],
+            "correct_answer_option": "C",
+            "answer": 47
+        },
+        "4": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_4.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                32,
+                30,
+                27,
+                33
+            ],
+            "correct_answer_option": "B",
+            "answer": 30
+        },
+        "5": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_5.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                86,
+                80,
+                83,
+                84
+            ],
+            "correct_answer_option": "C",
+            "answer": 83
+        },
+        "6": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_6.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                93,
+                94,
+                92,
+                95
+            ],
+            "correct_answer_option": "B",
+            "answer": 94
+        },
+        "7": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_7.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                88,
+                85,
+                89,
+                87
+            ],
+            "correct_answer_option": "D",
+            "answer": 87
+        },
+        "8": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_8.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                54,
+                56,
+                58,
+                57
+            ],
+            "correct_answer_option": "D",
+            "answer": 57
+        },
+        "9": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_9.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                91,
+                92,
+                88,
+                90
+            ],
+            "correct_answer_option": "D",
+            "answer": 90
+        },
+        "10": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_10.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                52,
+                48,
+                51,
+                49
+            ],
+            "correct_answer_option": "C",
+            "answer": 51
+        },
+        "11": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_11.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                38,
+                42,
+                39,
+                41
+            ],
+            "correct_answer_option": "C",
+            "answer": 39
+        },
+        "12": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_12.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                59,
+                54,
+                57,
+                56
+            ],
+            "correct_answer_option": "D",
+            "answer": 56
+        },
+        "13": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_13.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                51,
+                53,
+                54,
+                57
+            ],
+            "correct_answer_option": "C",
+            "answer": 54
+        },
+        "14": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_14.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                34,
+                35,
+                33,
+                32
+            ],
+            "correct_answer_option": "A",
+            "answer": 34
+        },
+        "15": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_15.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                27,
+                30,
+                32,
+                28
+            ],
+            "correct_answer_option": "B",
+            "answer": 30
+        },
+        "16": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_16.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                28,
+                32,
+                30,
+                33
+            ],
+            "correct_answer_option": "C",
+            "answer": 30
+        },
+        "17": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_17.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                42,
+                40,
+                45,
+                43
+            ],
+            "correct_answer_option": "D",
+            "answer": 43
+        },
+        "18": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_18.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                92,
+                93,
+                95,
+                90
+            ],
+            "correct_answer_option": "A",
+            "answer": 92
+        },
+        "19": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_19.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                69,
+                70,
+                72,
+                73
+            ],
+            "correct_answer_option": "C",
+            "answer": 72
+        },
+        "20": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_20.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                90,
+                86,
+                92,
+                89
+            ],
+            "correct_answer_option": "D",
+            "answer": 89
+        },
+        "21": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_21.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                80,
+                83,
+                82,
+                79
+            ],
+            "correct_answer_option": "C",
+            "answer": 82
+        },
+        "22": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_22.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                44,
+                45,
+                48,
+                46
+            ],
+            "correct_answer_option": "D",
+            "answer": 46
+        },
+        "23": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_23.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                34,
+                37,
+                36,
+                38
+            ],
+            "correct_answer_option": "C",
+            "answer": 36
+        },
+        "24": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_24.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                35,
+                34,
+                32,
+                36
+            ],
+            "correct_answer_option": "A",
+            "answer": 35
+        },
+        "25": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_25.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                53,
+                57,
+                52,
+                54
+            ],
+            "correct_answer_option": "D",
+            "answer": 54
+        },
+        "26": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_26.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                39,
+                38,
+                40,
+                35
+            ],
+            "correct_answer_option": "B",
+            "answer": 38
+        },
+        "27": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_27.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                49,
+                50,
+                45,
+                47
+            ],
+            "correct_answer_option": "D",
+            "answer": 47
+        },
+        "28": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_28.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                59,
+                63,
+                64,
+                61
+            ],
+            "correct_answer_option": "D",
+            "answer": 61
+        },
+        "29": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_29.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                38,
+                40,
+                37,
+                39
+            ],
+            "correct_answer_option": "A",
+            "answer": 38
+        },
+        "30": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_30.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                39,
+                38,
+                35,
+                36
+            ],
+            "correct_answer_option": "B",
+            "answer": 38
+        },
+        "31": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_31.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                60,
+                55,
+                54,
+                57
+            ],
+            "correct_answer_option": "D",
+            "answer": 57
+        },
+        "32": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_32.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                97,
+                99,
+                98,
+                96
+            ],
+            "correct_answer_option": "B",
+            "answer": 99
+        },
+        "33": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_33.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                53,
+                52,
+                56,
+                50
+            ],
+            "correct_answer_option": "A",
+            "answer": 53
+        },
+        "34": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_34.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                20,
+                18,
+                21,
+                19
+            ],
+            "correct_answer_option": "A",
+            "answer": 20
+        },
+        "35": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_35.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                53,
+                50,
+                51,
+                52
+            ],
+            "correct_answer_option": "C",
+            "answer": 51
+        },
+        "36": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_36.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                54,
+                55,
+                58,
+                56
+            ],
+            "correct_answer_option": "B",
+            "answer": 55
+        },
+        "37": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_37.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                63,
+                65,
+                67,
+                66
+            ],
+            "correct_answer_option": "D",
+            "answer": 66
+        },
+        "38": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_38.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                95,
+                97,
+                94,
+                98
+            ],
+            "correct_answer_option": "A",
+            "answer": 95
+        },
+        "39": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_39.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                63,
+                67,
+                66,
+                65
+            ],
+            "correct_answer_option": "C",
+            "answer": 66
+        },
+        "40": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_40.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                59,
+                57,
+                58,
+                56
+            ],
+            "correct_answer_option": "B",
+            "answer": 57
+        },
+        "41": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_41.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                76,
+                73,
+                72,
+                70
+            ],
+            "correct_answer_option": "B",
+            "answer": 73
+        },
+        "42": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_42.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                39,
+                38,
+                37,
+                40
+            ],
+            "correct_answer_option": "A",
+            "answer": 39
+        },
+        "43": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_43.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                90,
+                89,
+                91,
+                88
+            ],
+            "correct_answer_option": "B",
+            "answer": 89
+        },
+        "44": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_44.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                96,
+                99,
+                98,
+                97
+            ],
+            "correct_answer_option": "B",
+            "answer": 99
+        },
+        "45": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_45.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                79,
+                81,
+                83,
+                80
+            ],
+            "correct_answer_option": "B",
+            "answer": 81
+        },
+        "46": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_46.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                59,
+                61,
+                58,
+                60
+            ],
+            "correct_answer_option": "C",
+            "answer": 58
+        },
+        "47": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_47.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                65,
+                66,
+                67,
+                64
+            ],
+            "correct_answer_option": "B",
+            "answer": 66
+        },
+        "48": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_48.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                50,
+                47,
+                48,
+                45
+            ],
+            "correct_answer_option": "B",
+            "answer": 47
+        },
+        "49": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_49.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                76,
+                79,
+                77,
+                80
+            ],
+            "correct_answer_option": "B",
+            "answer": 79
+        },
+        "50": {
+            "image_paths": [
+                "images/shanghaitech_single_mcq/question_50.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                63,
+                62,
+                60,
+                59
+            ],
+            "correct_answer_option": "C",
+            "answer": 60
+        }
+    }
+}

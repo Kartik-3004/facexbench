@@ -1,0 +1,1412 @@
+{
+    "category": "tools_use",
+    "sub-category": "tools_retrieval",
+    "dataset": "gpt4o",
+    "question_type": "MCQ",
+    "num_images": "zero",
+    "prepend_text": "This task involves selecting the correct sequence of API function calls from a set of multiple-choice options based on a given question. Each question describes a specific use case scenario that demands a tailored sequence of API functions to achieve desired results, such as identity verification, emotion detection, or demographic analysis.",
+    "context": "Ignore the black image provided.\n1. Age Estimation:\n    api_name: api_1\n    functions:\n        predict_age:\n            description: Predicts the age of the person in the input face image.\n            input: np.ndarray or str - The input face image.\n            output: int - The estimated age.\n        age_confidence_score:\n            description: Provides a confidence score for the age estimation.\n            input: dict - Output from the age estimation model.\n            output: float - Confidence score of the age prediction.\n2. Gender Prediction:\n    api_name: api_2\n    functions:\n        classify_gender:\n            description: Classifies the gender of the person in the face image.\n            input: np.ndarray or str - The input face image.\n            output: str - The predicted gender ('male' or 'female').\n        get_gender_probabilities:\n            description: Returns probabilities for each gender class.\n            input: np.ndarray - The input face image.\n            output: dict - Probabilities for 'male' and 'female' classes.\n3. Race Detection:\n    api_name: api_3\n    functions:\n        predict_race:\n            description: Predicts the race of the individual(s) in the input image(s).\n            input: str, bytes, np.ndarray, or list - The input image or batch of images.\n            output: list - Predicted races for each detected face, including race labels and probabilities.\n        get_race_probabilities:\n            description: Returns probability distribution over races for detected faces.\n            input: str, bytes, np.ndarray, or list - The input image or batch of images.\n            output: list - For each detected face, a dictionary of race probabilities.\n        race_confidence_score:\n            description: Provides a confidence score for race prediction for each detected face.\n            input: str, bytes, np.ndarray, or list - The input image(s).\n            output: list - Confidence scores for race predictions.\n4. Face Anti-Spoofing:\n    api_name: api_4\n    functions:\n        detect_spoofing:\n            description: Detects if the face in the image is real or a spoof.\n            input: np.ndarray or str - The input face image.\n            output: bool - True if spoof detected, False if face is real.\n        spoof_confidence_score:\n            description: Provides a confidence score indicating the likelihood of spoofing.\n            input: dict - Output from the anti-spoofing model.\n            output: float - Spoofing confidence score.\n5. Deepfake Detection:\n    api_name: api_5\n    functions:\n        detect_deepfake:\n            description: Detects whether a video or image contains deepfake content.\n            input: str or np.ndarray - Path to video/image or image array.\n            output: bool - True if deepfake is detected, False otherwise.\n        deepfake_confidence_score:\n            description: Provides a confidence score for deepfake detection.\n            input: dict - Output from the deepfake detection model.\n            output: float - Confidence score for deepfake presence.\n6. Low-Resolution Face Recognition:\n    api_name: api_6\n    functions:\n        extract_low_res_embedding:\n            description: Extracts facial embeddings from low-resolution images for recognition.\n            input: np.ndarray or str - The input low-res face image.\n            output: np.ndarray - Embedding vector for low-resolution face.\n        compare_low_res_embeddings:\n            description: Compares two low-resolution face embeddings for a match.\n            input: Two np.ndarray embeddings - The embeddings of two faces.\n            output: bool - True if faces match, False otherwise.\n        identify_low_res_face:\n            description: Identifies a face by comparing a low-resolution embedding to a database.\n            input: np.ndarray embedding and dict database - Embedding to identify and known embeddings.\n            output: str or None - Label of the identified face, or None if no match.\n7. High-Resolution Face Recognition:\n    api_name: api_7\n    functions:\n        extract_high_res_embedding:\n            description: Extracts facial embeddings from high-resolution images for recognition.\n            input: np.ndarray or str - The input high-res face image.\n            output: np.ndarray - Embedding vector for high-resolution face.\n        compare_high_res_embeddings:\n            description: Compares two high-resolution face embeddings for a match.\n            input: Two np.ndarray embeddings - The embeddings of two faces.\n            output: bool - True if faces match, False otherwise.\n        identify_high_res_face:\n            description: Identifies a face by comparing a high-resolution embedding to a database.\n            input: np.ndarray embedding and dict database - Embedding to identify and known embeddings.\n            output: str or None - Label of the identified face, or None if no match.\n8. Celebrity Identification:\n    api_name: api_8\n    functions:\n        identify_celebrity:\n            description: Identifies the celebrity in the input image by matching features against a database.\n            input: str, bytes, np.ndarray, or list - The input image(s).\n            output: list - Identified celebrities with names and scores.\n        celebrity_confidence_score:\n            description: Computes confidence score for the celebrity identification for each detected face.\n            input: str, bytes, np.ndarray, or list - The input image(s).\n            output: list - Confidence scores for identified celebrities.\n9. Attributes Prediction:\n    api_name: api_9\n    functions:\n        detect_attributes:\n            description: Detects various attributes of the face in the image.\n            input: np.ndarray or str - The input face image.\n            output: dict - Detected attributes and their values.\n        list_face_attributes:\n            description: Lists all possible face attributes that can be predicted.\n            input: None\n            output: list - List of attribute names.\n        attribute_confidence_score:\n            description: Provides confidence scores for each predicted attribute.\n            input: dict - Output from the attribute detection model.\n            output: dict - Confidence scores for each attribute.\n10. Facial Expression Recognition:\n    api_name: api_10\n    functions:\n        detect_expression:\n            description: Detects facial expressions in the input image.\n            input: np.ndarray or str - The input face image.\n            output: str - The detected expression label.\n        get_emotion_probabilities:\n            description: Provides probabilities for each emotion class.\n            input: np.ndarray - The input face image.\n            output: dict - Probabilities for each emotion class.\n        track_expression_over_time:\n            description: Tracks facial expressions over a sequence of frames.\n            input: list of np.ndarray - List of frames from a video.\n            output: list - Sequence of detected expressions.\n11. Headpose Estimation:\n    api_name: api_11\n    functions:\n        estimate_head_pose:\n            description: Estimates the head pose angles (yaw, pitch, roll) from the face image.\n            input: np.ndarray or str - The input face image.\n            output: tuple - Estimated angles (yaw, pitch, roll).\n        pose_confidence_score:\n            description: Provides a confidence score for the estimated head pose.\n            input: dict - Output from the head pose estimation model.\n            output: float - Confidence score for the head pose estimation.\n12. Crowd Counting:\n    api_name: api_12\n    functions:\n        estimate_crowd_size:\n            description: Estimates the size of the crowd based on face detection.\n            input: np.ndarray - The input image.\n            output: int - Estimated number of people in the crowd.\n        aggregate_counting_data:\n            description: Aggregates counting data over multiple images or frames.\n            input: list of np.ndarray - List of images.\n            output: dict - Aggregated counting results.\n13. Face Segmentation:\n    api_name: api_13\n    functions:\n        segment_face_regions:\n            description: Segments different regions of the face in the image.\n            input: np.ndarray - The input face image.\n            output: np.ndarray - Segmentation mask of the face regions.\n        classify_face_parts:\n            description: Classifies different parts of the face into categories.\n            input: np.ndarray - The input face image.\n            output: dict - Dictionary of face parts and their classifications.\n        get_segmentation_mask_part:\n            description: Generates a segmentation mask for a particular face part.\n            input: np.ndarray - The input face image.\n            output: np.ndarray - Binary mask of the segmented face part.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/tools_retrieval/question_1.png"
+            ],
+            "question_text": "A high-security system verifies identity, checks for spoofing and deepfake content, and estimates both age and gender of the individual, along with detecting expressions. Verification is skipped if identity is manually confirmed, but spoof detection is mandatory. Which sequence of API function calls would accomplish this?",
+            "options": [
+                "api_4-detect_spoofing, api_1-predict_age, api_2-classify_gender, api_10-track_expression_over_time",
+                "api_7-identify_high_res_face, api_5-detect_deepfake, api_4-detect_spoofing, api_1-predict_age, api_2-classify_gender, api_10-track_expression_over_time",
+                "api_7-identify_high_res_face, api_5-detect_deepfake, api_1-age_confidence_score, api_4-spoof_confidence_score, api_2-get_gender_probabilities",
+                "api_7-identify_high_res_face, api_4-detect_spoofing, api_5-detect_deepfake, api_1-predict_age, api_2-classify_gender, api_10-detect_expression"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_7-identify_high_res_face, api_4-detect_spoofing, api_5-detect_deepfake, api_1-predict_age, api_2-classify_gender, api_10-detect_expression"
+        },
+        "2": {
+            "image_paths": [
+                "images/tools_retrieval/question_2.png"
+            ],
+            "question_text": "A virtual assistant in a smart home utilizes low-resolution images from cameras to recognize household members. It should extract low-resolution embeddings, identify faces, and classify gender. Gender classification should be skipped if confidence is below a set threshold. Which API function calls sequence should be applied?",
+            "options": [
+                "api_6-extract_low_res_embedding, api_6-identify_low_res_face, api_2-classify_gender, api_2-get_gender_probabilities",
+                "api_6-extract_low_res_embedding, api_2-get_gender_probabilities, api_6-identify_low_res_face, api_2-classify_gender",
+                "api_6-extract_low_res_embedding, api_6-identify_low_res_face, api_2-get_gender_probabilities",
+                "api_6-extract_low_res_embedding, api_6-identify_low_res_face, api_2-get_gender_probabilities, api_2-classify_gender"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_6-extract_low_res_embedding, api_6-identify_low_res_face, api_2-get_gender_probabilities, api_2-classify_gender"
+        },
+        "3": {
+            "image_paths": [
+                "images/tools_retrieval/question_3.png"
+            ],
+            "question_text": "An online education platform monitors student engagement during live classes by tracking facial expressions and estimating age. It should also perform spoof detection to prevent false readings. The age is estimated if spoof detection confidence is low. What sequence of API calls should it use?",
+            "options": [
+                "api_4-detect_spoofing, api_4-spoof_confidence_score, api_10-track_expression_over_time, api_1-predict_age",
+                "api_10-track_expression_over_time, api_4-detect_spoofing, api_4-spoof_confidence_score, api_1-predict_age",
+                "api_10-track_expression_over_time, api_1-predict_age, api_4-spoof_confidence_score, api_4-detect_spoofing",
+                "api_10-track_expression_over_time, api_1-predict_age, api_4-detect_spoofing, api_4-spoof_confidence_score"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_10-track_expression_over_time, api_4-detect_spoofing, api_4-spoof_confidence_score, api_1-predict_age"
+        },
+        "4": {
+            "image_paths": [
+                "images/tools_retrieval/question_4.png"
+            ],
+            "question_text": "In an airport security setting, the system verifies traveler identity with high-resolution face recognition and gender classification. It should detect spoofing and then perform deepfake detection if flagged. Skip deepfake checks if spoofing confidence is high. Which API call sequence is correct?",
+            "options": [
+                "api_7-identify_high_res_face, api_2-classify_gender, api_4-spoof_confidence_score, api_4-detect_spoofing, api_5-detect_deepfake",
+                "api_4-detect_spoofing, api_4-spoof_confidence_score, api_5-detect_deepfake, api_2-classify_gender, api_7-extract_high_res_embedding",
+                "api_7-identify_high_res_face, api_2-classify_gender, api_4-detect_spoofing, api_4-spoof_confidence_score, api_5-detect_deepfake",
+                "api_4-detect_spoofing, api_4-spoof_confidence_score, api_5-detect_deepfake, api_7-identify_high_res_face, api_2-classify_gender"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_7-identify_high_res_face, api_2-classify_gender, api_4-detect_spoofing, api_4-spoof_confidence_score, api_5-detect_deepfake"
+        },
+        "5": {
+            "image_paths": [
+                "images/tools_retrieval/question_5.png"
+            ],
+            "question_text": "A sports event monitoring system identifies key figures, analyzes their expressions, and ensures they are facing the camera for clear identification. Expression for faces whose headpose are recorded with high confidence are analzyed. What API call sequence is appropriate?",
+            "options": [
+                "api_10-detect_expression, api_8-identify_celebrity, api_11-estimate_head_pose, api_11-pose_confidence_score",
+                "api_8-identify_celebrity, api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-get_emotion_probabilities",
+                "api_8-identify_celebrity, api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression",
+                "api_8-identify_celebrity, api_10-detect_expression, api_11-estimate_head_pose, api_11-pose_confidence_score"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-identify_celebrity, api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression"
+        },
+        "6": {
+            "image_paths": [
+                "images/tools_retrieval/question_6.png"
+            ],
+            "question_text": "A marketing company analyzes crowds for age and race demographics. The system should first estimate age and then predict race for each individual, skipping race if age confidence is low. Which API call sequence is suitable?",
+            "options": [
+                "api_1-predict_age, api_1-age_confidence_score, api_3-get_race_probabilities",
+                "api_12-estimate_crowd_size, api_1-age_confidence_score, api_3-predict_race",
+                "api_1-predict_age, api_1-age_confidence_score, api_3-predict_race",
+                "api_12-estimate_crowd_size, api_1-predict_age, api_1-age_confidence_score, api_3-get_race_probabilities"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_1-predict_age, api_1-age_confidence_score, api_3-predict_race"
+        },
+        "7": {
+            "image_paths": [
+                "images/tools_retrieval/question_7.png"
+            ],
+            "question_text": "At a high-security event, the system tracks VIP identities, monitors facial expressions, and ensures no spoofing attempts. Expressions are monitored only if spoof detection passes a confidence threshold. Which API function sequence should you use?",
+            "options": [
+                "api_4-detect_spoofing, api_4-spoof_confidence_score, api_8-identify_celebrity, api_10-track_expression_over_time",
+                "api_8-identify_celebrity, api_4-detect_spoofing, api_4-spoof_confidence_score, api_10-track_expression_over_time",
+                "api_4-detect_spoofing, api_8-identify_celebrity, api_4-spoof_confidence_score, api_10-track_expression_over_time",
+                "api_4-detect_spoofing, api_4-spoof_confidence_score, api_8-celebrity_confidence_score, api_10-detect_expression"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-identify_celebrity, api_4-detect_spoofing, api_4-spoof_confidence_score, api_10-track_expression_over_time"
+        },
+        "8": {
+            "image_paths": [
+                "images/tools_retrieval/question_8.png"
+            ],
+            "question_text": "A mobile app uses live filters based on head pose and expressions. If head pose confidence is low, expression tracking is skipped. Which API call sequence should it use?",
+            "options": [
+                "api_11-estimate_head_pose, api_10-track_expression_over_time, api_11-pose_confidence_score",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time",
+                "api_11-estimate_head_pose, api_10-detect_expression, api_11-pose_confidence_score",
+                "api_10-detect_expression, api_11-estimate_head_pose, api_11-pose_confidence_score"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time"
+        },
+        "9": {
+            "image_paths": [
+                "images/tools_retrieval/question_9.png"
+            ],
+            "question_text": "An advanced photo editor needs to identify specific face parts for localized filter application. The system should first check if the face is frontal, then confirm if the person is smiling with high confidence. Only then should it perform face segmentation followed by face part classification. What sequence of API calls would you use?",
+            "options": [
+                "api_11-estimate_head_pose, api_10-get_emotion_probabilities, api_10-detect_expression, api_13-segment_face_regions, api_13-classify_face_parts",
+                "api_11-estimate_head_pose, api_10-detect_expression, api_10-get_emotion_probabilities, api_13-segment_face_regions, api_13-classify_face_parts",
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_11-estimate_head_pose, api_13-segment_face_regions, api_13-classify_face_parts",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression, api_10-get_emotion_probabilities, api_13-segment_face_regions, api_13-classify_face_parts"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_11-estimate_head_pose, api_10-detect_expression, api_10-get_emotion_probabilities, api_13-segment_face_regions, api_13-classify_face_parts"
+        },
+        "10": {
+            "image_paths": [
+                "images/tools_retrieval/question_10.png"
+            ],
+            "question_text": "A security system at a high-profile event must detect spoofing, ensure no deepfakes, and identify individuals in low-resolution images. If a deepfake is detected, it should log the results for further inspection. Which sequence of API function calls would you use?",
+            "options": [
+                "api_4-detect_spoofing, api_5-detect_deepfake, api_6-identify_low_res_face",
+                "api_4-detect_spoofing, api_5-detect_deepfake, api_6-extract_low_res_embedding",
+                "api_5-detect_deepfake, api_4-detect_spoofing, api_6-identify_low_res_face",
+                "api_4-detect_spoofing, api_6-extract_low_res_embedding, api_5-detect_deepfake"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_5-detect_deepfake, api_4-detect_spoofing, api_6-identify_low_res_face"
+        },
+        "11": {
+            "image_paths": [
+                "images/tools_retrieval/question_11.png"
+            ],
+            "question_text": "In a smart retail environment, the system tracks customer expressions and estimates age and gender to gauge reactions. Spoof detection is mandatory before analyzing expressions. Which sequence should the system follow?",
+            "options": [
+                "api_4-detect_spoofing, api_1-predict_age, api_10-detect_expression, api_2-classify_gender",
+                "api_4-detect_spoofing, api_10-detect_expression, api_1-predict_age, api_2-classify_gender",
+                "api_4-detect_spoofing, api_10-detect_expression, api_2-classify_gender, api_1-age_confidence_score",
+                "api_10-detect_expression, api_4-detect_spoofing, api_1-predict_age, api_2-classify_gender"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_4-detect_spoofing, api_10-detect_expression, api_1-predict_age, api_2-classify_gender"
+        },
+        "12": {
+            "image_paths": [
+                "images/tools_retrieval/question_12.png"
+            ],
+            "question_text": "In a healthcare application, the system assesses remote patients' emotional states by detecting expressions and demographics. Expressions should be rechecked if confidence scores fall below a threshold. What API sequence should be used?",
+            "options": [
+                "api_10-get_emotion_probabilities, api_10-detect_expression, api_3-predict_race, api_1-predict_age, api_2-classify_gender",
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_1-predict_age, api_2-classify_gender, api_3-predict_race",
+                "api_10-detect_expression, api_3-predict_race, api_1-predict_age, api_2-classify_gender, api_10-get_emotion_probabilities",
+                "api_10-detect_expression, api_1-predict_age, api_2-classify_gender, api_3-predict_race, api_10-get_emotion_probabilities"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_10-detect_expression, api_1-predict_age, api_2-classify_gender, api_3-predict_race, api_10-get_emotion_probabilities"
+        },
+        "13": {
+            "image_paths": [
+                "images/tools_retrieval/question_13.png"
+            ],
+            "question_text": "A security system verifies user identity and checks for deepfake content using high-resolution data. Gender classification is mandatory only if deepfake classification confidence is below a threshold. Which API function sequence should be used?",
+            "options": [
+                "api_7-identify_high_res_face, api_5-detect_deepfake, api_5-deepfake_confidence_score, api_2-classify_gender",
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_7-identify_high_res_face, api_2-classify_gender",
+                "api_7-identify_high_res_face, api_5-detect_deepfake, api_2-classify_gender, api_5-deepfake_confidence_score",
+                "api_7-identify_high_res_face, api_2-classify_gender, api_5-detect_deepfake, api_5-deepfake_confidence_score"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_7-identify_high_res_face, api_5-detect_deepfake, api_5-deepfake_confidence_score, api_2-classify_gender"
+        },
+        "14": {
+            "image_paths": [
+                "images/tools_retrieval/question_14.png"
+            ],
+            "question_text": "In a video conferencing platform, the system analyzes participants' age and expressions. Gender classification is performed on each frame only if confidence in expression detection is low. Which sequence of API function calls should be used?",
+            "options": [
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_1-predict_age, api_2-classify_gender",
+                "api_10-detect_expression, api_1-predict_age, api_10-get_emotion_probabilities, api_2-classify_gender",
+                "api_1-predict_age, api_10-track_expression_over_time, api_10-get_emotion_probabilities, api_2-classify_gender",
+                "api_1-predict_age, api_10-detect_expression, api_10-get_emotion_probabilities, api_2-classify_gender"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_1-predict_age, api_10-track_expression_over_time, api_10-get_emotion_probabilities, api_2-classify_gender"
+        },
+        "15": {
+            "image_paths": [
+                "images/tools_retrieval/question_15.png"
+            ],
+            "question_text": "At a large gathering, the system identifies celebrities and tracks their expressions. Expressions are ignored if a spoof attempt is detected. Which sequence of API function calls is suitable?",
+            "options": [
+                "api_8-identify_celebrity, api_10-track_expression_over_time, api_4-detect_spoofing",
+                "api_8-identify_celebrity, api_10-detect_spoofing, api_4-track_expression_over_time",
+                "api_8-identify_celebrity, api_4-spoof_confidence_score, api_10-track_expression_over_time",
+                "api_8-identify_celebrity, api_4-spoof_confidence_score, api_10-detect_expression"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-identify_celebrity, api_10-detect_spoofing, api_4-track_expression_over_time"
+        },
+        "16": {
+            "image_paths": [
+                "images/tools_retrieval/question_16.png"
+            ],
+            "question_text": "An AR app applies filters to users' faces by detecting head pose, segmenting facial regions, and analyzing attributes. Head pose estimation is skipped if user has a moustache attribute. What API function sequence is appropriate?",
+            "options": [
+                "api_11-estimate_head_pose, api_9-detect_attributes, api_13-get_segmentation_mask_part",
+                "api_9-detect_attributes, api_13-segment_face_regions, api_11-estimate_head_pose",
+                "api_9-detect_attributes, api_11-estimate_head_pose, api_13-segment_face_regions",
+                "api_13-segment_face_regions, api_9-detect_attributes, api_11-estimate_head_pose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_9-detect_attributes, api_11-estimate_head_pose, api_13-segment_face_regions"
+        },
+        "17": {
+            "image_paths": [
+                "images/tools_retrieval/question_17.png"
+            ],
+            "question_text": "In a retail store, analyze customer by tracking expressions and classifying race and gender. Race is analyzed only if expression confidence is high. Which sequence of API calls should you use?",
+            "options": [
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_3-predict_race, api_2-classify_gender",
+                "api_10-get_emotion_probabilities, api_10-detect_expression, api_3-predict_race, api_2-classify_gender",
+                "api_10-detect_expression, api_2-classify_gender, api_10-get_emotion_probabilities, api_3-predict_race",
+                "api_10-detect_expression, api_2-classify_gender, api_3-predict_race, api_10-get_emotion_probabilities"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_10-detect_expression, api_10-get_emotion_probabilities, api_3-predict_race, api_2-classify_gender"
+        },
+        "18": {
+            "image_paths": [
+                "images/tools_retrieval/question_18.png"
+            ],
+            "question_text": "For an online streaming platform, detect deepfake celebrity content. If deepfake detection confidence is high, analyze the celebrity's age and gender. What sequence would you use?",
+            "options": [
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_1-predict_age, api_8-identify_celebrity, api_2-classify_gender",
+                "api_8-identify_celebrity, api_5-detect_deepfake, api_5-deepfake_confidence_score, api_1-predict_age, api_2-classify_gender",
+                "api_5-detect_deepfake, api_8-identify_celebrity, api_5-deepfake_confidence_score, api_1-predict_age, api_2-classify_gender",
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_8-identify_celebrity, api_1-predict_age, api_2-classify_gender"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_5-detect_deepfake, api_8-identify_celebrity, api_5-deepfake_confidence_score, api_1-predict_age, api_2-classify_gender"
+        },
+        "19": {
+            "image_paths": [
+                "images/tools_retrieval/question_19.png"
+            ],
+            "question_text": "A digital billboard in a mall uses a face recognition system to analyze age, classify gender, and track expressions. Expressions are analyzed only if age confidence is high. Which API function sequence should be used?",
+            "options": [
+                "api_1-age_confidence_score, api_1-predict_age, api_2-classify_gender, api_10-track_expression_over_time",
+                "api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_10-track_expression_over_time",
+                "api_1-age_confidence_score, api_10-track_expression_over_time, api_1-predict_age, api_2-classify_gender",
+                "api_1-predict_age, api_1-age_confidence_score, api_2-classify_gender, api_10-track_expression_over_time"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_10-track_expression_over_time"
+        },
+        "20": {
+            "image_paths": [
+                "images/tools_retrieval/question_20.png"
+            ],
+            "question_text": "An AR app allows users to apply virtual makeup on segmented face regions. Segmentation and classification occur before tracking head pose to ensure accurate makeup application. What sequence should be used?",
+            "options": [
+                "api_13-segment_face_regions, api_13-classify_face_parts, api_11-estimate_head_pose",
+                "api_13-segment_face_regions, api_11-pose_confidence_score, api_13-classify_face_parts",
+                "api_13-get_segmentation_mask_part, api_13-segment_face_regions, api_11-estimate_head_pose",
+                "api_11-estimate_head_pose, api_13-classify_face_parts, api_13-segment_face_regions"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_13-segment_face_regions, api_13-classify_face_parts, api_11-estimate_head_pose"
+        },
+        "21": {
+            "image_paths": [
+                "images/tools_retrieval/question_21.png"
+            ],
+            "question_text": "In a smart assistant app, the system detects expressions, predicts age, and classifies attributes for personalization. Age estimation occurs only if no beard is detected by the attribute classifier. What API call sequence should be used?",
+            "options": [
+                "api_10-detect_expression, api_9-attribute_confidence_score, api_1-detect_attributes, api_1-predict_age",
+                "api_9-detect_expression, api_10-detect_attributes, api_1-age_confidence_score, api_1-predict_age",
+                "api_10-detect_expression, api_9-detect_attributes, api_1-predict_age",
+                "api_9-detect_attributes, api_10-detect_expression, api_1-age_confidence_score, api_1-predict_age"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_10-detect_expression, api_9-detect_attributes, api_1-predict_age"
+        },
+        "22": {
+            "image_paths": [
+                "images/tools_retrieval/question_22.png"
+            ],
+            "question_text": "In a VR game, the player\u2019s expressions are mirrored on their avatar. The system should estimate head pose, then detect expressions with confidence checks. Which sequence of API calls would you use?",
+            "options": [
+                "api_11-estimate_head_pose, api_10-get_emotion_probabilities, api_10-detect_expression, api_11-pose_confidence_score",
+                "api_11-estimate_head_pose, api_10-detect_expression, api_10-get_emotion_probabilities, api_11-pose_confidence_score",
+                "api_11-estimate_head_pose, api_10-detect_expression, api_10-get_emotion_probabilities",
+                "api_11-estimate_head_pose, api_10-get_emotion_probabilities, api_10-detect_expression"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_11-estimate_head_pose, api_10-get_emotion_probabilities, api_10-detect_expression"
+        },
+        "23": {
+            "image_paths": [
+                "images/tools_retrieval/question_23.png"
+            ],
+            "question_text": "A hospital system remotely monitors patients' emotional well-being by detecting expressions and confidence scores. Age is estimated only if expression detection is inconclusive. Which API function sequence should be used?",
+            "options": [
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_1-predict_age",
+                "api_10-track_expression_over_time, api_10-get_emotion_probabilities, api_1-predict_age",
+                "api_10-track_expression_over_time, api_10-get_emotion_probabilities, api_10-age_confidence_score, api_1-predict_age",
+                "api_10-get_emotion_probabilities, api_10-track_expression_over_time, api_1-predict_age"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_10-track_expression_over_time, api_10-get_emotion_probabilities, api_1-predict_age"
+        },
+        "24": {
+            "image_paths": [
+                "images/tools_retrieval/question_24.png"
+            ],
+            "question_text": "A driver monitoring system in an advanced car estimates head pose, detects expressions for drowsiness, and verifies authenticity via spoof detection. Expressions are tracked only after spoof detection passes. Which sequence is correct?",
+            "options": [
+                "api_11-estimate_head_pose, api_4-detect_spoofing, api_10-detect_expression",
+                "api_11-estimate_head_pose, api_4-detect_spoofing, api_10-track_expression_over_time",
+                "api_4-detect_spoofing, api_11-estimate_head_pose, api_10-detect_expression",
+                "api_4-detect_spoofing, api_4-spoof_confidence_score, api_11-estimate_head_pose, api_10-track_expression_over_time"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_11-estimate_head_pose, api_4-detect_spoofing, api_10-track_expression_over_time"
+        },
+        "25": {
+            "image_paths": [
+                "images/tools_retrieval/question_25.png"
+            ],
+            "question_text": "For a high-security venue, the system detects deepfake attempts, verifies identity, and estimates age and gender of detected faces. Gender detection is omitted if deepfake confidence is low. Which API sequence should be applied?",
+            "options": [
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_1-predict_age, api_7-identify_high_res_face, api_2-classify_gender",
+                "api_5-detect_deepfake, api_7-identify_high_res_face, api_1-predict_age, api_5-deepfake_confidence_score, api_2-classify_gender",
+                "api_5-detect_deepfake, api_1-predict_age, api_7-identify_high_res_face, api_5-deepfake_confidence_score, api_2-classify_gender",
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_7-identify_high_res_face, api_1-predict_age, api_2-classify_gender"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_5-detect_deepfake, api_7-identify_high_res_face, api_1-predict_age, api_5-deepfake_confidence_score, api_2-classify_gender"
+        },
+        "26": {
+            "image_paths": [
+                "images/tools_retrieval/question_26.png"
+            ],
+            "question_text": "In a public event setting, a system counts the crowd, then analyzes demographics if crowd size is below a threshold. Demographic checks involve race and gender classification. What API function sequence should be used?",
+            "options": [
+                "api_12-estimate_crowd_size, api_12-aggregate_counting_data, api_3-predict_race, api_2-classify_gender",
+                "api_12-estimate_crowd_size, api_3-get_race_probabilities, api_2-classify_gender",
+                "api_12-estimate_crowd_size, api_3-predict_race, api_2-classify_gender",
+                "api_12-estimate_crowd_size, api_3-get_race_probabilities, api_2-get_gender_probabilities"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_12-estimate_crowd_size, api_3-predict_race, api_2-classify_gender"
+        },
+        "27": {
+            "image_paths": [
+                "images/tools_retrieval/question_27.png"
+            ],
+            "question_text": "A crowd analysis tool aggregates counting data across multiple frames, then classifies demographics. Demographics include race and age estimation, done only if counting data shows a small crowd. What API sequence should be applied?",
+            "options": [
+                "api_12-aggregate_counting_data, api_3-predict_race, api_1-predict_age, api_1-age_confidence_score",
+                "api_12-estimate_crowd_size, api_12-aggregate_counting_data, api_3-predict_race, api_1-predict_age",
+                "api_12-aggregate_counting_data, api_12-estimate_crowd_size, api_3-predict_race, api_1-predict_age",
+                "api_12-aggregate_counting_data, api_12-estimate_crowd_size, api_3-get_race_probabilities, api_1-age_confidence_score"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_12-aggregate_counting_data, api_12-estimate_crowd_size, api_3-predict_race, api_1-predict_age"
+        },
+        "28": {
+            "image_paths": [
+                "images/tools_retrieval/question_28.png"
+            ],
+            "question_text": "For a healthcare setting, expressions are tracked over time to assess mood, and age and gender are detected. Gender analysis is omitted if expression confidence is low. What sequence should be used?",
+            "options": [
+                "api_10-detect_expression, api_10-track_expression_over_time, api_10-get_emotion_probabilities, api_1-predict_age, api_2-classify_gender",
+                "api_10-track_expression_over_time, api_1-predict_age, api_10-get_emotion_probabilities, api_2-classify_gender",
+                "api_1-predict_age, api_10-track_expression_over_time, api_10-detect_expression, api_2-classify_gender, api_10-get_emotion_probabilities",
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_1-predict_age, api_10-track_expression_over_time, api_2-classify_gender"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_10-track_expression_over_time, api_1-predict_age, api_10-get_emotion_probabilities, api_2-classify_gender"
+        },
+        "29": {
+            "image_paths": [
+                "images/tools_retrieval/question_29.png"
+            ],
+            "question_text": "In a retail environment, the system tracks demographic data including age, expressions, and gender for marketing purposes. Expressions are tracked only if age estimation is confident. What API function sequence should be used?",
+            "options": [
+                "api_1-predict_age, api_10-track_expression_over_time, api_1-age_confidence_score, api_2-classify_gender",
+                "api_1-age_confidence_score, api_1-predict_age, api_10-track_expression_over_time, api_2-classify_gender",
+                "api_1-predict_age, api_1-age_confidence_score, api_10-track_expression_over_time, api_2-classify_gender",
+                "api_10-detect_expression, api_1-age_confidence_score, api_1-predict_age, api_2-classify_gender"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_1-predict_age, api_1-age_confidence_score, api_10-track_expression_over_time, api_2-classify_gender"
+        },
+        "30": {
+            "image_paths": [
+                "images/tools_retrieval/question_30.png"
+            ],
+            "question_text": "A public interactive display analyzes users' expressions, segments face regions, and estimates head pose. Head pose estimation is conducted only if segmentation mask of eye glasses are available. Which API sequence should be used?",
+            "options": [
+                "api_10-detect_expression, api_13-segment_face_regions, api_13-get_segmentation_mask_part, api_11-estimate_head_pose",
+                "api_10-detect_expression, api_13-get_segmentation_mask_part, api_11-estimate_head_pose, api_13-segment_face_regions",
+                "api_13-segment_face_regions, api_11-estimate_head_pose, api_13-get_segmentation_mask_part, api_10-detect_expression",
+                "api_13-segment_face_regions, api_10-detect_expression, api_13-get_segmentation_mask_part, api_11-estimate_head_pose"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_10-detect_expression, api_13-segment_face_regions, api_13-get_segmentation_mask_part, api_11-estimate_head_pose"
+        },
+        "31": {
+            "image_paths": [
+                "images/tools_retrieval/question_31.png"
+            ],
+            "question_text": "A video conferencing platform needs to ensure user engagement by tracking head pose, verifying expressions over time, and confirming that the detected face is real and not a spoof. Expression tracking should continue only if head pose confidence is high. What is the correct sequence of API calls?",
+            "options": [
+                "api_4-detect_spoofing, api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time, api_4-detect_spoofing",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_4-detect_spoofing, api_10-track_expression_over_time",
+                "api_4-detect_spoofing, api_10-track_expression_over_time, api_11-estimate_head_pose, api_11-pose_confidence_score"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time, api_4-detect_spoofing"
+        },
+        "32": {
+            "image_paths": [
+                "images/tools_retrieval/question_32.png"
+            ],
+            "question_text": "A public-facing app identifies users through facial recognition, estimates age, and verifies head pose to detect if the user is looking away from the camera. Age estimation is skipped if head pose indicates direct eye contact. What sequence would be most suitable?",
+            "options": [
+                "api_7-identify_high_res_face, api_11-estimate_head_pose, api_1-predict_age",
+                "api_11-estimate_head_pose, api_1-age_confidence_score, api_7-identify_high_res_face",
+                "api_11-estimate_head_pose, api_7-identify_high_res_face, api_1-age_confidence_score",
+                "api_11-estimate_head_pose, api_7-identify_high_res_face, api_1-predict_age"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_7-identify_high_res_face, api_11-estimate_head_pose, api_1-predict_age"
+        },
+        "33": {
+            "image_paths": [
+                "images/tools_retrieval/question_33.png"
+            ],
+            "question_text": "An AR app segments users' faces into regions, detects head pose, and applies filters based on gender and expressions. Expression analysis is performed only if gender is classified with high confidence. Which sequence of API calls is appropriate?",
+            "options": [
+                "api_13-segment_face_regions, api_10-detect_expression, api_11-estimate_head_pose, api_2-classify_gender, api_2-get_gender_probabilities",
+                "api_2-classify_gender, api_10-track_expression_over_time, api_11-estimate_head_pose, api_2-get_gender_probabilities",
+                "api_13-segment_face_regions, api_11-estimate_head_pose, api_2-classify_gender, api_2-get_gender_probabilities, api_10-detect_expression",
+                "api_13-segment_face_regions, api_2-classify_gender, api_10-detect_expression, api_2-get_gender_probabilities, api_11-estimate_head_pose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_13-segment_face_regions, api_11-estimate_head_pose, api_2-classify_gender, api_2-get_gender_probabilities, api_10-detect_expression"
+        },
+        "34": {
+            "image_paths": [
+                "images/tools_retrieval/question_34.png"
+            ],
+            "question_text": "In an online education platform, the system monitors student engagement by tracking facial expressions and estimating head pose. Expressions should only be analyzed if head pose confidence is above a certain threshold. What sequence is appropriate?",
+            "options": [
+                "api_11-estimate_head_pose, api_10-track_expression_over_time, api_11-pose_confidence_score",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time",
+                "api_11-pose_confidence_score, api_11-estimate_head_pose, api_10-track_expression_over_time",
+                "api_10-detect_expression, api_11-estimate_head_pose, api_11-pose_confidence_score"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time"
+        },
+        "35": {
+            "image_paths": [
+                "images/tools_retrieval/question_35.png"
+            ],
+            "question_text": "A high-security facility verifies individuals' identities, estimates age, and monitors expressions. Age estimation is only done if expression confidence is above a threshold. What is the appropriate API function sequence?",
+            "options": [
+                "api_7-identify_high_res_face, api_1-predict_age, api_10-detect_expression, api_10-get_emotion_probabilities",
+                "api_7-identify_high_res_face, api_10-get_emotion_probabilities, api_10-detect_expression, api_1-predict_age",
+                "api_7-identify_high_res_face, api_10-detect_expression, api_10-get_emotion_probabilities, api_1-predict_age",
+                "api_10-detect_expression, api_7-identify_high_res_face, api_1-predict_age, api_10-get_emotion_probabilities"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_7-identify_high_res_face, api_10-detect_expression, api_10-get_emotion_probabilities, api_1-predict_age"
+        },
+        "36": {
+            "image_paths": [
+                "images/tools_retrieval/question_36.png"
+            ],
+            "question_text": "In an interactive advertisement setup, demographic attributes are analyzed before an engagement check, and expressions are tracked only if attributes are classified with high confidence. Which API function sequence should be used?",
+            "options": [
+                "api_9-detect_attributes, api_9-attribute_confidence_score, api_10-track_expression_over_time",
+                "api_10-track_expression_over_time, api_9-detect_attributes, api_9-attribute_confidence_score",
+                "api_10-detect_expression, api_9-detect_attributes, api_9-attribute_confidence_score",
+                "api_9-list_face_attributes, api_9-attribute_confidence_score, api_10-get_emotion_probabilities"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_9-detect_attributes, api_9-attribute_confidence_score, api_10-track_expression_over_time"
+        },
+        "37": {
+            "image_paths": [
+                "images/tools_retrieval/question_37.png"
+            ],
+            "question_text": "A public transportation app tracks passenger demographics, applies deepfake detection for security, and monitors head pose for engagement tracking. Engagement is monitored only if deepfake confidence is high. Which sequence of API calls should be used?",
+            "options": [
+                "api_5-detect_deepfake, api_11-estimate_head_pose, api_5-deepfake_confidence_score, api_1-predict_age, api_2-classify_gender, api_3-predict_race",
+                "api_5-deepfake_confidence_score, api_5-detect_deepfake, api_11-estimate_head_pose, api_1-predict_age, api_2-classify_gender, api_3-predict_race",
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_1-predict_age, api_2-classify_gender, api_3-predict_race, api_11-estimate_head_pose",
+                "api_1-predict_age, api_2-classify_gender, api_3-predict_race, api_5-detect_deepfake, api_5-deepfake_confidence_score, api_11-estimate_head_pose"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_1-predict_age, api_2-classify_gender, api_3-predict_race, api_5-detect_deepfake, api_5-deepfake_confidence_score, api_11-estimate_head_pose"
+        },
+        "38": {
+            "image_paths": [
+                "images/tools_retrieval/question_38.png"
+            ],
+            "question_text": "For a security checkpoint, the system detects deepfakes, checks for spoofing, and estimates head pose. Spoof detection is mandatory before head pose estimation if deepfake confidence is high. What is the correct sequence?",
+            "options": [
+                "api_11-estimate_head_pose, api_5-detect_deepfake, api_4-detect_spoofing",
+                "api_5-detect_deepfake, api_11-estimate_head_pose, api_4-spoof_confidence_score",
+                "api_5-detect_deepfake, api_4-detect_spoofing, api_11-estimate_head_pose",
+                "api_4-detect_spoofing, api_11-estimate_head_pose, api_5-detect_deepfake"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_5-detect_deepfake, api_4-detect_spoofing, api_11-estimate_head_pose"
+        },
+        "39": {
+            "image_paths": [
+                "images/tools_retrieval/question_39.png"
+            ],
+            "question_text": "A security checkpoint uses high-resolution images to verify identities, detect spoofing, and assess head pose. Identity verification stops if a spoof is detected. What is the appropriate sequence of function calls?",
+            "options": [
+                "api_7-identify_high_res_face, api_4-detect_spoofing, api_11-estimate_head_pose",
+                "api_11-estimate_head_pose, api_4-detect_spoofing, api_7-identify_high_res_face",
+                "api_4-detect_spoofing, api_11-estimate_head_pose, api_7-identify_high_res_face",
+                "api_4-detect_spoofing, api_7-identify_high_res_face, api_11-estimate_head_pose"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_4-detect_spoofing, api_7-identify_high_res_face, api_11-estimate_head_pose"
+        },
+        "40": {
+            "image_paths": [
+                "images/tools_retrieval/question_40.png"
+            ],
+            "question_text": "A conference management system estimates demographics, checks for anti-spoofing attempts, and monitors facial expressions. Expressions are tracked only if demographic details are sufficiently confident. What is the correct API call sequence?",
+            "options": [
+                "api_1-predict_age, api_1-age_confidence_score, api_2-classify_gender, api_2-get_gender_probabilities, api_3-predict_race, api_3-race_confidence_score, api_4-detect_spoofing, api_10-track_expression_over_time",
+                "api_1-predict_age, api_2-classify_gender, api_3-predict_race, api_1-age_confidence_score, api_2-get_gender_probabilities, api_3-race_confidence_score, api_4-detect_spoofing, api_10-track_expression_over_time",
+                "api_1-predict_age, api_2-classify_gender, api_3-predict_race, api_4-detect_spoofing, api_1-age_confidence_score, api_10-track_expression_over_time",
+                "api_1-predict_age, api_1-age_confidence_score, api_2-classify_gender, api_2-get_gender_probabilities, api_3-predict_race, api_4-detect_spoofing, api_10-track_expression_over_time"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_1-predict_age, api_2-classify_gender, api_3-predict_race, api_1-age_confidence_score, api_2-get_gender_probabilities, api_3-race_confidence_score, api_4-detect_spoofing, api_10-track_expression_over_time"
+        },
+        "41": {
+            "image_paths": [
+                "images/tools_retrieval/question_41.png"
+            ],
+            "question_text": "A live streaming platform wants to verify user authenticity, detect expressions over time, and confirm identity. Authentication is halted if deepfake detection flags the input. What sequence of function calls is most suitable?",
+            "options": [
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_4-detect_spoofing, api_4-spoof_confidence_score, api_7-identify_high_res_face, api_10-track_expression_over_time",
+                "api_5-detect_deepfake, api_7-identify_high_res_face, api_10-track_expression_over_time",
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_7-identify_high_res_face, api_10-track_expression_over_time",
+                "api_5-detect_deepfake, api_4-detect_spoofing, api_7-identify_high_res_face, api_10-track_expression_over_time"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_5-detect_deepfake, api_7-identify_high_res_face, api_10-track_expression_over_time"
+        },
+        "42": {
+            "image_paths": [
+                "images/tools_retrieval/question_42.png"
+            ],
+            "question_text": "A video analytics system verifies age and gender of participants, tracking head pose for verification. Pose estimation is required to validate demographic detection only if gender probability is high. Which sequence should be used?",
+            "options": [
+                "api_2-get_gender_probabilities, api_1-predict_age, api_11-estimate_head_pose, api_2-classify_gender",
+                "api_1-predict_age, api_2-get_gender_probabilities, api_11-estimate_head_pose, api_2-classify_gender",
+                "api_1-predict_age, api_2-classify_gender, api_2-get_gender_probabilities, api_11-estimate_head_pose",
+                "api_2-get_gender_probabilities, api_1-predict_age, api_2-classify_gender, api_11-estimate_head_pose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_1-predict_age, api_2-classify_gender, api_2-get_gender_probabilities, api_11-estimate_head_pose"
+        },
+        "43": {
+            "image_paths": [
+                "images/tools_retrieval/question_43.png"
+            ],
+            "question_text": "A facial recognition app for employees checks head pose to verify user engagement, detects emotions for stress analysis, and tracks demographic details (age, gender). Age is estimated only if stress detection is inconclusive. Which sequence would you use?",
+            "options": [
+                "api_11-estimate_head_pose, api_10-detect_expression, api_1-predict_age, api_2-classify_gender",
+                "api_11-estimate_head_pose, api_10-get_emotion_probabilities, api_10-detect_expression, api_1-predict_age, api_2-classify_gender",
+                "api_11-estimate_head_pose, api_1-predict_age, api_2-classify_gender, api_10-detect_expression",
+                "api_11-estimate_head_pose, api_10-detect_expression, api_10-get_emotion_probabilities, api_1-predict_age, api_2-classify_gender"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_11-estimate_head_pose, api_10-detect_expression, api_10-get_emotion_probabilities, api_1-predict_age, api_2-classify_gender"
+        },
+        "44": {
+            "image_paths": [
+                "images/tools_retrieval/question_44.png"
+            ],
+            "question_text": "A personalized health app monitors facial expressions and attributes for mood analysis. Age estimation is required only if expression confidence is high. What is the appropriate API function sequence?",
+            "options": [
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_1-predict_age, api_9-detect_attributes",
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_9-detect_attributes,api_1-predict_age",
+                "api_10-detect_expression, api_9-detect_attributes, api_10-get_emotion_probabilities, api_1-predict_age",
+                "api_10-get_emotion_probabilities, api_10-detect_expression, api_9-detect_attributes, api_1-predict_age"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_10-detect_expression, api_9-detect_attributes, api_10-get_emotion_probabilities, api_1-predict_age"
+        },
+        "45": {
+            "image_paths": [
+                "images/tools_retrieval/question_45.png"
+            ],
+            "question_text": "An interactive museum exhibit uses head pose tracking and demographic analysis (age, gender, race) to tailor content for visitors. Race prediction is skipped if age confidence falls below a certain threshold. Which API sequence would you use?",
+            "options": [
+                "api_11-estimate_head_pose, api_1-predict_age, api_1-age_confidence_score, api_3-predict_race, api_2-get_gender_probabilities",
+                "api_11-estimate_head_pose, api_1-predict_age, api_1-age_confidence_score, api_2-classify_gender, api_3-predict_race",
+                "api_1-predict_age, api_11-estimate_head_pose, api_1-age_confidence_score, api_2-classify_gender, api_3-get_race_probabilities",
+                "api_11-estimate_head_pose, api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_3-predict_race"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_11-estimate_head_pose, api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_3-predict_race"
+        },
+        "46": {
+            "image_paths": [
+                "images/tools_retrieval/question_46.png"
+            ],
+            "question_text": "A mobile app detects users' emotions and attributes for personalizing messages. Age should only be analyzed if attributes such as goatee and double chin are not present. What sequence should be used?",
+            "options": [
+                "api_9-detect_attributes, api_10-detect_expression, api_9-attribute_confidence_score, api_1-predict_age",
+                "api_9-detect_attributes, api_9-attribute_confidence_score, api_10-detect_expression, api_1-predict_age",
+                "api_10-detect_expression, api_9-detect_attributes, api_1-predict_age",
+                "api_10-detect_expression, api_9-detect_attributes, api_1-age_confidence_score, api_1-predict_age"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_10-detect_expression, api_9-detect_attributes, api_1-predict_age"
+        },
+        "47": {
+            "image_paths": [
+                "images/tools_retrieval/question_47.png"
+            ],
+            "question_text": "An e-commerce app personalizes product recommendations by tracking facial expressions, performing attribute detection and estimating demographics. If attribute confidence is low, demographics are skipped. Which API sequence should be used?",
+            "options": [
+                "api_10-detect_expression, api_9-attribute_confidence_score, api_9-detect_attributes, api_2-classify_gender, api_3-predict_race",
+                "api_9-detect_attributes, api_10-detect_expression, api_9-attribute_confidence_score, api_1-predict_age, api_2-classify_gender, api_3-predict_race",
+                "api_10-detect_expression, api_9-attribute_confidence_score, api_1-predict_age, api_2-classify_gender, api_3-predict_race",
+                "api_10-detect_expression, api_9-detect_attributes, api_9-attribute_confidence_score, api_1-predict_age, api_2-classify_gender, api_3-predict_race"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_10-detect_expression, api_9-detect_attributes, api_9-attribute_confidence_score, api_1-predict_age, api_2-classify_gender, api_3-predict_race"
+        },
+        "48": {
+            "image_paths": [
+                "images/tools_retrieval/question_48.png"
+            ],
+            "question_text": "In a law enforcement application, you need to identify suspects using low-resolution security footage, compare embeddings to a database, detect any deepfake manipulations, and provide confidence scores for the deepfake detection.",
+            "options": [
+                "api_6-extract_low_res_embedding, api_6-identify_low_res_face, api_5-deepfake_confidence_score, api_6-compare_low_res_embeddings",
+                "api_6-extract_low_res_embedding, api_6-compare_low_res_embeddings, api_5-deepfake_confidence_score, api_5-detect_deepfake",
+                "api_6-extract_low_res_embedding, api_6-compare_low_res_embeddings, api_5-detect_deepfake, api_5-deepfake_confidence_score",
+                "api_6-extract_low_res_embedding, api_6-identify_low_res_face, api_5-detect_deepfake, api_5-deepfake_confidence_score"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_6-extract_low_res_embedding, api_6-compare_low_res_embeddings, api_5-detect_deepfake, api_5-deepfake_confidence_score"
+        },
+        "49": {
+            "image_paths": [
+                "images/tools_retrieval/question_49.png"
+            ],
+            "question_text": "A corporate security system identifies employees via high-resolution recognition, estimates head pose to ensure the employee is facing the camera, and performs deepfake detection for added security. Headpose should be calculated if deeepfake confidence is low. What API call sequence should be used?",
+            "options": [
+                "api_7-identify_high_res_face, api_11-pose_confidence_score, api_5-detect_deepfake, api_11-estimate_head_pose",
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_7-identify_high_res_face, api_11-estimate_head_pose",
+                "api_5-deepfake_confidence_score, api_11-estimate_head_pose, api_7-identify_high_res_face, api_5-detect_deepfake",
+                "api_7-identify_high_res_face, api_5-detect_deepfake, api_5-deepfake_confidence_score, api_11-estimate_head_pose"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_7-identify_high_res_face, api_5-detect_deepfake, api_5-deepfake_confidence_score, api_11-estimate_head_pose"
+        },
+        "50": {
+            "image_paths": [
+                "images/tools_retrieval/question_50.png"
+            ],
+            "question_text": "In a social media app, users' facial expressions, head poses, and attributes are analyzed to customize filters. If head pose confidence is low, expressions are tracked over time. Which sequence of function calls is correct?",
+            "options": [
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time, api_9-detect_attributes",
+                "api_9-detect_attributes, api_11-pose_confidence_score, api_11-estimate_head_pose, api_10-track_expression_over_time",
+                "api_9-detect_attributes, api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time",
+                "api_11-estimate_head_pose, api_10-track_expression_over_time, api_9-detect_attributes, api_11-pose_confidence_score"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time, api_9-detect_attributes"
+        },
+        "51": {
+            "image_paths": [
+                "images/tools_retrieval/question_51.png"
+            ],
+            "question_text": "A workplace attendance system verifies employee identity, performs anti-spoofing, and detects facial expressions to monitor engagement. Spoof detection is prioritized before engagement monitoring. What is the correct sequence of API calls?",
+            "options": [
+                "api_4-spoof_confidence_score, api_10-detect_expression, api_7-extract_high_res_embedding",
+                "api_4-detect_spoofing, api_4-spoof_confidence_score, api_7-identify_high_res_face, api_10-detect_expression",
+                "api_4-detect_spoofing, api_7-identify_high_res_face, api_10-track_expression_over_time",
+                "api_7-identify_high_res_face, api_4-detect_spoofing, api_10-detect_expression"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_7-identify_high_res_face, api_4-detect_spoofing, api_10-detect_expression"
+        },
+        "52": {
+            "image_paths": [
+                "images/tools_retrieval/question_52.png"
+            ],
+            "question_text": "A virtual event app customizes the experience by detecting gender, tracking expressions, and predicting race for personalized interactions. Race prediction is skipped if gender classification confidence is low. Which API function sequence is most appropriate?",
+            "options": [
+                "api_2-classify_gender, api_10-track_expression_over_time, api_2-get_gender_probabilities, api_3-predict_race",
+                "api_2-classify_gender, api_2-get_gender_probabilities, api_10-track_expression_over_time, api_3-predict_race",
+                "api_10-detect_expression, api_2-get_gender_probabilities, api_3-predict_race",
+                "api_2-get_gender_probabilities, api_10-detect_expression, api_3-predict_race"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_2-classify_gender, api_10-track_expression_over_time, api_2-get_gender_probabilities, api_3-predict_race"
+        },
+        "53": {
+            "image_paths": [
+                "images/tools_retrieval/question_53.png"
+            ],
+            "question_text": "A crowd analysis system estimates the crowd size for a particular time snapshot, counts faces in the scene, and segments those faces in differnt regions. The face is segmented only if crowd count is below a threshold. Which sequence is best suited for this scenario?",
+            "options": [
+                "api_13-segment_face_regions, api_12-estimate_crowd_size",
+                "api_12-estimate_crowd_size, api_13-segment_face_regions",
+                "api_12-estimate_crowd_size, api_12-aggregate_counting_data, api_13-segment_face_regions",
+                "api_12-estimate_crowd_size, api_13-segment_face_regions, api_12-aggregate_counting_data"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_12-estimate_crowd_size, api_13-segment_face_regions"
+        },
+        "54": {
+            "image_paths": [
+                "images/tools_retrieval/question_54.png"
+            ],
+            "question_text": "A retail application detects customers' attributes and tracks data, including age, gender, and race. If age detection confidence is high, expressions are monitored for customer satisfaction. What sequence of API calls would you use?",
+            "options": [
+                "api_9-detect_attributes, api_1-age_confidence_score, api_10-track_expression_over_time, api_2-classify_gender, api_3-get_race_probabilities",
+                "api_9-detect_attributes, api_1-predict_age, api_2-classify_gender, api_3-predict_race, api_1-age_confidence_score, api_10-track_expression_over_time",
+                "api_10-detect_expression, api_1-predict_age, api_9-attribute_confidence_score, api_2-classify_gender, api_3-predict_race",
+                "api_9-detect_attributes, api_1-predict_age, api_1-age_confidence_score, api_10-track_expression_over_time, api_2-classify_gender, api_3-predict_race"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_9-detect_attributes, api_1-predict_age, api_2-classify_gender, api_3-predict_race, api_1-age_confidence_score, api_10-track_expression_over_time"
+        },
+        "55": {
+            "image_paths": [
+                "images/tools_retrieval/question_55.png"
+            ],
+            "question_text": "In a high-security facility, deepfake detection, spoof detection, and identity verification are used. Verification stops if a deepfake or spoof is detected. Which API function sequence should be applied?",
+            "options": [
+                "api_4-detect_spoofing, api_5-deepfake_confidence_score, api_7-identify_high_res_face",
+                "api_5-detect_deepfake, api_4-detect_spoofing, api_7-identify_high_res_face",
+                "api_5-deepfake_confidence_score, api_4-detect_spoofing, api_7-extract_high_res_embedding",
+                "api_5-detect_deepfake, api_4-spoof_confidence_score, api_7-identify_high_res_face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_5-detect_deepfake, api_4-detect_spoofing, api_7-identify_high_res_face"
+        },
+        "56": {
+            "image_paths": [
+                "images/tools_retrieval/question_56.png"
+            ],
+            "question_text": "A mobile app personalizes responses based on age, gender, and attributes. Attribute analysis is performed only if age confidence is high. Which API call sequence should be used?",
+            "options": [
+                "api_1-predict_age, api_1-age_confidence_score, api_9-detect_attributes, api_2-classify_gender",
+                "api_1-age_confidence_score, api_1-predict_age, api_2-classify_gender, api_9-detect_attributes",
+                "api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_9-detect_attributes",
+                "api_1-predict_age, api_1-age_confidence_score, api_2-classify_gender, api_9-detect_attributes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_9-detect_attributes"
+        },
+        "57": {
+            "image_paths": [
+                "images/tools_retrieval/question_57.png"
+            ],
+            "question_text": "A social media app adjusts content based on users' expressions, gender profiles, and attributes. Expressions are tracked only if gender confidence is high. What is the appropriate API sequence?",
+            "options": [
+                "api_2-get_gender_probabilities, api_9-detect_attributes, api_10-detect_expression",
+                "api_2-classify_gender, api_2-get_gender_probabilities, api_10-detect_expression, api_9-detect_attributes",
+                "api_2-classify_gender, api_9-detect_attributes, api_10-detect_expression",
+                "api_2-classify_gender, api_2-get_gender_probabilities, api_9-detect_attributes, api_10-detect_expression"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_2-classify_gender, api_2-get_gender_probabilities, api_10-detect_expression, api_9-detect_attributes"
+        },
+        "58": {
+            "image_paths": [
+                "images/tools_retrieval/question_58.png"
+            ],
+            "question_text": "In an airport security system, faces are checked for deepfakes, head poses are verified, and age is estimated. Age is analyzed only if head pose confidence is high. Which API sequence should be applied?",
+            "options": [
+                "api_5-detect_deepfake, api_1-predict_age, api_11-pose_confidence_score, api_11-estimate_head_pose",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_5-detect_deepfake, api_1-predict_age",
+                "api_5-detect_deepfake, api_11-estimate_head_pose, api_11-pose_confidence_score, api_1-predict_age",
+                "api_11-pose_confidence_score, api_5-detect_deepfake, api_11-estimate_head_pose, api_1-predict_age"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_5-detect_deepfake, api_11-estimate_head_pose, api_11-pose_confidence_score, api_1-predict_age"
+        },
+        "59": {
+            "image_paths": [
+                "images/tools_retrieval/question_59.png"
+            ],
+            "question_text": "A workplace app identifies employees, tracks head pose, and performs gender classification for security. Head pose verification should occur before identification. What sequence is correct?",
+            "options": [
+                "api_7-identify_high_res_face, api_11-estimate_head_pose, api_2-get_gender_probabilities",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_7-identify_high_res_face, api_2-classify_gender",
+                "api_11-estimate_head_pose, api_7-identify_high_res_face, api_2-classify_gender",
+                "api_11-pose_confidence_score, api_2-classify_gender, api_7-identify_high_res_face"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_11-estimate_head_pose, api_7-identify_high_res_face, api_2-classify_gender"
+        },
+        "60": {
+            "image_paths": [
+                "images/tools_retrieval/question_60.png"
+            ],
+            "question_text": "A fitness app tracks users' head poses, analyzes expressions, and performs attribute detection to measure engagement. Head pose confidence should be checked before further processing. What is the correct sequence?",
+            "options": [
+                "api_11-estimate_head_pose, api_10-detect_expression, api_9-detect_attributes, api_11-pose_confidence_score",
+                "api_10-detect_expression, api_11-estimate_head_pose, api_11-pose_confidence_score, api_9-detect_attributes",
+                "api_9-detect_attributes, api_11-estimate_head_pose, api_10-detect_expression, api_11-pose_confidence_score",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression, api_9-detect_attributes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression, api_9-detect_attributes"
+        },
+        "61": {
+            "image_paths": [
+                "images/tools_retrieval/question_61.png"
+            ],
+            "question_text": "A live streaming app needs to verify authenticity, detect deepfake content, and confirm identity based on high-resolution data. Deepfake detection should only be processed if spoof detection is high confidence. What sequence of API calls should be applied?",
+            "options": [
+                "api_4-detect_spoofing, api_4-spoof_confidence_score, api_5-detect_deepfake, api_7-identify_high_res_face",
+                "api_5-detect_deepfake, api_4-spoof_confidence_score, api_7-identify_high_res_face, api_4-detect_spoofing",
+                "api_7-identify_high_res_face, api_5-detect_deepfake, api_4-detect_spoofing, api_4-spoof_confidence_score",
+                "api_4-detect_spoofing, api_5-deepfake_confidence_score, api_7-identify_high_res_face, api_5-detect_deepfake"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_4-detect_spoofing, api_4-spoof_confidence_score, api_5-detect_deepfake, api_7-identify_high_res_face"
+        },
+        "62": {
+            "image_paths": [
+                "images/tools_retrieval/question_62.png"
+            ],
+            "question_text": "In a shopping mall, a system tracks customer demographics by predicting age, classifying gender, and tracking expressions. Expressions should only be tracked if age estimation confidence is sufficient. Which sequence of API calls is correct?",
+            "options": [
+                "api_1-predict_age, api_10-get_emotion_probabilities, api_1-age_confidence_score, api_2-classify_gender",
+                "api_2-classify_gender, api_10-track_expression_over_time, api_1-age_confidence_score, api_1-predict_age",
+                "api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_10-track_expression_over_time",
+                "api_1-predict_age, api_1-age_confidence_score, api_2-classify_gender, api_10-track_expression_over_time"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_10-track_expression_over_time"
+        },
+        "63": {
+            "image_paths": [
+                "images/tools_retrieval/question_63.png"
+            ],
+            "question_text": "A crowd analysis tool estimates crowd size, aggregates data across frames, and applies race and gender analysis. If crowd size exceeds a certain threshold, race and gender estimation is skipped. Which sequence of API calls is best?",
+            "options": [
+                "api_12-estimate_crowd_size, api_12-aggregate_counting_data, api_2-classify_gender, api_3-predict_race",
+                "api_12-estimate_crowd_size, api_3-predict_race, api_12-aggregate_counting_data, api_2-get_gender_probabilities",
+                "api_12-aggregate_counting_data, api_12-estimate_crowd_size, api_3-get_race_probabilities, api_2-classify_gender",
+                "api_12-estimate_crowd_size, api_2-classify_gender, api_3-predict_race, api_12-aggregate_counting_data"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_12-estimate_crowd_size, api_12-aggregate_counting_data, api_2-classify_gender, api_3-predict_race"
+        },
+        "64": {
+            "image_paths": [
+                "images/tools_retrieval/question_64.png"
+            ],
+            "question_text": "An educational platform monitors engagement by analyzing expressions and head pose. Head pose estimation should be done first, and expressions tracked only if pose confidence is high. Which sequence should be used?",
+            "options": [
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-get_emotion_probabilities, api_10-detect_expression",
+                "api_11-pose_confidence_score, api_11-estimate_head_pose, api_10-track_expression_over_time",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time",
+                "api_10-track_expression_over_time, api_11-estimate_head_pose, api_11-pose_confidence_score"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time"
+        },
+        "65": {
+            "image_paths": [
+                "images/tools_retrieval/question_65.png"
+            ],
+            "question_text": "A healthcare app detects patients' expressions and attributes to assess emotional well-being. Age is estimated only if expression confidence falls below a certain threshold. What is the correct sequence?",
+            "options": [
+                "api_9-detect_attributes, api_1-age_confidence_score, api_10-detect_expression, api_1-predict_age",
+                "api_10-detect_expression, api_9-detect_attributes, api_10-get_emotion_probabilities, api_1-predict_age",
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_9-detect_attributes, api_1-predict_age",
+                "api_9-detect_attributes, api_10-detect_expression, api_1-age_confidence_score, api_1-predict_age"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_10-detect_expression, api_9-detect_attributes, api_10-get_emotion_probabilities, api_1-predict_age"
+        },
+        "66": {
+            "image_paths": [
+                "images/tools_retrieval/question_66.png"
+            ],
+            "question_text": "A public event application detects attendees' race, verifies age, and tracks expressions. Race detection is only conducted if age confidence is high. What is the appropriate API function sequence?",
+            "options": [
+                "api_1-predict_age, api_3-predict_race, api_1-age_confidence_score, api_10-track_expression_over_time",
+                "api_3-predict_race, api_1-age_confidence_score, api_2-classify_gender, api_10-detect_expression",
+                "api_1-predict_age, api_1-age_confidence_score, api_3-predict_race, api_10-track_expression_over_time",
+                "api_1-predict_age, api_3-predict_race, api_10-track_expression_over_time, api_1-age_confidence_score"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_1-predict_age, api_1-age_confidence_score, api_3-predict_race, api_10-track_expression_over_time"
+        },
+        "67": {
+            "image_paths": [
+                "images/tools_retrieval/question_67.png"
+            ],
+            "question_text": "A gym app tracks users' head poses to verify exercise form and detects expressions for fatigue analysis. Pose confidence must be checked before expression detection proceeds. Which sequence should be followed?",
+            "options": [
+                "api_10-detect_expression, api_11-estimate_head_pose, api_11-pose_confidence_score",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression, api_10-get_emotion_probabilities",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression"
+        },
+        "68": {
+            "image_paths": [
+                "images/tools_retrieval/question_68.png"
+            ],
+            "question_text": "A virtual event system monitors participants' engagement by tracking expressions and estimating demographics (age, gender). Expression tracking occurs only if demographic confidence is high. Which sequence is correct?",
+            "options": [
+                "api_1-age_confidence_score, api_2-get_gender_probabilities, api_1-predict_age, api_10-track_expression_over_time",
+                "api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_2-get_gender_probabilities, api_10-track_expression_over_time",
+                "api_1-predict_age, api_2-get_gender_probabilities, api_1-age_confidence_score, api_10-detect_expression",
+                "api_1-predict_age, api_1-age_confidence_score, api_2-classify_gender, api_2-get_gender_probabilities, api_10-track_expression_over_time"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_2-get_gender_probabilities, api_10-track_expression_over_time"
+        },
+        "69": {
+            "image_paths": [
+                "images/tools_retrieval/question_69.png"
+            ],
+            "question_text": "An interactive museum display identifies visitors using face recognition, detects attributes, and tracks head poses for an immersive experience. If attributes confidence is low, head pose tracking is omitted. What sequence should be followed?",
+            "options": [
+                "api_7-identify_high_res_face, api_9-attribute_confidence_score, api_9-detect_attributes, api_11-estimate_head_pose",
+                "api_9-detect_attributes, api_9-attribute_confidence_score, api_11-estimate_head_pose, api_7-identify_high_res_face",
+                "api_7-identify_high_res_face, api_9-detect_attributes, api_9-attribute_confidence_score, api_11-estimate_head_pose",
+                "api_7-identify_high_res_face, api_11-estimate_head_pose, api_9-detect_attributes, api_9-attribute_confidence_score"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_7-identify_high_res_face, api_9-detect_attributes, api_9-attribute_confidence_score, api_11-estimate_head_pose"
+        },
+        "70": {
+            "image_paths": [
+                "images/tools_retrieval/question_70.png"
+            ],
+            "question_text": "A security checkpoint identifies VIPs using celebrity recognition, verifies for spoofing, and confirms deepfake absence. Spoofing must be checked first, followed by celebrity identification. Which API sequence should be used?",
+            "options": [
+                "api_8-identify_celebrity, api_4-detect_spoofing, api_8-celebrity_confidence_score, api_5-deepfake_confidence_score",
+                "api_4-detect_spoofing, api_8-identify_celebrity, api_5-detect_deepfake",
+                "api_5-detect_deepfake, api_4-detect_spoofing, api_8-identify_celebrity, api_4-spoof_confidence_score",
+                "api_4-detect_spoofing, api_8-identify_celebrity, api_5-detect_deepfake, api_8-celebrity_confidence_score"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_4-detect_spoofing, api_8-identify_celebrity, api_5-detect_deepfake"
+        },
+        "71": {
+            "image_paths": [
+                "images/tools_retrieval/question_71.png"
+            ],
+            "question_text": "A public display tracks crowd faces, aggregates data, and predicts race if crowd size is manageable. Aggregate counting should precede race detection. Which API sequence would you use?",
+            "options": [
+                "api_12-estimate_crowd_size, api_3-predict_race, api_12-aggregate_counting_data",
+                "api_3-get_race_probabilities, api_12-estimate_crowd_size, api_12-aggregate_counting_data",
+                "api_12-estimate_crowd_size, api_12-aggregate_counting_data, api_3-predict_race",
+                "api_12-estimate_crowd_size, api_3-get_race_probabilities, api_12-aggregate_counting_data"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_12-estimate_crowd_size, api_12-aggregate_counting_data, api_3-predict_race"
+        },
+        "72": {
+            "image_paths": [
+                "images/tools_retrieval/question_72.png"
+            ],
+            "question_text": "An app tracks users' head poses to adjust screen settings, detects spoofing, and identifies age and gender if head pose confidence is high. Spoofing must be confirmed before age and gender identification. What is the correct sequence?",
+            "options": [
+                "api_11-estimate_head_pose, api_4-detect_spoofing, api_1-predict_age, api_2-classify_gender",
+                "api_4-detect_spoofing, api_11-estimate_head_pose, api_1-age_confidence_score, api_2-get_gender_probabilities",
+                "api_11-estimate_head_pose, api_4-detect_spoofing, api_4-spoof_confidence_score, api_1-predict_age, api_2-classify_gender",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_4-detect_spoofing, api_4-spoof_confidence_score, api_1-predict_age, api_2-classify_gender"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_11-estimate_head_pose, api_4-detect_spoofing, api_4-spoof_confidence_score, api_1-predict_age, api_2-classify_gender"
+        },
+        "73": {
+            "image_paths": [
+                "images/tools_retrieval/question_73.png"
+            ],
+            "question_text": "A social media app adjusts filters based on detected facial attributes, head pose, and tracked expressions. Expressions are tracked only if attributes confidence is high. Which API sequence is suitable?",
+            "options": [
+                "api_9-detect_attributes, api_11-estimate_head_pose, api_9-attribute_confidence_score, api_10-track_expression_over_time",
+                "api_11-estimate_head_pose, api_9-detect_attributes, api_10-track_expression_over_time, api_9-attribute_confidence_score",
+                "api_9-detect_attributes, api_11-estimate_head_pose, api_9-attribute_confidence_score, api_10-detect_expression",
+                "api_9-detect_attributes, api_9-attribute_confidence_score, api_11-estimate_head_pose, api_10-track_expression_over_time"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_9-detect_attributes, api_11-estimate_head_pose, api_9-attribute_confidence_score, api_10-detect_expression"
+        },
+        "74": {
+            "image_paths": [
+                "images/tools_retrieval/question_74.png"
+            ],
+            "question_text": "In a driver monitoring system, the app estimates head pose, detects drowsiness through expression tracking, and verifies authenticity via spoof detection. Expressions are tracked only after spoof detection passes. Which sequence is correct?",
+            "options": [
+                "api_4-detect_spoofing, api_4-spoof_confidence_score, api_11-estimate_head_pose, api_10-track_expression_over_time",
+                "api_4-detect_spoofing, api_11-estimate_head_pose, api_4-spoof_confidence_score, api_10-track_expression_over_time",
+                "api_11-estimate_head_pose, api_4-spoof_confidence_score, api_10-detect_expression, api_4-detect_spoofing",
+                "api_11-estimate_head_pose, api_4-detect_spoofing, api_10-track_expression_over_time"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_11-estimate_head_pose, api_4-detect_spoofing, api_10-track_expression_over_time"
+        },
+        "75": {
+            "image_paths": [
+                "images/tools_retrieval/question_75.png"
+            ],
+            "question_text": "A healthcare app detects patients' facial expressions and attributes for emotional assessment. Age is estimated only if expression confidence is below a threshold. What is the correct sequence?",
+            "options": [
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_9-detect_attributes, api_1-age_confidence_score, api_1-predict_age",
+                "api_9-detect_attributes, api_10-detect_expression, api_10-get_emotion_probabilities, api_1-age_confidence_score",
+                "api_10-detect_expression, api_9-detect_attributes, api_10-get_emotion_probabilities, api_1-predict_age",
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_1-age_confidence_score, api_1-predict_age, api_9-detect_attributes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_10-detect_expression, api_9-detect_attributes, api_10-get_emotion_probabilities, api_1-predict_age"
+        },
+        "76": {
+            "image_paths": [
+                "images/tools_retrieval/question_76.png"
+            ],
+            "question_text": "A public event application tracks race and gender data while monitoring expressions. Race detection is conducted only if expression confidence is high. What is the appropriate API function sequence?",
+            "options": [
+                "api_3-predict_race, api_10-get_emotion_probabilities, api_2-get_gender_probabilities, api_10-detect_expression",
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_2-classify_gender, api_3-predict_race",
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_3-predict_race, api_2-classify_gender",
+                "api_2-classify_gender, api_10-detect_expression, api_10-get_emotion_probabilities, api_3-predict_race"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_2-classify_gender, api_10-detect_expression, api_10-get_emotion_probabilities, api_3-predict_race"
+        },
+        "77": {
+            "image_paths": [
+                "images/tools_retrieval/question_77.png"
+            ],
+            "question_text": "A virtual event system monitors participants' engagement by tracking expressions and estimating demographics (age, gender). Expression tracking occurs only if demographic confidence is high. Which sequence is correct?",
+            "options": [
+                "api_1-predict_age, api_1-age_confidence_score, api_2-classify_gender, api_10-track_expression_over_time",
+                "api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_2-get_gender_probabilities, api_10-track_expression_over_time",
+                "api_1-predict_age, api_1-age_confidence_score, api_2-get_gender_probabilities, api_10-detect_expression",
+                "api_2-classify_gender, api_10-get_emotion_probabilities, api_1-predict_age, api_1-age_confidence_score"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_2-get_gender_probabilities, api_10-track_expression_over_time"
+        },
+        "78": {
+            "image_paths": [
+                "images/tools_retrieval/question_78.png"
+            ],
+            "question_text": "A retail store uses a smart camera system to detect customers' emotions, monitor head poses for attention tracking, and estimate age for demographic insights. Emotion detection is only performed if head pose confidence is high. Which sequence should be followed?",
+            "options": [
+                "api_1-predict_age, api_11-estimate_head_pose, api_10-detect_expression, api_11-pose_confidence_score",
+                "api_10-detect_expression, api_11-estimate_head_pose, api_11-pose_confidence_score, api_1-predict_age",
+                "api_11-pose_confidence_score, api_10-detect_expression, api_1-age_confidence_score, api_1-predict_age",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression, api_1-predict_age"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression, api_1-predict_age"
+        },
+        "79": {
+            "image_paths": [
+                "images/tools_retrieval/question_79.png"
+            ],
+            "question_text": "A workplace app tracks head poses for engagement, verifies attributes for dress code, and applies gender analysis. If dress code fails, gender analysis is skipped. What API function sequence should be used?",
+            "options": [
+                "api_11-estimate_head_pose, api_9-detect_attributes, api_9-attribute_confidence_score, api_2-classify_gender",
+                "api_11-estimate_head_pose, api_9-detect_attributes, api_2-classify_gender, api_9-attribute_confidence_score",
+                "api_11-estimate_head_pose, api_9-detect_attributes, api_2-classify_gender",
+                "api_11-pose_confidence_score, api_9-detect_attributes, api_2-classify_gender, api_11-estimate_head_pose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_11-estimate_head_pose, api_9-detect_attributes, api_2-classify_gender"
+        },
+        "80": {
+            "image_paths": [
+                "images/tools_retrieval/question_80.png"
+            ],
+            "question_text": "A medical imaging app segments facial regions, estimates head pose, and detects attributes to monitor patients. Attribute detection is performed only after successful head pose estimation. What sequence of API calls would accomplish this?",
+            "options": [
+                "api_13-segment_face_regions, api_11-estimate_head_pose, api_13-classify_face_parts, api_9-detect_attributes",
+                "api_13-segment_face_regions, api_11-estimate_head_pose, api_9-detect_attributes, api_13-get_segmentation_mask_part",
+                "api_13-segment_face_regions, api_13-classify_face_parts, api_11-estimate_head_pose, api_9-detect_attributes",
+                "api_13-segment_face_regions, api_11-estimate_head_pose, api_9-detect_attributes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_13-segment_face_regions, api_11-estimate_head_pose, api_9-detect_attributes"
+        },
+        "81": {
+            "image_paths": [
+                "images/tools_retrieval/question_81.png"
+            ],
+            "question_text": "A concierge app identifies guests using high-resolution face recognition, tracks expressions, and estimates demographics (age, gender). If age estimation confidence is low, expressions are skipped. What API sequence should be followed?",
+            "options": [
+                "api_7-identify_high_res_face, api_10-detect_expression, api_1-age_confidence_score, api_1-predict_age",
+                "api_7-identify_high_res_face, api_1-predict_age, api_2-classify_gender",
+                "api_7-identify_high_res_face, api_1-predict_age, api_1-age_confidence_score, api_10-track_expression_over_time, api_2-classify_gender",
+                "api_7-identify_high_res_face, api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_10-track_expression_over_time"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_7-identify_high_res_face, api_1-predict_age, api_2-classify_gender, api_1-age_confidence_score, api_10-track_expression_over_time"
+        },
+        "82": {
+            "image_paths": [
+                "images/tools_retrieval/question_82.png"
+            ],
+            "question_text": "A fitness app monitors users' head poses to verify exercise form, while expressions are analyzed if pose confidence is high. What API sequence would you use?",
+            "options": [
+                "api_11-estimate_head_pose, api_10-detect_expression, api_11-pose_confidence_score",
+                "api_10-detect_expression, api_11-pose_confidence_score, api_11-estimate_head_pose",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-detect_expression"
+        },
+        "83": {
+            "image_paths": [
+                "images/tools_retrieval/question_83.png"
+            ],
+            "question_text": "A retail app tracks customers' demographics (age, gender), applies spoof detection, and filters attributes. If spoof detection is inconclusive, attributes are skipped. Which sequence achieves this?",
+            "options": [
+                "api_4-detect_spoofing, api_1-predict_age, api_4-spoof_confidence_score, api_2-classify_gender, api_9-detect_attributes",
+                "api_4-detect_spoofing, api_4-spoof_confidence_score, api_1-predict_age, api_2-classify_gender, api_9-detect_attributes",
+                "api_1-predict_age, api_2-classify_gender, api_4-detect_spoofing, api_9-detect_attributes",
+                "api_4-spoof_confidence_score, api_4-detect_spoofing, api_1-predict_age, api_2-classify_gender"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_1-predict_age, api_2-classify_gender, api_4-detect_spoofing, api_9-detect_attributes"
+        },
+        "84": {
+            "image_paths": [
+                "images/tools_retrieval/question_84.png"
+            ],
+            "question_text": "An educational app monitors engagement by analyzing expressions and head pose. Head pose estimation should be done first, and expressions tracked only if pose confidence is high. Which sequence should be used?",
+            "options": [
+                "api_10-get_emotion_probabilities, api_11-pose_confidence_score, api_11-estimate_head_pose",
+                "api_10-detect_expression, api_11-estimate_head_pose, api_11-pose_confidence_score",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time",
+                "api_11-pose_confidence_score, api_11-estimate_head_pose, api_10-get_emotion_probabilities"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_11-estimate_head_pose, api_11-pose_confidence_score, api_10-track_expression_over_time"
+        },
+        "85": {
+            "image_paths": [
+                "images/tools_retrieval/question_85.png"
+            ],
+            "question_text": "A high-security event app detects deepfake attempts, confirms identity, and classifies demographics (age, gender). Demographics are ignored if deepfake confidence is low. What API sequence should be used?",
+            "options": [
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_1-predict_age, api_2-classify_gender, api_7-identify_high_res_face",
+                "api_5-detect_deepfake, api_7-identify_high_res_face, api_5-deepfake_confidence_score, api_1-predict_age, api_2-classify_gender",
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_7-identify_high_res_face, api_1-predict_age, api_2-classify_gender",
+                "api_7-identify_high_res_face, api_5-detect_deepfake, api_5-deepfake_confidence_score, api_1-predict_age, api_2-classify_gender"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_5-detect_deepfake, api_7-identify_high_res_face, api_5-deepfake_confidence_score, api_1-predict_age, api_2-classify_gender"
+        },
+        "86": {
+            "image_paths": [
+                "images/tools_retrieval/question_86.png"
+            ],
+            "question_text": "A mobile AR app segments face regions, classifies face parts, and applies attributes for customization. The app also lists the attributes detected. What is the correct sequence?",
+            "options": [
+                "api_13-get_segmentation_mask_part, api_9-detect_attributes, api_13-segment_face_regions, api_13-classify_face_parts",
+                "api_13-segment_face_regions, api_13-get_segmentation_mask_part, api_13-classify_face_parts, api_9-detect_attributes, api_9-list_face_attributes",
+                "api_13-segment_face_regions, api_13-classify_face_parts, api_9-detect_attributes, api_9-list_face_attributes",
+                "api_9-detect_attributes, api_13-segment_face_regions, api_13-get_segmentation_mask_part, api_13-classify_face_parts"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_13-segment_face_regions, api_13-classify_face_parts, api_9-detect_attributes, api_9-list_face_attributes"
+        },
+        "87": {
+            "image_paths": [
+                "images/tools_retrieval/question_87.png"
+            ],
+            "question_text": "A face recognition system tracks individuals in a crowd, detects expressions, and estimates demographics (age). Expressions are tracked only if demographic confidence is high. Which sequence is correct?",
+            "options": [
+                "api_10-detect_expression, api_1-age_confidence_score, api_1-predict_age",
+                "api_1-predict_age, api_1-age_confidence_score, api_10-detect_expression",
+                "api_1-predict_age, api_1-age_confidence_score, api_10-track_expression_over_time",
+                "api_1-predict_age, api_10-track_expression_over_time, api_1-age_confidence_score"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_1-predict_age, api_1-age_confidence_score, api_10-track_expression_over_time"
+        },
+        "88": {
+            "image_paths": [
+                "images/tools_retrieval/question_88.png"
+            ],
+            "question_text": "A museum exhibit app uses face recognition, detects expression, and estimates demographics (race and gender). Expressions are only analyzed if face recognition is successful. What API sequence is correct?",
+            "options": [
+                "api_7-identify_high_res_face, api_10-track_expression_over_time, api_2-classify_gender, api_3-predict_race",
+                "api_7-identify_high_res_face, api_2-classify_gender, api_3-predict_race, api_10-detect_expression",
+                "api_10-detect_expression, api_7-identify_high_res_face, api_2-classify_gender, api_3-predict_race",
+                "api_7-identify_high_res_face, api_10-detect_expression, api_2-classify_gender, api_3-predict_race"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_7-identify_high_res_face, api_10-detect_expression, api_2-classify_gender, api_3-predict_race"
+        },
+        "89": {
+            "image_paths": [
+                "images/tools_retrieval/question_89.png"
+            ],
+            "question_text": "A workplace app tracks head poses, applies demographic filters (gender and race), and verifies age to personalize the experience. Age is verified only if head pose confidence is high. What API function sequence should be used?",
+            "options": [
+                "api_11-estimate_head_pose, api_2-classify_gender, api_3-predict_race, api_11-pose_confidence_score, api_1-predict_age",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_2-classify_gender, api_3-predict_race",
+                "api_11-estimate_head_pose, api_11-pose_confidence_score, api_1-predict_age, api_2-classify_gender, api_3-predict_race",
+                "api_11-estimate_head_pose, api_1-predict_age, api_11-pose_confidence_score, api_2-classify_gender, api_3-predict_race"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_11-estimate_head_pose, api_2-classify_gender, api_3-predict_race, api_11-pose_confidence_score, api_1-predict_age"
+        },
+        "90": {
+            "image_paths": [
+                "images/tools_retrieval/question_90.png"
+            ],
+            "question_text": "A security app verifies user identity, applies spoof detection, and predicts demographics (age, gender) if identity verification is successful. Spoofing is prioritized before demographics. What is the correct sequence?",
+            "options": [
+                "api_7-identify_high_res_face, api_4-detect_spoofing, api_4-spoof_confidence_score, api_1-predict_age, api_2-classify_gender",
+                "api_7-identify_high_res_face, api_4-spoof_confidence_score, api_1-predict_age, api_2-classify_gender",
+                "api_7-identify_high_res_face, api_4-detect_spoofing, api_1-predict_age, api_2-classify_gender",
+                "api_4-detect_spoofing, api_7-identify_high_res_face, api_4-spoof_confidence_score, api_1-predict_age, api_2-classify_gender"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_7-identify_high_res_face, api_4-detect_spoofing, api_1-predict_age, api_2-classify_gender"
+        },
+        "91": {
+            "image_paths": [
+                "images/tools_retrieval/question_91.png"
+            ],
+            "question_text": "For a secure building access system, identify individuals using high-resolution face recognition, detect spoof attempts, and verify head pose for camera alignment. If spoof confidence is low, head pose verification is skipped. Which API sequence is correct?",
+            "options": [
+                "api_7-identify_high_res_face, api_4-detect_spoofing, api_4-spoof_confidence_score, api_11-estimate_head_pose",
+                "api_4-detect_spoofing, api_4-spoof_confidence_score, api_11-estimate_head_pose, api_7-identify_high_res_face",
+                "api_7-identify_high_res_face, api_4-detect_spoofing, api_11-pose_confidence_score, api_11-estimate_head_pose",
+                "api_7-identify_high_res_face, api_4-detect_spoofing, api_4-spoof_confidence_score, api_11-estimate_head_pose, api_11-pose_confidence_score"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_7-identify_high_res_face, api_4-detect_spoofing, api_4-spoof_confidence_score, api_11-estimate_head_pose"
+        },
+        "92": {
+            "image_paths": [
+                "images/tools_retrieval/question_92.png"
+            ],
+            "question_text": "In a photo editing app, apply filters by segmenting face regions, classify face parts, and detect facial attributes with confidence scores. What sequence should be followed?",
+            "options": [
+                "api_13-segment_face_regions, api_13-classify_face_parts, api_9-detect_attributes, api_9-attribute_confidence_score",
+                "api_13-segment_face_regions, api_13-get_segmentation_mask_part, api_9-detect_attributes",
+                "api_13-segment_face_regions, api_9-detect_attributes, api_13-classify_face_parts, api_9-attribute_confidence_score",
+                "api_13-segment_face_regions, api_9-detect_attributes, api_9-attribute_confidence_score, api_13-classify_face_parts"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_13-segment_face_regions, api_13-classify_face_parts, api_9-detect_attributes, api_9-attribute_confidence_score"
+        },
+        "93": {
+            "image_paths": [
+                "images/tools_retrieval/question_93.png"
+            ],
+            "question_text": "For monitoring student engagement on an educational platform, analyze expressions, track these over time, and verify head pose. Head pose is checked only if expression confidence is high. What is the correct sequence?",
+            "options": [
+                "api_10-detect_expression, api_10-track_expression_over_time, api_11-estimate_head_pose, api_11-pose_confidence_score",
+                "api_10-detect_expression, api_10-track_expression_over_time, api_10-get_emotion_probabilities, api_11-estimate_head_pose",
+                "api_10-get_emotion_probabilities, api_10-detect_expression, api_10-track_expression_over_time, api_11-estimate_head_pose",
+                "api_10-detect_expression, api_10-get_emotion_probabilities, api_10-track_expression_over_time, api_11-estimate_head_pose"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_10-detect_expression, api_10-track_expression_over_time, api_10-get_emotion_probabilities, api_11-estimate_head_pose"
+        },
+        "94": {
+            "image_paths": [
+                "images/tools_retrieval/question_94.png"
+            ],
+            "question_text": "At a public event, estimate crowd size, predict race, and classify gender. Aggregate data if crowd size is below a set threshold. Which API sequence achieves this?",
+            "options": [
+                "api_12-estimate_crowd_size, api_12-aggregate_counting_data, api_2-classify_gender, api_3-predict_race",
+                "api_12-estimate_crowd_size, api_3-predict_race, api_2-classify_gender, api_12-aggregate_counting_data",
+                "api_12-aggregate_counting_data, api_12-estimate_crowd_size, api_3-predict_race",
+                "api_12-estimate_crowd_size, api_3-get_race_probabilities, api_2-classify_gender"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_12-estimate_crowd_size, api_3-predict_race, api_2-classify_gender, api_12-aggregate_counting_data"
+        },
+        "95": {
+            "image_paths": [
+                "images/tools_retrieval/question_95.png"
+            ],
+            "question_text": "In a virtual reality game, estimate the player\u2019s head pose, detect expressions, identify attributes for customization, and track expressions over time. What sequence should be used?",
+            "options": [
+                "api_10-track_expression_over_time, api_9-detect_attributes, api_11-estimate_head_pose, api_10-detect_expression",
+                "api_11-estimate_head_pose, api_10-get_emotion_probabilities, api_10-track_expression_over_time, api_9-detect_attributes",
+                "api_11-estimate_head_pose, api_10-detect_expression, api_9-detect_attributes, api_10-track_expression_over_time",
+                "api_10-detect_expression, api_11-estimate_head_pose, api_10-track_expression_over_time, api_9-detect_attributes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_11-estimate_head_pose, api_10-detect_expression, api_9-detect_attributes, api_10-track_expression_over_time"
+        },
+        "96": {
+            "image_paths": [
+                "images/tools_retrieval/question_96.png"
+            ],
+            "question_text": "For a law enforcement application, extract identity information of suspects in low-resolution footage, compare embeddings, and detect deepfake content with confidence. Which API sequence is accurate?",
+            "options": [
+                "api_6-extract_low_res_embedding, api_5-detect_deepfake, api_5-deepfake_confidence_score, api_6-identify_low_res_face",
+                "api_6-extract_low_res_embedding, api_6-identify_low_res_face, api_5-detect_deepfake, api_5-deepfake_confidence_score",
+                "api_5-detect_deepfake, api_6-extract_low_res_embedding, api_6-compare_low_res_embeddings, api_5-deepfake_confidence_score",
+                "api_6-extract_low_res_embedding, api_6-compare_low_res_embeddings, api_5-detect_deepfake, api_5-deepfake_confidence_score"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_6-extract_low_res_embedding, api_6-compare_low_res_embeddings, api_5-detect_deepfake, api_5-deepfake_confidence_score"
+        },
+        "97": {
+            "image_paths": [
+                "images/tools_retrieval/question_97.png"
+            ],
+            "question_text": "For a shopping app, detect customer attributes, predict demographics (age, gender), identify celebrities, and adjust marketing. What sequence should be used?",
+            "options": [
+                "api_1-predict_age, api_2-classify_gender, api_9-list_face_attributes, api_8-celebrity_confidence_score",
+                "api_9-detect_attributes, api_1-age_confidence_score, api_2-classify_gender, api_8-identify_celebrity",
+                "api_9-detect_attributes, api_1-predict_age, api_2-classify_gender, api_8-identify_celebrity",
+                "api_8-identify_celebrity, api_9-detect_attributes, api_1-predict_age, api_2-classify_gender"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_9-detect_attributes, api_1-predict_age, api_2-classify_gender, api_8-identify_celebrity"
+        },
+        "98": {
+            "image_paths": [
+                "images/tools_retrieval/question_98.png"
+            ],
+            "question_text": "In healthcare, estimate patients\u2019 age, detect expressions for pain, predict race, and provide confidence for each prediction. Which sequence is best?",
+            "options": [
+                "api_1-predict_age, api_10-detect_expression, api_3-predict_race, api_1-age_confidence_score, api_1-get_emotion_probabilities, api_3-race_confidence_score",
+                "api_10-track_expression_over_time, api_1-predict_age, api_3-get_race_probabilities, api_1-age_confidence_score",
+                "api_1-age_confidence_score, api_3-race_confidence_score, api_10-detect_expression, api_3-get_race_probabilities",
+                "api_1-predict_age, api_1-age_confidence_score, api_10-detect_expression, api_3-predict_race, api_3-race_confidence_score"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_1-predict_age, api_10-detect_expression, api_3-predict_race, api_1-age_confidence_score, api_1-get_emotion_probabilities, api_3-race_confidence_score"
+        },
+        "99": {
+            "image_paths": [
+                "images/tools_retrieval/question_99.png"
+            ],
+            "question_text": "For augmented reality, segment face regions, classify parts for filter placement, detect attributes, and provide confidence scores. Which API sequence achieves this?",
+            "options": [
+                "api_9-detect_attributes, api_13-segment_face_regions, api_13-classify_face_parts",
+                "api_13-get_segmentation_mask_part, api_9-attribute_confidence_score, api_13-classify_face_parts",
+                "api_13-segment_face_regions, api_13-classify_face_parts, api_9-detect_attributes, api_9-attribute_confidence_score",
+                "api_13-segment_face_regions, api_13-get_segmentation_mask_part, api_9-detect_attributes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_13-segment_face_regions, api_13-classify_face_parts, api_9-detect_attributes, api_9-attribute_confidence_score"
+        },
+        "100": {
+            "image_paths": [
+                "images/tools_retrieval/question_100.png"
+            ],
+            "question_text": "In a security system, detect deepfake, estimate head pose, perform anti-spoofing checks, and ensure high confidence for each before moving to next task. What API sequence is correct?",
+            "options": [
+                "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_11-estimate_head_pose, api_11-pose_confidence_score, api_4-detect_spoofing, api_4-spoof_confidence_score",
+                "api_5-detect_deepfake, api_11-estimate_head_pose, api_4-detect_spoofing, api_5-deepfake_confidence_score",
+                "api_5-detect_deepfake, api_4-spoof_confidence_score, api_11-estimate_head_pose",
+                "api_11-estimate_head_pose, api_5-detect_deepfake, api_4-detect_spoofing, api_11-pose_confidence_score, api_5-deepfake_confidence_score, api_4-spoof_confidence_score"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_5-detect_deepfake, api_5-deepfake_confidence_score, api_11-estimate_head_pose, api_11-pose_confidence_score, api_4-detect_spoofing, api_4-spoof_confidence_score"
+        }
+    }
+}

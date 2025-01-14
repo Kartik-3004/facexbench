@@ -1,0 +1,2450 @@
+{
+    "category": "fas_deepfakes",
+    "sub-category": "deepfakes",
+    "dataset": "celebdf",
+    "question_type": "MCQ",
+    "num_images": "multiple",
+    "prepend_text": "Deepfake detection involves identifying manipulated images where faces are swapped or altered, and are considered fake. You have to perform the task of deepfake detection.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_1_1.png",
+                "images/celebdf_multiple_mcq/question_1_2.png",
+                "images/celebdf_multiple_mcq/question_1_3.png",
+                "images/celebdf_multiple_mcq/question_1_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 1 and 4",
+                "Images 2 and 4",
+                "None of the above",
+                "Images 1 and 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images 2 and 4"
+        },
+        "2": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_2_1.png",
+                "images/celebdf_multiple_mcq/question_2_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are fake",
+                "Both are real",
+                "Image 1 is real, Image 2 is fake",
+                "Image 1 is fake, Image 2 is real"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 is real, Image 2 is fake"
+        },
+        "3": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_3_1.png",
+                "images/celebdf_multiple_mcq/question_3_2.png",
+                "images/celebdf_multiple_mcq/question_3_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "2",
+                "3",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1"
+        },
+        "4": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_4_1.png",
+                "images/celebdf_multiple_mcq/question_4_2.png",
+                "images/celebdf_multiple_mcq/question_4_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "2",
+                "1",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2"
+        },
+        "5": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_5_1.png",
+                "images/celebdf_multiple_mcq/question_5_2.png"
+            ],
+            "question_text": "Which image is real?",
+            "options": [
+                "None",
+                "Image 1",
+                "Both",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "6": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_6_1.png",
+                "images/celebdf_multiple_mcq/question_6_2.png",
+                "images/celebdf_multiple_mcq/question_6_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "None of the above",
+                "Image 1 and Image 2",
+                "Image 1 and Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2"
+        },
+        "7": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_7_1.png",
+                "images/celebdf_multiple_mcq/question_7_2.png",
+                "images/celebdf_multiple_mcq/question_7_3.png",
+                "images/celebdf_multiple_mcq/question_7_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "3",
+                "4",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "3"
+        },
+        "8": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_8_1.png",
+                "images/celebdf_multiple_mcq/question_8_2.png",
+                "images/celebdf_multiple_mcq/question_8_3.png",
+                "images/celebdf_multiple_mcq/question_8_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 1 and 3",
+                "Images 1 and 4",
+                "None of the above",
+                "Images 2 and 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images 1 and 4"
+        },
+        "9": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_9_1.png",
+                "images/celebdf_multiple_mcq/question_9_2.png",
+                "images/celebdf_multiple_mcq/question_9_3.png",
+                "images/celebdf_multiple_mcq/question_9_4.png",
+                "images/celebdf_multiple_mcq/question_9_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 2, Image 3, and Image 4",
+                "Image 2 and Image 3",
+                "Image 1, Image 2, Image 3, Image 4, Image 5",
+                "Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2 and Image 3"
+        },
+        "10": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_10_1.png",
+                "images/celebdf_multiple_mcq/question_10_2.png",
+                "images/celebdf_multiple_mcq/question_10_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 1, Image 2, and Image 3",
+                "Image 1 and Image 2",
+                "Image 3",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 3"
+        },
+        "11": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_11_1.png",
+                "images/celebdf_multiple_mcq/question_11_2.png",
+                "images/celebdf_multiple_mcq/question_11_3.png",
+                "images/celebdf_multiple_mcq/question_11_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "0",
+                "3",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "12": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_12_1.png",
+                "images/celebdf_multiple_mcq/question_12_2.png",
+                "images/celebdf_multiple_mcq/question_12_3.png",
+                "images/celebdf_multiple_mcq/question_12_4.png",
+                "images/celebdf_multiple_mcq/question_12_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "None of the above",
+                "Image 5",
+                "Image 2 and Image 3",
+                "Image 2, Image 3, and Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "13": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_13_1.png",
+                "images/celebdf_multiple_mcq/question_13_2.png",
+                "images/celebdf_multiple_mcq/question_13_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 2",
+                "Image 1 and Image 2",
+                "Image 2 and Image 3",
+                "None of the above"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2"
+        },
+        "14": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_14_1.png",
+                "images/celebdf_multiple_mcq/question_14_2.png",
+                "images/celebdf_multiple_mcq/question_14_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "1",
+                "2",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2"
+        },
+        "15": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_15_1.png",
+                "images/celebdf_multiple_mcq/question_15_2.png",
+                "images/celebdf_multiple_mcq/question_15_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "1",
+                "0",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "3"
+        },
+        "16": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_16_1.png",
+                "images/celebdf_multiple_mcq/question_16_2.png",
+                "images/celebdf_multiple_mcq/question_16_3.png",
+                "images/celebdf_multiple_mcq/question_16_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "0",
+                "2",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "17": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_17_1.png",
+                "images/celebdf_multiple_mcq/question_17_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are fake",
+                "Image 1 is fake, Image 2 is real",
+                "Image 1 is real, Image 2 is fake",
+                "Both are real"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 is fake, Image 2 is real"
+        },
+        "18": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_18_1.png",
+                "images/celebdf_multiple_mcq/question_18_2.png",
+                "images/celebdf_multiple_mcq/question_18_3.png",
+                "images/celebdf_multiple_mcq/question_18_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 3 and 4",
+                "Images 1 and 4",
+                "Images 2 and 4",
+                "Images 1 and 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images 1 and 4"
+        },
+        "19": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_19_1.png",
+                "images/celebdf_multiple_mcq/question_19_2.png",
+                "images/celebdf_multiple_mcq/question_19_3.png",
+                "images/celebdf_multiple_mcq/question_19_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 1 and 2",
+                "Images 1 and 3",
+                "Images 1 and 4",
+                "Images 3 and 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images 1 and 3"
+        },
+        "20": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_20_1.png",
+                "images/celebdf_multiple_mcq/question_20_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are fake",
+                "Both are real",
+                "Image 1 is real, Image 2 is fake",
+                "Image 1 is fake, Image 2 is real"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 is fake, Image 2 is real"
+        },
+        "21": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_21_1.png",
+                "images/celebdf_multiple_mcq/question_21_2.png",
+                "images/celebdf_multiple_mcq/question_21_3.png",
+                "images/celebdf_multiple_mcq/question_21_4.png",
+                "images/celebdf_multiple_mcq/question_21_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 3",
+                "Image 1 and Image 2",
+                "Image 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "22": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_22_1.png",
+                "images/celebdf_multiple_mcq/question_22_2.png",
+                "images/celebdf_multiple_mcq/question_22_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 1, Image 2, and Image 3",
+                "Image 1 and Image 3",
+                "Image 2 and Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 3"
+        },
+        "23": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_23_1.png",
+                "images/celebdf_multiple_mcq/question_23_2.png",
+                "images/celebdf_multiple_mcq/question_23_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "2",
+                "1",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0"
+        },
+        "24": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_24_1.png",
+                "images/celebdf_multiple_mcq/question_24_2.png"
+            ],
+            "question_text": "Which image is real?",
+            "options": [
+                "Both",
+                "Image 2",
+                "None",
+                "Image 1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None"
+        },
+        "25": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_25_1.png",
+                "images/celebdf_multiple_mcq/question_25_2.png",
+                "images/celebdf_multiple_mcq/question_25_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "0",
+                "2",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2"
+        },
+        "26": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_26_1.png",
+                "images/celebdf_multiple_mcq/question_26_2.png",
+                "images/celebdf_multiple_mcq/question_26_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "2",
+                "0",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1"
+        },
+        "27": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_27_1.png",
+                "images/celebdf_multiple_mcq/question_27_2.png",
+                "images/celebdf_multiple_mcq/question_27_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 1 and Image 2",
+                "Image 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "28": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_28_1.png",
+                "images/celebdf_multiple_mcq/question_28_2.png",
+                "images/celebdf_multiple_mcq/question_28_3.png",
+                "images/celebdf_multiple_mcq/question_28_4.png",
+                "images/celebdf_multiple_mcq/question_28_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 1, Image 2, Image 3, Image 4, Image 5",
+                "Image 3, Image 4, and Image 5",
+                "Image 4 and Image 5",
+                "None of the above"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1, Image 2, Image 3, Image 4, Image 5"
+        },
+        "29": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_29_1.png",
+                "images/celebdf_multiple_mcq/question_29_2.png",
+                "images/celebdf_multiple_mcq/question_29_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "0",
+                "2",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "30": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_30_1.png",
+                "images/celebdf_multiple_mcq/question_30_2.png",
+                "images/celebdf_multiple_mcq/question_30_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2"
+        },
+        "31": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_31_1.png",
+                "images/celebdf_multiple_mcq/question_31_2.png",
+                "images/celebdf_multiple_mcq/question_31_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 2 and Image 3",
+                "None of the above",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2 and Image 3"
+        },
+        "32": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_32_1.png",
+                "images/celebdf_multiple_mcq/question_32_2.png",
+                "images/celebdf_multiple_mcq/question_32_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 1, Image 2, and Image 3",
+                "Image 1",
+                "Image 2",
+                "Image 1 and Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "33": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_33_1.png",
+                "images/celebdf_multiple_mcq/question_33_2.png",
+                "images/celebdf_multiple_mcq/question_33_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "None of the above",
+                "Image 1 and Image 2",
+                "Image 1 and Image 3",
+                "Image 1, Image 2, and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "34": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_34_1.png",
+                "images/celebdf_multiple_mcq/question_34_2.png"
+            ],
+            "question_text": "Which image is real?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "None",
+                "Both"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None"
+        },
+        "35": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_35_1.png",
+                "images/celebdf_multiple_mcq/question_35_2.png",
+                "images/celebdf_multiple_mcq/question_35_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 1, Image 2, and Image 3",
+                "Image 2",
+                "Image 2 and Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2 and Image 3"
+        },
+        "36": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_36_1.png",
+                "images/celebdf_multiple_mcq/question_36_2.png",
+                "images/celebdf_multiple_mcq/question_36_3.png"
+            ],
+            "question_text": "Which images are real and which are fake?",
+            "options": [
+                "All images are fake",
+                "Images 1 and 2 are real, Image 3 is fake",
+                "Images 2 and 3 are real, Image 1 is fake",
+                "All images are real"
+            ],
+            "correct_answer_option": "A",
+            "answer": "All images are fake"
+        },
+        "37": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_37_1.png",
+                "images/celebdf_multiple_mcq/question_37_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are real",
+                "Image 1 is fake, Image 2 is real",
+                "Image 1 is real, Image 2 is fake",
+                "Both are fake"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 is real, Image 2 is fake"
+        },
+        "38": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_38_1.png",
+                "images/celebdf_multiple_mcq/question_38_2.png",
+                "images/celebdf_multiple_mcq/question_38_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "0",
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "3"
+        },
+        "39": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_39_1.png",
+                "images/celebdf_multiple_mcq/question_39_2.png",
+                "images/celebdf_multiple_mcq/question_39_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 1",
+                "Image 2",
+                "Image 1 and Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "40": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_40_1.png",
+                "images/celebdf_multiple_mcq/question_40_2.png",
+                "images/celebdf_multiple_mcq/question_40_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "1",
+                "2",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0"
+        },
+        "41": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_41_1.png",
+                "images/celebdf_multiple_mcq/question_41_2.png",
+                "images/celebdf_multiple_mcq/question_41_3.png"
+            ],
+            "question_text": "Which images are real and which are fake?",
+            "options": [
+                "Images 1 and 3 are real, Image 2 is fake",
+                "Images 1 and 2 are real, Image 3 is fake",
+                "Images 2 and 3 are real, Image 1 is fake",
+                "Images 2 and 3 are fake, Image 1 is real"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Images 2 and 3 are fake, Image 1 is real"
+        },
+        "42": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_42_1.png",
+                "images/celebdf_multiple_mcq/question_42_2.png",
+                "images/celebdf_multiple_mcq/question_42_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "None of the above",
+                "Image 2",
+                "Image 2 and Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2"
+        },
+        "43": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_43_1.png",
+                "images/celebdf_multiple_mcq/question_43_2.png",
+                "images/celebdf_multiple_mcq/question_43_3.png",
+                "images/celebdf_multiple_mcq/question_43_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "1",
+                "3",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1"
+        },
+        "44": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_44_1.png",
+                "images/celebdf_multiple_mcq/question_44_2.png",
+                "images/celebdf_multiple_mcq/question_44_3.png",
+                "images/celebdf_multiple_mcq/question_44_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "0",
+                "2",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2"
+        },
+        "45": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_45_1.png",
+                "images/celebdf_multiple_mcq/question_45_2.png",
+                "images/celebdf_multiple_mcq/question_45_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "3",
+                "0",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1"
+        },
+        "46": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_46_1.png",
+                "images/celebdf_multiple_mcq/question_46_2.png",
+                "images/celebdf_multiple_mcq/question_46_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "0",
+                "2",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2"
+        },
+        "47": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_47_1.png",
+                "images/celebdf_multiple_mcq/question_47_2.png",
+                "images/celebdf_multiple_mcq/question_47_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 1, Image 2, and Image 3",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2"
+        },
+        "48": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_48_1.png",
+                "images/celebdf_multiple_mcq/question_48_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are real",
+                "Image 1 is fake, Image 2 is real",
+                "Image 1 is real, Image 2 is fake",
+                "Both are fake"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Both are real"
+        },
+        "49": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_49_1.png",
+                "images/celebdf_multiple_mcq/question_49_2.png",
+                "images/celebdf_multiple_mcq/question_49_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 1 and Image 3",
+                "Image 1, Image 2, and Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 2"
+        },
+        "50": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_50_1.png",
+                "images/celebdf_multiple_mcq/question_50_2.png",
+                "images/celebdf_multiple_mcq/question_50_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "3",
+                "0",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2"
+        },
+        "51": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_51_1.png",
+                "images/celebdf_multiple_mcq/question_51_2.png",
+                "images/celebdf_multiple_mcq/question_51_3.png",
+                "images/celebdf_multiple_mcq/question_51_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "4",
+                "1",
+                "3",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "4"
+        },
+        "52": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_52_1.png",
+                "images/celebdf_multiple_mcq/question_52_2.png",
+                "images/celebdf_multiple_mcq/question_52_3.png",
+                "images/celebdf_multiple_mcq/question_52_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 3 and 4",
+                "Images 2 and 4",
+                "Images 1 and 3",
+                "Images 1 and 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images 2 and 4"
+        },
+        "53": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_53_1.png",
+                "images/celebdf_multiple_mcq/question_53_2.png",
+                "images/celebdf_multiple_mcq/question_53_3.png",
+                "images/celebdf_multiple_mcq/question_53_4.png",
+                "images/celebdf_multiple_mcq/question_53_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 5",
+                "Image 4",
+                "None of the above",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "54": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_54_1.png",
+                "images/celebdf_multiple_mcq/question_54_2.png",
+                "images/celebdf_multiple_mcq/question_54_3.png",
+                "images/celebdf_multiple_mcq/question_54_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 1 and 2",
+                "Images 2 and 4",
+                "Images 2 and 3",
+                "Images 1 and 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Images 1 and 2"
+        },
+        "55": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_55_1.png",
+                "images/celebdf_multiple_mcq/question_55_2.png",
+                "images/celebdf_multiple_mcq/question_55_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 2",
+                "Image 1 and Image 3",
+                "Image 1 and Image 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "56": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_56_1.png",
+                "images/celebdf_multiple_mcq/question_56_2.png",
+                "images/celebdf_multiple_mcq/question_56_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 1, Image 2, and Image 3",
+                "None of the above",
+                "Image 1 and Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1, Image 2, and Image 3"
+        },
+        "57": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_57_1.png",
+                "images/celebdf_multiple_mcq/question_57_2.png",
+                "images/celebdf_multiple_mcq/question_57_3.png",
+                "images/celebdf_multiple_mcq/question_57_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "0",
+                "2",
+                "4",
+                "3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "3"
+        },
+        "58": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_58_1.png",
+                "images/celebdf_multiple_mcq/question_58_2.png",
+                "images/celebdf_multiple_mcq/question_58_3.png",
+                "images/celebdf_multiple_mcq/question_58_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "None of the above",
+                "Images 1 and 2",
+                "Images 1 and 4",
+                "Images 1 and 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "59": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_59_1.png",
+                "images/celebdf_multiple_mcq/question_59_2.png",
+                "images/celebdf_multiple_mcq/question_59_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "0",
+                "1",
+                "3",
+                "2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1"
+        },
+        "60": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_60_1.png",
+                "images/celebdf_multiple_mcq/question_60_2.png",
+                "images/celebdf_multiple_mcq/question_60_3.png",
+                "images/celebdf_multiple_mcq/question_60_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "0",
+                "3",
+                "1",
+                "2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1"
+        },
+        "61": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_61_1.png",
+                "images/celebdf_multiple_mcq/question_61_2.png",
+                "images/celebdf_multiple_mcq/question_61_3.png",
+                "images/celebdf_multiple_mcq/question_61_4.png",
+                "images/celebdf_multiple_mcq/question_61_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 3 and Image 4",
+                "Image 2",
+                "Image 5"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 3 and Image 4"
+        },
+        "62": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_62_1.png",
+                "images/celebdf_multiple_mcq/question_62_2.png"
+            ],
+            "question_text": "Which image is real?",
+            "options": [
+                "Image 2",
+                "Both",
+                "None",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "63": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_63_1.png",
+                "images/celebdf_multiple_mcq/question_63_2.png",
+                "images/celebdf_multiple_mcq/question_63_3.png",
+                "images/celebdf_multiple_mcq/question_63_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 1 and 3",
+                "Images 1 and 4",
+                "Images 2 and 3",
+                "Images 2 and 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images 1 and 4"
+        },
+        "64": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_64_1.png",
+                "images/celebdf_multiple_mcq/question_64_2.png",
+                "images/celebdf_multiple_mcq/question_64_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "None of the above",
+                "Image 2 and Image 3",
+                "Image 1 and Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "65": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_65_1.png",
+                "images/celebdf_multiple_mcq/question_65_2.png",
+                "images/celebdf_multiple_mcq/question_65_3.png",
+                "images/celebdf_multiple_mcq/question_65_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 2 and 3",
+                "Images 3 and 4",
+                "Images 1 and 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Images 1 and 2"
+        },
+        "66": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_66_1.png",
+                "images/celebdf_multiple_mcq/question_66_2.png",
+                "images/celebdf_multiple_mcq/question_66_3.png",
+                "images/celebdf_multiple_mcq/question_66_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 3 and 4",
+                "Images 1 and 3",
+                "Images 2 and 3",
+                "Images 1 and 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Images 3 and 4"
+        },
+        "67": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_67_1.png",
+                "images/celebdf_multiple_mcq/question_67_2.png",
+                "images/celebdf_multiple_mcq/question_67_3.png",
+                "images/celebdf_multiple_mcq/question_67_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 1 and 2",
+                "Images 3 and 4",
+                "Images 2 and 3",
+                "None of the above"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images 3 and 4"
+        },
+        "68": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_68_1.png",
+                "images/celebdf_multiple_mcq/question_68_2.png",
+                "images/celebdf_multiple_mcq/question_68_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "1",
+                "0",
+                "3",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2"
+        },
+        "69": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_69_1.png",
+                "images/celebdf_multiple_mcq/question_69_2.png",
+                "images/celebdf_multiple_mcq/question_69_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "None of the above",
+                "Image 2 and Image 3",
+                "Image 1 and Image 2",
+                "Image 1, Image 2, and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "70": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_70_1.png",
+                "images/celebdf_multiple_mcq/question_70_2.png",
+                "images/celebdf_multiple_mcq/question_70_3.png",
+                "images/celebdf_multiple_mcq/question_70_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 1 and 4",
+                "Images 3 and 4",
+                "Images 2 and 3",
+                "Images 1 and 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Images 1 and 3"
+        },
+        "71": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_71_1.png",
+                "images/celebdf_multiple_mcq/question_71_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are real",
+                "Image 1 is real, Image 2 is fake",
+                "Both are fake",
+                "Image 1 is fake, Image 2 is real"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Both are fake"
+        },
+        "72": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_72_1.png",
+                "images/celebdf_multiple_mcq/question_72_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Image 1 is real, Image 2 is fake",
+                "Both are fake",
+                "Both are real",
+                "Image 1 is fake, Image 2 is real"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 is real, Image 2 is fake"
+        },
+        "73": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_73_1.png",
+                "images/celebdf_multiple_mcq/question_73_2.png",
+                "images/celebdf_multiple_mcq/question_73_3.png"
+            ],
+            "question_text": "Which images are real and which are fake?",
+            "options": [
+                "All images are real",
+                "Images 1 and 3 are fake, Image 2 is real",
+                "Images 1 and 3 are real, Image 2 is fake",
+                "All images are fake"
+            ],
+            "correct_answer_option": "D",
+            "answer": "All images are fake"
+        },
+        "74": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_74_1.png",
+                "images/celebdf_multiple_mcq/question_74_2.png",
+                "images/celebdf_multiple_mcq/question_74_3.png"
+            ],
+            "question_text": "Which images are real and which are fake?",
+            "options": [
+                "Images 2 and 3 are fake, Image 1 is real",
+                "Images 1 and 2 are real, Image 3 is fake",
+                "Images 1 and 2 are fake, Image 3 is real",
+                "All images are fake"
+            ],
+            "correct_answer_option": "D",
+            "answer": "All images are fake"
+        },
+        "75": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_75_1.png",
+                "images/celebdf_multiple_mcq/question_75_2.png",
+                "images/celebdf_multiple_mcq/question_75_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 1 and Image 2",
+                "None of the above",
+                "Image 2 and Image 3",
+                "Image 1, Image 2, and Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "76": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_76_1.png",
+                "images/celebdf_multiple_mcq/question_76_2.png",
+                "images/celebdf_multiple_mcq/question_76_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "Image 2 and Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "77": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_77_1.png",
+                "images/celebdf_multiple_mcq/question_77_2.png",
+                "images/celebdf_multiple_mcq/question_77_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 1 and Image 2",
+                "Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3"
+        },
+        "78": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_78_1.png",
+                "images/celebdf_multiple_mcq/question_78_2.png",
+                "images/celebdf_multiple_mcq/question_78_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 2",
+                "None of the above",
+                "Image 2 and Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "79": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_79_1.png",
+                "images/celebdf_multiple_mcq/question_79_2.png",
+                "images/celebdf_multiple_mcq/question_79_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 3",
+                "Image 1, Image 2, and Image 3",
+                "Image 2",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1, Image 2, and Image 3"
+        },
+        "80": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_80_1.png",
+                "images/celebdf_multiple_mcq/question_80_2.png",
+                "images/celebdf_multiple_mcq/question_80_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 1",
+                "Image 2",
+                "Image 2 and Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2 and Image 3"
+        },
+        "81": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_81_1.png",
+                "images/celebdf_multiple_mcq/question_81_2.png",
+                "images/celebdf_multiple_mcq/question_81_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 1",
+                "Image 1 and Image 2",
+                "Image 2 and Image 3",
+                "Image 1, Image 2, and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, and Image 3"
+        },
+        "82": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_82_1.png",
+                "images/celebdf_multiple_mcq/question_82_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are real",
+                "Image 1 is fake, Image 2 is real",
+                "Both are fake",
+                "Image 1 is real, Image 2 is fake"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 is fake, Image 2 is real"
+        },
+        "83": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_83_1.png",
+                "images/celebdf_multiple_mcq/question_83_2.png",
+                "images/celebdf_multiple_mcq/question_83_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 3",
+                "Image 1 and Image 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "84": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_84_1.png",
+                "images/celebdf_multiple_mcq/question_84_2.png",
+                "images/celebdf_multiple_mcq/question_84_3.png",
+                "images/celebdf_multiple_mcq/question_84_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "0",
+                "3",
+                "4",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "85": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_85_1.png",
+                "images/celebdf_multiple_mcq/question_85_2.png",
+                "images/celebdf_multiple_mcq/question_85_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "0",
+                "2",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1"
+        },
+        "86": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_86_1.png",
+                "images/celebdf_multiple_mcq/question_86_2.png",
+                "images/celebdf_multiple_mcq/question_86_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "None of the above",
+                "Image 1",
+                "Image 1 and Image 3",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "87": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_87_1.png",
+                "images/celebdf_multiple_mcq/question_87_2.png",
+                "images/celebdf_multiple_mcq/question_87_3.png"
+            ],
+            "question_text": "Which images are real and which are fake?",
+            "options": [
+                "Images 2 and 3 are real, Image 1 is fake",
+                "Images 2 and 3 are fake, Image 1 is real",
+                "Images 1 and 2 are fake, Image 3 is real",
+                "Images 1 and 3 are fake, Image 2 is real"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Images 1 and 2 are fake, Image 3 is real"
+        },
+        "88": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_88_1.png",
+                "images/celebdf_multiple_mcq/question_88_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are real",
+                "Image 1 is fake, Image 2 is real",
+                "Both are fake",
+                "Image 1 is real, Image 2 is fake"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Both are fake"
+        },
+        "89": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_89_1.png",
+                "images/celebdf_multiple_mcq/question_89_2.png",
+                "images/celebdf_multiple_mcq/question_89_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "None of the above",
+                "Image 1",
+                "Image 2",
+                "Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "90": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_90_1.png",
+                "images/celebdf_multiple_mcq/question_90_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are fake",
+                "Image 1 is real, Image 2 is fake",
+                "Both are real",
+                "Image 1 is fake, Image 2 is real"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Both are fake"
+        },
+        "91": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_91_1.png",
+                "images/celebdf_multiple_mcq/question_91_2.png",
+                "images/celebdf_multiple_mcq/question_91_3.png",
+                "images/celebdf_multiple_mcq/question_91_4.png",
+                "images/celebdf_multiple_mcq/question_91_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 3",
+                "Image 1 and Image 2",
+                "Image 3 and Image 4",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "92": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_92_1.png",
+                "images/celebdf_multiple_mcq/question_92_2.png",
+                "images/celebdf_multiple_mcq/question_92_3.png",
+                "images/celebdf_multiple_mcq/question_92_4.png",
+                "images/celebdf_multiple_mcq/question_92_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 5",
+                "Image 2 and Image 3",
+                "Image 2, Image 3, and Image 4",
+                "Image 1, Image 2, Image 3, Image 4, Image 5"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3, Image 4, Image 5"
+        },
+        "93": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_93_1.png",
+                "images/celebdf_multiple_mcq/question_93_2.png",
+                "images/celebdf_multiple_mcq/question_93_3.png",
+                "images/celebdf_multiple_mcq/question_93_4.png",
+                "images/celebdf_multiple_mcq/question_93_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 3, Image 4, and Image 5",
+                "Image 2, Image 3, and Image 4",
+                "Image 3 and Image 4",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "94": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_94_1.png",
+                "images/celebdf_multiple_mcq/question_94_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Image 1 is fake, Image 2 is real",
+                "Both are fake",
+                "Both are real",
+                "Image 1 is real, Image 2 is fake"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Both are fake"
+        },
+        "95": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_95_1.png",
+                "images/celebdf_multiple_mcq/question_95_2.png",
+                "images/celebdf_multiple_mcq/question_95_3.png",
+                "images/celebdf_multiple_mcq/question_95_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 1 and 3",
+                "Images 1 and 2",
+                "Images 2 and 3",
+                "Images 2 and 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Images 1 and 3"
+        },
+        "96": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_96_1.png",
+                "images/celebdf_multiple_mcq/question_96_2.png",
+                "images/celebdf_multiple_mcq/question_96_3.png"
+            ],
+            "question_text": "Which images are real and which are fake?",
+            "options": [
+                "All images are real",
+                "Images 1 and 2 are real, Image 3 is fake",
+                "Images 1 and 3 are real, Image 2 is fake",
+                "Images 2 and 3 are real, Image 1 is fake"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Images 1 and 3 are real, Image 2 is fake"
+        },
+        "97": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_97_1.png",
+                "images/celebdf_multiple_mcq/question_97_2.png",
+                "images/celebdf_multiple_mcq/question_97_3.png",
+                "images/celebdf_multiple_mcq/question_97_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 1 and 4",
+                "Images 1 and 2",
+                "Images 2 and 3",
+                "Images 1 and 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Images 1 and 3"
+        },
+        "98": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_98_1.png",
+                "images/celebdf_multiple_mcq/question_98_2.png",
+                "images/celebdf_multiple_mcq/question_98_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 1",
+                "None of the above",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 3"
+        },
+        "99": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_99_1.png",
+                "images/celebdf_multiple_mcq/question_99_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are fake",
+                "Image 1 is real, Image 2 is fake",
+                "Image 1 is fake, Image 2 is real",
+                "Both are real"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 is real, Image 2 is fake"
+        },
+        "100": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_100_1.png",
+                "images/celebdf_multiple_mcq/question_100_2.png",
+                "images/celebdf_multiple_mcq/question_100_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 1",
+                "Image 1, Image 2, and Image 3",
+                "None of the above",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1, Image 2, and Image 3"
+        },
+        "101": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_101_1.png",
+                "images/celebdf_multiple_mcq/question_101_2.png",
+                "images/celebdf_multiple_mcq/question_101_3.png"
+            ],
+            "question_text": "Which images are real and which are fake?",
+            "options": [
+                "All images are fake",
+                "Images 1 and 3 are real, Image 2 is fake",
+                "Images 2 and 3 are real, Image 1 is fake",
+                "All images are real"
+            ],
+            "correct_answer_option": "A",
+            "answer": "All images are fake"
+        },
+        "102": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_102_1.png",
+                "images/celebdf_multiple_mcq/question_102_2.png",
+                "images/celebdf_multiple_mcq/question_102_3.png",
+                "images/celebdf_multiple_mcq/question_102_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "4",
+                "3",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "3"
+        },
+        "103": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_103_1.png",
+                "images/celebdf_multiple_mcq/question_103_2.png",
+                "images/celebdf_multiple_mcq/question_103_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "1",
+                "3",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "3"
+        },
+        "104": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_104_1.png",
+                "images/celebdf_multiple_mcq/question_104_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are fake",
+                "Image 1 is real, Image 2 is fake",
+                "Both are real",
+                "Image 1 is fake, Image 2 is real"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Both are fake"
+        },
+        "105": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_105_1.png",
+                "images/celebdf_multiple_mcq/question_105_2.png",
+                "images/celebdf_multiple_mcq/question_105_3.png",
+                "images/celebdf_multiple_mcq/question_105_4.png",
+                "images/celebdf_multiple_mcq/question_105_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 4",
+                "None of the above",
+                "Image 3 and Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "106": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_106_1.png",
+                "images/celebdf_multiple_mcq/question_106_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Image 1 is fake, Image 2 is real",
+                "Both are real",
+                "Image 1 is real, Image 2 is fake",
+                "Both are fake"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Both are fake"
+        },
+        "107": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_107_1.png",
+                "images/celebdf_multiple_mcq/question_107_2.png"
+            ],
+            "question_text": "Which image is real?",
+            "options": [
+                "Both",
+                "None",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        },
+        "108": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_108_1.png",
+                "images/celebdf_multiple_mcq/question_108_2.png",
+                "images/celebdf_multiple_mcq/question_108_3.png"
+            ],
+            "question_text": "Which images are real and which are fake?",
+            "options": [
+                "Images 2 and 3 are real, Image 1 is fake",
+                "Images 1 and 2 are real, Image 3 is fake",
+                "All images are real",
+                "All images are fake"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images 1 and 2 are real, Image 3 is fake"
+        },
+        "109": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_109_1.png",
+                "images/celebdf_multiple_mcq/question_109_2.png",
+                "images/celebdf_multiple_mcq/question_109_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 1",
+                "Image 1 and Image 3",
+                "None of the above",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 3"
+        },
+        "110": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_110_1.png",
+                "images/celebdf_multiple_mcq/question_110_2.png",
+                "images/celebdf_multiple_mcq/question_110_3.png",
+                "images/celebdf_multiple_mcq/question_110_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "0",
+                "2",
+                "4",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "111": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_111_1.png",
+                "images/celebdf_multiple_mcq/question_111_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are real",
+                "Image 1 is fake, Image 2 is real",
+                "Both are fake",
+                "Image 1 is real, Image 2 is fake"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Both are fake"
+        },
+        "112": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_112_1.png",
+                "images/celebdf_multiple_mcq/question_112_2.png",
+                "images/celebdf_multiple_mcq/question_112_3.png",
+                "images/celebdf_multiple_mcq/question_112_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 2 and 4",
+                "Images 1 and 4",
+                "Images 3 and 4",
+                "Images 2 and 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Images 2 and 4"
+        },
+        "113": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_113_1.png",
+                "images/celebdf_multiple_mcq/question_113_2.png",
+                "images/celebdf_multiple_mcq/question_113_3.png",
+                "images/celebdf_multiple_mcq/question_113_4.png",
+                "images/celebdf_multiple_mcq/question_113_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 2 and Image 3",
+                "None of the above",
+                "Image 1",
+                "Image 1, Image 2, Image 3, Image 4, Image 5"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3, Image 4, Image 5"
+        },
+        "114": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_114_1.png",
+                "images/celebdf_multiple_mcq/question_114_2.png",
+                "images/celebdf_multiple_mcq/question_114_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "0",
+                "3",
+                "1",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2"
+        },
+        "115": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_115_1.png",
+                "images/celebdf_multiple_mcq/question_115_2.png",
+                "images/celebdf_multiple_mcq/question_115_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "0",
+                "2",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1"
+        },
+        "116": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_116_1.png",
+                "images/celebdf_multiple_mcq/question_116_2.png",
+                "images/celebdf_multiple_mcq/question_116_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "0",
+                "3",
+                "1",
+                "2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "3"
+        },
+        "117": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_117_1.png",
+                "images/celebdf_multiple_mcq/question_117_2.png",
+                "images/celebdf_multiple_mcq/question_117_3.png",
+                "images/celebdf_multiple_mcq/question_117_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "None of the above",
+                "Images 1 and 3",
+                "Images 1 and 4",
+                "Images 3 and 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Images 1 and 4"
+        },
+        "118": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_118_1.png",
+                "images/celebdf_multiple_mcq/question_118_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are fake",
+                "Image 1 is real, Image 2 is fake",
+                "Image 1 is fake, Image 2 is real",
+                "Both are real"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Both are real"
+        },
+        "119": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_119_1.png",
+                "images/celebdf_multiple_mcq/question_119_2.png",
+                "images/celebdf_multiple_mcq/question_119_3.png",
+                "images/celebdf_multiple_mcq/question_119_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 3 and 4",
+                "Images 2 and 3",
+                "Images 1 and 3",
+                "Images 1 and 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Images 3 and 4"
+        },
+        "120": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_120_1.png",
+                "images/celebdf_multiple_mcq/question_120_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Image 1 is real, Image 2 is fake",
+                "Both are real",
+                "Image 1 is fake, Image 2 is real",
+                "Both are fake"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Both are fake"
+        },
+        "121": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_121_1.png",
+                "images/celebdf_multiple_mcq/question_121_2.png",
+                "images/celebdf_multiple_mcq/question_121_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "None of the above",
+                "Image 1 and Image 3",
+                "Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 3"
+        },
+        "122": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_122_1.png",
+                "images/celebdf_multiple_mcq/question_122_2.png",
+                "images/celebdf_multiple_mcq/question_122_3.png",
+                "images/celebdf_multiple_mcq/question_122_4.png"
+            ],
+            "question_text": "How many deepfakes belong to the same identity?",
+            "options": [
+                "1",
+                "3",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "3"
+        },
+        "123": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_123_1.png",
+                "images/celebdf_multiple_mcq/question_123_2.png",
+                "images/celebdf_multiple_mcq/question_123_3.png",
+                "images/celebdf_multiple_mcq/question_123_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 2 and 3",
+                "Images 1 and 2",
+                "Images 1 and 4",
+                "None of the above"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Images 2 and 3"
+        },
+        "124": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_124_1.png",
+                "images/celebdf_multiple_mcq/question_124_2.png",
+                "images/celebdf_multiple_mcq/question_124_3.png",
+                "images/celebdf_multiple_mcq/question_124_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 2 and 4",
+                "Images 3 and 4",
+                "None of the above",
+                "Images 1 and 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "125": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_125_1.png",
+                "images/celebdf_multiple_mcq/question_125_2.png",
+                "images/celebdf_multiple_mcq/question_125_3.png"
+            ],
+            "question_text": "How many images are deepfakes?",
+            "options": [
+                "1",
+                "0",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2"
+        },
+        "126": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_126_1.png",
+                "images/celebdf_multiple_mcq/question_126_2.png",
+                "images/celebdf_multiple_mcq/question_126_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 2 and Image 3",
+                "Image 1, Image 2, and Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 3"
+        },
+        "127": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_127_1.png",
+                "images/celebdf_multiple_mcq/question_127_2.png",
+                "images/celebdf_multiple_mcq/question_127_3.png",
+                "images/celebdf_multiple_mcq/question_127_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 2 and 3",
+                "Images 3 and 4",
+                "None of the above",
+                "Images 1 and 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images 3 and 4"
+        },
+        "128": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_128_1.png",
+                "images/celebdf_multiple_mcq/question_128_2.png",
+                "images/celebdf_multiple_mcq/question_128_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "2",
+                "1",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2"
+        },
+        "129": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_129_1.png",
+                "images/celebdf_multiple_mcq/question_129_2.png",
+                "images/celebdf_multiple_mcq/question_129_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 2",
+                "Image 1 and Image 2",
+                "Image 1 and Image 3",
+                "Image 1, Image 2, and Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2"
+        },
+        "130": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_130_1.png",
+                "images/celebdf_multiple_mcq/question_130_2.png",
+                "images/celebdf_multiple_mcq/question_130_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 2",
+                "Image 3",
+                "Image 1, Image 2, and Image 3",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1, Image 2, and Image 3"
+        },
+        "131": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_131_1.png",
+                "images/celebdf_multiple_mcq/question_131_2.png",
+                "images/celebdf_multiple_mcq/question_131_3.png"
+            ],
+            "question_text": "Which images are not deepfakes?",
+            "options": [
+                "Image 3",
+                "None of the above",
+                "Image 2",
+                "Image 1 and Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 2"
+        },
+        "132": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_132_1.png",
+                "images/celebdf_multiple_mcq/question_132_2.png",
+                "images/celebdf_multiple_mcq/question_132_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 1, Image 2, and Image 3",
+                "None of the above",
+                "Image 1 and Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 2"
+        },
+        "133": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_133_1.png",
+                "images/celebdf_multiple_mcq/question_133_2.png",
+                "images/celebdf_multiple_mcq/question_133_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 1, Image 2, and Image 3",
+                "None of the above",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1, Image 2, and Image 3"
+        },
+        "134": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_134_1.png",
+                "images/celebdf_multiple_mcq/question_134_2.png",
+                "images/celebdf_multiple_mcq/question_134_3.png",
+                "images/celebdf_multiple_mcq/question_134_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 1 and 2",
+                "Images 2 and 4",
+                "None of the above",
+                "Images 2 and 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images 2 and 4"
+        },
+        "135": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_135_1.png",
+                "images/celebdf_multiple_mcq/question_135_2.png",
+                "images/celebdf_multiple_mcq/question_135_3.png"
+            ],
+            "question_text": "Which images are real and which are fake?",
+            "options": [
+                "Images 1 and 3 are real, Image 2 is fake",
+                "Images 1 and 2 are fake, Image 3 is real",
+                "Images 2 and 3 are fake, Image 1 is real",
+                "Images 1 and 3 are fake, Image 2 is real"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Images 1 and 3 are real, Image 2 is fake"
+        },
+        "136": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_136_1.png",
+                "images/celebdf_multiple_mcq/question_136_2.png",
+                "images/celebdf_multiple_mcq/question_136_3.png",
+                "images/celebdf_multiple_mcq/question_136_4.png",
+                "images/celebdf_multiple_mcq/question_136_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 2, Image 3, and Image 4",
+                "Image 3 and Image 4",
+                "Image 1 and Image 2",
+                "Image 1, Image 2, Image 3, Image 4, Image 5"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3, Image 4, Image 5"
+        },
+        "137": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_137_1.png",
+                "images/celebdf_multiple_mcq/question_137_2.png",
+                "images/celebdf_multiple_mcq/question_137_3.png"
+            ],
+            "question_text": "Which among these images are fake?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 2",
+                "Image 3",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "138": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_138_1.png",
+                "images/celebdf_multiple_mcq/question_138_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are fake",
+                "Image 1 is fake, Image 2 is real",
+                "Image 1 is real, Image 2 is fake",
+                "Both are real"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 is fake, Image 2 is real"
+        },
+        "139": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_139_1.png",
+                "images/celebdf_multiple_mcq/question_139_2.png",
+                "images/celebdf_multiple_mcq/question_139_3.png",
+                "images/celebdf_multiple_mcq/question_139_4.png",
+                "images/celebdf_multiple_mcq/question_139_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 3, Image 4, and Image 5",
+                "None of the above",
+                "Image 4 and Image 5",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "140": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_140_1.png",
+                "images/celebdf_multiple_mcq/question_140_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are real",
+                "Both are fake",
+                "Image 1 is real, Image 2 is fake",
+                "Image 1 is fake, Image 2 is real"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Both are fake"
+        },
+        "141": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_141_1.png",
+                "images/celebdf_multiple_mcq/question_141_2.png",
+                "images/celebdf_multiple_mcq/question_141_3.png",
+                "images/celebdf_multiple_mcq/question_141_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "None of the above",
+                "Images 3 and 4",
+                "Images 2 and 4",
+                "Images 1 and 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Images 1 and 4"
+        },
+        "142": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_142_1.png",
+                "images/celebdf_multiple_mcq/question_142_2.png",
+                "images/celebdf_multiple_mcq/question_142_3.png",
+                "images/celebdf_multiple_mcq/question_142_4.png"
+            ],
+            "question_text": "Which deepfakes belong to the same identity?",
+            "options": [
+                "Images 1 and 4",
+                "Images 2 and 4",
+                "Images 3 and 4",
+                "Images 2 and 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Images 3 and 4"
+        },
+        "143": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_143_1.png",
+                "images/celebdf_multiple_mcq/question_143_2.png",
+                "images/celebdf_multiple_mcq/question_143_3.png",
+                "images/celebdf_multiple_mcq/question_143_4.png",
+                "images/celebdf_multiple_mcq/question_143_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "None of the above",
+                "Image 2",
+                "Image 1, Image 2, and Image 3",
+                "Image 5"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "144": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_144_1.png",
+                "images/celebdf_multiple_mcq/question_144_2.png",
+                "images/celebdf_multiple_mcq/question_144_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "1",
+                "3",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1"
+        },
+        "145": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_145_1.png",
+                "images/celebdf_multiple_mcq/question_145_2.png",
+                "images/celebdf_multiple_mcq/question_145_3.png",
+                "images/celebdf_multiple_mcq/question_145_4.png",
+                "images/celebdf_multiple_mcq/question_145_5.png"
+            ],
+            "question_text": "Which images are deepfakes?",
+            "options": [
+                "Image 1, Image 2, Image 3, Image 4, Image 5",
+                "None of the above",
+                "Image 5",
+                "Image 4 and Image 5"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "146": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_146_1.png",
+                "images/celebdf_multiple_mcq/question_146_2.png",
+                "images/celebdf_multiple_mcq/question_146_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "2",
+                "0",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2"
+        },
+        "147": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_147_1.png",
+                "images/celebdf_multiple_mcq/question_147_2.png"
+            ],
+            "question_text": "Which image is real?",
+            "options": [
+                "Image 1",
+                "None",
+                "Both",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None"
+        },
+        "148": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_148_1.png",
+                "images/celebdf_multiple_mcq/question_148_2.png",
+                "images/celebdf_multiple_mcq/question_148_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "0",
+                "1",
+                "3",
+                "2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "3"
+        },
+        "149": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_149_1.png",
+                "images/celebdf_multiple_mcq/question_149_2.png",
+                "images/celebdf_multiple_mcq/question_149_3.png"
+            ],
+            "question_text": "How many images are real?",
+            "options": [
+                "2",
+                "1",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1"
+        },
+        "150": {
+            "image_paths": [
+                "images/celebdf_multiple_mcq/question_150_1.png",
+                "images/celebdf_multiple_mcq/question_150_2.png"
+            ],
+            "question_text": "Are these images real or fake?",
+            "options": [
+                "Both are fake",
+                "Both are real",
+                "Image 1 is fake, Image 2 is real",
+                "Image 1 is real, Image 2 is fake"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 is fake, Image 2 is real"
+        }
+    }
+}

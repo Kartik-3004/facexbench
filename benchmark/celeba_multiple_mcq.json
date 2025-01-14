@@ -1,0 +1,3273 @@
+{
+    "category": "attributes_expression",
+    "sub-category": "attributes",
+    "dataset": "celeba",
+    "question_type": "MCQ",
+    "num_images": "multiple",
+    "prepend_text": "Face attributes recognition involves identifying specific characteristics of a person, such as beard, moustache, and facial features, based on their facial appearance in an image. You have to perform the task of face attributes recognition.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_1_1.png",
+                "images/celeba_multiple_mcq/question_1_2.png",
+                "images/celeba_multiple_mcq/question_1_3.png",
+                "images/celeba_multiple_mcq/question_1_4.png",
+                "images/celeba_multiple_mcq/question_1_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "Bags_Under_Eyes",
+                "Eyeglasses",
+                "Wearing_Hat",
+                "Male"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Male"
+        },
+        "2": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_2_1.png",
+                "images/celeba_multiple_mcq/question_2_2.png",
+                "images/celeba_multiple_mcq/question_2_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Bald'?",
+            "options": [
+                "Image 1, Image 2",
+                "Image 2, Image 3",
+                "Image 1, Image 2, Image 3",
+                "None of the images"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the images"
+        },
+        "3": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_3_1.png",
+                "images/celeba_multiple_mcq/question_3_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Double_Chin",
+                "Black_Hair",
+                "Mustache",
+                "Pale_Skin"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Black_Hair"
+        },
+        "4": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_4_1.png",
+                "images/celeba_multiple_mcq/question_4_2.png",
+                "images/celeba_multiple_mcq/question_4_3.png",
+                "images/celeba_multiple_mcq/question_4_4.png",
+                "images/celeba_multiple_mcq/question_4_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                20,
+                22,
+                23,
+                24
+            ],
+            "correct_answer_option": "C",
+            "answer": 23
+        },
+        "5": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_5_1.png",
+                "images/celeba_multiple_mcq/question_5_2.png",
+                "images/celeba_multiple_mcq/question_5_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "5_o_Clock_Shadow",
+                "Smiling",
+                "Rosy_Cheeks",
+                "Wearing_Hat"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Smiling"
+        },
+        "6": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_6_1.png",
+                "images/celeba_multiple_mcq/question_6_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Goatee",
+                "Smiling",
+                "Bald",
+                "Chubby"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Smiling"
+        },
+        "7": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_7_1.png",
+                "images/celeba_multiple_mcq/question_7_2.png",
+                "images/celeba_multiple_mcq/question_7_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Attractive'?",
+            "options": [
+                "Image 1, Image 3",
+                "Image 2",
+                "Image 3",
+                "Image 2, Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2"
+        },
+        "8": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_8_1.png",
+                "images/celeba_multiple_mcq/question_8_2.png",
+                "images/celeba_multiple_mcq/question_8_3.png",
+                "images/celeba_multiple_mcq/question_8_4.png",
+                "images/celeba_multiple_mcq/question_8_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                21,
+                22,
+                23,
+                24
+            ],
+            "correct_answer_option": "B",
+            "answer": 22
+        },
+        "9": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_9_1.png",
+                "images/celeba_multiple_mcq/question_9_2.png",
+                "images/celeba_multiple_mcq/question_9_3.png"
+            ],
+            "question_text": "Given the set of attributes: Heavy_Makeup, Bags_Under_Eyes, Mustache, Wearing_Necktie, Young, Male. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                1,
+                2,
+                5
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "10": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_10_1.png",
+                "images/celeba_multiple_mcq/question_10_2.png",
+                "images/celeba_multiple_mcq/question_10_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Big_Nose",
+                "Double_Chin",
+                "Oval_Face",
+                "Gray_Hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Oval_Face"
+        },
+        "11": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_11_1.png",
+                "images/celeba_multiple_mcq/question_11_2.png",
+                "images/celeba_multiple_mcq/question_11_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Young'?",
+            "options": [
+                "Image 2, Image 3",
+                "Image 3",
+                "Image 1",
+                "Image 1, Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        },
+        "12": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_12_1.png",
+                "images/celeba_multiple_mcq/question_12_2.png",
+                "images/celeba_multiple_mcq/question_12_3.png",
+                "images/celeba_multiple_mcq/question_12_4.png",
+                "images/celeba_multiple_mcq/question_12_5.png"
+            ],
+            "question_text": "Which of the following attributes are common to all images?",
+            "options": [
+                "High_Cheekbones",
+                "Bangs",
+                "Bags_Under_Eyes",
+                "Young"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Young"
+        },
+        "13": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_13_1.png",
+                "images/celeba_multiple_mcq/question_13_2.png",
+                "images/celeba_multiple_mcq/question_13_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "High_Cheekbones",
+                "Blurry",
+                "Narrow_Eyes",
+                "Goatee"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Goatee"
+        },
+        "14": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_14_1.png",
+                "images/celeba_multiple_mcq/question_14_2.png",
+                "images/celeba_multiple_mcq/question_14_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Pointy_Nose'?",
+            "options": [
+                "Image 2, Image 3",
+                "Image 1, Image 3",
+                "Image 1",
+                "Image 1, Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        },
+        "15": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_15_1.png",
+                "images/celeba_multiple_mcq/question_15_2.png",
+                "images/celeba_multiple_mcq/question_15_3.png"
+            ],
+            "question_text": "Given the set of attributes: Chubby, Bangs, Bald, Heavy_Makeup, Big_Nose, High_Cheekbones, Smiling, Straight_Hair. How many of these attributes are common across all images?",
+            "options": [
+                1,
+                2,
+                3,
+                7
+            ],
+            "correct_answer_option": "B",
+            "answer": "2"
+        },
+        "16": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_16_1.png",
+                "images/celeba_multiple_mcq/question_16_2.png",
+                "images/celeba_multiple_mcq/question_16_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Male'?",
+            "options": [
+                "Image 2, Image 3",
+                "None of the images",
+                "Image 2",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "17": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_17_1.png",
+                "images/celeba_multiple_mcq/question_17_2.png",
+                "images/celeba_multiple_mcq/question_17_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Wearing_Necktie'?",
+            "options": [
+                "Image 2, Image 3",
+                "None of the images",
+                "Image 1",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "18": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_18_1.png",
+                "images/celeba_multiple_mcq/question_18_2.png",
+                "images/celeba_multiple_mcq/question_18_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Chubby'?",
+            "options": [
+                "Image 3",
+                "None of the images",
+                "Image 2, Image 3",
+                "Image 1, Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the images"
+        },
+        "19": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_19_1.png",
+                "images/celeba_multiple_mcq/question_19_2.png",
+                "images/celeba_multiple_mcq/question_19_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Blurry'?",
+            "options": [
+                "Image 3",
+                "None of the images",
+                "Image 1, Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the images"
+        },
+        "20": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_20_1.png",
+                "images/celeba_multiple_mcq/question_20_2.png",
+                "images/celeba_multiple_mcq/question_20_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Heavy_Makeup'?",
+            "options": [
+                "Image 1, Image 3",
+                "Image 1, Image 2, Image 3",
+                "Image 1, Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1, Image 2"
+        },
+        "21": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_21_1.png",
+                "images/celeba_multiple_mcq/question_21_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Arched_Eyebrows",
+                "Bags_Under_Eyes",
+                "Wearing_Necklace",
+                "Straight_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Bags_Under_Eyes"
+        },
+        "22": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_22_1.png",
+                "images/celeba_multiple_mcq/question_22_2.png",
+                "images/celeba_multiple_mcq/question_22_3.png"
+            ],
+            "question_text": "Given the set of attributes: Goatee, Heavy_Makeup, Wearing_Hat, Blurry, Attractive, Bald. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "23": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_23_1.png",
+                "images/celeba_multiple_mcq/question_23_2.png",
+                "images/celeba_multiple_mcq/question_23_3.png",
+                "images/celeba_multiple_mcq/question_23_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Mouth_Slightly_Open'?",
+            "options": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "correct_answer_option": "B",
+            "answer": "2"
+        },
+        "24": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_24_1.png",
+                "images/celeba_multiple_mcq/question_24_2.png",
+                "images/celeba_multiple_mcq/question_24_3.png",
+                "images/celeba_multiple_mcq/question_24_4.png",
+                "images/celeba_multiple_mcq/question_24_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "Bags_Under_Eyes",
+                "Pale_Skin",
+                "Young",
+                "Brown_Hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Young"
+        },
+        "25": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_25_1.png",
+                "images/celeba_multiple_mcq/question_25_2.png",
+                "images/celeba_multiple_mcq/question_25_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Wearing_Lipstick",
+                "Bushy_Eyebrows",
+                "Pale_Skin",
+                "Chubby"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Wearing_Lipstick"
+        },
+        "26": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_26_1.png",
+                "images/celeba_multiple_mcq/question_26_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "No_Beard",
+                "Blurry",
+                "5_o_Clock_Shadow",
+                "Pointy_Nose"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No_Beard"
+        },
+        "27": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_27_1.png",
+                "images/celeba_multiple_mcq/question_27_2.png",
+                "images/celeba_multiple_mcq/question_27_3.png"
+            ],
+            "question_text": "Given the set of attributes: Oval_Face, Wearing_Necklace, Receding_Hairline, Wearing_Hat, Blond_Hair, Arched_Eyebrows, Black_Hair, Sideburns. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                4,
+                5,
+                8
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "28": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_28_1.png",
+                "images/celeba_multiple_mcq/question_28_2.png",
+                "images/celeba_multiple_mcq/question_28_3.png",
+                "images/celeba_multiple_mcq/question_28_4.png",
+                "images/celeba_multiple_mcq/question_28_5.png"
+            ],
+            "question_text": "Which of the following attributes are common to all images?",
+            "options": [
+                "Blurry",
+                "Mouth_Slightly_Open",
+                "Attractive",
+                "High_Cheekbones"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Attractive"
+        },
+        "29": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_29_1.png",
+                "images/celeba_multiple_mcq/question_29_2.png",
+                "images/celeba_multiple_mcq/question_29_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Mustache",
+                "Blurry",
+                "Smiling",
+                "Eyeglasses"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Smiling"
+        },
+        "30": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_30_1.png",
+                "images/celeba_multiple_mcq/question_30_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Receding_Hairline",
+                "Oval_Face",
+                "Young",
+                "5_o_Clock_Shadow"
+            ],
+            "correct_answer_option": "D",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "31": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_31_1.png",
+                "images/celeba_multiple_mcq/question_31_2.png",
+                "images/celeba_multiple_mcq/question_31_3.png",
+                "images/celeba_multiple_mcq/question_31_4.png"
+            ],
+            "question_text": "Which images do not have the attribute '5_o_Clock_Shadow'?",
+            "options": [
+                "Image 2, Image 3, Image 4",
+                "Image 1, Image 2, Image 4",
+                "Image 2, Image 4",
+                "Image 1, Image 2, Image 3, Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3, Image 4"
+        },
+        "32": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_32_1.png",
+                "images/celeba_multiple_mcq/question_32_2.png",
+                "images/celeba_multiple_mcq/question_32_3.png"
+            ],
+            "question_text": "Given the set of attributes: Big_Nose, Pale_Skin, 5_o_Clock_Shadow, Goatee, Receding_Hairline, Bald, Blond_Hair. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                2,
+                5,
+                7
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "33": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_33_1.png",
+                "images/celeba_multiple_mcq/question_33_2.png",
+                "images/celeba_multiple_mcq/question_33_3.png",
+                "images/celeba_multiple_mcq/question_33_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Bald'?",
+            "options": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "34": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_34_1.png",
+                "images/celeba_multiple_mcq/question_34_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Wearing_Necklace",
+                "Young",
+                "Narrow_Eyes",
+                "Wavy_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Young"
+        },
+        "35": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_35_1.png",
+                "images/celeba_multiple_mcq/question_35_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Male",
+                "Bangs",
+                "Bald",
+                "Eyeglasses"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Male"
+        },
+        "36": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_36_1.png",
+                "images/celeba_multiple_mcq/question_36_2.png",
+                "images/celeba_multiple_mcq/question_36_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Bangs'?",
+            "options": [
+                "None of the images",
+                "Image 1, Image 3",
+                "Image 1, Image 2",
+                "Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the images"
+        },
+        "37": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_37_1.png",
+                "images/celeba_multiple_mcq/question_37_2.png",
+                "images/celeba_multiple_mcq/question_37_3.png",
+                "images/celeba_multiple_mcq/question_37_4.png",
+                "images/celeba_multiple_mcq/question_37_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                19,
+                20,
+                21,
+                23
+            ],
+            "correct_answer_option": "C",
+            "answer": 21
+        },
+        "38": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_38_1.png",
+                "images/celeba_multiple_mcq/question_38_2.png",
+                "images/celeba_multiple_mcq/question_38_3.png",
+                "images/celeba_multiple_mcq/question_38_4.png",
+                "images/celeba_multiple_mcq/question_38_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                28,
+                30,
+                31,
+                32
+            ],
+            "correct_answer_option": "B",
+            "answer": 30
+        },
+        "39": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_39_1.png",
+                "images/celeba_multiple_mcq/question_39_2.png",
+                "images/celeba_multiple_mcq/question_39_3.png",
+                "images/celeba_multiple_mcq/question_39_4.png",
+                "images/celeba_multiple_mcq/question_39_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                29,
+                30,
+                31,
+                32
+            ],
+            "correct_answer_option": "B",
+            "answer": 30
+        },
+        "40": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_40_1.png",
+                "images/celeba_multiple_mcq/question_40_2.png",
+                "images/celeba_multiple_mcq/question_40_3.png",
+                "images/celeba_multiple_mcq/question_40_4.png",
+                "images/celeba_multiple_mcq/question_40_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "Gray_Hair",
+                "Black_Hair",
+                "Young",
+                "Wearing_Necktie"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Young"
+        },
+        "41": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_41_1.png",
+                "images/celeba_multiple_mcq/question_41_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "No_Beard",
+                "Black_Hair",
+                "Male",
+                "Bangs"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No_Beard"
+        },
+        "42": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_42_1.png",
+                "images/celeba_multiple_mcq/question_42_2.png",
+                "images/celeba_multiple_mcq/question_42_3.png",
+                "images/celeba_multiple_mcq/question_42_4.png"
+            ],
+            "question_text": "Which images do not have the attribute 'Big_Nose'?",
+            "options": [
+                "Image 1, Image 4",
+                "Image 2, Image 3",
+                "Image 1, Image 3, Image 4",
+                "Image 3, Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1, Image 3, Image 4"
+        },
+        "43": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_43_1.png",
+                "images/celeba_multiple_mcq/question_43_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Arched_Eyebrows",
+                "Blond_Hair",
+                "Wearing_Necklace",
+                "Goatee"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Blond_Hair"
+        },
+        "44": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_44_1.png",
+                "images/celeba_multiple_mcq/question_44_2.png",
+                "images/celeba_multiple_mcq/question_44_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute '5_o_Clock_Shadow'?",
+            "options": [
+                "Image 1",
+                "Image 2",
+                "Image 1, Image 2",
+                "None of the images"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the images"
+        },
+        "45": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_45_1.png",
+                "images/celeba_multiple_mcq/question_45_2.png",
+                "images/celeba_multiple_mcq/question_45_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Smiling",
+                "No_Beard",
+                "Gray_Hair",
+                "Chubby"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No_Beard"
+        },
+        "46": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_46_1.png",
+                "images/celeba_multiple_mcq/question_46_2.png",
+                "images/celeba_multiple_mcq/question_46_3.png",
+                "images/celeba_multiple_mcq/question_46_4.png"
+            ],
+            "question_text": "Which images do not have the attribute 'Wearing_Earrings'?",
+            "options": [
+                "Image 1, Image 2",
+                "Image 1, Image 2, Image 3",
+                "Image 1, Image 2, Image 4",
+                "Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2"
+        },
+        "47": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_47_1.png",
+                "images/celeba_multiple_mcq/question_47_2.png",
+                "images/celeba_multiple_mcq/question_47_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Wearing_Necklace",
+                "Oval_Face",
+                "Big_Nose",
+                "Goatee"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Oval_Face"
+        },
+        "48": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_48_1.png",
+                "images/celeba_multiple_mcq/question_48_2.png",
+                "images/celeba_multiple_mcq/question_48_3.png",
+                "images/celeba_multiple_mcq/question_48_4.png"
+            ],
+            "question_text": "Which images do not have the attribute 'Straight_Hair'?",
+            "options": [
+                "Image 1, Image 2, Image 4",
+                "Image 2, Image 3, Image 4",
+                "Image 3, Image 4",
+                "Image 1, Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3, Image 4"
+        },
+        "49": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_49_1.png",
+                "images/celeba_multiple_mcq/question_49_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Rosy_Cheeks",
+                "Mouth_Slightly_Open",
+                "Eyeglasses",
+                "Receding_Hairline"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Mouth_Slightly_Open"
+        },
+        "50": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_50_1.png",
+                "images/celeba_multiple_mcq/question_50_2.png",
+                "images/celeba_multiple_mcq/question_50_3.png",
+                "images/celeba_multiple_mcq/question_50_4.png",
+                "images/celeba_multiple_mcq/question_50_5.png"
+            ],
+            "question_text": "Which of the following attributes are common to all images?",
+            "options": [
+                "Wearing_Earrings",
+                "Young",
+                "Wearing_Lipstick",
+                "High_Cheekbones"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Young"
+        },
+        "51": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_51_1.png",
+                "images/celeba_multiple_mcq/question_51_2.png",
+                "images/celeba_multiple_mcq/question_51_3.png",
+                "images/celeba_multiple_mcq/question_51_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Wearing_Hat'?",
+            "options": [
+                0,
+                1,
+                3,
+                4
+            ],
+            "correct_answer_option": "B",
+            "answer": "1"
+        },
+        "52": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_52_1.png",
+                "images/celeba_multiple_mcq/question_52_2.png",
+                "images/celeba_multiple_mcq/question_52_3.png",
+                "images/celeba_multiple_mcq/question_52_4.png",
+                "images/celeba_multiple_mcq/question_52_5.png"
+            ],
+            "question_text": "Which of the following attributes are common to all images?",
+            "options": [
+                "Bangs",
+                "Wavy_Hair",
+                "Chubby",
+                "No_Beard"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No_Beard"
+        },
+        "53": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_53_1.png",
+                "images/celeba_multiple_mcq/question_53_2.png",
+                "images/celeba_multiple_mcq/question_53_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Blond_Hair'?",
+            "options": [
+                "Image 1, Image 3",
+                "Image 1, Image 2",
+                "Image 2, Image 3",
+                "None of the images"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the images"
+        },
+        "54": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_54_1.png",
+                "images/celeba_multiple_mcq/question_54_2.png",
+                "images/celeba_multiple_mcq/question_54_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Wearing_Hat'?",
+            "options": [
+                "Image 2",
+                "Image 1, Image 2, Image 3",
+                "Image 1",
+                "Image 1, Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "55": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_55_1.png",
+                "images/celeba_multiple_mcq/question_55_2.png",
+                "images/celeba_multiple_mcq/question_55_3.png"
+            ],
+            "question_text": "Given the set of attributes: Pointy_Nose, Eyeglasses, Mustache, Oval_Face, Rosy_Cheeks, Wearing_Hat, Narrow_Eyes, Bald. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                3,
+                4,
+                5
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "56": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_56_1.png",
+                "images/celeba_multiple_mcq/question_56_2.png",
+                "images/celeba_multiple_mcq/question_56_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Wearing_Necktie",
+                "Smiling",
+                "Receding_Hairline",
+                "Blond_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Smiling"
+        },
+        "57": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_57_1.png",
+                "images/celeba_multiple_mcq/question_57_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Big_Nose",
+                "Pale_Skin",
+                "Bald",
+                "Wearing_Lipstick"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Big_Nose"
+        },
+        "58": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_58_1.png",
+                "images/celeba_multiple_mcq/question_58_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Pale_Skin",
+                "Double_Chin",
+                "Chubby",
+                "Young"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Young"
+        },
+        "59": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_59_1.png",
+                "images/celeba_multiple_mcq/question_59_2.png",
+                "images/celeba_multiple_mcq/question_59_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Wavy_Hair",
+                "Goatee",
+                "Brown_Hair",
+                "Wearing_Necklace"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Wavy_Hair"
+        },
+        "60": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_60_1.png",
+                "images/celeba_multiple_mcq/question_60_2.png",
+                "images/celeba_multiple_mcq/question_60_3.png",
+                "images/celeba_multiple_mcq/question_60_4.png"
+            ],
+            "question_text": "Which images do not have the attribute 'Big_Lips'?",
+            "options": [
+                "Image 1, Image 4",
+                "None of the images",
+                "Image 1, Image 2, Image 3, Image 4",
+                "Image 2, Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1, Image 2, Image 3, Image 4"
+        },
+        "61": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_61_1.png",
+                "images/celeba_multiple_mcq/question_61_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Wearing_Earrings",
+                "No_Beard",
+                "Bald",
+                "Wearing_Necktie"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No_Beard"
+        },
+        "62": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_62_1.png",
+                "images/celeba_multiple_mcq/question_62_2.png",
+                "images/celeba_multiple_mcq/question_62_3.png",
+                "images/celeba_multiple_mcq/question_62_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Sideburns'?",
+            "options": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "63": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_63_1.png",
+                "images/celeba_multiple_mcq/question_63_2.png",
+                "images/celeba_multiple_mcq/question_63_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Arched_Eyebrows'?",
+            "options": [
+                "Image 2, Image 3",
+                "Image 1, Image 3",
+                "None of the images",
+                "Image 1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the images"
+        },
+        "64": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_64_1.png",
+                "images/celeba_multiple_mcq/question_64_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Young",
+                "Narrow_Eyes",
+                "Big_Nose",
+                "Pointy_Nose"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Pointy_Nose"
+        },
+        "65": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_65_1.png",
+                "images/celeba_multiple_mcq/question_65_2.png",
+                "images/celeba_multiple_mcq/question_65_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Bangs'?",
+            "options": [
+                "Image 1, Image 3",
+                "Image 3",
+                "Image 2",
+                "Image 1, Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "66": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_66_1.png",
+                "images/celeba_multiple_mcq/question_66_2.png",
+                "images/celeba_multiple_mcq/question_66_3.png",
+                "images/celeba_multiple_mcq/question_66_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Mustache'?",
+            "options": [
+                0,
+                2,
+                3,
+                4
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "67": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_67_1.png",
+                "images/celeba_multiple_mcq/question_67_2.png",
+                "images/celeba_multiple_mcq/question_67_3.png",
+                "images/celeba_multiple_mcq/question_67_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Bangs'?",
+            "options": [
+                0,
+                1,
+                2,
+                4
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "68": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_68_1.png",
+                "images/celeba_multiple_mcq/question_68_2.png",
+                "images/celeba_multiple_mcq/question_68_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Eyeglasses'?",
+            "options": [
+                "Image 1, Image 2",
+                "Image 1",
+                "Image 3",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "69": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_69_1.png",
+                "images/celeba_multiple_mcq/question_69_2.png",
+                "images/celeba_multiple_mcq/question_69_3.png",
+                "images/celeba_multiple_mcq/question_69_4.png",
+                "images/celeba_multiple_mcq/question_69_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "High_Cheekbones",
+                "5_o_Clock_Shadow",
+                "Bald",
+                "Young"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Young"
+        },
+        "70": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_70_1.png",
+                "images/celeba_multiple_mcq/question_70_2.png",
+                "images/celeba_multiple_mcq/question_70_3.png"
+            ],
+            "question_text": "Given the set of attributes: Goatee, Pale_Skin, Bangs, Big_Nose, Wearing_Necktie, Oval_Face, Wearing_Lipstick, Receding_Hairline. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                3,
+                5,
+                7
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "71": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_71_1.png",
+                "images/celeba_multiple_mcq/question_71_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Attractive",
+                "Young",
+                "No_Beard",
+                "Receding_Hairline"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No_Beard"
+        },
+        "72": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_72_1.png",
+                "images/celeba_multiple_mcq/question_72_2.png",
+                "images/celeba_multiple_mcq/question_72_3.png",
+                "images/celeba_multiple_mcq/question_72_4.png",
+                "images/celeba_multiple_mcq/question_72_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "Wearing_Necklace",
+                "Rosy_Cheeks",
+                "Bangs",
+                "Young"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Young"
+        },
+        "73": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_73_1.png",
+                "images/celeba_multiple_mcq/question_73_2.png",
+                "images/celeba_multiple_mcq/question_73_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Big_Lips'?",
+            "options": [
+                "Image 1, Image 2, Image 3",
+                "Image 1, Image 2",
+                "Image 1",
+                "None of the images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "74": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_74_1.png",
+                "images/celeba_multiple_mcq/question_74_2.png",
+                "images/celeba_multiple_mcq/question_74_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Brown_Hair",
+                "Pointy_Nose",
+                "Chubby",
+                "Wearing_Lipstick"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Wearing_Lipstick"
+        },
+        "75": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_75_1.png",
+                "images/celeba_multiple_mcq/question_75_2.png",
+                "images/celeba_multiple_mcq/question_75_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Pointy_Nose'?",
+            "options": [
+                "Image 1, Image 2",
+                "Image 1, Image 2, Image 3",
+                "Image 2, Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1, Image 2"
+        },
+        "76": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_76_1.png",
+                "images/celeba_multiple_mcq/question_76_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Black_Hair",
+                "Rosy_Cheeks",
+                "Big_Lips",
+                "Wavy_Hair"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Wavy_Hair"
+        },
+        "77": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_77_1.png",
+                "images/celeba_multiple_mcq/question_77_2.png",
+                "images/celeba_multiple_mcq/question_77_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Gray_Hair'?",
+            "options": [
+                "Image 2",
+                "None of the images",
+                "Image 1",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the images"
+        },
+        "78": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_78_1.png",
+                "images/celeba_multiple_mcq/question_78_2.png",
+                "images/celeba_multiple_mcq/question_78_3.png",
+                "images/celeba_multiple_mcq/question_78_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Wearing_Hat'?",
+            "options": [
+                0,
+                2,
+                3,
+                4
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "79": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_79_1.png",
+                "images/celeba_multiple_mcq/question_79_2.png",
+                "images/celeba_multiple_mcq/question_79_3.png"
+            ],
+            "question_text": "Given the set of attributes: Blond_Hair, Young, Chubby, Wearing_Earrings, Wearing_Necklace. How many of these attributes are common across all images?",
+            "options": [
+                1,
+                2,
+                4,
+                5
+            ],
+            "correct_answer_option": "A",
+            "answer": "1"
+        },
+        "80": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_80_1.png",
+                "images/celeba_multiple_mcq/question_80_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Brown_Hair",
+                "Blond_Hair",
+                "Young",
+                "Male"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Young"
+        },
+        "81": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_81_1.png",
+                "images/celeba_multiple_mcq/question_81_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "High_Cheekbones",
+                "Young",
+                "Bangs",
+                "Bald"
+            ],
+            "correct_answer_option": "A",
+            "answer": "High_Cheekbones"
+        },
+        "82": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_82_1.png",
+                "images/celeba_multiple_mcq/question_82_2.png",
+                "images/celeba_multiple_mcq/question_82_3.png",
+                "images/celeba_multiple_mcq/question_82_4.png",
+                "images/celeba_multiple_mcq/question_82_5.png"
+            ],
+            "question_text": "Which of the following attributes are common to all images?",
+            "options": [
+                "Wearing_Necklace",
+                "Young",
+                "Arched_Eyebrows",
+                "Bangs"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Young"
+        },
+        "83": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_83_1.png",
+                "images/celeba_multiple_mcq/question_83_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Narrow_Eyes",
+                "No_Beard",
+                "Bags_Under_Eyes",
+                "Pointy_Nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Bags_Under_Eyes"
+        },
+        "84": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_84_1.png",
+                "images/celeba_multiple_mcq/question_84_2.png",
+                "images/celeba_multiple_mcq/question_84_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Arched_Eyebrows'?",
+            "options": [
+                "Image 2, Image 3",
+                "Image 1, Image 3",
+                "None of the images",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "85": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_85_1.png",
+                "images/celeba_multiple_mcq/question_85_2.png",
+                "images/celeba_multiple_mcq/question_85_3.png"
+            ],
+            "question_text": "Given the set of attributes: Pale_Skin, Bald, Bags_Under_Eyes, Black_Hair, Eyeglasses, Rosy_Cheeks. How many of these attributes are common across all images?",
+            "options": [
+                1,
+                2,
+                3,
+                5
+            ],
+            "correct_answer_option": "A",
+            "answer": "1"
+        },
+        "86": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_86_1.png",
+                "images/celeba_multiple_mcq/question_86_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Pale_Skin",
+                "Eyeglasses",
+                "Attractive",
+                "Gray_Hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Attractive"
+        },
+        "87": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_87_1.png",
+                "images/celeba_multiple_mcq/question_87_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Wearing_Necklace",
+                "Black_Hair",
+                "Smiling",
+                "Goatee"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Smiling"
+        },
+        "88": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_88_1.png",
+                "images/celeba_multiple_mcq/question_88_2.png",
+                "images/celeba_multiple_mcq/question_88_3.png"
+            ],
+            "question_text": "Given the set of attributes: Wavy_Hair, Rosy_Cheeks, Bags_Under_Eyes, Sideburns, Goatee, Chubby, Male. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                1,
+                2,
+                7
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "89": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_89_1.png",
+                "images/celeba_multiple_mcq/question_89_2.png",
+                "images/celeba_multiple_mcq/question_89_3.png",
+                "images/celeba_multiple_mcq/question_89_4.png",
+                "images/celeba_multiple_mcq/question_89_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "Double_Chin",
+                "Narrow_Eyes",
+                "No_Beard",
+                "Big_Nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No_Beard"
+        },
+        "90": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_90_1.png",
+                "images/celeba_multiple_mcq/question_90_2.png",
+                "images/celeba_multiple_mcq/question_90_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Wavy_Hair'?",
+            "options": [
+                "Image 1, Image 2",
+                "Image 1",
+                "Image 1, Image 2, Image 3",
+                "Image 1, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 3"
+        },
+        "91": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_91_1.png",
+                "images/celeba_multiple_mcq/question_91_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Black_Hair",
+                "Smiling",
+                "Sideburns",
+                "Mustache"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Smiling"
+        },
+        "92": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_92_1.png",
+                "images/celeba_multiple_mcq/question_92_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Wearing_Hat",
+                "Wearing_Lipstick",
+                "Blond_Hair",
+                "Brown_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Wearing_Lipstick"
+        },
+        "93": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_93_1.png",
+                "images/celeba_multiple_mcq/question_93_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Young",
+                "Pointy_Nose",
+                "Oval_Face",
+                "Mustache"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Young"
+        },
+        "94": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_94_1.png",
+                "images/celeba_multiple_mcq/question_94_2.png",
+                "images/celeba_multiple_mcq/question_94_3.png",
+                "images/celeba_multiple_mcq/question_94_4.png",
+                "images/celeba_multiple_mcq/question_94_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                20,
+                23,
+                25,
+                26
+            ],
+            "correct_answer_option": "B",
+            "answer": 23
+        },
+        "95": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_95_1.png",
+                "images/celeba_multiple_mcq/question_95_2.png",
+                "images/celeba_multiple_mcq/question_95_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Wearing_Necklace",
+                "Chubby",
+                "High_Cheekbones",
+                "Rosy_Cheeks"
+            ],
+            "correct_answer_option": "C",
+            "answer": "High_Cheekbones"
+        },
+        "96": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_96_1.png",
+                "images/celeba_multiple_mcq/question_96_2.png",
+                "images/celeba_multiple_mcq/question_96_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Bangs'?",
+            "options": [
+                "Image 1, Image 2",
+                "None of the images",
+                "Image 3",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "97": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_97_1.png",
+                "images/celeba_multiple_mcq/question_97_2.png",
+                "images/celeba_multiple_mcq/question_97_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Narrow_Eyes'?",
+            "options": [
+                "Image 1, Image 2",
+                "Image 3",
+                "Image 2",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "98": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_98_1.png",
+                "images/celeba_multiple_mcq/question_98_2.png",
+                "images/celeba_multiple_mcq/question_98_3.png",
+                "images/celeba_multiple_mcq/question_98_4.png"
+            ],
+            "question_text": "Which images do not have the attribute 'Black_Hair'?",
+            "options": [
+                "Image 2",
+                "Image 1, Image 2",
+                "Image 3",
+                "Image 1, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 3"
+        },
+        "99": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_99_1.png",
+                "images/celeba_multiple_mcq/question_99_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "High_Cheekbones",
+                "Receding_Hairline",
+                "Male",
+                "Sideburns"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Male"
+        },
+        "100": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_100_1.png",
+                "images/celeba_multiple_mcq/question_100_2.png",
+                "images/celeba_multiple_mcq/question_100_3.png"
+            ],
+            "question_text": "Which images lack the attribute '5_o_Clock_Shadow'?",
+            "options": [
+                "None of the images",
+                "Image 1, Image 2, Image 3",
+                "Image 1",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "101": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_101_1.png",
+                "images/celeba_multiple_mcq/question_101_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Bushy_Eyebrows",
+                "Attractive",
+                "Eyeglasses",
+                "Oval_Face"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Oval_Face"
+        },
+        "102": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_102_1.png",
+                "images/celeba_multiple_mcq/question_102_2.png",
+                "images/celeba_multiple_mcq/question_102_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Heavy_Makeup'?",
+            "options": [
+                "Image 3",
+                "Image 1, Image 2",
+                "Image 1",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1, Image 2"
+        },
+        "103": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_103_1.png",
+                "images/celeba_multiple_mcq/question_103_2.png",
+                "images/celeba_multiple_mcq/question_103_3.png",
+                "images/celeba_multiple_mcq/question_103_4.png",
+                "images/celeba_multiple_mcq/question_103_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                18,
+                19,
+                21,
+                24
+            ],
+            "correct_answer_option": "C",
+            "answer": 21
+        },
+        "104": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_104_1.png",
+                "images/celeba_multiple_mcq/question_104_2.png",
+                "images/celeba_multiple_mcq/question_104_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Arched_Eyebrows'?",
+            "options": [
+                "Image 2",
+                "None of the images",
+                "Image 1, Image 2",
+                "Image 1, Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the images"
+        },
+        "105": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_105_1.png",
+                "images/celeba_multiple_mcq/question_105_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Big_Lips",
+                "Straight_Hair",
+                "Eyeglasses",
+                "Mouth_Slightly_Open"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Mouth_Slightly_Open"
+        },
+        "106": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_106_1.png",
+                "images/celeba_multiple_mcq/question_106_2.png",
+                "images/celeba_multiple_mcq/question_106_3.png",
+                "images/celeba_multiple_mcq/question_106_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Bangs'?",
+            "options": [
+                0,
+                1,
+                3,
+                4
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "107": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_107_1.png",
+                "images/celeba_multiple_mcq/question_107_2.png",
+                "images/celeba_multiple_mcq/question_107_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Blurry'?",
+            "options": [
+                "Image 1",
+                "Image 1, Image 2",
+                "Image 1, Image 3",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "108": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_108_1.png",
+                "images/celeba_multiple_mcq/question_108_2.png",
+                "images/celeba_multiple_mcq/question_108_3.png"
+            ],
+            "question_text": "Given the set of attributes: Bags_Under_Eyes, Wearing_Earrings, Receding_Hairline, Mustache, Rosy_Cheeks, Sideburns, Narrow_Eyes. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                3,
+                4,
+                7
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "109": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_109_1.png",
+                "images/celeba_multiple_mcq/question_109_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Young",
+                "Wearing_Necktie",
+                "Bags_Under_Eyes",
+                "Wavy_Hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Young"
+        },
+        "110": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_110_1.png",
+                "images/celeba_multiple_mcq/question_110_2.png",
+                "images/celeba_multiple_mcq/question_110_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Wearing_Necktie'?",
+            "options": [
+                "Image 1, Image 2, Image 3",
+                "Image 1",
+                "Image 2, Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "111": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_111_1.png",
+                "images/celeba_multiple_mcq/question_111_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Wearing_Earrings",
+                "Big_Lips",
+                "Gray_Hair",
+                "No_Beard"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Gray_Hair"
+        },
+        "112": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_112_1.png",
+                "images/celeba_multiple_mcq/question_112_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Wearing_Earrings",
+                "Wearing_Hat",
+                "Receding_Hairline",
+                "Bald"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Wearing_Earrings"
+        },
+        "113": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_113_1.png",
+                "images/celeba_multiple_mcq/question_113_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Wearing_Hat",
+                "Mouth_Slightly_Open",
+                "Receding_Hairline",
+                "High_Cheekbones"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Mouth_Slightly_Open"
+        },
+        "114": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_114_1.png",
+                "images/celeba_multiple_mcq/question_114_2.png",
+                "images/celeba_multiple_mcq/question_114_3.png",
+                "images/celeba_multiple_mcq/question_114_4.png",
+                "images/celeba_multiple_mcq/question_114_5.png"
+            ],
+            "question_text": "Which of the following attributes are common to all images?",
+            "options": [
+                "Mouth_Slightly_Open",
+                "Bald",
+                "Heavy_Makeup",
+                "Young"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Young"
+        },
+        "115": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_115_1.png",
+                "images/celeba_multiple_mcq/question_115_2.png",
+                "images/celeba_multiple_mcq/question_115_3.png",
+                "images/celeba_multiple_mcq/question_115_4.png",
+                "images/celeba_multiple_mcq/question_115_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                23,
+                24,
+                26,
+                27
+            ],
+            "correct_answer_option": "B",
+            "answer": 24
+        },
+        "116": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_116_1.png",
+                "images/celeba_multiple_mcq/question_116_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Bushy_Eyebrows",
+                "Wearing_Lipstick",
+                "Receding_Hairline",
+                "Bags_Under_Eyes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Bags_Under_Eyes"
+        },
+        "117": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_117_1.png",
+                "images/celeba_multiple_mcq/question_117_2.png",
+                "images/celeba_multiple_mcq/question_117_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Straight_Hair",
+                "Goatee",
+                "No_Beard",
+                "Bushy_Eyebrows"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No_Beard"
+        },
+        "118": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_118_1.png",
+                "images/celeba_multiple_mcq/question_118_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Narrow_Eyes",
+                "Bushy_Eyebrows",
+                "Big_Lips",
+                "Receding_Hairline"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Big_Lips"
+        },
+        "119": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_119_1.png",
+                "images/celeba_multiple_mcq/question_119_2.png",
+                "images/celeba_multiple_mcq/question_119_3.png",
+                "images/celeba_multiple_mcq/question_119_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Brown_Hair'?",
+            "options": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "120": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_120_1.png",
+                "images/celeba_multiple_mcq/question_120_2.png",
+                "images/celeba_multiple_mcq/question_120_3.png",
+                "images/celeba_multiple_mcq/question_120_4.png",
+                "images/celeba_multiple_mcq/question_120_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "No_Beard",
+                "Oval_Face",
+                "Wearing_Necktie",
+                "Wearing_Lipstick"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No_Beard"
+        },
+        "121": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_121_1.png",
+                "images/celeba_multiple_mcq/question_121_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Double_Chin",
+                "Wearing_Hat",
+                "Bald",
+                "Chubby"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Bald"
+        },
+        "122": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_122_1.png",
+                "images/celeba_multiple_mcq/question_122_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Big_Nose",
+                "Black_Hair",
+                "Chubby",
+                "5_o_Clock_Shadow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Big_Nose"
+        },
+        "123": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_123_1.png",
+                "images/celeba_multiple_mcq/question_123_2.png",
+                "images/celeba_multiple_mcq/question_123_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Sideburns'?",
+            "options": [
+                "Image 1",
+                "Image 2, Image 3",
+                "Image 1, Image 2, Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "124": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_124_1.png",
+                "images/celeba_multiple_mcq/question_124_2.png",
+                "images/celeba_multiple_mcq/question_124_3.png",
+                "images/celeba_multiple_mcq/question_124_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Heavy_Makeup'?",
+            "options": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "B",
+            "answer": "1"
+        },
+        "125": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_125_1.png",
+                "images/celeba_multiple_mcq/question_125_2.png",
+                "images/celeba_multiple_mcq/question_125_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Heavy_Makeup'?",
+            "options": [
+                "Image 2",
+                "Image 1, Image 3",
+                "Image 1",
+                "Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 3"
+        },
+        "126": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_126_1.png",
+                "images/celeba_multiple_mcq/question_126_2.png",
+                "images/celeba_multiple_mcq/question_126_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Sideburns'?",
+            "options": [
+                "Image 3",
+                "Image 1",
+                "Image 1, Image 3",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "127": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_127_1.png",
+                "images/celeba_multiple_mcq/question_127_2.png",
+                "images/celeba_multiple_mcq/question_127_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Wearing_Necktie",
+                "Male",
+                "Young",
+                "Gray_Hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Young"
+        },
+        "128": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_128_1.png",
+                "images/celeba_multiple_mcq/question_128_2.png",
+                "images/celeba_multiple_mcq/question_128_3.png",
+                "images/celeba_multiple_mcq/question_128_4.png",
+                "images/celeba_multiple_mcq/question_128_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "Pale_Skin",
+                "No_Beard",
+                "Gray_Hair",
+                "Rosy_Cheeks"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No_Beard"
+        },
+        "129": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_129_1.png",
+                "images/celeba_multiple_mcq/question_129_2.png",
+                "images/celeba_multiple_mcq/question_129_3.png"
+            ],
+            "question_text": "Given the set of attributes: No_Beard, Chubby, 5_o_Clock_Shadow, Bald, Brown_Hair. How many of these attributes are common across all images?",
+            "options": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "correct_answer_option": "A",
+            "answer": "1"
+        },
+        "130": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_130_1.png",
+                "images/celeba_multiple_mcq/question_130_2.png",
+                "images/celeba_multiple_mcq/question_130_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Straight_Hair'?",
+            "options": [
+                "Image 2",
+                "None of the images",
+                "Image 1",
+                "Image 1, Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "131": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_131_1.png",
+                "images/celeba_multiple_mcq/question_131_2.png",
+                "images/celeba_multiple_mcq/question_131_3.png",
+                "images/celeba_multiple_mcq/question_131_4.png"
+            ],
+            "question_text": "Which images do not have the attribute 'Bags_Under_Eyes'?",
+            "options": [
+                "Image 1, Image 2",
+                "Image 2, Image 3, Image 4",
+                "Image 3, Image 4",
+                "Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1, Image 2"
+        },
+        "132": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_132_1.png",
+                "images/celeba_multiple_mcq/question_132_2.png",
+                "images/celeba_multiple_mcq/question_132_3.png",
+                "images/celeba_multiple_mcq/question_132_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Wearing_Hat'?",
+            "options": [
+                0,
+                2,
+                3,
+                4
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "133": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_133_1.png",
+                "images/celeba_multiple_mcq/question_133_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Big_Nose",
+                "Oval_Face",
+                "No_Beard",
+                "Pale_Skin"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No_Beard"
+        },
+        "134": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_134_1.png",
+                "images/celeba_multiple_mcq/question_134_2.png",
+                "images/celeba_multiple_mcq/question_134_3.png",
+                "images/celeba_multiple_mcq/question_134_4.png",
+                "images/celeba_multiple_mcq/question_134_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                19,
+                21,
+                22,
+                23
+            ],
+            "correct_answer_option": "B",
+            "answer": 21
+        },
+        "135": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_135_1.png",
+                "images/celeba_multiple_mcq/question_135_2.png",
+                "images/celeba_multiple_mcq/question_135_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Sideburns",
+                "Mustache",
+                "Black_Hair",
+                "Smiling"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Smiling"
+        },
+        "136": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_136_1.png",
+                "images/celeba_multiple_mcq/question_136_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Big_Lips",
+                "Blond_Hair",
+                "Young",
+                "Big_Nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Young"
+        },
+        "137": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_137_1.png",
+                "images/celeba_multiple_mcq/question_137_2.png",
+                "images/celeba_multiple_mcq/question_137_3.png",
+                "images/celeba_multiple_mcq/question_137_4.png"
+            ],
+            "question_text": "Which images do not have the attribute 'Goatee'?",
+            "options": [
+                "Image 2, Image 4",
+                "Image 1, Image 3",
+                "Image 2",
+                "Image 1, Image 2, Image 3, Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3, Image 4"
+        },
+        "138": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_138_1.png",
+                "images/celeba_multiple_mcq/question_138_2.png",
+                "images/celeba_multiple_mcq/question_138_3.png",
+                "images/celeba_multiple_mcq/question_138_4.png",
+                "images/celeba_multiple_mcq/question_138_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "Attractive",
+                "No_Beard",
+                "Blurry",
+                "Bald"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No_Beard"
+        },
+        "139": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_139_1.png",
+                "images/celeba_multiple_mcq/question_139_2.png",
+                "images/celeba_multiple_mcq/question_139_3.png",
+                "images/celeba_multiple_mcq/question_139_4.png",
+                "images/celeba_multiple_mcq/question_139_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                22,
+                23,
+                24,
+                25
+            ],
+            "correct_answer_option": "D",
+            "answer": 25
+        },
+        "140": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_140_1.png",
+                "images/celeba_multiple_mcq/question_140_2.png",
+                "images/celeba_multiple_mcq/question_140_3.png",
+                "images/celeba_multiple_mcq/question_140_4.png"
+            ],
+            "question_text": "Which images do not have the attribute '5_o_Clock_Shadow'?",
+            "options": [
+                "Image 1, Image 2, Image 4",
+                "Image 2, Image 3, Image 4",
+                "Image 2, Image 3",
+                "Image 1, Image 2, Image 3, Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 3, Image 4"
+        },
+        "141": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_141_1.png",
+                "images/celeba_multiple_mcq/question_141_2.png",
+                "images/celeba_multiple_mcq/question_141_3.png"
+            ],
+            "question_text": "Given the set of attributes: Black_Hair, Bald, Arched_Eyebrows, Wavy_Hair, Brown_Hair. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                1,
+                2,
+                5
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "142": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_142_1.png",
+                "images/celeba_multiple_mcq/question_142_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Bushy_Eyebrows",
+                "Young",
+                "Big_Nose",
+                "Attractive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attractive"
+        },
+        "143": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_143_1.png",
+                "images/celeba_multiple_mcq/question_143_2.png",
+                "images/celeba_multiple_mcq/question_143_3.png",
+                "images/celeba_multiple_mcq/question_143_4.png"
+            ],
+            "question_text": "Which images do not have the attribute 'Big_Lips'?",
+            "options": [
+                "Image 1",
+                "None of the images",
+                "Image 1, Image 2, Image 3",
+                "Image 2, Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2, Image 3"
+        },
+        "144": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_144_1.png",
+                "images/celeba_multiple_mcq/question_144_2.png",
+                "images/celeba_multiple_mcq/question_144_3.png",
+                "images/celeba_multiple_mcq/question_144_4.png",
+                "images/celeba_multiple_mcq/question_144_5.png"
+            ],
+            "question_text": "Which of the following attributes are common to all images?",
+            "options": [
+                "Bangs",
+                "No_Beard",
+                "Eyeglasses",
+                "Black_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No_Beard"
+        },
+        "145": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_145_1.png",
+                "images/celeba_multiple_mcq/question_145_2.png",
+                "images/celeba_multiple_mcq/question_145_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Oval_Face",
+                "Sideburns",
+                "Arched_Eyebrows",
+                "Wearing_Hat"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arched_Eyebrows"
+        },
+        "146": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_146_1.png",
+                "images/celeba_multiple_mcq/question_146_2.png",
+                "images/celeba_multiple_mcq/question_146_3.png",
+                "images/celeba_multiple_mcq/question_146_4.png",
+                "images/celeba_multiple_mcq/question_146_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                19,
+                21,
+                22,
+                23
+            ],
+            "correct_answer_option": "B",
+            "answer": 21
+        },
+        "147": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_147_1.png",
+                "images/celeba_multiple_mcq/question_147_2.png",
+                "images/celeba_multiple_mcq/question_147_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Big_Lips'?",
+            "options": [
+                "None of the images",
+                "Image 1, Image 2, Image 3",
+                "Image 3",
+                "Image 2, Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the images"
+        },
+        "148": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_148_1.png",
+                "images/celeba_multiple_mcq/question_148_2.png",
+                "images/celeba_multiple_mcq/question_148_3.png",
+                "images/celeba_multiple_mcq/question_148_4.png"
+            ],
+            "question_text": "Which images do not have the attribute 'Wearing_Earrings'?",
+            "options": [
+                "Image 2, Image 4",
+                "Image 2",
+                "Image 1, Image 2, Image 4",
+                "None of the images"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1, Image 2, Image 4"
+        },
+        "149": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_149_1.png",
+                "images/celeba_multiple_mcq/question_149_2.png",
+                "images/celeba_multiple_mcq/question_149_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Sideburns",
+                "Wearing_Necklace",
+                "Narrow_Eyes",
+                "High_Cheekbones"
+            ],
+            "correct_answer_option": "D",
+            "answer": "High_Cheekbones"
+        },
+        "150": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_150_1.png",
+                "images/celeba_multiple_mcq/question_150_2.png",
+                "images/celeba_multiple_mcq/question_150_3.png",
+                "images/celeba_multiple_mcq/question_150_4.png",
+                "images/celeba_multiple_mcq/question_150_5.png"
+            ],
+            "question_text": "Which of the following attributes are common to all images?",
+            "options": [
+                "Gray_Hair",
+                "Brown_Hair",
+                "Pointy_Nose",
+                "Young"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Young"
+        },
+        "151": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_151_1.png",
+                "images/celeba_multiple_mcq/question_151_2.png",
+                "images/celeba_multiple_mcq/question_151_3.png",
+                "images/celeba_multiple_mcq/question_151_4.png",
+                "images/celeba_multiple_mcq/question_151_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "High_Cheekbones",
+                "Bald",
+                "Double_Chin",
+                "5_o_Clock_Shadow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "High_Cheekbones"
+        },
+        "152": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_152_1.png",
+                "images/celeba_multiple_mcq/question_152_2.png",
+                "images/celeba_multiple_mcq/question_152_3.png",
+                "images/celeba_multiple_mcq/question_152_4.png",
+                "images/celeba_multiple_mcq/question_152_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "Arched_Eyebrows",
+                "Oval_Face",
+                "No_Beard",
+                "Eyeglasses"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No_Beard"
+        },
+        "153": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_153_1.png",
+                "images/celeba_multiple_mcq/question_153_2.png",
+                "images/celeba_multiple_mcq/question_153_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'No_Beard'?",
+            "options": [
+                "Image 1",
+                "Image 1, Image 2, Image 3",
+                "Image 2, Image 3",
+                "Image 1, Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "154": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_154_1.png",
+                "images/celeba_multiple_mcq/question_154_2.png",
+                "images/celeba_multiple_mcq/question_154_3.png",
+                "images/celeba_multiple_mcq/question_154_4.png",
+                "images/celeba_multiple_mcq/question_154_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "Blond_Hair",
+                "Arched_Eyebrows",
+                "Smiling",
+                "Young"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Young"
+        },
+        "155": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_155_1.png",
+                "images/celeba_multiple_mcq/question_155_2.png",
+                "images/celeba_multiple_mcq/question_155_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Mouth_Slightly_Open'?",
+            "options": [
+                "Image 1, Image 2",
+                "Image 2",
+                "Image 3",
+                "None of the images"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3"
+        },
+        "156": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_156_1.png",
+                "images/celeba_multiple_mcq/question_156_2.png",
+                "images/celeba_multiple_mcq/question_156_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Brown_Hair'?",
+            "options": [
+                "Image 3",
+                "Image 1, Image 3",
+                "Image 2, Image 3",
+                "None of the images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 3"
+        },
+        "157": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_157_1.png",
+                "images/celeba_multiple_mcq/question_157_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Brown_Hair",
+                "No_Beard",
+                "Mouth_Slightly_Open",
+                "Bald"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Brown_Hair"
+        },
+        "158": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_158_1.png",
+                "images/celeba_multiple_mcq/question_158_2.png",
+                "images/celeba_multiple_mcq/question_158_3.png"
+            ],
+            "question_text": "Which of the following attributes are present in any of the images?",
+            "options": [
+                "Heavy_Makeup",
+                "Smiling",
+                "Goatee",
+                "Sideburns"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Smiling"
+        },
+        "159": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_159_1.png",
+                "images/celeba_multiple_mcq/question_159_2.png",
+                "images/celeba_multiple_mcq/question_159_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute '5_o_Clock_Shadow'?",
+            "options": [
+                "Image 2, Image 3",
+                "Image 1, Image 2",
+                "None of the images",
+                "Image 1, Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the images"
+        },
+        "160": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_160_1.png",
+                "images/celeba_multiple_mcq/question_160_2.png",
+                "images/celeba_multiple_mcq/question_160_3.png",
+                "images/celeba_multiple_mcq/question_160_4.png",
+                "images/celeba_multiple_mcq/question_160_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                22,
+                23,
+                24,
+                26
+            ],
+            "correct_answer_option": "C",
+            "answer": 24
+        },
+        "161": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_161_1.png",
+                "images/celeba_multiple_mcq/question_161_2.png",
+                "images/celeba_multiple_mcq/question_161_3.png",
+                "images/celeba_multiple_mcq/question_161_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Chubby'?",
+            "options": [
+                0,
+                1,
+                3,
+                4
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "162": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_162_1.png",
+                "images/celeba_multiple_mcq/question_162_2.png",
+                "images/celeba_multiple_mcq/question_162_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Receding_Hairline'?",
+            "options": [
+                "Image 3",
+                "Image 2",
+                "None of the images",
+                "Image 1, Image 2, Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 3"
+        },
+        "163": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_163_1.png",
+                "images/celeba_multiple_mcq/question_163_2.png",
+                "images/celeba_multiple_mcq/question_163_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Wearing_Necklace'?",
+            "options": [
+                "Image 1, Image 2, Image 3",
+                "None of the images",
+                "Image 1, Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "164": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_164_1.png",
+                "images/celeba_multiple_mcq/question_164_2.png",
+                "images/celeba_multiple_mcq/question_164_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Big_Nose'?",
+            "options": [
+                "None of the images",
+                "Image 2, Image 3",
+                "Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2, Image 3"
+        },
+        "165": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_165_1.png",
+                "images/celeba_multiple_mcq/question_165_2.png",
+                "images/celeba_multiple_mcq/question_165_3.png",
+                "images/celeba_multiple_mcq/question_165_4.png",
+                "images/celeba_multiple_mcq/question_165_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                23,
+                25,
+                26,
+                27
+            ],
+            "correct_answer_option": "B",
+            "answer": 25
+        },
+        "166": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_166_1.png",
+                "images/celeba_multiple_mcq/question_166_2.png",
+                "images/celeba_multiple_mcq/question_166_3.png"
+            ],
+            "question_text": "Given the set of attributes: Narrow_Eyes, Heavy_Makeup, Eyeglasses, Wavy_Hair, Rosy_Cheeks. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                3,
+                4,
+                5
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "167": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_167_1.png",
+                "images/celeba_multiple_mcq/question_167_2.png",
+                "images/celeba_multiple_mcq/question_167_3.png",
+                "images/celeba_multiple_mcq/question_167_4.png",
+                "images/celeba_multiple_mcq/question_167_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "No_Beard",
+                "Oval_Face",
+                "Young",
+                "Bangs"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Young"
+        },
+        "168": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_168_1.png",
+                "images/celeba_multiple_mcq/question_168_2.png",
+                "images/celeba_multiple_mcq/question_168_3.png",
+                "images/celeba_multiple_mcq/question_168_4.png",
+                "images/celeba_multiple_mcq/question_168_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                26,
+                27,
+                28,
+                31
+            ],
+            "correct_answer_option": "C",
+            "answer": 28
+        },
+        "169": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_169_1.png",
+                "images/celeba_multiple_mcq/question_169_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Young",
+                "Heavy_Makeup",
+                "Arched_Eyebrows",
+                "Wavy_Hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Young"
+        },
+        "170": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_170_1.png",
+                "images/celeba_multiple_mcq/question_170_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Young",
+                "Wearing_Necktie",
+                "Chubby",
+                "Receding_Hairline"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Young"
+        },
+        "171": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_171_1.png",
+                "images/celeba_multiple_mcq/question_171_2.png",
+                "images/celeba_multiple_mcq/question_171_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute '5_o_Clock_Shadow'?",
+            "options": [
+                "Image 1",
+                "Image 1, Image 2, Image 3",
+                "None of the images",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the images"
+        },
+        "172": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_172_1.png",
+                "images/celeba_multiple_mcq/question_172_2.png",
+                "images/celeba_multiple_mcq/question_172_3.png",
+                "images/celeba_multiple_mcq/question_172_4.png",
+                "images/celeba_multiple_mcq/question_172_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                22,
+                23,
+                25,
+                26
+            ],
+            "correct_answer_option": "C",
+            "answer": 25
+        },
+        "173": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_173_1.png",
+                "images/celeba_multiple_mcq/question_173_2.png",
+                "images/celeba_multiple_mcq/question_173_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Smiling'?",
+            "options": [
+                "Image 1, Image 2, Image 3",
+                "Image 1",
+                "Image 2",
+                "Image 1, Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "174": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_174_1.png",
+                "images/celeba_multiple_mcq/question_174_2.png",
+                "images/celeba_multiple_mcq/question_174_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Pointy_Nose'?",
+            "options": [
+                "Image 1",
+                "None of the images",
+                "Image 2, Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1"
+        },
+        "175": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_175_1.png",
+                "images/celeba_multiple_mcq/question_175_2.png",
+                "images/celeba_multiple_mcq/question_175_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Wearing_Hat'?",
+            "options": [
+                "Image 1",
+                "Image 1, Image 2",
+                "Image 1, Image 2, Image 3",
+                "None of the images"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the images"
+        },
+        "176": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_176_1.png",
+                "images/celeba_multiple_mcq/question_176_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Young",
+                "Wearing_Earrings",
+                "Heavy_Makeup",
+                "Gray_Hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Young"
+        },
+        "177": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_177_1.png",
+                "images/celeba_multiple_mcq/question_177_2.png",
+                "images/celeba_multiple_mcq/question_177_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Mustache'?",
+            "options": [
+                "None of the images",
+                "Image 2",
+                "Image 2, Image 3",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the images"
+        },
+        "178": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_178_1.png",
+                "images/celeba_multiple_mcq/question_178_2.png",
+                "images/celeba_multiple_mcq/question_178_3.png"
+            ],
+            "question_text": "Which images lack the attribute 'Double_Chin'?",
+            "options": [
+                "Image 1",
+                "None of the images",
+                "Image 1, Image 2, Image 3",
+                "Image 2, Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "179": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_179_1.png",
+                "images/celeba_multiple_mcq/question_179_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Smiling",
+                "Goatee",
+                "Wearing_Lipstick",
+                "Wearing_Hat"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Smiling"
+        },
+        "180": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_180_1.png",
+                "images/celeba_multiple_mcq/question_180_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "Sideburns",
+                "Wearing_Necklace",
+                "Wavy_Hair",
+                "No_Beard"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Wavy_Hair"
+        },
+        "181": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_181_1.png",
+                "images/celeba_multiple_mcq/question_181_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Young",
+                "Mustache",
+                "Goatee",
+                "Bald"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Young"
+        },
+        "182": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_182_1.png",
+                "images/celeba_multiple_mcq/question_182_2.png",
+                "images/celeba_multiple_mcq/question_182_3.png",
+                "images/celeba_multiple_mcq/question_182_4.png",
+                "images/celeba_multiple_mcq/question_182_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                20,
+                22,
+                23,
+                25
+            ],
+            "correct_answer_option": "B",
+            "answer": 22
+        },
+        "183": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_183_1.png",
+                "images/celeba_multiple_mcq/question_183_2.png",
+                "images/celeba_multiple_mcq/question_183_3.png",
+                "images/celeba_multiple_mcq/question_183_4.png",
+                "images/celeba_multiple_mcq/question_183_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                22,
+                25,
+                27,
+                28
+            ],
+            "correct_answer_option": "B",
+            "answer": 25
+        },
+        "184": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_184_1.png",
+                "images/celeba_multiple_mcq/question_184_2.png",
+                "images/celeba_multiple_mcq/question_184_3.png",
+                "images/celeba_multiple_mcq/question_184_4.png",
+                "images/celeba_multiple_mcq/question_184_5.png"
+            ],
+            "question_text": "Which of the following attributes are common to all images?",
+            "options": [
+                "No_Beard",
+                "Big_Nose",
+                "Blond_Hair",
+                "Goatee"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No_Beard"
+        },
+        "185": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_185_1.png",
+                "images/celeba_multiple_mcq/question_185_2.png",
+                "images/celeba_multiple_mcq/question_185_3.png"
+            ],
+            "question_text": "Given the set of attributes: Chubby, Smiling, Bushy_Eyebrows, Mustache, Narrow_Eyes, Attractive. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                1,
+                4,
+                6
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "186": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_186_1.png",
+                "images/celeba_multiple_mcq/question_186_2.png",
+                "images/celeba_multiple_mcq/question_186_3.png",
+                "images/celeba_multiple_mcq/question_186_4.png",
+                "images/celeba_multiple_mcq/question_186_5.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes are present across all images?",
+            "options": [
+                27,
+                30,
+                31,
+                33
+            ],
+            "correct_answer_option": "B",
+            "answer": 30
+        },
+        "187": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_187_1.png",
+                "images/celeba_multiple_mcq/question_187_2.png",
+                "images/celeba_multiple_mcq/question_187_3.png",
+                "images/celeba_multiple_mcq/question_187_4.png",
+                "images/celeba_multiple_mcq/question_187_5.png"
+            ],
+            "question_text": "Which attribute is most frequent among the images?",
+            "options": [
+                "Pointy_Nose",
+                "Young",
+                "Bushy_Eyebrows",
+                "Brown_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Young"
+        },
+        "188": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_188_1.png",
+                "images/celeba_multiple_mcq/question_188_2.png",
+                "images/celeba_multiple_mcq/question_188_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Wearing_Earrings'?",
+            "options": [
+                "Image 2, Image 3",
+                "Image 1, Image 3",
+                "Image 1, Image 2, Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1, Image 3"
+        },
+        "189": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_189_1.png",
+                "images/celeba_multiple_mcq/question_189_2.png",
+                "images/celeba_multiple_mcq/question_189_3.png"
+            ],
+            "question_text": "Given the set of attributes: Pale_Skin, Male, Arched_Eyebrows, Bangs, Wearing_Necktie, Heavy_Makeup. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                3,
+                4,
+                6
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "190": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_190_1.png",
+                "images/celeba_multiple_mcq/question_190_2.png",
+                "images/celeba_multiple_mcq/question_190_3.png"
+            ],
+            "question_text": "Given the set of attributes: Chubby, Arched_Eyebrows, Narrow_Eyes, Straight_Hair, Eyeglasses, Male. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                1,
+                3,
+                5
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "191": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_191_1.png",
+                "images/celeba_multiple_mcq/question_191_2.png",
+                "images/celeba_multiple_mcq/question_191_3.png",
+                "images/celeba_multiple_mcq/question_191_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Blurry'?",
+            "options": [
+                0,
+                1,
+                3,
+                4
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "192": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_192_1.png",
+                "images/celeba_multiple_mcq/question_192_2.png",
+                "images/celeba_multiple_mcq/question_192_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Wearing_Necktie'?",
+            "options": [
+                "Image 1, Image 3",
+                "Image 1, Image 2, Image 3",
+                "Image 1, Image 2",
+                "None of the images"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the images"
+        },
+        "193": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_193_1.png",
+                "images/celeba_multiple_mcq/question_193_2.png",
+                "images/celeba_multiple_mcq/question_193_3.png",
+                "images/celeba_multiple_mcq/question_193_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Arched_Eyebrows'?",
+            "options": [
+                0,
+                1,
+                2,
+                4
+            ],
+            "correct_answer_option": "B",
+            "answer": "1"
+        },
+        "194": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_194_1.png",
+                "images/celeba_multiple_mcq/question_194_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Big_Nose",
+                "Heavy_Makeup",
+                "Blond_Hair",
+                "Attractive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attractive"
+        },
+        "195": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_195_1.png",
+                "images/celeba_multiple_mcq/question_195_2.png"
+            ],
+            "question_text": "Which attribute is unique to one of the images?",
+            "options": [
+                "High_Cheekbones",
+                "Wearing_Hat",
+                "Wavy_Hair",
+                "Wearing_Necktie"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Wavy_Hair"
+        },
+        "196": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_196_1.png",
+                "images/celeba_multiple_mcq/question_196_2.png",
+                "images/celeba_multiple_mcq/question_196_3.png",
+                "images/celeba_multiple_mcq/question_196_4.png",
+                "images/celeba_multiple_mcq/question_196_5.png"
+            ],
+            "question_text": "Which of the following attributes are common to all images?",
+            "options": [
+                "Young",
+                "Straight_Hair",
+                "Eyeglasses",
+                "Blurry"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Young"
+        },
+        "197": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_197_1.png",
+                "images/celeba_multiple_mcq/question_197_2.png",
+                "images/celeba_multiple_mcq/question_197_3.png",
+                "images/celeba_multiple_mcq/question_197_4.png"
+            ],
+            "question_text": "How many images have a person with the attribute 'Smiling'?",
+            "options": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "C",
+            "answer": "2"
+        },
+        "198": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_198_1.png",
+                "images/celeba_multiple_mcq/question_198_2.png"
+            ],
+            "question_text": "Which of the following attributes do both images have in common?",
+            "options": [
+                "Young",
+                "Big_Lips",
+                "Bald",
+                "Big_Nose"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Young"
+        },
+        "199": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_199_1.png",
+                "images/celeba_multiple_mcq/question_199_2.png",
+                "images/celeba_multiple_mcq/question_199_3.png"
+            ],
+            "question_text": "Given the set of attributes: Arched_Eyebrows, Pale_Skin, Big_Nose, Bags_Under_Eyes, Smiling. How many of these attributes are common across all images?",
+            "options": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "200": {
+            "image_paths": [
+                "images/celeba_multiple_mcq/question_200_1.png",
+                "images/celeba_multiple_mcq/question_200_2.png",
+                "images/celeba_multiple_mcq/question_200_3.png"
+            ],
+            "question_text": "Which images have a person with the attribute 'Young'?",
+            "options": [
+                "Image 1, Image 2, Image 3",
+                "Image 1",
+                "None of the images",
+                "Image 1, Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1, Image 2, Image 3"
+        }
+    }
+}

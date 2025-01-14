@@ -1,0 +1,2811 @@
+{
+    "category": "face_localization",
+    "sub-category": "segmentation",
+    "dataset": "lapa",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "prepend_text": "Face segmentation involves dividing a facial image into distinct regions such as eyes, nose, mouth, and other facial features. You have to perform the task of face segmentation.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_1.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "upper lip",
+                "hair",
+                "face"
+            ],
+            "correct_answer_option": "C",
+            "answer": "hair"
+        },
+        "2": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_2.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "left eye",
+                "face",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "3": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_3.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "hair",
+                "left eye",
+                "inner mouth"
+            ],
+            "correct_answer_option": "D",
+            "answer": "inner mouth"
+        },
+        "4": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_4.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "upper lip",
+                "right eye",
+                "lower lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "right eye"
+        },
+        "5": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_5.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "left eye",
+                "hair",
+                "face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "left eye"
+        },
+        "6": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_6.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "face",
+                "None of the above",
+                "upper lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "7": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_7.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "hair",
+                "right eyebrow",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "inner mouth"
+        },
+        "8": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_8.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "hair",
+                "None of the above",
+                "face"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "9": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_9.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "left eyebrow",
+                "None of the above",
+                "hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "10": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_10.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "face",
+                "nose",
+                "inner mouth"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "11": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_11.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "left eyebrow",
+                "upper lip",
+                "left eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "upper lip"
+        },
+        "12": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_12.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "left eye",
+                "hair",
+                "right eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "13": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_13.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "inner mouth",
+                "left eye",
+                "nose"
+            ],
+            "correct_answer_option": "B",
+            "answer": "inner mouth"
+        },
+        "14": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_14.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "left eyebrow",
+                "lower lip",
+                "hair"
+            ],
+            "correct_answer_option": "D",
+            "answer": "hair"
+        },
+        "15": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_15.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "upper lip",
+                "nose",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "16": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_16.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "left eyebrow",
+                "None of the above",
+                "nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "17": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_17.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "left eye",
+                "face",
+                "upper lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "left eye"
+        },
+        "18": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_18.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "right eyebrow",
+                "face",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "19": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_19.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "left eyebrow",
+                "right eyebrow",
+                "left eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "20": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_20.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "right eye",
+                "upper lip",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "21": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_21.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "left eye",
+                "right eyebrow",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "22": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_22.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "hair",
+                "face",
+                "lower lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "23": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_23.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "right eyebrow",
+                "hair",
+                "lower lip"
+            ],
+            "correct_answer_option": "D",
+            "answer": "lower lip"
+        },
+        "24": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_24.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "right eyebrow",
+                "right eye",
+                "nose"
+            ],
+            "correct_answer_option": "D",
+            "answer": "nose"
+        },
+        "25": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_25.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "face",
+                "left eyebrow",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "26": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_26.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "None of the above",
+                "inner mouth",
+                "left eye"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "27": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_27.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "upper lip",
+                "face",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "D",
+            "answer": "left eyebrow"
+        },
+        "28": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_28.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "right eyebrow",
+                "left eye",
+                "nose"
+            ],
+            "correct_answer_option": "D",
+            "answer": "nose"
+        },
+        "29": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_29.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "None of the above",
+                "upper lip",
+                "face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "30": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_30.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "face",
+                "left eye",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "C",
+            "answer": "left eye"
+        },
+        "31": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_31.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "right eyebrow",
+                "upper lip",
+                "right eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "32": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_32.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "nose",
+                "right eyebrow",
+                "lower lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "right eyebrow"
+        },
+        "33": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_33.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "inner mouth",
+                "None of the above",
+                "left eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "34": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_34.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "inner mouth",
+                "face",
+                "lower lip"
+            ],
+            "correct_answer_option": "D",
+            "answer": "lower lip"
+        },
+        "35": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_35.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "hair",
+                "right eye",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "inner mouth"
+        },
+        "36": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_36.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "None of the above",
+                "inner mouth",
+                "lower lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "37": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_37.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "nose",
+                "inner mouth",
+                "lower lip"
+            ],
+            "correct_answer_option": "D",
+            "answer": "lower lip"
+        },
+        "38": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_38.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "right eye",
+                "upper lip",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "right eye"
+        },
+        "39": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_39.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "None of the above",
+                "hair",
+                "face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "40": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_40.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "left eyebrow",
+                "lower lip",
+                "upper lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "lower lip"
+        },
+        "41": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_41.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "face",
+                "nose",
+                "lower lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "face"
+        },
+        "42": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_42.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "left eyebrow",
+                "inner mouth",
+                "face"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "43": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_43.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "right eye",
+                "inner mouth",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "44": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_44.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "inner mouth",
+                "right eye",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "inner mouth"
+        },
+        "45": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_45.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "face",
+                "hair",
+                "left eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "46": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_46.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "None of the above",
+                "upper lip",
+                "face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "47": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_47.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "lower lip",
+                "left eye",
+                "upper lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "left eye"
+        },
+        "48": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_48.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "face",
+                "inner mouth",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "49": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_49.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "left eyebrow",
+                "None of the above",
+                "inner mouth"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "50": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_50.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "left eyebrow",
+                "left eye",
+                "face"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "51": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_51.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "inner mouth",
+                "upper lip",
+                "face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "inner mouth"
+        },
+        "52": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_52.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "inner mouth",
+                "nose",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "53": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_53.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "None of the above",
+                "inner mouth",
+                "hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "54": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_54.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "None of the above",
+                "hair",
+                "inner mouth"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "55": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_55.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "face",
+                "left eye",
+                "lower lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "upper lip"
+        },
+        "56": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_56.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "lower lip",
+                "right eyebrow",
+                "nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "right eyebrow"
+        },
+        "57": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_57.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "nose",
+                "right eyebrow",
+                "upper lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "58": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_58.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "upper lip",
+                "right eye",
+                "left eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "right eye"
+        },
+        "59": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_59.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "left eye",
+                "right eyebrow",
+                "inner mouth"
+            ],
+            "correct_answer_option": "A",
+            "answer": "hair"
+        },
+        "60": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_60.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "right eye",
+                "left eyebrow",
+                "upper lip"
+            ],
+            "correct_answer_option": "D",
+            "answer": "upper lip"
+        },
+        "61": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_61.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "right eyebrow",
+                "face",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "62": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_62.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "nose",
+                "right eye",
+                "lower lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "right eye"
+        },
+        "63": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_63.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "None of the above",
+                "inner mouth",
+                "lower lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "64": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_64.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "upper lip",
+                "face",
+                "hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "inner mouth"
+        },
+        "65": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_65.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "left eye",
+                "nose",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "66": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_66.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "hair",
+                "left eyebrow",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "67": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_67.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "None of the above",
+                "upper lip",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "68": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_68.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "lower lip",
+                "nose",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "C",
+            "answer": "nose"
+        },
+        "69": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_69.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "face",
+                "right eye",
+                "nose"
+            ],
+            "correct_answer_option": "D",
+            "answer": "nose"
+        },
+        "70": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_70.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "face",
+                "right eyebrow",
+                "inner mouth"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "71": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_71.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "inner mouth",
+                "lower lip",
+                "nose"
+            ],
+            "correct_answer_option": "B",
+            "answer": "inner mouth"
+        },
+        "72": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_72.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "right eyebrow",
+                "None of the above",
+                "left eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "73": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_73.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "upper lip",
+                "inner mouth",
+                "right eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "74": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_74.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "hair",
+                "left eyebrow",
+                "upper lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "inner mouth"
+        },
+        "75": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_75.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "upper lip",
+                "left eyebrow",
+                "left eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "left eyebrow"
+        },
+        "76": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_76.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "left eyebrow",
+                "upper lip",
+                "inner mouth"
+            ],
+            "correct_answer_option": "D",
+            "answer": "inner mouth"
+        },
+        "77": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_77.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "lower lip",
+                "face",
+                "hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "lower lip"
+        },
+        "78": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_78.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "left eyebrow",
+                "right eyebrow",
+                "inner mouth"
+            ],
+            "correct_answer_option": "C",
+            "answer": "right eyebrow"
+        },
+        "79": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_79.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "hair",
+                "right eyebrow",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "D",
+            "answer": "left eyebrow"
+        },
+        "80": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_80.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "left eye",
+                "inner mouth",
+                "nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "81": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_81.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "right eye",
+                "face",
+                "lower lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "right eye"
+        },
+        "82": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_82.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "right eye",
+                "right eyebrow",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "83": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_83.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "left eyebrow",
+                "right eye",
+                "hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "84": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_84.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "right eye",
+                "nose",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "85": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_85.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "face",
+                "nose",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "86": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_86.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "right eye",
+                "inner mouth",
+                "left eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "right eyebrow"
+        },
+        "87": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_87.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "face",
+                "hair",
+                "upper lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "inner mouth"
+        },
+        "88": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_88.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "None of the above",
+                "lower lip",
+                "right eye"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "89": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_89.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "face",
+                "lower lip",
+                "inner mouth"
+            ],
+            "correct_answer_option": "B",
+            "answer": "face"
+        },
+        "90": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_90.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "left eyebrow",
+                "hair",
+                "lower lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "hair"
+        },
+        "91": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_91.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "left eyebrow",
+                "nose",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "92": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_92.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "None of the above",
+                "face",
+                "nose"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "93": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_93.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "inner mouth",
+                "right eyebrow",
+                "hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "94": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_94.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "face",
+                "nose",
+                "lower lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "face"
+        },
+        "95": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_95.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "inner mouth",
+                "left eye",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "96": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_96.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "face",
+                "left eyebrow",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "97": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_97.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "right eye",
+                "face",
+                "hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "right eye"
+        },
+        "98": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_98.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "inner mouth",
+                "right eye",
+                "left eye"
+            ],
+            "correct_answer_option": "B",
+            "answer": "inner mouth"
+        },
+        "99": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_99.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "nose",
+                "left eyebrow",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "100": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_100.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "None of the above",
+                "nose",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "101": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_101.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "face",
+                "right eye",
+                "left eye"
+            ],
+            "correct_answer_option": "B",
+            "answer": "face"
+        },
+        "102": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_102.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "hair",
+                "nose",
+                "upper lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "right eye"
+        },
+        "103": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_103.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "inner mouth",
+                "None of the above",
+                "lower lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "104": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_104.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "None of the above",
+                "left eyebrow",
+                "nose"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "105": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_105.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "inner mouth",
+                "None of the above",
+                "right eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "106": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_106.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "inner mouth",
+                "right eyebrow",
+                "upper lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "107": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_107.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "right eye",
+                "hair",
+                "face"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "108": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_108.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "lower lip",
+                "left eyebrow",
+                "face"
+            ],
+            "correct_answer_option": "A",
+            "answer": "inner mouth"
+        },
+        "109": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_109.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "left eye",
+                "nose",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "110": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_110.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "inner mouth",
+                "right eyebrow",
+                "right eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "lower lip"
+        },
+        "111": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_111.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "right eye",
+                "right eyebrow",
+                "lower lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "112": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_112.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "nose",
+                "lower lip",
+                "face"
+            ],
+            "correct_answer_option": "A",
+            "answer": "inner mouth"
+        },
+        "113": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_113.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "lower lip",
+                "inner mouth",
+                "face"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "114": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_114.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "None of the above",
+                "left eye",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "115": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_115.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "face",
+                "None of the above",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "116": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_116.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "face",
+                "right eyebrow",
+                "left eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "right eyebrow"
+        },
+        "117": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_117.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "None of the above",
+                "lower lip",
+                "face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "118": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_118.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "left eyebrow",
+                "lower lip",
+                "inner mouth"
+            ],
+            "correct_answer_option": "D",
+            "answer": "inner mouth"
+        },
+        "119": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_119.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "None of the above",
+                "face",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "120": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_120.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "left eyebrow",
+                "upper lip",
+                "nose"
+            ],
+            "correct_answer_option": "A",
+            "answer": "right eyebrow"
+        },
+        "121": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_121.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "right eyebrow",
+                "None of the above",
+                "left eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "122": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_122.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "nose",
+                "right eye",
+                "hair"
+            ],
+            "correct_answer_option": "D",
+            "answer": "hair"
+        },
+        "123": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_123.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "nose",
+                "None of the above",
+                "lower lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "124": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_124.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "left eye",
+                "inner mouth",
+                "nose"
+            ],
+            "correct_answer_option": "A",
+            "answer": "lower lip"
+        },
+        "125": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_125.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "right eyebrow",
+                "None of the above",
+                "hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "126": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_126.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "nose",
+                "None of the above",
+                "face"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "127": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_127.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "hair",
+                "lower lip",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "128": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_128.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "face",
+                "upper lip",
+                "inner mouth"
+            ],
+            "correct_answer_option": "B",
+            "answer": "face"
+        },
+        "129": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_129.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "right eye",
+                "left eyebrow",
+                "inner mouth"
+            ],
+            "correct_answer_option": "B",
+            "answer": "right eye"
+        },
+        "130": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_130.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "right eye",
+                "upper lip",
+                "lower lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "131": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_131.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "left eye",
+                "nose",
+                "lower lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "132": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_132.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "lower lip",
+                "right eye",
+                "left eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "inner mouth"
+        },
+        "133": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_133.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "hair",
+                "face",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "134": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_134.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "nose",
+                "lower lip",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "D",
+            "answer": "left eyebrow"
+        },
+        "135": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_135.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "face",
+                "left eye",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "136": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_136.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "face",
+                "right eye",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "137": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_137.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "None of the above",
+                "nose",
+                "hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "138": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_138.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "right eyebrow",
+                "hair",
+                "inner mouth"
+            ],
+            "correct_answer_option": "D",
+            "answer": "inner mouth"
+        },
+        "139": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_139.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "None of the above",
+                "left eyebrow",
+                "nose"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "140": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_140.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "left eye",
+                "None of the above",
+                "nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "141": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_141.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "right eyebrow",
+                "inner mouth",
+                "left eye"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "142": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_142.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "upper lip",
+                "hair",
+                "inner mouth"
+            ],
+            "correct_answer_option": "A",
+            "answer": "right eye"
+        },
+        "143": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_143.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "nose",
+                "inner mouth",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "144": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_144.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "left eyebrow",
+                "None of the above",
+                "face"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "145": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_145.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "nose",
+                "upper lip",
+                "face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "nose"
+        },
+        "146": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_146.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eyebrow",
+                "face",
+                "upper lip",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "147": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_147.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "None of the above",
+                "right eye",
+                "lower lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "148": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_148.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "face",
+                "inner mouth",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "149": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_149.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "right eye",
+                "upper lip",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "150": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_150.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "right eyebrow",
+                "nose",
+                "left eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "lower lip"
+        },
+        "151": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_151.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "lower lip",
+                "right eyebrow",
+                "upper lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "inner mouth"
+        },
+        "152": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_152.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "face",
+                "right eyebrow",
+                "left eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "153": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_153.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "left eyebrow",
+                "right eye",
+                "hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "154": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_154.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "lower lip",
+                "right eye",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "155": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_155.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "left eye",
+                "lower lip",
+                "hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "right eyebrow"
+        },
+        "156": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_156.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "right eye",
+                "right eyebrow",
+                "inner mouth"
+            ],
+            "correct_answer_option": "D",
+            "answer": "inner mouth"
+        },
+        "157": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_157.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "hair",
+                "right eye",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "158": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_158.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "inner mouth",
+                "right eye",
+                "hair",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "inner mouth"
+        },
+        "159": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_159.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "right eyebrow",
+                "right eye",
+                "inner mouth"
+            ],
+            "correct_answer_option": "A",
+            "answer": "lower lip"
+        },
+        "160": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_160.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "inner mouth",
+                "left eye",
+                "upper lip"
+            ],
+            "correct_answer_option": "D",
+            "answer": "upper lip"
+        },
+        "161": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_161.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "lower lip",
+                "left eyebrow",
+                "right eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "upper lip"
+        },
+        "162": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_162.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "inner mouth",
+                "None of the above",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "163": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_163.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "inner mouth",
+                "nose",
+                "face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "inner mouth"
+        },
+        "164": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_164.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "right eye",
+                "inner mouth",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "D",
+            "answer": "left eyebrow"
+        },
+        "165": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_165.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "right eyebrow",
+                "right eye",
+                "lower lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "right eye"
+        },
+        "166": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_166.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "left eyebrow",
+                "nose",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "167": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_167.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "nose",
+                "lower lip",
+                "left eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "right eye"
+        },
+        "168": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_168.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "left eye",
+                "right eye",
+                "inner mouth"
+            ],
+            "correct_answer_option": "D",
+            "answer": "inner mouth"
+        },
+        "169": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_169.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "inner mouth",
+                "left eyebrow",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "inner mouth"
+        },
+        "170": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_170.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "face",
+                "None of the above",
+                "nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "171": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_171.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "lower lip",
+                "left eye",
+                "inner mouth"
+            ],
+            "correct_answer_option": "C",
+            "answer": "left eye"
+        },
+        "172": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_172.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "lower lip",
+                "upper lip",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "173": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_173.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "left eye",
+                "right eyebrow",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "D",
+            "answer": "left eyebrow"
+        },
+        "174": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_174.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "inner mouth",
+                "right eye",
+                "lower lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "175": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_175.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "inner mouth",
+                "left eye",
+                "lower lip"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "176": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_176.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "lower lip",
+                "hair",
+                "upper lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "lower lip"
+        },
+        "177": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_177.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "face",
+                "right eyebrow",
+                "inner mouth"
+            ],
+            "correct_answer_option": "A",
+            "answer": "nose"
+        },
+        "178": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_178.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "hair",
+                "left eyebrow",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "179": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_179.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "face",
+                "lower lip",
+                "nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "lower lip"
+        },
+        "180": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_180.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "lower lip",
+                "nose",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "181": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_181.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "upper lip",
+                "left eye",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "upper lip"
+        },
+        "182": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_182.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "None of the above",
+                "inner mouth",
+                "right eyebrow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "183": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_183.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "None of the above",
+                "left eyebrow",
+                "lower lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "184": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_184.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "None of the above",
+                "nose",
+                "right eye"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "185": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_185.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "inner mouth",
+                "upper lip",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "inner mouth"
+        },
+        "186": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_186.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "left eye",
+                "None of the above",
+                "upper lip"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "187": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_187.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "face",
+                "lower lip",
+                "upper lip",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "D",
+            "answer": "left eyebrow"
+        },
+        "188": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_188.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "hair",
+                "left eyebrow",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "189": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_189.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "right eyebrow",
+                "inner mouth",
+                "hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "inner mouth"
+        },
+        "190": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_190.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "left eye",
+                "None of the above",
+                "face",
+                "lower lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "191": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_191.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "right eye",
+                "None of the above",
+                "nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "192": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_192.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eyebrow",
+                "face",
+                "left eyebrow",
+                "upper lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "face"
+        },
+        "193": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_193.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "inner mouth",
+                "face",
+                "left eyebrow"
+            ],
+            "correct_answer_option": "B",
+            "answer": "inner mouth"
+        },
+        "194": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_194.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "upper lip",
+                "hair",
+                "face",
+                "right eye"
+            ],
+            "correct_answer_option": "A",
+            "answer": "upper lip"
+        },
+        "195": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_195.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "nose",
+                "left eye",
+                "hair",
+                "inner mouth"
+            ],
+            "correct_answer_option": "A",
+            "answer": "nose"
+        },
+        "196": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_196.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "right eye",
+                "None of the above",
+                "nose",
+                "left eye"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "197": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_197.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "nose",
+                "inner mouth",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "198": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_198.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "None of the above",
+                "right eyebrow",
+                "left eye",
+                "inner mouth"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "199": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_199.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "lower lip",
+                "nose",
+                "face",
+                "inner mouth"
+            ],
+            "correct_answer_option": "D",
+            "answer": "inner mouth"
+        },
+        "200": {
+            "image_paths": [
+                "images/lapa_single_mcq/question_200.png"
+            ],
+            "question_text": "Which of the following regions is not present or is segmented out with white color?",
+            "options": [
+                "hair",
+                "None of the above",
+                "left eye",
+                "lower lip"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        }
+    }
+}

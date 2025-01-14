@@ -1,0 +1,2811 @@
+{
+    "category": "attributes_expression",
+    "sub-category": "attributes",
+    "dataset": "celeba",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "prepend_text": "Face attributes recognition involves identifying specific characteristics of a person, such as beard, moustache, and facial features, based on their facial appearance in an image. You have to perform the task of face attributes recognition.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_1.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Bangs",
+                "Rosy_Cheeks",
+                "Wearing_Lipstick",
+                "Wavy_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Rosy_Cheeks"
+        },
+        "2": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_2.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                8,
+                9,
+                10,
+                11
+            ],
+            "correct_answer_option": "B",
+            "answer": "9"
+        },
+        "3": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_3.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Wearing_Necklace",
+                "Male",
+                "Straight_Hair",
+                "No_Beard"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Wearing_Necklace"
+        },
+        "4": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_4.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Male",
+                "Mouth_Slightly_Open",
+                "Black_Hair",
+                "Wavy_Hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Male"
+        },
+        "5": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_5.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                8,
+                9,
+                10,
+                11
+            ],
+            "correct_answer_option": "B",
+            "answer": "9"
+        },
+        "6": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_6.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Chubby",
+                "Big_Nose",
+                "Attractive",
+                "Big_Lips"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Attractive"
+        },
+        "7": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_7.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                6,
+                7,
+                8,
+                9
+            ],
+            "correct_answer_option": "B",
+            "answer": "7"
+        },
+        "8": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_8.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Wearing_Earrings",
+                "Smiling",
+                "Double_Chin",
+                "Young"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Double_Chin"
+        },
+        "9": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_9.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                5,
+                6,
+                8,
+                9
+            ],
+            "correct_answer_option": "C",
+            "answer": "8"
+        },
+        "10": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_10.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Rosy_Cheeks",
+                "Young",
+                "Wearing_Hat",
+                "Goatee"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Rosy_Cheeks"
+        },
+        "11": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_11.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Wearing_Necktie",
+                "Wearing_Earrings",
+                "Wavy_Hair",
+                "Bangs"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Bangs"
+        },
+        "12": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_12.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Goatee",
+                "Arched_Eyebrows",
+                "Oval_Face",
+                "High_Cheekbones"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arched_Eyebrows"
+        },
+        "13": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_13.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Attractive",
+                "Narrow_Eyes",
+                "Bangs",
+                "Gray_Hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attractive"
+        },
+        "14": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_14.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Oval_Face",
+                "Wearing_Lipstick",
+                "Wavy_Hair",
+                "Blond_Hair"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Blond_Hair"
+        },
+        "15": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_15.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                12,
+                13,
+                14,
+                15
+            ],
+            "correct_answer_option": "B",
+            "answer": "13"
+        },
+        "16": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_16.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Mustache",
+                "Attractive",
+                "Bangs",
+                "Wearing_Hat"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Bangs"
+        },
+        "17": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_17.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                8,
+                9,
+                10,
+                11
+            ],
+            "correct_answer_option": "B",
+            "answer": "9"
+        },
+        "18": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_18.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                6,
+                7,
+                8,
+                9
+            ],
+            "correct_answer_option": "D",
+            "answer": "9"
+        },
+        "19": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_19.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Wearing_Lipstick",
+                "Bangs",
+                "Narrow_Eyes",
+                "Straight_Hair"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Straight_Hair"
+        },
+        "20": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_20.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Wearing_Lipstick",
+                "Rosy_Cheeks",
+                "Mouth_Slightly_Open",
+                "Straight_Hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Mouth_Slightly_Open"
+        },
+        "21": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_21.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Wearing_Necklace",
+                "Big_Nose",
+                "Young",
+                "Pointy_Nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Young"
+        },
+        "22": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_22.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Wearing_Hat",
+                "Black_Hair",
+                "Male",
+                "No_Beard"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Wearing_Hat"
+        },
+        "23": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_23.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Wearing_Earrings",
+                "Eyeglasses",
+                "5_o_Clock_Shadow",
+                "Mustache"
+            ],
+            "correct_answer_option": "C",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "24": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_24.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Sideburns",
+                "Narrow_Eyes",
+                "Straight_Hair",
+                "Bags_Under_Eyes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Bags_Under_Eyes"
+        },
+        "25": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_25.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Brown_Hair",
+                "No_Beard",
+                "Male",
+                "Goatee"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Goatee"
+        },
+        "26": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_26.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Mustache",
+                "Attractive",
+                "Narrow_Eyes",
+                "Black_Hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Mustache"
+        },
+        "27": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_27.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Black_Hair",
+                "Male",
+                "Bangs",
+                "Wearing_Necktie"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Black_Hair"
+        },
+        "28": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_28.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Bags_Under_Eyes",
+                "Mouth_Slightly_Open",
+                "Bangs",
+                "Big_Nose"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Bags_Under_Eyes"
+        },
+        "29": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_29.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                2,
+                4,
+                5,
+                6
+            ],
+            "correct_answer_option": "B",
+            "answer": "4"
+        },
+        "30": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_30.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                3,
+                4,
+                6,
+                8
+            ],
+            "correct_answer_option": "C",
+            "answer": "6"
+        },
+        "31": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_31.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Pale_Skin",
+                "Brown_Hair",
+                "Rosy_Cheeks",
+                "Double_Chin"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Brown_Hair"
+        },
+        "32": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_32.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Rosy_Cheeks",
+                "Arched_Eyebrows",
+                "Wearing_Necktie",
+                "Big_Nose"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arched_Eyebrows"
+        },
+        "33": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_33.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "5_o_Clock_Shadow",
+                "Heavy_Makeup",
+                "Rosy_Cheeks",
+                "Double_Chin"
+            ],
+            "correct_answer_option": "A",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "34": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_34.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                5,
+                7,
+                8,
+                9
+            ],
+            "correct_answer_option": "C",
+            "answer": "8"
+        },
+        "35": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_35.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                3,
+                4,
+                5,
+                6
+            ],
+            "correct_answer_option": "D",
+            "answer": "6"
+        },
+        "36": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_36.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                10,
+                11,
+                12,
+                13
+            ],
+            "correct_answer_option": "B",
+            "answer": "11"
+        },
+        "37": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_37.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Pale_Skin",
+                "5_o_Clock_Shadow",
+                "Blurry",
+                "Young"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Young"
+        },
+        "38": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_38.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                10,
+                11,
+                12,
+                13
+            ],
+            "correct_answer_option": "B",
+            "answer": "11"
+        },
+        "39": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_39.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Arched_Eyebrows",
+                "Black_Hair",
+                "Receding_Hairline",
+                "Big_Nose"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arched_Eyebrows"
+        },
+        "40": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_40.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                8,
+                10,
+                11,
+                12
+            ],
+            "correct_answer_option": "B",
+            "answer": "10"
+        },
+        "41": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_41.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                11,
+                12,
+                13,
+                14
+            ],
+            "correct_answer_option": "B",
+            "answer": "12"
+        },
+        "42": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_42.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                7,
+                8,
+                9,
+                10
+            ],
+            "correct_answer_option": "B",
+            "answer": "8"
+        },
+        "43": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_43.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                7,
+                9,
+                10,
+                12
+            ],
+            "correct_answer_option": "B",
+            "answer": "9"
+        },
+        "44": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_44.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Wearing_Necklace",
+                "Young",
+                "Arched_Eyebrows",
+                "Chubby"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Chubby"
+        },
+        "45": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_45.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                11,
+                12,
+                13,
+                14
+            ],
+            "correct_answer_option": "B",
+            "answer": "12"
+        },
+        "46": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_46.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Pointy_Nose",
+                "5_o_Clock_Shadow",
+                "Big_Lips",
+                "Eyeglasses"
+            ],
+            "correct_answer_option": "B",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "47": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_47.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Attractive",
+                "Mustache",
+                "Young",
+                "Double_Chin"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Double_Chin"
+        },
+        "48": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_48.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Wavy_Hair",
+                "Wearing_Earrings",
+                "Wearing_Necklace",
+                "Receding_Hairline"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Wavy_Hair"
+        },
+        "49": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_49.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Rosy_Cheeks",
+                "Wearing_Necklace",
+                "Bushy_Eyebrows",
+                "Young"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Young"
+        },
+        "50": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_50.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Arched_Eyebrows",
+                "Bags_Under_Eyes",
+                "Wearing_Hat",
+                "Attractive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attractive"
+        },
+        "51": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_51.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Blurry",
+                "Narrow_Eyes",
+                "High_Cheekbones",
+                "Attractive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "High_Cheekbones"
+        },
+        "52": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_52.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                4,
+                7,
+                8,
+                9
+            ],
+            "correct_answer_option": "B",
+            "answer": "7"
+        },
+        "53": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_53.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                7,
+                8,
+                10,
+                11
+            ],
+            "correct_answer_option": "C",
+            "answer": "10"
+        },
+        "54": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_54.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Male",
+                "Attractive",
+                "Big_Nose",
+                "High_Cheekbones"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Attractive"
+        },
+        "55": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_55.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                10,
+                11,
+                12,
+                13
+            ],
+            "correct_answer_option": "B",
+            "answer": "11"
+        },
+        "56": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_56.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Bangs",
+                "Bushy_Eyebrows",
+                "No_Beard",
+                "Wearing_Lipstick"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No_Beard"
+        },
+        "57": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_57.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                9,
+                10,
+                11,
+                12
+            ],
+            "correct_answer_option": "B",
+            "answer": "10"
+        },
+        "58": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_58.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Big_Nose",
+                "No_Beard",
+                "Young",
+                "Male"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Big_Nose"
+        },
+        "59": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_59.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Young",
+                "Big_Nose",
+                "Receding_Hairline",
+                "Eyeglasses"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Receding_Hairline"
+        },
+        "60": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_60.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Double_Chin",
+                "No_Beard",
+                "Big_Lips",
+                "Wearing_Necktie"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No_Beard"
+        },
+        "61": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_61.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                4,
+                5,
+                6,
+                7
+            ],
+            "correct_answer_option": "B",
+            "answer": "5"
+        },
+        "62": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_62.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                8,
+                9,
+                10,
+                11
+            ],
+            "correct_answer_option": "B",
+            "answer": "9"
+        },
+        "63": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_63.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Goatee",
+                "Wearing_Necktie",
+                "Arched_Eyebrows",
+                "Wavy_Hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arched_Eyebrows"
+        },
+        "64": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_64.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Smiling",
+                "Wavy_Hair",
+                "Straight_Hair",
+                "Wearing_Lipstick"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Straight_Hair"
+        },
+        "65": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_65.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Pointy_Nose",
+                "Smiling",
+                "Bald",
+                "Attractive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attractive"
+        },
+        "66": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_66.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Sideburns",
+                "Eyeglasses",
+                "Bald",
+                "Attractive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attractive"
+        },
+        "67": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_67.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Big_Nose",
+                "Rosy_Cheeks",
+                "Gray_Hair",
+                "Brown_Hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Big_Nose"
+        },
+        "68": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_68.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                10,
+                11,
+                12,
+                13
+            ],
+            "correct_answer_option": "B",
+            "answer": "11"
+        },
+        "69": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_69.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                7,
+                8,
+                9,
+                10
+            ],
+            "correct_answer_option": "B",
+            "answer": "8"
+        },
+        "70": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_70.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Arched_Eyebrows",
+                "5_o_Clock_Shadow",
+                "Pale_Skin",
+                "Receding_Hairline"
+            ],
+            "correct_answer_option": "B",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "71": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_71.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                7,
+                8,
+                9,
+                10
+            ],
+            "correct_answer_option": "B",
+            "answer": "8"
+        },
+        "72": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_72.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                12,
+                13,
+                14,
+                15
+            ],
+            "correct_answer_option": "C",
+            "answer": "14"
+        },
+        "73": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_73.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Attractive",
+                "Double_Chin",
+                "No_Beard",
+                "Wearing_Lipstick"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Double_Chin"
+        },
+        "74": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_74.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Straight_Hair",
+                "Oval_Face",
+                "Mouth_Slightly_Open",
+                "Chubby"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Chubby"
+        },
+        "75": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_75.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                9,
+                11,
+                12,
+                15
+            ],
+            "correct_answer_option": "C",
+            "answer": "12"
+        },
+        "76": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_76.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                5,
+                6,
+                7,
+                8
+            ],
+            "correct_answer_option": "B",
+            "answer": "6"
+        },
+        "77": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_77.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Bangs",
+                "Black_Hair",
+                "Brown_Hair",
+                "Bags_Under_Eyes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Bags_Under_Eyes"
+        },
+        "78": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_78.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Smiling",
+                "High_Cheekbones",
+                "Oval_Face",
+                "Sideburns"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Sideburns"
+        },
+        "79": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_79.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Rosy_Cheeks",
+                "Blurry",
+                "Black_Hair",
+                "5_o_Clock_Shadow"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Black_Hair"
+        },
+        "80": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_80.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                2,
+                4,
+                5,
+                6
+            ],
+            "correct_answer_option": "C",
+            "answer": "5"
+        },
+        "81": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_81.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Gray_Hair",
+                "Smiling",
+                "Bangs",
+                "Wearing_Earrings"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Smiling"
+        },
+        "82": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_82.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Smiling",
+                "Blond_Hair",
+                "5_o_Clock_Shadow",
+                "Wavy_Hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "83": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_83.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Heavy_Makeup",
+                "Straight_Hair",
+                "Chubby",
+                "Black_Hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Heavy_Makeup"
+        },
+        "84": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_84.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Bangs",
+                "Male",
+                "Wearing_Necktie",
+                "Gray_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Male"
+        },
+        "85": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_85.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Straight_Hair",
+                "Young",
+                "Narrow_Eyes",
+                "Wavy_Hair"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Wavy_Hair"
+        },
+        "86": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_86.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                12,
+                13,
+                14,
+                15
+            ],
+            "correct_answer_option": "B",
+            "answer": "13"
+        },
+        "87": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_87.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                3,
+                4,
+                5,
+                8
+            ],
+            "correct_answer_option": "C",
+            "answer": "5"
+        },
+        "88": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_88.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Smiling",
+                "Pointy_Nose",
+                "Pale_Skin",
+                "Mustache"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Smiling"
+        },
+        "89": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_89.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Wearing_Necktie",
+                "Brown_Hair",
+                "Black_Hair",
+                "High_Cheekbones"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Brown_Hair"
+        },
+        "90": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_90.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Bags_Under_Eyes",
+                "High_Cheekbones",
+                "Narrow_Eyes",
+                "Attractive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "High_Cheekbones"
+        },
+        "91": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_91.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Gray_Hair",
+                "Big_Lips",
+                "Sideburns",
+                "No_Beard"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No_Beard"
+        },
+        "92": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_92.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Smiling",
+                "Chubby",
+                "Attractive",
+                "Male"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Attractive"
+        },
+        "93": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_93.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                11,
+                13,
+                14,
+                15
+            ],
+            "correct_answer_option": "C",
+            "answer": "14"
+        },
+        "94": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_94.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Double_Chin",
+                "Narrow_Eyes",
+                "Arched_Eyebrows",
+                "Bags_Under_Eyes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arched_Eyebrows"
+        },
+        "95": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_95.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Blond_Hair",
+                "Smiling",
+                "Attractive",
+                "Goatee"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Goatee"
+        },
+        "96": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_96.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Oval_Face",
+                "Big_Nose",
+                "Blurry",
+                "Wearing_Necklace"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Big_Nose"
+        },
+        "97": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_97.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                3,
+                6,
+                7,
+                8
+            ],
+            "correct_answer_option": "B",
+            "answer": "6"
+        },
+        "98": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_98.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                5,
+                6,
+                8,
+                11
+            ],
+            "correct_answer_option": "C",
+            "answer": "8"
+        },
+        "99": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_99.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Oval_Face",
+                "Big_Lips",
+                "Straight_Hair",
+                "Wearing_Earrings"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Big_Lips"
+        },
+        "100": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_100.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Arched_Eyebrows",
+                "Big_Nose",
+                "Receding_Hairline",
+                "Bangs"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arched_Eyebrows"
+        },
+        "101": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_101.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Black_Hair",
+                "Wearing_Earrings",
+                "5_o_Clock_Shadow",
+                "Bags_Under_Eyes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "102": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_102.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "No_Beard",
+                "Wearing_Lipstick",
+                "Male",
+                "Wavy_Hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Male"
+        },
+        "103": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_103.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Young",
+                "Wearing_Hat",
+                "Chubby",
+                "Pale_Skin"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Pale_Skin"
+        },
+        "104": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_104.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                6,
+                7,
+                8,
+                9
+            ],
+            "correct_answer_option": "B",
+            "answer": "7"
+        },
+        "105": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_105.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Straight_Hair",
+                "Wearing_Hat",
+                "Chubby",
+                "Attractive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attractive"
+        },
+        "106": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_106.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Chubby",
+                "Blurry",
+                "Bangs",
+                "Narrow_Eyes"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Blurry"
+        },
+        "107": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_107.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "5_o_Clock_Shadow",
+                "Attractive",
+                "Young",
+                "Bushy_Eyebrows"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Bushy_Eyebrows"
+        },
+        "108": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_108.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                8,
+                10,
+                12,
+                13
+            ],
+            "correct_answer_option": "B",
+            "answer": "10"
+        },
+        "109": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_109.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                4,
+                5,
+                6,
+                7
+            ],
+            "correct_answer_option": "B",
+            "answer": "5"
+        },
+        "110": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_110.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Goatee",
+                "Attractive",
+                "Bags_Under_Eyes",
+                "Wearing_Hat"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Attractive"
+        },
+        "111": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_111.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Male",
+                "Young",
+                "Smiling",
+                "Wearing_Earrings"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Wearing_Earrings"
+        },
+        "112": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_112.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                3,
+                5,
+                6,
+                7
+            ],
+            "correct_answer_option": "B",
+            "answer": "5"
+        },
+        "113": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_113.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                7,
+                8,
+                9,
+                10
+            ],
+            "correct_answer_option": "D",
+            "answer": "10"
+        },
+        "114": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_114.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Bald",
+                "Blurry",
+                "Wearing_Necktie",
+                "Young"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Wearing_Necktie"
+        },
+        "115": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_115.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                6,
+                8,
+                10,
+                11
+            ],
+            "correct_answer_option": "B",
+            "answer": "8"
+        },
+        "116": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_116.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                7,
+                8,
+                9,
+                10
+            ],
+            "correct_answer_option": "B",
+            "answer": "8"
+        },
+        "117": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_117.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                7,
+                8,
+                9,
+                10
+            ],
+            "correct_answer_option": "B",
+            "answer": "8"
+        },
+        "118": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_118.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Blond_Hair",
+                "Young",
+                "Big_Lips",
+                "Pale_Skin"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Big_Lips"
+        },
+        "119": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_119.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Mouth_Slightly_Open",
+                "5_o_Clock_Shadow",
+                "Wavy_Hair",
+                "Bags_Under_Eyes"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Mouth_Slightly_Open"
+        },
+        "120": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_120.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "5_o_Clock_Shadow",
+                "Wearing_Necklace",
+                "Blurry",
+                "Attractive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "121": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_121.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Wearing_Necklace",
+                "No_Beard",
+                "Goatee",
+                "Wearing_Necktie"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No_Beard"
+        },
+        "122": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_122.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Receding_Hairline",
+                "Sideburns",
+                "Wearing_Necktie",
+                "Bags_Under_Eyes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Bags_Under_Eyes"
+        },
+        "123": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_123.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                4,
+                5,
+                6,
+                7
+            ],
+            "correct_answer_option": "B",
+            "answer": "5"
+        },
+        "124": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_124.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Bags_Under_Eyes",
+                "Mouth_Slightly_Open",
+                "Brown_Hair",
+                "Wearing_Necktie"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Brown_Hair"
+        },
+        "125": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_125.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                12,
+                13,
+                14,
+                15
+            ],
+            "correct_answer_option": "B",
+            "answer": "13"
+        },
+        "126": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_126.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "5_o_Clock_Shadow",
+                "Arched_Eyebrows",
+                "Straight_Hair",
+                "Bushy_Eyebrows"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arched_Eyebrows"
+        },
+        "127": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_127.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Attractive",
+                "Mustache",
+                "Double_Chin",
+                "Smiling"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attractive"
+        },
+        "128": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_128.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Gray_Hair",
+                "Big_Nose",
+                "Rosy_Cheeks",
+                "Mouth_Slightly_Open"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Big_Nose"
+        },
+        "129": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_129.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Bald",
+                "Goatee",
+                "Wearing_Necklace",
+                "Attractive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attractive"
+        },
+        "130": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_130.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Mustache",
+                "Attractive",
+                "Narrow_Eyes",
+                "Sideburns"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Attractive"
+        },
+        "131": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_131.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Bald",
+                "Sideburns",
+                "Bags_Under_Eyes",
+                "Arched_Eyebrows"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arched_Eyebrows"
+        },
+        "132": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_132.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Pale_Skin",
+                "Bushy_Eyebrows",
+                "Sideburns",
+                "Wearing_Lipstick"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Wearing_Lipstick"
+        },
+        "133": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_133.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Wearing_Necklace",
+                "Straight_Hair",
+                "High_Cheekbones",
+                "Wearing_Earrings"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Wearing_Necklace"
+        },
+        "134": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_134.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Wearing_Lipstick",
+                "Male",
+                "Blurry",
+                "Wearing_Necklace"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Wearing_Lipstick"
+        },
+        "135": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_135.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                7,
+                8,
+                9,
+                10
+            ],
+            "correct_answer_option": "B",
+            "answer": "8"
+        },
+        "136": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_136.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "No_Beard",
+                "Wearing_Necklace",
+                "Receding_Hairline",
+                "Oval_Face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Wearing_Necklace"
+        },
+        "137": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_137.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Attractive",
+                "Sideburns",
+                "Wearing_Earrings",
+                "Male"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attractive"
+        },
+        "138": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_138.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Blond_Hair",
+                "No_Beard",
+                "Brown_Hair",
+                "Mustache"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No_Beard"
+        },
+        "139": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_139.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                14,
+                15,
+                16,
+                17
+            ],
+            "correct_answer_option": "A",
+            "answer": "14"
+        },
+        "140": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_140.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Blurry",
+                "Bangs",
+                "Male",
+                "Big_Nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Male"
+        },
+        "141": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_141.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Wearing_Hat",
+                "Black_Hair",
+                "Double_Chin",
+                "Blurry"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Black_Hair"
+        },
+        "142": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_142.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Bangs",
+                "Big_Nose",
+                "Mustache",
+                "Gray_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Big_Nose"
+        },
+        "143": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_143.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Mouth_Slightly_Open",
+                "Oval_Face",
+                "Young",
+                "No_Beard"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Mouth_Slightly_Open"
+        },
+        "144": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_144.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                8,
+                11,
+                13,
+                14
+            ],
+            "correct_answer_option": "B",
+            "answer": "11"
+        },
+        "145": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_145.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Attractive",
+                "Black_Hair",
+                "Sideburns",
+                "Gray_Hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attractive"
+        },
+        "146": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_146.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Wearing_Hat",
+                "No_Beard",
+                "Straight_Hair",
+                "Double_Chin"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No_Beard"
+        },
+        "147": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_147.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                8,
+                11,
+                13,
+                14
+            ],
+            "correct_answer_option": "B",
+            "answer": "11"
+        },
+        "148": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_148.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Bald",
+                "Brown_Hair",
+                "Oval_Face",
+                "Black_Hair"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Oval_Face"
+        },
+        "149": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_149.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Wavy_Hair",
+                "Big_Nose",
+                "Male",
+                "Bangs"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Bangs"
+        },
+        "150": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_150.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                4,
+                5,
+                6,
+                7
+            ],
+            "correct_answer_option": "B",
+            "answer": "5"
+        },
+        "151": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_151.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Chubby",
+                "Bangs",
+                "Sideburns",
+                "Wearing_Earrings"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Wearing_Earrings"
+        },
+        "152": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_152.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                9,
+                10,
+                11,
+                12
+            ],
+            "correct_answer_option": "B",
+            "answer": "10"
+        },
+        "153": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_153.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Wearing_Necklace",
+                "Black_Hair",
+                "Blond_Hair",
+                "No_Beard"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No_Beard"
+        },
+        "154": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_154.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "5_o_Clock_Shadow",
+                "Bald",
+                "Smiling",
+                "Blond_Hair"
+            ],
+            "correct_answer_option": "A",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "155": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_155.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                6,
+                7,
+                8,
+                10
+            ],
+            "correct_answer_option": "B",
+            "answer": "7"
+        },
+        "156": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_156.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                3,
+                6,
+                8,
+                9
+            ],
+            "correct_answer_option": "B",
+            "answer": "6"
+        },
+        "157": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_157.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                10,
+                13,
+                14,
+                16
+            ],
+            "correct_answer_option": "B",
+            "answer": "13"
+        },
+        "158": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_158.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Young",
+                "Oval_Face",
+                "Narrow_Eyes",
+                "Male"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Narrow_Eyes"
+        },
+        "159": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_159.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Mustache",
+                "Mouth_Slightly_Open",
+                "Arched_Eyebrows",
+                "Rosy_Cheeks"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arched_Eyebrows"
+        },
+        "160": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_160.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Young",
+                "Attractive",
+                "Black_Hair",
+                "Rosy_Cheeks"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Rosy_Cheeks"
+        },
+        "161": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_161.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Attractive",
+                "Chubby",
+                "Goatee",
+                "Receding_Hairline"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attractive"
+        },
+        "162": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_162.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                7,
+                8,
+                9,
+                10
+            ],
+            "correct_answer_option": "B",
+            "answer": "8"
+        },
+        "163": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_163.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Bangs",
+                "Young",
+                "Pale_Skin",
+                "5_o_Clock_Shadow"
+            ],
+            "correct_answer_option": "D",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "164": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_164.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "High_Cheekbones",
+                "Eyeglasses",
+                "No_Beard",
+                "Bags_Under_Eyes"
+            ],
+            "correct_answer_option": "A",
+            "answer": "High_Cheekbones"
+        },
+        "165": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_165.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Narrow_Eyes",
+                "Blurry",
+                "Smiling",
+                "Wearing_Earrings"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Smiling"
+        },
+        "166": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_166.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Big_Lips",
+                "Black_Hair",
+                "Heavy_Makeup",
+                "Smiling"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Black_Hair"
+        },
+        "167": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_167.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                7,
+                8,
+                9,
+                10
+            ],
+            "correct_answer_option": "B",
+            "answer": "8"
+        },
+        "168": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_168.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Straight_Hair",
+                "No_Beard",
+                "Pale_Skin",
+                "Oval_Face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No_Beard"
+        },
+        "169": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_169.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Receding_Hairline",
+                "Bags_Under_Eyes",
+                "Gray_Hair",
+                "Bangs"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Bangs"
+        },
+        "170": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_170.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Sideburns",
+                "Bushy_Eyebrows",
+                "Black_Hair",
+                "Big_Nose"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Black_Hair"
+        },
+        "171": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_171.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Big_Lips",
+                "Big_Nose",
+                "Wearing_Necktie",
+                "Wavy_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Big_Nose"
+        },
+        "172": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_172.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Oval_Face",
+                "Mustache",
+                "Brown_Hair",
+                "No_Beard"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Mustache"
+        },
+        "173": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_173.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                6,
+                7,
+                9,
+                10
+            ],
+            "correct_answer_option": "B",
+            "answer": "7"
+        },
+        "174": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_174.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Mustache",
+                "Brown_Hair",
+                "5_o_Clock_Shadow",
+                "Rosy_Cheeks"
+            ],
+            "correct_answer_option": "C",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "175": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_175.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                8,
+                9,
+                10,
+                11
+            ],
+            "correct_answer_option": "B",
+            "answer": "9"
+        },
+        "176": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_176.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Sideburns",
+                "Goatee",
+                "Big_Lips",
+                "5_o_Clock_Shadow"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Big_Lips"
+        },
+        "177": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_177.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                5,
+                6,
+                8,
+                9
+            ],
+            "correct_answer_option": "C",
+            "answer": "8"
+        },
+        "178": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_178.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Eyeglasses",
+                "Big_Lips",
+                "Chubby",
+                "Gray_Hair"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Gray_Hair"
+        },
+        "179": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_179.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                4,
+                5,
+                7,
+                9
+            ],
+            "correct_answer_option": "C",
+            "answer": "7"
+        },
+        "180": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_180.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                12,
+                13,
+                14,
+                15
+            ],
+            "correct_answer_option": "B",
+            "answer": "13"
+        },
+        "181": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_181.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                8,
+                9,
+                10,
+                11
+            ],
+            "correct_answer_option": "B",
+            "answer": "9"
+        },
+        "182": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_182.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Blond_Hair",
+                "Wearing_Necktie",
+                "Narrow_Eyes",
+                "5_o_Clock_Shadow"
+            ],
+            "correct_answer_option": "D",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "183": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_183.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                11,
+                12,
+                13,
+                14
+            ],
+            "correct_answer_option": "B",
+            "answer": "12"
+        },
+        "184": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_184.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                9,
+                10,
+                12,
+                13
+            ],
+            "correct_answer_option": "B",
+            "answer": "10"
+        },
+        "185": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_185.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Blurry",
+                "Eyeglasses",
+                "Attractive",
+                "Wearing_Hat"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Attractive"
+        },
+        "186": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_186.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Male",
+                "Big_Nose",
+                "Brown_Hair",
+                "Rosy_Cheeks"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Brown_Hair"
+        },
+        "187": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_187.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Wearing_Necklace",
+                "Bags_Under_Eyes",
+                "Wearing_Necktie",
+                "Brown_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Bags_Under_Eyes"
+        },
+        "188": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_188.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "5_o_Clock_Shadow",
+                "Straight_Hair",
+                "No_Beard",
+                "Young"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No_Beard"
+        },
+        "189": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_189.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                2,
+                3,
+                5,
+                8
+            ],
+            "correct_answer_option": "C",
+            "answer": "5"
+        },
+        "190": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_190.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                8,
+                9,
+                10,
+                11
+            ],
+            "correct_answer_option": "B",
+            "answer": "9"
+        },
+        "191": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_191.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Male",
+                "Bags_Under_Eyes",
+                "Big_Nose",
+                "High_Cheekbones"
+            ],
+            "correct_answer_option": "D",
+            "answer": "High_Cheekbones"
+        },
+        "192": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_192.png"
+            ],
+            "question_text": "Identify which of the following attributes is present in the image.",
+            "options": [
+                "Wearing_Hat",
+                "Attractive",
+                "Chubby",
+                "Brown_Hair"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Attractive"
+        },
+        "193": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_193.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                10,
+                12,
+                13,
+                16
+            ],
+            "correct_answer_option": "C",
+            "answer": "13"
+        },
+        "194": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_194.png"
+            ],
+            "question_text": "Which of the following attributes is NOT present in the image?",
+            "options": [
+                "Wearing_Earrings",
+                "Mouth_Slightly_Open",
+                "No_Beard",
+                "Wearing_Lipstick"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Wearing_Earrings"
+        },
+        "195": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_195.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Arched_Eyebrows",
+                "5_o_Clock_Shadow",
+                "Chubby",
+                "Oval_Face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "5_o_Clock_Shadow"
+        },
+        "196": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_196.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                5,
+                6,
+                7,
+                9
+            ],
+            "correct_answer_option": "C",
+            "answer": "7"
+        },
+        "197": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_197.png"
+            ],
+            "question_text": "Given this list of attributes: \"5_o_Clock_Shadow\", \"Arched_Eyebrows\", \"Attractive\", \"Bags_Under_Eyes\", \"Bald\", \"Bangs\", \"Big_Lips\", \"Big_Nose\", \"Black_Hair\", \"Blond_Hair\", \"Blurry\", \"Brown_Hair\", \"Bushy_Eyebrows\", \"Chubby\", \"Double_Chin\", \"Eyeglasses\", \"Goatee\", \"Gray_Hair\", \"Heavy_Makeup\", \"High_Cheekbones\", \"Male\", \"Mouth_Slightly_Open\", \"Mustache\", \"Narrow_Eyes\", \"No_Beard\", \"Oval_Face\", \"Pale_Skin\", \"Pointy_Nose\", \"Receding_Hairline\", \"Rosy_Cheeks\", \"Sideburns\", \"Smiling\", \"Straight_Hair\", \"Wavy_Hair\", \"Wearing_Earrings\", \"Wearing_Hat\", \"Wearing_Lipstick\", \"Wearing_Necklace\", \"Wearing_Necktie\", \"Young\". How many unique attributes does the person in the image have?",
+            "options": [
+                5,
+                6,
+                8,
+                10
+            ],
+            "correct_answer_option": "C",
+            "answer": "8"
+        },
+        "198": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_198.png"
+            ],
+            "question_text": "How many attributes are present in the image?",
+            "options": [
+                8,
+                9,
+                10,
+                11
+            ],
+            "correct_answer_option": "B",
+            "answer": "9"
+        },
+        "199": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_199.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Arched_Eyebrows",
+                "Bangs",
+                "High_Cheekbones",
+                "Attractive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attractive"
+        },
+        "200": {
+            "image_paths": [
+                "images/celeba_single_mcq/question_200.png"
+            ],
+            "question_text": "Which attribute is the most prominent in the image?",
+            "options": [
+                "Arched_Eyebrows",
+                "Attractive",
+                "Wearing_Lipstick",
+                "Oval_Face"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Attractive"
+        }
+    }
+}

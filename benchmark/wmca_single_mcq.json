@@ -1,0 +1,2111 @@
+{
+    "category": "fas_deepfakes",
+    "sub-category": "fas",
+    "dataset": "wmca",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "prepend_text": "Face anti-spoofing involves detecting whether a presented face is real or a spoof attempt using methods like photos, videos, or masks. Common attack types include 'Glasses,' 'Print,' 'Replay,' 'Fake Head,' 'Rigid Mask,' 'Flexible Mask,' 'Wig,' and 'Paper Mask.' You have to perform the task of face anti-spoofing.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_1.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Not Sure",
+                "No",
+                "Cannot Determine",
+                "Yes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Yes"
+        },
+        "2": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_2.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "Not Sure",
+                "No",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "3": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_3.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "Bonafide",
+                "Attack",
+                "Not Sure"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Attack"
+        },
+        "4": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_4.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "5": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_5.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Not Sure",
+                "Yes",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "6": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_6.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Not Sure",
+                "Bonafide",
+                "Cannot Determine",
+                "Attack"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attack"
+        },
+        "7": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_7.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "No",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "8": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_8.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Not Sure",
+                "Yes",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "9": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_9.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Yes",
+                "No",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "10": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_10.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "Bonafide",
+                "Not Sure",
+                "Attack"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attack"
+        },
+        "11": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_11.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "No",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "12": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_12.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "No",
+                "Yes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Yes"
+        },
+        "13": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_13.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "No",
+                "Not Sure"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "14": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_14.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "15": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_15.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "No",
+                "Yes",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "16": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_16.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Not Sure",
+                "No",
+                "Yes",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "17": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_17.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Cannot Determine",
+                "No",
+                "Yes",
+                "Not Sure"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Yes"
+        },
+        "18": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_18.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "19": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_19.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Yes",
+                "No",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "20": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_20.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Yes",
+                "Not Sure",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "21": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_21.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Yes",
+                "Not Sure",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "22": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_22.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Yes"
+        },
+        "23": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_23.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "24": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_24.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "Bonafide",
+                "Attack",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Bonafide"
+        },
+        "25": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_25.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Attack",
+                "Bonafide",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attack"
+        },
+        "26": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_26.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "No",
+                "Not Sure",
+                "Cannot Determine",
+                "Yes"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "27": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_27.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Not Sure",
+                "No",
+                "Yes",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Yes"
+        },
+        "28": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_28.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "29": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_29.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Yes",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "30": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_30.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "31": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_31.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Yes",
+                "Not Sure",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "32": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_32.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "No",
+                "Not Sure"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "33": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_33.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "No",
+                "Yes",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "34": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_34.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "No",
+                "Not Sure",
+                "Yes",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "35": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_35.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Not Sure",
+                "No",
+                "Yes",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "36": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_36.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Bonafide",
+                "Not Sure",
+                "Cannot Determine",
+                "Attack"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attack"
+        },
+        "37": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_37.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Yes",
+                "Not Sure",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "38": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_38.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "39": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_39.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "40": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_40.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Yes",
+                "Not Sure",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "41": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_41.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Bonafide",
+                "Attack",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Attack"
+        },
+        "42": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_42.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Yes",
+                "Not Sure",
+                "No",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "43": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_43.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Attack",
+                "Bonafide",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attack"
+        },
+        "44": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_44.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Cannot Determine",
+                "No",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "45": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_45.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "46": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_46.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "No",
+                "Yes",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "47": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_47.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "No",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "48": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_48.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Attack",
+                "Not Sure",
+                "Bonafide",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attack"
+        },
+        "49": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_49.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Cannot Determine",
+                "No",
+                "Yes",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "50": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_50.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Yes",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "51": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_51.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "52": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_52.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Yes",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "53": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_53.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "Yes",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "54": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_54.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Not Sure",
+                "Cannot Determine",
+                "Yes",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "55": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_55.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Yes"
+        },
+        "56": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_56.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "No",
+                "Not Sure"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "57": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_57.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "No",
+                "Not Sure",
+                "Yes",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "58": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_58.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "No",
+                "Yes",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "59": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_59.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Not Sure",
+                "Cannot Determine",
+                "No",
+                "Yes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "60": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_60.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Not Sure",
+                "Cannot Determine",
+                "Yes",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "61": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_61.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Not Sure",
+                "Yes",
+                "No",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "62": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_62.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "No",
+                "Not Sure",
+                "Cannot Determine",
+                "Yes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Yes"
+        },
+        "63": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_63.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "64": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_64.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Cannot Determine",
+                "No",
+                "Yes",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "65": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_65.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Not Sure",
+                "Cannot Determine",
+                "No",
+                "Yes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "66": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_66.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Not Sure",
+                "Yes",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "67": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_67.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Not Sure",
+                "No",
+                "Cannot Determine",
+                "Yes"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "68": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_68.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Attack",
+                "Cannot Determine",
+                "Not Sure",
+                "Bonafide"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Bonafide"
+        },
+        "69": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_69.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "No",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "70": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_70.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "No",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "71": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_71.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Yes",
+                "Not Sure",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "72": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_72.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Yes",
+                "No",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "73": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_73.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "74": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_74.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Not Sure",
+                "Yes",
+                "No",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "75": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_75.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "Yes",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "76": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_76.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "Bonafide",
+                "Attack"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attack"
+        },
+        "77": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_77.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Not Sure",
+                "Cannot Determine",
+                "No",
+                "Yes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "78": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_78.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "No",
+                "Yes",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "79": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_79.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Yes",
+                "No",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "80": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_80.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "No",
+                "Yes",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "81": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_81.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Not Sure",
+                "No",
+                "Cannot Determine",
+                "Yes"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "82": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_82.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Yes",
+                "No",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "83": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_83.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "84": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_84.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Bonafide",
+                "Not Sure",
+                "Attack",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Bonafide"
+        },
+        "85": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_85.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "No",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "86": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_86.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "Yes",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "87": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_87.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "No",
+                "Not Sure",
+                "Cannot Determine",
+                "Yes"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Yes"
+        },
+        "88": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_88.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "No",
+                "Yes",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "89": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_89.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Not Sure",
+                "No",
+                "Yes",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "90": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_90.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "No",
+                "Yes",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "91": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_91.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Not Sure",
+                "Cannot Determine",
+                "No",
+                "Yes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "92": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_92.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "No",
+                "Yes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "93": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_93.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "94": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_94.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "95": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_95.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "96": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_96.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "Not Sure",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "97": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_97.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "Yes",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "98": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_98.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Bonafide",
+                "Cannot Determine",
+                "Not Sure",
+                "Attack"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attack"
+        },
+        "99": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_99.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "Bonafide",
+                "Attack"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Attack"
+        },
+        "100": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_100.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "No",
+                "Yes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "101": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_101.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "No",
+                "Yes",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "102": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_102.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "No",
+                "Yes",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "103": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_103.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "No",
+                "Yes",
+                "Not Sure"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Yes"
+        },
+        "104": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_104.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "No",
+                "Yes",
+                "Not Sure"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Yes"
+        },
+        "105": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_105.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Yes",
+                "No",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "106": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_106.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "107": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_107.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "No",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "108": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_108.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "Yes",
+                "No"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Yes"
+        },
+        "109": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_109.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "Yes",
+                "No"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Yes"
+        },
+        "110": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_110.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Not Sure",
+                "Yes",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "111": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_111.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "No",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "112": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_112.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Yes",
+                "No",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "113": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_113.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Yes",
+                "No",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "114": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_114.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "No",
+                "Yes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "115": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_115.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "No",
+                "Not Sure"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "116": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_116.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "Bonafide",
+                "Attack",
+                "Not Sure"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Attack"
+        },
+        "117": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_117.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Yes",
+                "No",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "118": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_118.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "Bonafide",
+                "Attack",
+                "Not Sure"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Attack"
+        },
+        "119": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_119.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "No",
+                "Cannot Determine",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "120": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_120.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Not Sure",
+                "Bonafide",
+                "Attack",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Attack"
+        },
+        "121": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_121.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "No",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "122": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_122.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "123": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_123.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "124": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_124.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Cannot Determine",
+                "No",
+                "Not Sure",
+                "Yes"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "125": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_125.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "No",
+                "Yes",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "126": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_126.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "No",
+                "Not Sure",
+                "Yes",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "127": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_127.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "128": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_128.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Yes",
+                "Not Sure",
+                "No",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "129": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_129.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Attack",
+                "Bonafide",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attack"
+        },
+        "130": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_130.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Attack",
+                "Cannot Determine",
+                "Not Sure",
+                "Bonafide"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attack"
+        },
+        "131": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_131.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "No",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "132": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_132.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Not Sure",
+                "Bonafide",
+                "Attack",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Attack"
+        },
+        "133": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_133.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "No",
+                "Not Sure"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "134": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_134.png"
+            ],
+            "question_text": "Is this image depicting a spoof attack?",
+            "options": [
+                "Yes",
+                "No",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "135": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_135.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "No",
+                "Yes",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Yes"
+        },
+        "136": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_136.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "No",
+                "Not Sure",
+                "Yes",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "137": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_137.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "Not Sure",
+                "No",
+                "Cannot Determine",
+                "Yes"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "138": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_138.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Yes",
+                "Not Sure",
+                "Cannot Determine",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "139": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_139.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Cannot Determine",
+                "Yes",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "D",
+            "answer": "No"
+        },
+        "140": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_140.png"
+            ],
+            "question_text": "Is this image an attacked image of type Replay?",
+            "options": [
+                "Cannot Determine",
+                "Not Sure",
+                "No",
+                "Yes"
+            ],
+            "correct_answer_option": "C",
+            "answer": "No"
+        },
+        "141": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_141.png"
+            ],
+            "question_text": "Is this image an example of a bonafide person?",
+            "options": [
+                "Yes",
+                "No",
+                "Cannot Determine",
+                "Not Sure"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "142": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_142.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Yes",
+                "Cannot Determine",
+                "Not Sure",
+                "No"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Yes"
+        },
+        "143": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_143.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "No",
+                "Yes",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "144": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_144.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "Not Sure",
+                "No",
+                "Yes",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "145": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_145.png"
+            ],
+            "question_text": "Is the following statement True: 'This image shows a bonafide person'.",
+            "options": [
+                "No",
+                "Not Sure",
+                "Cannot Determine",
+                "Yes"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "146": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_146.png"
+            ],
+            "question_text": "Does this image show a bonafide person?",
+            "options": [
+                "No",
+                "Yes",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "No"
+        },
+        "147": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_147.png"
+            ],
+            "question_text": "Is this image an attack of type Rigid Mask?",
+            "options": [
+                "Yes",
+                "No",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "No"
+        },
+        "148": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_148.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Attack",
+                "Bonafide",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attack"
+        },
+        "149": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_149.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Attack",
+                "Cannot Determine",
+                "Not Sure",
+                "Bonafide"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Attack"
+        },
+        "150": {
+            "image_paths": [
+                "images/wmca_single_mcq/question_150.png"
+            ],
+            "question_text": "Is this image a bonafide person or its a spoof attack?",
+            "options": [
+                "Bonafide",
+                "Attack",
+                "Not Sure",
+                "Cannot Determine"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Attack"
+        }
+    }
+}
