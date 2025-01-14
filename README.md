@@ -68,12 +68,12 @@ cp facexbench/aggregate_results.py VLMEValKit/
 # The list of supported MLLMs can be found at VLMEvalKit/vlmeval/config.py
 
 # After choosing the MLLM from config.py
-python evaluate.py \
+python VLMEValKit/evaluate.py \
   --model <chosen_model>
 
 # Aggregate results by extarcting correct option from prediction
 # and get performance analysis on different categories and sub-categories in the benchmark.
-python aggregate_results.py \
+python VLMEValKit/aggregate_results.py \
   --model <chosen_model>
   --results_dir <path_to_results_dir>
 
