@@ -18,7 +18,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
-    <link rel="shortcut icon" href="./static/images/jhu_web.png" />
+    <link rel="shortcut icon" href="./static/images/logo.png" />
 
     <link rel="stylesheet" href="./static/css/bulma.min.css">
     <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
@@ -26,10 +26,9 @@
     <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="stylesheet" href="./static/css/leaderboard.css">
     <link rel="icon" href="./static/images/favicon.svg">
     <link rel="stylesheet" href="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <script src="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -37,6 +36,14 @@
     <script src="./static/js/bulma-carousel.min.js"></script>
     <script src="./static/js/bulma-slider.min.js"></script>
     <script src="./static/js/index.js"></script>
+    <script src="./static/js/explorer-index.js"></script>
+    <script src="./static/js/question_card.js"></script>
+
+    <script src="./static/js/leaderboard_testmini.js"></script>
+    <script src="./data/results/output_folders.js" defer></script>
+    <script src="./data/results/model_scores.js" defer></script>
+
+    <script src="./visualizer/data/data_public.js" defer></script>
 
 </head>
 
@@ -48,11 +55,13 @@
             <div class="container is-max-desktop">
                 <div class="columns is-centered">
                     <div class="column has-text-centered">
-                        <h1 class="title is-2 publication-title">FaceXBench: Evaluating Multimodal LLMs <br> on Face
-                            Understanding
-                        </h1>
-                        <!-- <h2 style="font-size: 1.5em; color: dimgray; margin-bottom: .5em; margin-top: -.5em;">AAAI 2025
-                        </h2> -->
+                        <h2 class="title is-2 publication-title is-bold" style="margin-bottom: 0;">
+                            <img src="static/images/logo.png" style="width:2em; vertical-align:middle;" alt="Logo" />
+                            FaceXBench: Evaluating Multimodal
+                        </h2>
+                        <h2 class="title is-2 publication-title is-bold" style="margin-top: 0;">
+                            LLMs on Face Understanding
+                        </h2>
                         <div class="is-size-5 publication-authors">
                             <div class="authors-group">
                                 <span class="author-block">
@@ -88,7 +97,7 @@
                                         <span class="icon">
                                             <i class="ai ai-arxiv"></i>
                                         </span>
-                                        <span>Arxiv</span>
+                                        <span>arXiv</span>
                                     </a>
                                 </span>
                                 <span class="link-block">
@@ -97,7 +106,7 @@
                                         <span class="icon">
                                             <i class="fab fa-github"></i>
                                         </span>
-                                        <span>Code</span>
+                                        <span>code</span>
                                     </a>
                                 </span>
                             </div>
@@ -110,7 +119,7 @@
     </section>
 
     <section class="section">
-        <div class="container is-max-desktop">
+        <div class="container" style="margin-bottom: 2vh;">
             <div class="columns is-centered has-text-centered">
                 <div class="column is-four-fifths">
                     <h2 class="title is-3">Motivation</h2>
@@ -140,7 +149,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container is-max-desktop">
+            <div class="container" style="margin-bottom: 2vh;">
                 <div class="columns is-centered has-text-centered">
                     <div class="column is-four-fifths">
                         <h2 class="title is-3">Contributions</h2>
@@ -181,7 +190,7 @@
                 <!-- Paper video. -->
 
                 <section class="section">
-                    <div class="container is-max-desktop">
+                    <div class="container" style="margin-bottom: 2vh;">
                         <!-- Abstract. -->
                         <div class="columns is-centered has-text-centered">
                             <div class="column is-four-fifths">
@@ -208,167 +217,184 @@
                     </div>
                 </section>
 
-                <!-- <section class="section">
-                    <div class="container">
-
-                        <div class="columns is-centered">
+                <section class="section">
+                    <div class="container" style="margin-top: -170px; margin-bottom: -100px;">
+                        <div class="columns is-centered m-6">
                             <div class="column is-full has-text-centered content">
-                                <h2 class="title is-3" id="example">Benchmark Samples</h2>
-                                <section class="section">
-                                    <div class="container" style="margin-top: -120px; margin-bottom: -100px;">
-                                        <div class="columns is-centered m-6">
-                                            <div class="column is-full has-text-centered content">
-                                                <div id="example-carousel" class="carousel results-carousel">
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_1.png"
-                                                                alt="geometric reasoning"
-                                                                style="height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_2.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_3.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_4.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_5.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_6.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_7.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_8.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_9.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_10.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_11.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_12.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_13.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="box m-5">
-                                                        <div class="content has-text-centered">
-                                                            <img src="static/images/example_14.png"
-                                                                alt="geometric reasoning"
-                                                                style="width:84%; height:500px; object-fit: contain;" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                <div id="results-carousel1" class="carousel results-carousel">
+                                    <div class="box m-5">
+                                        <div class="content has-text-centered">
+                                            <img src="static/images/piechart.png" alt="question distribution"
+                                                style="width:84%; height:500px; object-fit: contain;" />
+                                            <p> Distribution of questions in FaceXBench across different categories and
+                                                sub-categories.
+                                            </p>
                                         </div>
                                     </div>
-                                </section>
-                            </div>
-                        </div>
-                    </div>
-                </section> -->
-
-                <section class="section">
-                    <div class="container is-max-desktop">
-                        <div class="columns is-centered has-text-centered">
-                            <div class="column is-four-fifths">
-                                <h2 class="title is-3">Results</h2>
-                                <div class="content has-text-justified">
-                                    <h5 class="subtitle has-text-centered"></h5>
-                                    <img src="./static/images/results.png" alt="" border="0" height=500
-                                        width=1500></img>
-                                    <p>
-                                        Table 1. Results of different models on the FaceXBench. We categorize the
-                                        open-source models in three categories based on
-                                        parameter size:
-                                        (a) Open source MLLMs (<4B parameters), (b) Open source MLLMs (4B-13B
-                                            parameters), (c) Open source MLLMs (>13B
-                                            parameters).
-                                            Additionally, we evaluate (d) proprietary models. The best model
-                                            in each category is highlighted in <b style="color: blue;">bold</b>.
-                                    </p>
+                                    <div class="box m-5">
+                                        <div class="content has-text-centered">
+                                            <img src="static/images/benchmark_statistics.png" alt="key statistics"
+                                                style="width:84%; height:500px; object-fit: contain;" />
+                                            <p> FaceXBench key statistics.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="box m-5">
+                                        <div class="content has-text-centered">
+                                            <img src="static/images/dataset_distribution.png" alt="dataset distribution"
+                                                style="width:84%; height:500px; object-fit: contain;" />
+                                            <p> FaceXBench source dataset distribution.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </section>
+
+                <section class="section">
+                    <div class="container" style="margin-bottom: 2vh;">
+                        <section class="section">
+                            <div class="container">
+                                <div class="columns is-centered">
+                                    <div class="column is-full has-text-centered content">
+                                        <h2 class="title is-3" id="example">Benchmark Samples</h2>
+                                        <div id="results-carousel" class="carousel results-carousel">
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_1.png" alt="Example 1"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_2.png" alt="Example 2"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_3.png" alt="Example 3"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_4.png" alt="Example 4"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_5.png" alt="Example 5"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_6.png" alt="Example 6"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_7.png" alt="Example 7"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_8.png" alt="Example 8"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_9.png" alt="Example 9"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_10.png" alt="Example 10"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_11.png" alt="Example 11"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_12.png" alt="Example 12"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_13.png" alt="Example 13"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                            <div class="box m-5">
+                                                <div class="content has-text-centered">
+                                                    <img src="static/images/example_14.png" alt="Example 14"
+                                                        style="width:84%; height:700px; object-fit: contain;" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="section">
+                            <div class="container" style="margin-bottom: 2vh;">
+                                <div class="columns is-centered has-text-centered">
+                                    <div class="column is-four-fifths">
+                                        <h2 class="title is-3">Results</h2>
+                                        <div class="content has-text-justified">
+                                            <h5 class="subtitle has-text-centered"></h5>
+                                            <img src="./static/images/results.png" alt="" border="0" height=500
+                                                width=1500></img>
+                                            <p>
+                                                Table 1. Results of different models on the FaceXBench. We categorize
+                                                the
+                                                open-source models in three categories based on
+                                                parameter size:
+                                                (a) Open source MLLMs (<4B parameters), (b) Open source MLLMs (4B-13B
+                                                    parameters), (c) Open source MLLMs (>13B
+                                                    parameters).
+                                                    Additionally, we evaluate (d) proprietary models. The best model
+                                                    in each category is highlighted in <b style="color: blue;">bold</b>.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
             </div>
-        </div>
     </section>
 
     <section class="section" id="BibTeX">
-        <div class="container content is-max-desktop">
+        <div class="container" style="margin-top: -200px; margin-bottom: -100px;"></div>
+        <div class="container is-max-desktop">
             <h2 class="title">BibTeX</h2>
-            <pre>Coming Soon ...
-</pre>
+            <pre>Coming Soon ... !!!
+            </pre>
         </div>
     </section>
 
     <section class="section">
-        <div class="container is-max-desktop content">
+        <div class="container is-max-desktop">
             <h5 class="title" style="font-size: 10px;"> Acknowledgement: The website template is taken from
                 <span class="author-block">
                     <a href="https://nerfies.github.io/" target="_blank">Nerfies</a>
             </h5>
-
         </div>
     </section>
 
@@ -391,7 +417,21 @@
                 $('[data-toggle="tooltip"]').tooltip()
             })
         });
+
+        // Carousel Initialization
+        document.addEventListener("DOMContentLoaded", () => {
+            bulmaCarousel.attach('#example-carousel', {
+                slidesToScroll: 1,
+                slidesToShow: 1,
+                autoplay: true,
+                loop: true,
+                pauseOnHover: true,
+                navigation: true,
+                pagination: true,
+            });
+        });
     </script>
+
 </body>
 
 </html>
