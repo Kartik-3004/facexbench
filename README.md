@@ -55,7 +55,7 @@ Table 1. Results of different models on the FaceXBench. We categorize the open-s
 - [01/16/2025] 🔥 We release FaceXBench.
 
 ## Usage
-The images of FaceXBench are at [facexbench/benchmark/images](images). The json files are in the folder [facexbench/benchmark/images](benchmark)<br>
+The images of FaceXBench are at [facexbench/benchmark/images](images). The json files are in the folder [facexbench/benchmark](benchmark)<br>
 Evaluate your mulitmodal LLMs on our benchmark with the help of https://github.com/open-compass/VLMEvalKit.
 
 ```bash
