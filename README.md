@@ -38,23 +38,23 @@ The key contributions of our work are,<br>
 > like GPT-4o, and GeminiPro 1.5, show significant room for improvement. We believe FaceXBench will be a crucial resource for developing MLLMs
 > equipped to perform sophisticated face understanding.* </p>
 
-# Statistics
+## Statistics
 <p align="center" width="100%">
   <img src='docs/static/images/piechart.png' height="75%" width="75%">
 </p>
 Figure 2. Distribution of questions in FaceXBench across different categories and sub-categories.
 
-# Results
+## Results
 <p align="center" width="100%">
   <img src='docs/static/images/results.png' height="75%" width="75%">
 </p>
 Table 1. Results of different models on the FaceXBench. We categorize the open-source models in three categories based on parameter size: (a) Open source MLLMs (<4B parameters), (b) Open source MLLMs (4B-13B parameters), (c) Open source MLLMs (>13B parameters). Additionally, we evaluate (d) proprietary models. The best model in each category is highlighted in <b>bold</b>.
 
 
-# :rocket: News
+## :rocket: News
 - [01/16/2025] 🔥 We release FaceXBench.
 
-# Usage
+## Usage
 The images of FaceXBench are at [facexbench/benchmark/images](images). The json files are in the folder [facexbench/benchmark/images](benchmark)<br>
 Evaluate your mulitmodal LLMs on our benchmark with the help of https://github.com/open-compass/VLMEvalKit.
 
