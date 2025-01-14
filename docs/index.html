@@ -48,7 +48,7 @@
             <div class="container is-max-desktop">
                 <div class="columns is-centered">
                     <div class="column has-text-centered">
-                        <h1 class="title is-2 publication-title">FaceXBench: Evaluating Multimodal LLMs on Face
+                        <h1 class="title is-2 publication-title">FaceXBench: Evaluating Multimodal LLMs <br> on Face
                             Understanding
                         </h1>
                         <!-- <h2 style="font-size: 1.5em; color: dimgray; margin-bottom: .5em; margin-top: -.5em;">AAAI 2025
@@ -83,7 +83,7 @@
                         <div class="column has-text-centered">
                             <div class="publication-links">
                                 <span class="link-block">
-                                    <a href="https://github.com/Kartik-3004/SegFace"
+                                    <a href="https://github.com/Kartik-3004/facexbench"
                                         class="external-link button is-normal is-rounded is-dark">
                                         <span class="icon">
                                             <i class="ai ai-arxiv"></i>
@@ -92,7 +92,7 @@
                                     </a>
                                 </span>
                                 <span class="link-block">
-                                    <a href="https://github.com/Kartik-3004/SegFace"
+                                    <a href="https://github.com/Kartik-3004/facexbench"
                                         class="external-link button is-normal is-rounded is-dark">
                                         <span class="icon">
                                             <i class="fab fa-github"></i>
@@ -113,147 +113,252 @@
         <div class="container is-max-desktop">
             <div class="columns is-centered has-text-centered">
                 <div class="column is-four-fifths">
-                    <h2 class="title is-3">Contributions</h2>
+                    <h2 class="title is-3">Motivation</h2>
                     <div class="content has-text-justified">
-                        <p>The key contributions of our work are as follows:
+                        <img src="./static/images/visual_abstract.png" alt="" border=0 height=500 width=1500></img>
+                        <p>
+                            Figure 1. <b>Left</b>: Failure cases of leading MLLMs, such as LLaVA-OV, Qwen2-VL,
+                            GPT-4o and GeminiPro1.5, on basic
+                            questions related to face understanding. <b>Right</b>: Performance comparison of top models
+                            across
+                            the 14 tasks included in the
+                            benchmark.
                         </p>
-                        <ul>
-                            <li>
-                                We introduce a lightweight transformer decoder with learnable class-specific tokens,
-                                that ensures each token is
-                                dedicated to a specific class, thereby enabling independent modeling of classes. The
-                                design effectively addresses the
-                                challenge of poor segmentation performance of long-tail classes, prevalent in existing
-                                methods.
-                            </li>
-                            <li> Our multi-scale feature extraction and MLP fusion strategy, combined with a transformer
-                                decoder that leverages learnable
-                                class-specific tokens, mitigates the dominance of head classes during training and
-                                enhances the feature representation
-                                of long-tail classes.
-                            </li>
-                            <li> <i>SegFace</i> establishes a new state-of-the-art performance on the LaPa dataset
-                                (93.03 mean F1 score) and the
-                                CelebAMask-HQ dataset (88.96 mean F1 score). Moreover, our model can be adapted for fast
-                                inference by simply swapping
-                                the backbone with a MobileNetV3 backbone. The mobile version achieves a mean F1 score of
-                                87.91 on the CelebAMask-HQ
-                                dataset with 95.96 FPS.
-                            </li>
-                        </ul>
-
+                        <p>MLLMs are increasingly deployed as central processors in various advanced applications,
+                            including
+                            virtual-reality headsets, embodied AI, driving safety, authentication, human-computer
+                            interaction, and sports analysis. In these applications, accurate face understanding is
+                            crucial, as face images
+                            appear frequently and require accurate face understanding
+                            for appropriate responses. However, the face understanding
+                            capabilities of existing MLLMs are limited; they often fail
+                            to answer basic questions such as "What is the expression
+                            of the person in this image?" or "Which of the following regions is not present in the face
+                            image?" (See Figure 1. Left). These shortcomings
+                            indicate a significant scope for improvement.
                         </p>
                     </div>
                 </div>
             </div>
-            <!--/ Abstract. -->
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-3">Contributions</h2>
+                        <div class="content has-text-justified">
+                            <p>The key contributions of our work are as follows:
+                            </p>
+                            <ul>
+                                <li>
+                                    <b>Introducing FaceXBench</b>: A comprehensive benchmark
+                                    for evaluating MLLMs face understanding across 14
+                                    tasks in 6 key categories. It includes 5, 000 VQA questions derived from 25 public
+                                    datasets and a newly developed dataset, FaceXAPI.
+                                </li>
+                                <li> <b>Extensive Evaluation</b>: We evaluate 26 open-source
+                                    MLLMs and two proprietary models, GPT-4o and GeminiPro1.5, which achieve accuracies
+                                    of
+                                    50.24% and
+                                    54.40%, respectively, highlighting the significant challenge posed by FaceXBench and
+                                    the
+                                    substantial room for
+                                    improvement.
+                                </li>
+                                <li> <b>Analysis and Discussion</b>: We provide a detailed analysis of MLLMs performance
+                                    across various aspects of face
+                                    understanding, identifying areas where current MLLMs
+                                    fall short. Additionally, we suggest potential research directions that could
+                                    enhance
+                                    MLLMs face understanding.
+                                </li>
+                            </ul>
 
-            <!-- Paper video. -->
-
-            <section class="section">
-                <div class="container is-max-desktop">
-                    <!-- Abstract. -->
-                    <div class="columns is-centered has-text-centered">
-                        <div class="column is-four-fifths">
-                            <h2 class="title is-3"><i>SegFace</i> Framework</h2>
-                            <div class="content has-text-justified">
-                                <h5 class="subtitle has-text-centered"></h5>
-
-                                <img src="./static/images/segface.png" alt="" border=0 height=500 width=1500></img>
-                                <p>
-                                    Figure 1. The proposed architecture, <i>SegFace</i>, addresses face segmentation by
-                                    enhancing the performance on long-tail
-                                    classes through a transformer-based approach. Specifically, multi-scale features are
-                                    first extracted from an image
-                                    encoder and then fused using an MLP fusion module to form face tokens. These tokens,
-                                    along with class-specific tokens,
-                                    undergo self-attention, face-to-token, and token-to-face cross-attention operations,
-                                    refining both class and face tokens
-                                    to enhance class-specific features. Finally, the upscaled face tokens and learned
-                                    class tokens are combined to produce
-                                    segmentation maps for each facial region.
-                                </p>
-
-
-                            </div>
+                            </p>
                         </div>
                     </div>
                 </div>
-            </section>
+                <!--/ Abstract. -->
 
-            <section class="section">
-                <div class="container is-max-desktop">
-                    <div class="columns is-centered has-text-centered">
-                        <div class="column is-four-fifths">
-                            <h2 class="title is-3">Quantitative Results</h2>
-                            <div class="content has-text-justified">
-                                <h5 class="subtitle has-text-centered"></h5>
-                                <img src="./static/images/quantitative_results.png" alt="" border="0" height=500
-                                    width=1500></img>
-                                <p>
-                                    Table 1. Quantitative results on (a) LaPa dataset and (b) CelebAMask-HQ dataset
-                                </p>
-                            </div>
-                            <div class="content has-text-justified">
-                                <h5 class="subtitle has-text-centered"></h5>
-                                <img src="./static/images/ablation_study.png" alt="" border=0 height=500
-                                    width=1500></img>
-                                <p>
-                                    Table 2. Ablation study for different backbones and varying
-                                    image resolution.
-                                </p>
+                <!-- Paper video. -->
+
+                <section class="section">
+                    <div class="container is-max-desktop">
+                        <!-- Abstract. -->
+                        <div class="columns is-centered has-text-centered">
+                            <div class="column is-four-fifths">
+                                <h2 class="title is-3">FaceXBench</h2>
+                                <div class="content has-text-justified">
+                                    <h5 class="subtitle has-text-centered"></h5>
+
+                                    <img src="./static/images/facexbench.png" alt="" border=0 height=500
+                                        width=1500></img>
+                                    <p>
+                                        Figure 2. FaceXBench examples cover a total of 14 tasks, addressing various
+                                        aspects of face understanding. Each question
+                                        may consist
+                                        of single or multiple images. Every question includes four options, with only
+                                        one correct answer. The options are
+                                        strategically designed to
+                                        prompt the model to analyze carefully before selecting an option.
+                                    </p>
+
+
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-        </div>
-        </div>
-    </section>
+                </section>
 
-    <section class="section">
-        <div class="container is-max-desktop">
-            <div class="columns is-centered has-text-centered">
-                <div class="column is-four-fifths">
-                    <h2 class="title is-3">Qualitative Results</h2>
-                    <div class="content has-text-justified">
-                        <h5 class="subtitle has-text-centered"></h5>
-                        <img src="./static/images/qualitative_results_1.png" alt="" border="0" height=500
-                            width=1500></img>
-                        <p>
-                            Figure 2. The qualitative comparison highlights the superior performance of our
-                            method, <i>SegFace</i>, compared to DML-CSR. In (a),
-                            <i>SegFace</i> effectively segments both long-tail classes like earrings and necklaces as
-                            well as head classes such as hair and
-                            neck. In (b), it also excels in challenging scenarios involving multiple faces,
-                            human-resembling features, poor
-                            lighting, and occlusion, where DML-CSR struggles.
-                        </p>
+                <!-- <section class="section">
+                    <div class="container">
+
+                        <div class="columns is-centered">
+                            <div class="column is-full has-text-centered content">
+                                <h2 class="title is-3" id="example">Benchmark Samples</h2>
+                                <section class="section">
+                                    <div class="container" style="margin-top: -120px; margin-bottom: -100px;">
+                                        <div class="columns is-centered m-6">
+                                            <div class="column is-full has-text-centered content">
+                                                <div id="example-carousel" class="carousel results-carousel">
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_1.png"
+                                                                alt="geometric reasoning"
+                                                                style="height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_2.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_3.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_4.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_5.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_6.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_7.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_8.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_9.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_10.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_11.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_12.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_13.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="box m-5">
+                                                        <div class="content has-text-centered">
+                                                            <img src="static/images/example_14.png"
+                                                                alt="geometric reasoning"
+                                                                style="width:84%; height:500px; object-fit: contain;" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
                     </div>
-                    <div class="content has-text-justified">
-                        <h5 class="subtitle has-text-centered"></h5>
-                        <img src="./static/images/qualitative_results_2.png" alt="" border=0 height=500
-                            width=1500></img>
-                        <p>
-                            Figure 3. Additional qualitative comparison of our proposed method, SegFace,
-                            compared to DML-CSR on the (a) CelebAMask- HQ and (b)
-                            LaPa dataset.
-                        </p>
+                </section> -->
+
+                <section class="section">
+                    <div class="container is-max-desktop">
+                        <div class="columns is-centered has-text-centered">
+                            <div class="column is-four-fifths">
+                                <h2 class="title is-3">Results</h2>
+                                <div class="content has-text-justified">
+                                    <h5 class="subtitle has-text-centered"></h5>
+                                    <img src="./static/images/results.png" alt="" border="0" height=500
+                                        width=1500></img>
+                                    <p>
+                                        Table 1. Results of different models on the FaceXBench. We categorize the
+                                        open-source models in three categories based on
+                                        parameter size:
+                                        (a) Open source MLLMs (<4B parameters), (b) Open source MLLMs (4B-13B
+                                            parameters), (c) Open source MLLMs (>13B
+                                            parameters).
+                                            Additionally, we evaluate (d) proprietary models. The best model
+                                            in each category is highlighted in <b style="color: blue;">bold</b>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
             </div>
-        </div>
         </div>
     </section>
 
     <section class="section" id="BibTeX">
         <div class="container content is-max-desktop">
             <h2 class="title">BibTeX</h2>
-            <pre>@article{narayan2024segface,
-  title={SegFace: Face Segmentation of Long-Tail Classes},
-  author={Narayan, Kartik and VS, Vibashan and Patel, Vishal M},
-  journal={arXiv preprint arXiv:2412.08647},
-  year={2024}
-}</pre>
+            <pre>Coming Soon ...
+</pre>
         </div>
     </section>
 
