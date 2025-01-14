@@ -1,6 +1,8 @@
 <div align="center">
-
+<img src="docs/static/images/logo.png" alt="Image" width="100">
+  
 # FaceXBench: Evaluating Multimodal LLMs on Face Understanding
+
 
 [Kartik Narayan](https://kartik-3004.github.io/portfolio/) &emsp; [Vibashan VS](https://vibashan.github.io) &emsp; [Vishal M. Patel](https://engineering.jhu.edu/faculty/vishal-patel/)
 
@@ -58,8 +60,24 @@ Evaluate your mulitmodal LLMs on our benchmark with the help of https://github.c
 
 ```bash
 git clone https://github.com/open-compass/VLMEvalKit.git
-git clone 
+git clone https://github.com/Kartik-3004/facexbench.git
+cp facexbench/evalaute.py VLMEvalKit/
+cp facexbench/aggregate_results.py VLMEValKit/
 
+# Install mulitmodal LLMs which are supported by https://github.com/open-compass/VLMEvalKit.
+# The list of supported MLLMs can be found at VLMEvalKit/vlmeval/config.py
+
+# After choosing the MLLM from config.py
+python evaluate.py \
+  --model <chosen_model>
+
+# Aggregate results by extarcting correct option from prediction
+# and get performance analysis on different categories and sub-categories in the benchmark.
+python aggregate_results.py \
+  --model <chosen_model>
+  --results_dir <path_to_results_dir>
+
+# The results is stored at the <path_to_results_dir> as <path_to_results_dir>/<chosen_model>/results.txt
 ```
 
 ## TODOs
