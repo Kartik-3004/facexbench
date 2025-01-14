@@ -1,0 +1,1090 @@
+{
+    "category": "face_recognition",
+    "sub-category": "hr_fr",
+    "dataset": "cfpfp",
+    "question_type": "MCQ",
+    "num_images": "multiple",
+    "prepend_text": "High-resolution face recognition involves identifying a person based on their facial features in images typically of good quality or resolution. You have to perform the task of high-resolution face recognition.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_1_1.png",
+                "images/cfpfp_multiple_mcq/question_1_2.png",
+                "images/cfpfp_multiple_mcq/question_1_3.png",
+                "images/cfpfp_multiple_mcq/question_1_4.png",
+                "images/cfpfp_multiple_mcq/question_1_5.png",
+                "images/cfpfp_multiple_mcq/question_1_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "3",
+                "2",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1"
+        },
+        "2": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_2_1.png",
+                "images/cfpfp_multiple_mcq/question_2_2.png",
+                "images/cfpfp_multiple_mcq/question_2_3.png",
+                "images/cfpfp_multiple_mcq/question_2_4.png",
+                "images/cfpfp_multiple_mcq/question_2_5.png",
+                "images/cfpfp_multiple_mcq/question_2_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "0",
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0"
+        },
+        "3": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_3_1.png",
+                "images/cfpfp_multiple_mcq/question_3_2.png",
+                "images/cfpfp_multiple_mcq/question_3_3.png",
+                "images/cfpfp_multiple_mcq/question_3_4.png",
+                "images/cfpfp_multiple_mcq/question_3_5.png"
+            ],
+            "question_text": "The first image is of a person A. The same person A is present in which of the other images?",
+            "options": [
+                "Image 4",
+                "Image 3",
+                "Image 5",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 4"
+        },
+        "4": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_4_1.png",
+                "images/cfpfp_multiple_mcq/question_4_2.png",
+                "images/cfpfp_multiple_mcq/question_4_3.png",
+                "images/cfpfp_multiple_mcq/question_4_4.png",
+                "images/cfpfp_multiple_mcq/question_4_5.png",
+                "images/cfpfp_multiple_mcq/question_4_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "2",
+                "1",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1"
+        },
+        "5": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_5_1.png",
+                "images/cfpfp_multiple_mcq/question_5_2.png",
+                "images/cfpfp_multiple_mcq/question_5_3.png",
+                "images/cfpfp_multiple_mcq/question_5_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 2 and Image 4",
+                "Image 1 and Image 2 and Image 4",
+                "Image 1 and Image 4",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 and Image 4"
+        },
+        "6": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_6_1.png",
+                "images/cfpfp_multiple_mcq/question_6_2.png",
+                "images/cfpfp_multiple_mcq/question_6_3.png",
+                "images/cfpfp_multiple_mcq/question_6_4.png",
+                "images/cfpfp_multiple_mcq/question_6_5.png",
+                "images/cfpfp_multiple_mcq/question_6_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "1",
+                "3",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1"
+        },
+        "7": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_7_1.png",
+                "images/cfpfp_multiple_mcq/question_7_2.png",
+                "images/cfpfp_multiple_mcq/question_7_3.png",
+                "images/cfpfp_multiple_mcq/question_7_4.png",
+                "images/cfpfp_multiple_mcq/question_7_5.png",
+                "images/cfpfp_multiple_mcq/question_7_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "3",
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1"
+        },
+        "8": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_8_1.png",
+                "images/cfpfp_multiple_mcq/question_8_2.png",
+                "images/cfpfp_multiple_mcq/question_8_3.png",
+                "images/cfpfp_multiple_mcq/question_8_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1 and Image 2 and Image 3",
+                "Image 3",
+                "Image 1",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2 and Image 3"
+        },
+        "9": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_9_1.png",
+                "images/cfpfp_multiple_mcq/question_9_2.png",
+                "images/cfpfp_multiple_mcq/question_9_3.png",
+                "images/cfpfp_multiple_mcq/question_9_4.png",
+                "images/cfpfp_multiple_mcq/question_9_5.png"
+            ],
+            "question_text": "The first image is of a person A. The same person A is present in which of the other images?",
+            "options": [
+                "Image 2",
+                "Image 5",
+                "Image 3",
+                "Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3"
+        },
+        "10": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_10_1.png",
+                "images/cfpfp_multiple_mcq/question_10_2.png",
+                "images/cfpfp_multiple_mcq/question_10_3.png",
+                "images/cfpfp_multiple_mcq/question_10_4.png",
+                "images/cfpfp_multiple_mcq/question_10_5.png",
+                "images/cfpfp_multiple_mcq/question_10_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "3",
+                "2",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1"
+        },
+        "11": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_11_1.png",
+                "images/cfpfp_multiple_mcq/question_11_2.png",
+                "images/cfpfp_multiple_mcq/question_11_3.png",
+                "images/cfpfp_multiple_mcq/question_11_4.png",
+                "images/cfpfp_multiple_mcq/question_11_5.png"
+            ],
+            "question_text": "Which two images show the same person?",
+            "options": [
+                "Images 3 and 4",
+                "Images 2 and 4",
+                "Images 1 and 4",
+                "Images 4 and 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Images 4 and 2"
+        },
+        "12": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_12_1.png",
+                "images/cfpfp_multiple_mcq/question_12_2.png",
+                "images/cfpfp_multiple_mcq/question_12_3.png",
+                "images/cfpfp_multiple_mcq/question_12_4.png",
+                "images/cfpfp_multiple_mcq/question_12_5.png"
+            ],
+            "question_text": "Which two images show the same person?",
+            "options": [
+                "Images 1 and 4",
+                "Images 2 and 4",
+                "Images 1 and 5",
+                "Images 3 and 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Images 2 and 4"
+        },
+        "13": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_13_1.png",
+                "images/cfpfp_multiple_mcq/question_13_2.png",
+                "images/cfpfp_multiple_mcq/question_13_3.png",
+                "images/cfpfp_multiple_mcq/question_13_4.png",
+                "images/cfpfp_multiple_mcq/question_13_5.png",
+                "images/cfpfp_multiple_mcq/question_13_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "1",
+                "2",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2"
+        },
+        "14": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_14_1.png",
+                "images/cfpfp_multiple_mcq/question_14_2.png",
+                "images/cfpfp_multiple_mcq/question_14_3.png",
+                "images/cfpfp_multiple_mcq/question_14_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1 and Image 2 and Image 3",
+                "Image 2 and Image 3",
+                "Image 2 and Image 4",
+                "Image 2 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2 and Image 3"
+        },
+        "15": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_15_1.png",
+                "images/cfpfp_multiple_mcq/question_15_2.png",
+                "images/cfpfp_multiple_mcq/question_15_3.png",
+                "images/cfpfp_multiple_mcq/question_15_4.png",
+                "images/cfpfp_multiple_mcq/question_15_5.png",
+                "images/cfpfp_multiple_mcq/question_15_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "3",
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0"
+        },
+        "16": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_16_1.png",
+                "images/cfpfp_multiple_mcq/question_16_2.png",
+                "images/cfpfp_multiple_mcq/question_16_3.png",
+                "images/cfpfp_multiple_mcq/question_16_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1 and Image 4",
+                "Image 2",
+                "Image 1",
+                "Image 2 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 4"
+        },
+        "17": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_17_1.png",
+                "images/cfpfp_multiple_mcq/question_17_2.png",
+                "images/cfpfp_multiple_mcq/question_17_3.png",
+                "images/cfpfp_multiple_mcq/question_17_4.png",
+                "images/cfpfp_multiple_mcq/question_17_5.png"
+            ],
+            "question_text": "Which two images show the same person?",
+            "options": [
+                "Images 1 and 2",
+                "Images 1 and 3",
+                "Images 1 and 4",
+                "Images 4 and 5"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Images 1 and 4"
+        },
+        "18": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_18_1.png",
+                "images/cfpfp_multiple_mcq/question_18_2.png",
+                "images/cfpfp_multiple_mcq/question_18_3.png",
+                "images/cfpfp_multiple_mcq/question_18_4.png",
+                "images/cfpfp_multiple_mcq/question_18_5.png"
+            ],
+            "question_text": "The first image is of a person A. Which of the other images show person A?",
+            "options": [
+                "Image 5",
+                "Image 2 and Image 3",
+                "Image 4 and Image 5",
+                "Image 2 and Image 3 and Image 4 and Image 5"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2 and Image 3"
+        },
+        "19": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_19_1.png",
+                "images/cfpfp_multiple_mcq/question_19_2.png",
+                "images/cfpfp_multiple_mcq/question_19_3.png",
+                "images/cfpfp_multiple_mcq/question_19_4.png",
+                "images/cfpfp_multiple_mcq/question_19_5.png",
+                "images/cfpfp_multiple_mcq/question_19_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "2",
+                "0",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0"
+        },
+        "20": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_20_1.png",
+                "images/cfpfp_multiple_mcq/question_20_2.png",
+                "images/cfpfp_multiple_mcq/question_20_3.png",
+                "images/cfpfp_multiple_mcq/question_20_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 1 and Image 3 and Image 4",
+                "Image 1",
+                "Image 2 and Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2 and Image 4"
+        },
+        "21": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_21_1.png",
+                "images/cfpfp_multiple_mcq/question_21_2.png",
+                "images/cfpfp_multiple_mcq/question_21_3.png",
+                "images/cfpfp_multiple_mcq/question_21_4.png",
+                "images/cfpfp_multiple_mcq/question_21_5.png"
+            ],
+            "question_text": "The first image is of a person A. Which of the other images show person A?",
+            "options": [
+                "Image 2 and Image 3 and Image 5",
+                "Image 5",
+                "Image 3",
+                "Image 2 and Image 3 and Image 4 and Image 5"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 5"
+        },
+        "22": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_22_1.png",
+                "images/cfpfp_multiple_mcq/question_22_2.png",
+                "images/cfpfp_multiple_mcq/question_22_3.png",
+                "images/cfpfp_multiple_mcq/question_22_4.png"
+            ],
+            "question_text": "How many unique identities are present in these images?",
+            "options": [
+                "3",
+                "4",
+                "1",
+                "2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "4"
+        },
+        "23": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_23_1.png",
+                "images/cfpfp_multiple_mcq/question_23_2.png",
+                "images/cfpfp_multiple_mcq/question_23_3.png",
+                "images/cfpfp_multiple_mcq/question_23_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 4",
+                "Image 1 and Image 2 and Image 3",
+                "Image 1 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 2"
+        },
+        "24": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_24_1.png",
+                "images/cfpfp_multiple_mcq/question_24_2.png",
+                "images/cfpfp_multiple_mcq/question_24_3.png",
+                "images/cfpfp_multiple_mcq/question_24_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 4",
+                "Image 2 and Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2 and Image 3"
+        },
+        "25": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_25_1.png",
+                "images/cfpfp_multiple_mcq/question_25_2.png",
+                "images/cfpfp_multiple_mcq/question_25_3.png",
+                "images/cfpfp_multiple_mcq/question_25_4.png",
+                "images/cfpfp_multiple_mcq/question_25_5.png",
+                "images/cfpfp_multiple_mcq/question_25_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "3",
+                "2",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1"
+        },
+        "26": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_26_1.png",
+                "images/cfpfp_multiple_mcq/question_26_2.png",
+                "images/cfpfp_multiple_mcq/question_26_3.png",
+                "images/cfpfp_multiple_mcq/question_26_4.png",
+                "images/cfpfp_multiple_mcq/question_26_5.png",
+                "images/cfpfp_multiple_mcq/question_26_6.png"
+            ],
+            "question_text": "The first image is of a person A. The same person A is present in how many of the remaining images?",
+            "options": [
+                "4",
+                "1",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1"
+        },
+        "27": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_27_1.png",
+                "images/cfpfp_multiple_mcq/question_27_2.png",
+                "images/cfpfp_multiple_mcq/question_27_3.png",
+                "images/cfpfp_multiple_mcq/question_27_4.png",
+                "images/cfpfp_multiple_mcq/question_27_5.png"
+            ],
+            "question_text": "The first image is of a person A. Which of the other images show person A?",
+            "options": [
+                "Image 3 and Image 5",
+                "Image 3",
+                "Image 5",
+                "Image 4 and Image 5"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 5"
+        },
+        "28": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_28_1.png",
+                "images/cfpfp_multiple_mcq/question_28_2.png",
+                "images/cfpfp_multiple_mcq/question_28_3.png",
+                "images/cfpfp_multiple_mcq/question_28_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 2 and Image 3",
+                "Image 1 and Image 4",
+                "Image 1 and Image 2 and Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 3"
+        },
+        "29": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_29_1.png",
+                "images/cfpfp_multiple_mcq/question_29_2.png",
+                "images/cfpfp_multiple_mcq/question_29_3.png",
+                "images/cfpfp_multiple_mcq/question_29_4.png",
+                "images/cfpfp_multiple_mcq/question_29_5.png"
+            ],
+            "question_text": "The first image is of a person A. The same person A is present in which of the other images?",
+            "options": [
+                "Image 3",
+                "Image 4",
+                "Image 2",
+                "Image 5"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "30": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_30_1.png",
+                "images/cfpfp_multiple_mcq/question_30_2.png",
+                "images/cfpfp_multiple_mcq/question_30_3.png",
+                "images/cfpfp_multiple_mcq/question_30_4.png",
+                "images/cfpfp_multiple_mcq/question_30_5.png",
+                "images/cfpfp_multiple_mcq/question_30_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "2",
+                "0",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1"
+        },
+        "31": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_31_1.png",
+                "images/cfpfp_multiple_mcq/question_31_2.png",
+                "images/cfpfp_multiple_mcq/question_31_3.png",
+                "images/cfpfp_multiple_mcq/question_31_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1",
+                "Image 1 and Image 3",
+                "Image 1 and Image 2",
+                "Image 1 and Image 2 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 3"
+        },
+        "32": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_32_1.png",
+                "images/cfpfp_multiple_mcq/question_32_2.png",
+                "images/cfpfp_multiple_mcq/question_32_3.png",
+                "images/cfpfp_multiple_mcq/question_32_4.png",
+                "images/cfpfp_multiple_mcq/question_32_5.png"
+            ],
+            "question_text": "Which two images show the same person?",
+            "options": [
+                "Images 5 and 4",
+                "Images 3 and 5",
+                "Images 1 and 4",
+                "Images 2 and 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Images 5 and 4"
+        },
+        "33": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_33_1.png",
+                "images/cfpfp_multiple_mcq/question_33_2.png",
+                "images/cfpfp_multiple_mcq/question_33_3.png",
+                "images/cfpfp_multiple_mcq/question_33_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1 and Image 3 and Image 4",
+                "Image 1 and Image 2",
+                "Image 1 and Image 2 and Image 3 and Image 4",
+                "Image 1 and Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 4"
+        },
+        "34": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_34_1.png",
+                "images/cfpfp_multiple_mcq/question_34_2.png",
+                "images/cfpfp_multiple_mcq/question_34_3.png",
+                "images/cfpfp_multiple_mcq/question_34_4.png",
+                "images/cfpfp_multiple_mcq/question_34_5.png"
+            ],
+            "question_text": "The first image is of a person A. The same person A is present in which of the other images?",
+            "options": [
+                "Image 2",
+                "Image 5",
+                "Image 3",
+                "Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3"
+        },
+        "35": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_35_1.png",
+                "images/cfpfp_multiple_mcq/question_35_2.png",
+                "images/cfpfp_multiple_mcq/question_35_3.png",
+                "images/cfpfp_multiple_mcq/question_35_4.png",
+                "images/cfpfp_multiple_mcq/question_35_5.png"
+            ],
+            "question_text": "Which two images show the same person?",
+            "options": [
+                "Images 1 and 5",
+                "Images 3 and 5",
+                "Images 5 and 1",
+                "Images 2 and 5"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Images 5 and 1"
+        },
+        "36": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_36_1.png",
+                "images/cfpfp_multiple_mcq/question_36_2.png",
+                "images/cfpfp_multiple_mcq/question_36_3.png",
+                "images/cfpfp_multiple_mcq/question_36_4.png"
+            ],
+            "question_text": "How many unique identities are present in these images?",
+            "options": [
+                "4",
+                "1",
+                "3",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "4"
+        },
+        "37": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_37_1.png",
+                "images/cfpfp_multiple_mcq/question_37_2.png",
+                "images/cfpfp_multiple_mcq/question_37_3.png",
+                "images/cfpfp_multiple_mcq/question_37_4.png",
+                "images/cfpfp_multiple_mcq/question_37_5.png",
+                "images/cfpfp_multiple_mcq/question_37_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "0",
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1"
+        },
+        "38": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_38_1.png",
+                "images/cfpfp_multiple_mcq/question_38_2.png",
+                "images/cfpfp_multiple_mcq/question_38_3.png",
+                "images/cfpfp_multiple_mcq/question_38_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1 and Image 2 and Image 4",
+                "Image 1 and Image 2",
+                "Image 1 and Image 4",
+                "Image 1 and Image 2 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 and Image 4"
+        },
+        "39": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_39_1.png",
+                "images/cfpfp_multiple_mcq/question_39_2.png",
+                "images/cfpfp_multiple_mcq/question_39_3.png",
+                "images/cfpfp_multiple_mcq/question_39_4.png",
+                "images/cfpfp_multiple_mcq/question_39_5.png"
+            ],
+            "question_text": "The first image is of a person A. The same person A is present in which of the other images?",
+            "options": [
+                "Image 5",
+                "Image 3",
+                "Image 2",
+                "Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 4"
+        },
+        "40": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_40_1.png",
+                "images/cfpfp_multiple_mcq/question_40_2.png",
+                "images/cfpfp_multiple_mcq/question_40_3.png",
+                "images/cfpfp_multiple_mcq/question_40_4.png",
+                "images/cfpfp_multiple_mcq/question_40_5.png",
+                "images/cfpfp_multiple_mcq/question_40_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "3",
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0"
+        },
+        "41": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_41_1.png",
+                "images/cfpfp_multiple_mcq/question_41_2.png",
+                "images/cfpfp_multiple_mcq/question_41_3.png",
+                "images/cfpfp_multiple_mcq/question_41_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 1 and Image 2 and Image 4",
+                "Image 2 and Image 3 and Image 4",
+                "Image 1 and Image 2 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 and Image 3"
+        },
+        "42": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_42_1.png",
+                "images/cfpfp_multiple_mcq/question_42_2.png",
+                "images/cfpfp_multiple_mcq/question_42_3.png",
+                "images/cfpfp_multiple_mcq/question_42_4.png",
+                "images/cfpfp_multiple_mcq/question_42_5.png",
+                "images/cfpfp_multiple_mcq/question_42_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "3",
+                "0",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0"
+        },
+        "43": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_43_1.png",
+                "images/cfpfp_multiple_mcq/question_43_2.png",
+                "images/cfpfp_multiple_mcq/question_43_3.png",
+                "images/cfpfp_multiple_mcq/question_43_4.png",
+                "images/cfpfp_multiple_mcq/question_43_5.png"
+            ],
+            "question_text": "The first image is of a person A. The same person A is present in which of the other images?",
+            "options": [
+                "Image 2",
+                "Image 4",
+                "Image 3",
+                "Image 5"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "44": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_44_1.png",
+                "images/cfpfp_multiple_mcq/question_44_2.png",
+                "images/cfpfp_multiple_mcq/question_44_3.png",
+                "images/cfpfp_multiple_mcq/question_44_4.png",
+                "images/cfpfp_multiple_mcq/question_44_5.png"
+            ],
+            "question_text": "The first image is of a person A. The same person A is present in which of the other images?",
+            "options": [
+                "Image 2",
+                "Image 5",
+                "Image 3",
+                "Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3"
+        },
+        "45": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_45_1.png",
+                "images/cfpfp_multiple_mcq/question_45_2.png",
+                "images/cfpfp_multiple_mcq/question_45_3.png",
+                "images/cfpfp_multiple_mcq/question_45_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1",
+                "Image 1 and Image 2",
+                "Image 3 and Image 4",
+                "Image 1 and Image 3 and Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3 and Image 4"
+        },
+        "46": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_46_1.png",
+                "images/cfpfp_multiple_mcq/question_46_2.png",
+                "images/cfpfp_multiple_mcq/question_46_3.png",
+                "images/cfpfp_multiple_mcq/question_46_4.png"
+            ],
+            "question_text": "How many unique identities are present in these images?",
+            "options": [
+                "2",
+                "4",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "4"
+        },
+        "47": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_47_1.png",
+                "images/cfpfp_multiple_mcq/question_47_2.png",
+                "images/cfpfp_multiple_mcq/question_47_3.png",
+                "images/cfpfp_multiple_mcq/question_47_4.png"
+            ],
+            "question_text": "There are two images of the same person. Which images are of people different from that person?",
+            "options": [
+                "Image 1 and Image 2 and Image 3",
+                "Image 2 and Image 3",
+                "Image 1 and Image 4",
+                "Image 2 and Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2 and Image 4"
+        },
+        "48": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_48_1.png",
+                "images/cfpfp_multiple_mcq/question_48_2.png",
+                "images/cfpfp_multiple_mcq/question_48_3.png",
+                "images/cfpfp_multiple_mcq/question_48_4.png"
+            ],
+            "question_text": "How many unique identities are present in these images?",
+            "options": [
+                "2",
+                "4",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2"
+        },
+        "49": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_49_1.png",
+                "images/cfpfp_multiple_mcq/question_49_2.png",
+                "images/cfpfp_multiple_mcq/question_49_3.png",
+                "images/cfpfp_multiple_mcq/question_49_4.png",
+                "images/cfpfp_multiple_mcq/question_49_5.png"
+            ],
+            "question_text": "The first image is of a person A. The same person A is present in which of the other images?",
+            "options": [
+                "Image 2",
+                "Image 5",
+                "Image 3",
+                "Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3"
+        },
+        "50": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_50_1.png",
+                "images/cfpfp_multiple_mcq/question_50_2.png",
+                "images/cfpfp_multiple_mcq/question_50_3.png",
+                "images/cfpfp_multiple_mcq/question_50_4.png",
+                "images/cfpfp_multiple_mcq/question_50_5.png"
+            ],
+            "question_text": "Which two images show the same person?",
+            "options": [
+                "Images 5 and 1",
+                "Images 2 and 5",
+                "Images 1 and 4",
+                "Images 2 and 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Images 5 and 1"
+        },
+        "51": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_51_1.png",
+                "images/cfpfp_multiple_mcq/question_51_2.png",
+                "images/cfpfp_multiple_mcq/question_51_3.png",
+                "images/cfpfp_multiple_mcq/question_51_4.png",
+                "images/cfpfp_multiple_mcq/question_51_5.png",
+                "images/cfpfp_multiple_mcq/question_51_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "1",
+                "3",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0"
+        },
+        "52": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_52_1.png",
+                "images/cfpfp_multiple_mcq/question_52_2.png",
+                "images/cfpfp_multiple_mcq/question_52_3.png",
+                "images/cfpfp_multiple_mcq/question_52_4.png",
+                "images/cfpfp_multiple_mcq/question_52_5.png",
+                "images/cfpfp_multiple_mcq/question_52_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "2",
+                "0",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1"
+        },
+        "53": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_53_1.png",
+                "images/cfpfp_multiple_mcq/question_53_2.png",
+                "images/cfpfp_multiple_mcq/question_53_3.png",
+                "images/cfpfp_multiple_mcq/question_53_4.png",
+                "images/cfpfp_multiple_mcq/question_53_5.png"
+            ],
+            "question_text": "The first image is of a person A. The same person A is present in which of the other images?",
+            "options": [
+                "Image 5",
+                "Image 2",
+                "Image 3",
+                "Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 5"
+        },
+        "54": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_54_1.png",
+                "images/cfpfp_multiple_mcq/question_54_2.png",
+                "images/cfpfp_multiple_mcq/question_54_3.png",
+                "images/cfpfp_multiple_mcq/question_54_4.png",
+                "images/cfpfp_multiple_mcq/question_54_5.png"
+            ],
+            "question_text": "The first image is of a person A. Which of the other images show person A?",
+            "options": [
+                "Image 2 and Image 3 and Image 4",
+                "Image 2 and Image 5",
+                "Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2"
+        },
+        "55": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_55_1.png",
+                "images/cfpfp_multiple_mcq/question_55_2.png",
+                "images/cfpfp_multiple_mcq/question_55_3.png",
+                "images/cfpfp_multiple_mcq/question_55_4.png",
+                "images/cfpfp_multiple_mcq/question_55_5.png",
+                "images/cfpfp_multiple_mcq/question_55_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "1",
+                "0",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1"
+        },
+        "56": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_56_1.png",
+                "images/cfpfp_multiple_mcq/question_56_2.png",
+                "images/cfpfp_multiple_mcq/question_56_3.png",
+                "images/cfpfp_multiple_mcq/question_56_4.png"
+            ],
+            "question_text": "How many unique identities are present in these images?",
+            "options": [
+                "3",
+                "2",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "4"
+        },
+        "57": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_57_1.png",
+                "images/cfpfp_multiple_mcq/question_57_2.png",
+                "images/cfpfp_multiple_mcq/question_57_3.png",
+                "images/cfpfp_multiple_mcq/question_57_4.png",
+                "images/cfpfp_multiple_mcq/question_57_5.png"
+            ],
+            "question_text": "Which two images show the same person?",
+            "options": [
+                "Images 1 and 2",
+                "Images 1 and 3",
+                "Images 3 and 2",
+                "Images 2 and 5"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Images 3 and 2"
+        },
+        "58": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_58_1.png",
+                "images/cfpfp_multiple_mcq/question_58_2.png",
+                "images/cfpfp_multiple_mcq/question_58_3.png",
+                "images/cfpfp_multiple_mcq/question_58_4.png"
+            ],
+            "question_text": "How many unique identities are present in these images?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "4"
+        },
+        "59": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_59_1.png",
+                "images/cfpfp_multiple_mcq/question_59_2.png",
+                "images/cfpfp_multiple_mcq/question_59_3.png",
+                "images/cfpfp_multiple_mcq/question_59_4.png",
+                "images/cfpfp_multiple_mcq/question_59_5.png"
+            ],
+            "question_text": "The first image is of a person A. Which of the other images show person A?",
+            "options": [
+                "Image 3 and Image 4",
+                "Image 2 and Image 4 and Image 5",
+                "Image 2 and Image 3 and Image 4",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 3 and Image 4"
+        },
+        "60": {
+            "image_paths": [
+                "images/cfpfp_multiple_mcq/question_60_1.png",
+                "images/cfpfp_multiple_mcq/question_60_2.png",
+                "images/cfpfp_multiple_mcq/question_60_3.png",
+                "images/cfpfp_multiple_mcq/question_60_4.png",
+                "images/cfpfp_multiple_mcq/question_60_5.png",
+                "images/cfpfp_multiple_mcq/question_60_6.png"
+            ],
+            "question_text": "How many pairs of images show the same person?",
+            "options": [
+                "2",
+                "1",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0"
+        }
+    }
+}

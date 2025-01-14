@@ -1,0 +1,2111 @@
+{
+    "category": "face_recognition",
+    "sub-category": "celebrity_identification",
+    "dataset": "imdb",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "prepend_text": "Celebrity identification involves recognizing and determining the identity of a celebrity based on their facial features in an image. You have to perform the task of celebrity identification.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_1.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Tania Raymonde",
+                "Joseph Trohman",
+                "Amanda Brooks",
+                "Kim Gordon"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Kim Gordon"
+        },
+        "2": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_2.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Mark Rydell",
+                "Jamie Johnson",
+                "Gregory Itzin",
+                "John J. Kelly"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Jamie Johnson"
+        },
+        "3": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_3.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Christina Pickles",
+                "Kathleen Noone",
+                "Ilan Hall",
+                "Kyra Zagorsky"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Kathleen Noone"
+        },
+        "4": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_4.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Jim Caviezel",
+                "Ashley Spillers",
+                "Dito Montiel",
+                "David Maysles"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Jim Caviezel"
+        },
+        "5": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_5.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Coyote Shivers",
+                "Kathryn Bigelow",
+                "Ralph Lister",
+                "Chandra Wilson"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Kathryn Bigelow"
+        },
+        "6": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_6.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Ali Landry",
+                "Imogene Coca",
+                "Isolda Dychauk",
+                "Peter Weir"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Peter Weir"
+        },
+        "7": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_7.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Kevin Daniels",
+                "Jordan Hinson",
+                "Stephen Baldwin",
+                "Mark Gruner"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Stephen Baldwin"
+        },
+        "8": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_8.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Alison Brie",
+                "Callan Mulvey",
+                "Paul Soter",
+                "Ashley Eckstein"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Alison Brie"
+        },
+        "9": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_9.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Fantasia Barrino",
+                "Roger Guenveur Smith",
+                "Helen Hunt",
+                "Chris Coy"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Helen Hunt"
+        },
+        "10": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_10.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "James Lew",
+                "James Foley",
+                "Ethan Coen",
+                "Dan Montgomery Jr."
+            ],
+            "correct_answer_option": "C",
+            "answer": "Ethan Coen"
+        },
+        "11": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_11.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Michael McMillian",
+                "Harry Basch",
+                "Chris Brown",
+                "Nancy Meyers"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Chris Brown"
+        },
+        "12": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_12.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Jennifer Hall",
+                "Leeza Gibbons",
+                "Kirk Douglas",
+                "George P. Cosmatos"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Kirk Douglas"
+        },
+        "13": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_13.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Terry Crews",
+                "Warren Christie",
+                "Estelle Reiner",
+                "Alex A. Quinn"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Alex A. Quinn"
+        },
+        "14": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_14.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Mary Ure",
+                "Teri Garr",
+                "Emily Browning",
+                "Ren\u00e9 Enr\u00edquez"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Emily Browning"
+        },
+        "15": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_15.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Valentina Cervi",
+                "Craig Vincent",
+                "Shoshana Bush",
+                "Stephen J. Cannell"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Craig Vincent"
+        },
+        "16": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_16.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Alison Brie",
+                "Paget Brewster",
+                "James Dobson",
+                "Ellen Barkin"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Alison Brie"
+        },
+        "17": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_17.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Tamara Jenkins",
+                "Drew Van Acker",
+                "Dan Southworth",
+                "Amy Schumer"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Drew Van Acker"
+        },
+        "18": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_18.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Frank Gorshin",
+                "Jennifer Jostyn",
+                "Pam Ferris",
+                "Paul Sorvino"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Frank Gorshin"
+        },
+        "19": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_19.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Kevin McDonald",
+                "Lauren Luna V\u00e9lez",
+                "LL Cool J",
+                "Charlie Bewley"
+            ],
+            "correct_answer_option": "C",
+            "answer": "LL Cool J"
+        },
+        "20": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_20.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "John White",
+                "Kelsey Grammer",
+                "Monica Bellucci",
+                "Joseph Cedar"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Kelsey Grammer"
+        },
+        "21": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_21.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Chris Diamantopoulos",
+                "Fran\u00e7ois B\u00e9gaudeau",
+                "Kix Brooks",
+                "Steve Vai"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Chris Diamantopoulos"
+        },
+        "22": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_22.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Donna Dixon",
+                "Clifton Collins Jr.",
+                "Ryan Cabrera",
+                "Michael Wiseman"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Clifton Collins Jr."
+        },
+        "23": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_23.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Molly Ephraim",
+                "Olivia Brown",
+                "Rob Stewart",
+                "Hope Solo"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Hope Solo"
+        },
+        "24": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_24.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Darian Weiss",
+                "Josh Hutcherson",
+                "Sofya Skya",
+                "Ele Keats"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Josh Hutcherson"
+        },
+        "25": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_25.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Gary Riley",
+                "Rob Reiner",
+                "Katharine Hepburn",
+                "Robert Shaye"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Rob Reiner"
+        },
+        "26": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_26.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Alan Cox",
+                "Erica Schmidt",
+                "Carlo Rota",
+                "Pooch Hall"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Pooch Hall"
+        },
+        "27": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_27.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Pen\u00e9lope Cruz",
+                "Luc Robitaille",
+                "Michael Weston",
+                "Ledisi Anibade Young"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Pen\u00e9lope Cruz"
+        },
+        "28": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_28.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Donia Ben Jemia",
+                "Robert Kelly",
+                "Tom Quinn",
+                "Peter Mullan"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Donia Ben Jemia"
+        },
+        "29": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_29.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Andrew G\u00fcnsberg",
+                "Jackie Chan",
+                "Victor Buono",
+                "John Derek"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Jackie Chan"
+        },
+        "30": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_30.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Elizabeth McGovern",
+                "Loles Le\u00f3n",
+                "Laura Linney",
+                "Allison Mack"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Laura Linney"
+        },
+        "31": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_31.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Casey Reinhardt",
+                "Dennis Chun",
+                "Troian Bellisario",
+                "Cody McMains"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Troian Bellisario"
+        },
+        "32": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_32.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Jeremy Piven",
+                "Angel Taormina",
+                "Luke Pasqualino",
+                "Sheila Frazier"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Jeremy Piven"
+        },
+        "33": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_33.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Joseph D. Reitman",
+                "Laurie Cummings",
+                "Tim Roth",
+                "Shelby Hoffman"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Tim Roth"
+        },
+        "34": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_34.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Gilles Marini",
+                "Thom Yorke",
+                "Pamela Gordon",
+                "Nicole Parker"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Gilles Marini"
+        },
+        "35": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_35.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Harp Sandman",
+                "Courtney Taylor Burness",
+                "Teddi Siddall",
+                "Beth Dover"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Harp Sandman"
+        },
+        "36": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_36.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Rachael E. Stevens",
+                "Peter MacNicol",
+                "Darren E. Scott",
+                "Duncan Sheik"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Peter MacNicol"
+        },
+        "37": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_37.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Tim Gunn",
+                "Arnold Pinnock",
+                "Zachary Levi",
+                "Ethan Erickson"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Zachary Levi"
+        },
+        "38": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_38.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Max Greenfield",
+                "Natalie Raitano",
+                "Natalie Coughlin",
+                "Holliston Coleman"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Natalie Raitano"
+        },
+        "39": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_39.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Luminita Gheorghiu",
+                "Josh Lawson",
+                "Ian Somerhalder",
+                "Mark Griffin"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Ian Somerhalder"
+        },
+        "40": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_40.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Christina Hendricks",
+                "David Herman",
+                "Catherine Hicks",
+                "Ian Kahn"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Christina Hendricks"
+        },
+        "41": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_41.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Jamie Lee Curtis",
+                "Jackie Chan",
+                "Jeremy Howard",
+                "Mackenzie Firgens"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Jackie Chan"
+        },
+        "42": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_42.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Pierce Brosnan",
+                "Allison Cratchley",
+                "Zak Penn",
+                "Victoria Pratt"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Pierce Brosnan"
+        },
+        "43": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_43.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Lucian Piane",
+                "Shane Harper",
+                "Sarah Polley",
+                "Derek McGrath"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Sarah Polley"
+        },
+        "44": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_44.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Matthew Fox",
+                "Fabio",
+                "Michael Weatherly",
+                "John Cornell"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Michael Weatherly"
+        },
+        "45": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_45.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Laurence Fox",
+                "John Schneider",
+                "Vicki Lewis",
+                "Alessandra Ambrosio"
+            ],
+            "correct_answer_option": "B",
+            "answer": "John Schneider"
+        },
+        "46": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_46.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Darren W. Conrad",
+                "Istv\u00e1n Szab\u00f3",
+                "Craig McCracken",
+                "Dominic Burgess"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Dominic Burgess"
+        },
+        "47": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_47.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Daniel Newman",
+                "Joe Viterelli",
+                "Hugh Dillon",
+                "Josh Groban"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Joe Viterelli"
+        },
+        "48": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_48.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "50 Cent",
+                "Dick Miller",
+                "Sarah Scott",
+                "Emmanuelle Chriqui"
+            ],
+            "correct_answer_option": "A",
+            "answer": "50 Cent"
+        },
+        "49": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_49.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Matthew Carnahan",
+                "Billy Crudup",
+                "Dom DeLuise",
+                "Rosemarie DeWitt"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Rosemarie DeWitt"
+        },
+        "50": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_50.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Harry Treadaway",
+                "Nikita Bogolyubov",
+                "Mark Kanemura",
+                "Clare Bowen"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Harry Treadaway"
+        },
+        "51": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_51.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Ang Lee",
+                "Derek Trucks",
+                "William Katt",
+                "Audra McDonald"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Audra McDonald"
+        },
+        "52": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_52.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Julie Bowen",
+                "Genelia D'Souza",
+                "Belita Moreno",
+                "Hugh Jackman"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Julie Bowen"
+        },
+        "53": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_53.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Ben Folds",
+                "Molly C. Quinn",
+                "Dwayne Johnson",
+                "Andrew Lincoln"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Andrew Lincoln"
+        },
+        "54": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_54.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Johnny Haymer",
+                "Kim Delaney",
+                "Mary Walsh",
+                "Colin Farrell"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Kim Delaney"
+        },
+        "55": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_55.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Marcela Mar",
+                "Scott Rudin",
+                "Richard Griffiths",
+                "Shinji Aramaki"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Scott Rudin"
+        },
+        "56": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_56.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Luis Guzm\u00e1n",
+                "Tim Key",
+                "Tamara Jenkins",
+                "Alexandra Kyle"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Tamara Jenkins"
+        },
+        "57": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_57.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Brian McFayden",
+                "Jemaine Clement",
+                "Mark Famiglietti",
+                "Jason Donovan"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Jemaine Clement"
+        },
+        "58": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_58.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Chyna",
+                "Holly Valance",
+                "Josh Bowman",
+                "Michael Fassbender"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Michael Fassbender"
+        },
+        "59": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_59.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Sydney Pollack",
+                "Sin\u00e9ad O'Connor",
+                "Catherine O'Hara",
+                "Angelina Jolie"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Angelina Jolie"
+        },
+        "60": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_60.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Matt Shively",
+                "Anna Faris",
+                "Justin Melvey",
+                "Sebasti\u00e1n Cordero"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Anna Faris"
+        },
+        "61": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_61.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Peter Woodward",
+                "Dario Marianelli",
+                "Nat Wolff",
+                "Roscoe Orman"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Nat Wolff"
+        },
+        "62": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_62.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Carmen Maura",
+                "Gregory Sierra",
+                "Aaron Eckhart",
+                "Jennifer Ferrin"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Aaron Eckhart"
+        },
+        "63": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_63.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Martha Stephens",
+                "Edward Snowden",
+                "Dana Plato",
+                "Peter Sellers"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Peter Sellers"
+        },
+        "64": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_64.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Hugo Guinness",
+                "Arthur Darvill",
+                "Gianna Palminteri",
+                "Anne Archer"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arthur Darvill"
+        },
+        "65": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_65.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Jay Roach",
+                "Bobby Edner",
+                "Paula Wagner",
+                "Diana Garc\u00eda"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Paula Wagner"
+        },
+        "66": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_66.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Nat Wolff",
+                "Nikola Djuricko",
+                "Nick Hurran",
+                "Josh Bowman"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Josh Bowman"
+        },
+        "67": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_67.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "David Tennant",
+                "Christoph Sanders",
+                "Ethel Merman",
+                "Myles Pollard"
+            ],
+            "correct_answer_option": "A",
+            "answer": "David Tennant"
+        },
+        "68": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_68.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Estelle",
+                "Chad Smith",
+                "Mike Vallely",
+                "Jamie Foxx"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Jamie Foxx"
+        },
+        "69": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_69.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Chuck Carrington",
+                "Eddie Marsan",
+                "Danneel Ackles",
+                "Patty Jenkins"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Danneel Ackles"
+        },
+        "70": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_70.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Mandy Bruno Bogue",
+                "Paul Giamatti",
+                "Armin Shimerman",
+                "Ed O'Neill"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Ed O'Neill"
+        },
+        "71": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_71.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Gerard Butler",
+                "Ralph Macchio",
+                "David James Elliott",
+                "June Whitfield"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Gerard Butler"
+        },
+        "72": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_72.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Robert Goulet",
+                "Jack Thorne",
+                "Tom Vaughan-Lawlor",
+                "Jose Pablo Cantillo"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Jose Pablo Cantillo"
+        },
+        "73": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_73.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Harry Hamlin",
+                "Dominic Cooper",
+                "Christopher Monger",
+                "Alexander Cendese"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Dominic Cooper"
+        },
+        "74": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_74.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Anna Magnani",
+                "Roscoe Orman",
+                "Albert R. Broccoli",
+                "Hal Hartley"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Hal Hartley"
+        },
+        "75": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_75.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Maiara Walsh",
+                "Gillo Pontecorvo",
+                "Annette O'Toole",
+                "Victor Kilian"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Annette O'Toole"
+        },
+        "76": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_76.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Amy Forsyth",
+                "Rob Cohen",
+                "Larry David",
+                "Alex Kingston"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Larry David"
+        },
+        "77": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_77.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Neve Campbell",
+                "Tony Oller",
+                "Vanna Bonta",
+                "Richard Simmons"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Tony Oller"
+        },
+        "78": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_78.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Ricky Schroder",
+                "Debi Mazar",
+                "Megan Duffy",
+                "Jack Bannon"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Debi Mazar"
+        },
+        "79": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_79.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "The Beach Boys",
+                "Susie Essman",
+                "Kelly Lynch",
+                "Alice Eve"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Kelly Lynch"
+        },
+        "80": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_80.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Mark Polish",
+                "George Sanders",
+                "Vanessa Hudgens",
+                "Rupert Grint"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Mark Polish"
+        },
+        "81": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_81.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Tate Donovan",
+                "Piper Perabo",
+                "Tommy Lioutas",
+                "Jeff MacKay"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Tate Donovan"
+        },
+        "82": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_82.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Tricia Helfer",
+                "Richard Kiel",
+                "Ameriie",
+                "Lukas Moodysson"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Tricia Helfer"
+        },
+        "83": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_83.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Danny Huston",
+                "Anneliese van der Pol",
+                "Kristy McNichol",
+                "Tony Curran"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Danny Huston"
+        },
+        "84": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_84.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Jackie Burroughs",
+                "Robert Pattinson",
+                "Ray Liotta",
+                "Adam Savage"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Robert Pattinson"
+        },
+        "85": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_85.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Seth Rogen",
+                "David Zayas",
+                "Ryan Culver",
+                "Brittany Allen"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Seth Rogen"
+        },
+        "86": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_86.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Tommy Norden",
+                "Faith Hill",
+                "Kimberly Perry",
+                "Alana Stewart"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Alana Stewart"
+        },
+        "87": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_87.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Tim Robbins",
+                "Richard Davalos",
+                "Michael Lehmann",
+                "T\u00f3mas Lemarquis"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Tim Robbins"
+        },
+        "88": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_88.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Austin Nichols",
+                "John Sanderford",
+                "Terrence Mann",
+                "James Le Gros"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Austin Nichols"
+        },
+        "89": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_89.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Julia Roberts",
+                "Selenis Leyva",
+                "Georgie Henley",
+                "Indiana Evans"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Julia Roberts"
+        },
+        "90": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_90.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Tre Cool",
+                "Beth Behrs",
+                "Matthew Robinson",
+                "Loretta Devine"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Tre Cool"
+        },
+        "91": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_91.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Rebekah Johnson",
+                "Jana Pallaske",
+                "Charlotte Caffey",
+                "Julie Hagerty"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Julie Hagerty"
+        },
+        "92": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_92.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Jill Gevargizian",
+                "Corey Stoll",
+                "Karl Malden",
+                "Belinda Balaski"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Corey Stoll"
+        },
+        "93": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_93.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Bob Clendenin",
+                "Drew Carey",
+                "David Byrne",
+                "Heather Matarazzo"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Bob Clendenin"
+        },
+        "94": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_94.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "David Oakes",
+                "Allison Kyler",
+                "Danny Aiello",
+                "Zach Galifianakis"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Zach Galifianakis"
+        },
+        "95": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_95.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Travis Jeffery",
+                "Bodhi Elfman",
+                "Andrew Simpson",
+                "Lea Michele"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Lea Michele"
+        },
+        "96": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_96.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Michael Chiklis",
+                "Alison Brie",
+                "Josh Hartnett",
+                "Shondrella Avery"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Alison Brie"
+        },
+        "97": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_97.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Gavin Grazer",
+                "Olesya Rulin",
+                "Anna Torv",
+                "Jesse Peretz"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Olesya Rulin"
+        },
+        "98": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_98.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Emily Mortimer",
+                "Ric Roman Waugh",
+                "Meredith Deane",
+                "Gabourey Sidibe"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Emily Mortimer"
+        },
+        "99": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_99.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Rafael Amaya",
+                "Missy Elliott",
+                "Alexis Bledel",
+                "Emily Kinney"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Emily Kinney"
+        },
+        "100": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_100.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Marianne S\u00e4gebrecht",
+                "Mike Pniewski",
+                "Eminem",
+                "Vanya Seager"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Eminem"
+        },
+        "101": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_101.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Kara Pacitto",
+                "Barry Mendel",
+                "David Brenner",
+                "Zooey Deschanel"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Zooey Deschanel"
+        },
+        "102": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_102.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Parminder Nagra",
+                "Cristina Brondo",
+                "Paddy Considine",
+                "Sohail Khan"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Paddy Considine"
+        },
+        "103": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_103.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Naomie Harris",
+                "Alfonso Arau",
+                "John Hodgman",
+                "Paul Rudd"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Paul Rudd"
+        },
+        "104": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_104.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Dino De Laurentiis",
+                "Penny Johnson Jerald",
+                "Chuck D.",
+                "Rich Sommer"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Rich Sommer"
+        },
+        "105": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_105.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Axle Whitehead",
+                "Cameron Richardson",
+                "Ellen Burstyn",
+                "Thomas Ian Nicholas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Ellen Burstyn"
+        },
+        "106": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_106.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Paul Walker",
+                "Judy Parfitt",
+                "Christopher Meloni",
+                "Nancy Sullivan"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Paul Walker"
+        },
+        "107": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_107.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Sophie Turner",
+                "Jon Abrahams",
+                "Paris Themmen",
+                "Michael Lockwood"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Sophie Turner"
+        },
+        "108": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_108.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Kathleen Turner",
+                "Laura Smet",
+                "Ian Charleson",
+                "William H. Macy"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Kathleen Turner"
+        },
+        "109": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_109.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Joey Ansah",
+                "Michael Keaton",
+                "Allison Holker",
+                "Tom Hulce"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Michael Keaton"
+        },
+        "110": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_110.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Steven Grives",
+                "Daisy von Scherler Mayer",
+                "Tim Roth",
+                "Leslie Cheung"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Tim Roth"
+        },
+        "111": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_111.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Jenna Berman",
+                "Jon Hamm",
+                "Kevin Greutert",
+                "Richard Kiley"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Jon Hamm"
+        },
+        "112": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_112.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Lexi Sakowitz",
+                "Nicole Kidman",
+                "Paul Michael Glaser",
+                "Norma Aleandro"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Nicole Kidman"
+        },
+        "113": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_113.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Nathan Fillion",
+                "Poppy Montgomery",
+                "Jared Kusnitz",
+                "Steve Eastin"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Nathan Fillion"
+        },
+        "114": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_114.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Laura Izibor",
+                "Richard Tyson",
+                "James Thornton",
+                "Ian McKellen"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Ian McKellen"
+        },
+        "115": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_115.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Zach Galifianakis",
+                "Richard Sammel",
+                "F. Murray Abraham",
+                "Alan Menken"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Zach Galifianakis"
+        },
+        "116": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_116.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Seth Mumy",
+                "David Winning",
+                "Adam Richman",
+                "Christa Miller"
+            ],
+            "correct_answer_option": "B",
+            "answer": "David Winning"
+        },
+        "117": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_117.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Ron Shelton",
+                "Ed Harris",
+                "Marcie Leeds",
+                "Donatella Versace"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Ed Harris"
+        },
+        "118": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_118.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Dave Grohl",
+                "John Mellencamp",
+                "Brenda Bakke",
+                "Corbin Bernsen"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Corbin Bernsen"
+        },
+        "119": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_119.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Lee Curreri",
+                "LeAnn Rimes",
+                "Kevin Rodney Sullivan",
+                "Robert Morse"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Kevin Rodney Sullivan"
+        },
+        "120": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_120.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Sarah Steele",
+                "Carlos Algara",
+                "Jennifer Coolidge",
+                "Chan-wook Park"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Jennifer Coolidge"
+        },
+        "121": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_121.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Vicenta N'Dongo",
+                "Christopher Thornton",
+                "Anna Torv",
+                "George Wendt"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Anna Torv"
+        },
+        "122": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_122.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Addy Miller",
+                "Ely Henry",
+                "Ed Helms",
+                "Matthew Glave"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Ed Helms"
+        },
+        "123": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_123.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Edward Mulhare",
+                "E.G. Marshall",
+                "Erin Karpluk",
+                "Rico Rodriguez"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Rico Rodriguez"
+        },
+        "124": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_124.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Barack Obama",
+                "Peter Lord",
+                "Andre Braugher",
+                "Lisa Krueger"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Andre Braugher"
+        },
+        "125": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_125.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Paula DeAnda",
+                "Mark Derwin",
+                "Andreas Katsulas",
+                "Troian Bellisario"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Troian Bellisario"
+        },
+        "126": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_126.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Riker Lynch",
+                "Jayne Heitmeyer",
+                "Damien Fahey",
+                "Erin Chambers"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Damien Fahey"
+        },
+        "127": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_127.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Sebastian Urzendowsky",
+                "Robert Vaughn",
+                "Emily Browning",
+                "Joel Coen"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Emily Browning"
+        },
+        "128": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_128.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Jordan Hayes",
+                "Wayne Wang",
+                "Dina Spybey-Waters",
+                "Mira Furlan"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Jordan Hayes"
+        },
+        "129": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_129.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Eddie Murphy",
+                "Charlotte Le Bon",
+                "Steve Hofmeyr",
+                "Mark Povinelli"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Eddie Murphy"
+        },
+        "130": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_130.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Gael Garc\u00eda Bernal",
+                "Rowley Irlam",
+                "Engin Altan D\u00fczyatan",
+                "Salim Dau"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Gael Garc\u00eda Bernal"
+        },
+        "131": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_131.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Teresa Palmer",
+                "Dev Anand",
+                "Guy Doleman",
+                "Daniella Evangelista"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Guy Doleman"
+        },
+        "132": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_132.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Sarah Nicklin",
+                "Rachel Miner",
+                "Brandon Van Vliet",
+                "Kris Jenner"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Rachel Miner"
+        },
+        "133": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_133.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Ian Nelson",
+                "Elizabeth McGovern",
+                "Andrea Bowen",
+                "Fiona Gubelmann"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Elizabeth McGovern"
+        },
+        "134": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_134.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Roman Coppola",
+                "Alyson Stoner",
+                "Kyle Patrick Alvarez",
+                "David Heavener"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Roman Coppola"
+        },
+        "135": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_135.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Kelly Aldridge",
+                "Craig Horner",
+                "John Patrick Shanley",
+                "Prunella Scales"
+            ],
+            "correct_answer_option": "C",
+            "answer": "John Patrick Shanley"
+        },
+        "136": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_136.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Tony Tambi",
+                "Tommy Blacha",
+                "Gavin Lee",
+                "Brendan Fraser"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Brendan Fraser"
+        },
+        "137": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_137.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Anna Belknap",
+                "Howard Da Silva",
+                "Sophia Loren",
+                "Blake Jenner"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Sophia Loren"
+        },
+        "138": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_138.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Seth Gabel",
+                "Jesy Nelson",
+                "Kuno Becker",
+                "Boyd Kestner"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Seth Gabel"
+        },
+        "139": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_139.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Slash",
+                "John Paul DeJoria",
+                "Chris Warren",
+                "Neal Schon"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Chris Warren"
+        },
+        "140": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_140.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Chuck McCann",
+                "John Noble",
+                "Keith Allen",
+                "Toke Lars Bjarke"
+            ],
+            "correct_answer_option": "B",
+            "answer": "John Noble"
+        },
+        "141": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_141.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "Juan Pablo Veiza",
+                "CB Ferrari",
+                "Jim Rash",
+                "Moises Arias"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Jim Rash"
+        },
+        "142": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_142.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Danielle Bisutti",
+                "Heather Simms",
+                "Naturi Naughton",
+                "Paula Jai Parker"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Danielle Bisutti"
+        },
+        "143": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_143.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Peter Dinklage",
+                "Jonathan Dayton",
+                "Danny Tamberelli",
+                "Cristina Ferrare"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Peter Dinklage"
+        },
+        "144": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_144.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Ben Harper",
+                "Alberto San Juan",
+                "James Biberi",
+                "Aaron Jackson"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Ben Harper"
+        },
+        "145": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_145.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Victoria Vetri",
+                "Billy Unger",
+                "Hrishitaa Bhatt",
+                "Riz Ahmed"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Billy Unger"
+        },
+        "146": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_146.png"
+            ],
+            "question_text": "Name the celebrity shown in the image.",
+            "options": [
+                "James Keach",
+                "Andy Hirsch",
+                "Sierra McCormick",
+                "Emile Hirsch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Emile Hirsch"
+        },
+        "147": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_147.png"
+            ],
+            "question_text": "Who is this person?",
+            "options": [
+                "Travis Fine",
+                "Terry Moore",
+                "Hector Echavarria",
+                "James Roday"
+            ],
+            "correct_answer_option": "D",
+            "answer": "James Roday"
+        },
+        "148": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_148.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Mike Vogel",
+                "Brillante Mendoza",
+                "Charlie McDermott",
+                "Amanda Righetti"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Charlie McDermott"
+        },
+        "149": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_149.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Annaleigh Ashford",
+                "Bradley Cooper",
+                "Vincent Laresca",
+                "Paddy Considine"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Paddy Considine"
+        },
+        "150": {
+            "image_paths": [
+                "images/imdb_single_mcq/question_150.png"
+            ],
+            "question_text": "What is the name of this celebrity?",
+            "options": [
+                "Martin Delaney",
+                "Linn Ullmann",
+                "Tom Westman",
+                "Myles Jeffrey"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Martin Delaney"
+        }
+    }
+}

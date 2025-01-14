@@ -1,0 +1,783 @@
+{
+    "category": "fas_deepfakes",
+    "sub-category": "fas",
+    "dataset": "msu_mfsd",
+    "question_type": "MCQ",
+    "num_images": "multiple",
+    "prepend_text": "Face anti-spoofing involves detecting whether a presented face is real or a spoof attempt using methods like photos, videos, or masks. You have to perform the task of face anti-spoofing.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_1_1.png",
+                "images/msu_mfsd_multiple_mcq/question_1_2.png",
+                "images/msu_mfsd_multiple_mcq/question_1_3.png"
+            ],
+            "question_text": "Which images are spoof attacked?",
+            "options": [
+                "Image 1 and Image 2 and Image 3",
+                "Image 2",
+                "Image 2 and Image 3",
+                "Image 3 and Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 2 and Image 3"
+        },
+        "2": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_2_1.png",
+                "images/msu_mfsd_multiple_mcq/question_2_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "None of the above",
+                "Image 2",
+                "Both Images",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "3": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_3_1.png",
+                "images/msu_mfsd_multiple_mcq/question_3_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Both images are bonafide",
+                "Both images are attacks",
+                "Image 1 is bonafide and Image 2 is attack",
+                "Image 1 is attack and Image 2 is bonafide"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 is bonafide and Image 2 is attack"
+        },
+        "4": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_4_1.png",
+                "images/msu_mfsd_multiple_mcq/question_4_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Both Images",
+                "None of the above",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        },
+        "5": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_5_1.png",
+                "images/msu_mfsd_multiple_mcq/question_5_2.png",
+                "images/msu_mfsd_multiple_mcq/question_5_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "Image 3 and Image 1",
+                "Image 1 and Image 2 and Image 3",
+                "Image 1 and Image 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2 and Image 3"
+        },
+        "6": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_6_1.png",
+                "images/msu_mfsd_multiple_mcq/question_6_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Both Images",
+                "None of the above",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "7": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_7_1.png",
+                "images/msu_mfsd_multiple_mcq/question_7_2.png",
+                "images/msu_mfsd_multiple_mcq/question_7_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2"
+        },
+        "8": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_8_1.png",
+                "images/msu_mfsd_multiple_mcq/question_8_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Both Images",
+                "None of the above",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "9": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_9_1.png",
+                "images/msu_mfsd_multiple_mcq/question_9_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Image 2",
+                "None of the above",
+                "Both Images",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "10": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_10_1.png",
+                "images/msu_mfsd_multiple_mcq/question_10_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Image 1",
+                "Both Images",
+                "Image 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "D",
+            "answer": "None of the above"
+        },
+        "11": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_11_1.png",
+                "images/msu_mfsd_multiple_mcq/question_11_2.png"
+            ],
+            "question_text": "Which image is spoof attacked?",
+            "options": [
+                "Both Images",
+                "None of the above",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "12": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_12_1.png",
+                "images/msu_mfsd_multiple_mcq/question_12_2.png",
+                "images/msu_mfsd_multiple_mcq/question_12_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "3",
+                "1",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1"
+        },
+        "13": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_13_1.png",
+                "images/msu_mfsd_multiple_mcq/question_13_2.png",
+                "images/msu_mfsd_multiple_mcq/question_13_3.png"
+            ],
+            "question_text": "Which images depict bonafide individuals?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 3",
+                "Image 1",
+                "Image 1 and Image 2 and Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        },
+        "14": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_14_1.png",
+                "images/msu_mfsd_multiple_mcq/question_14_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Both Images",
+                "Image 1",
+                "None of the above",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "15": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_15_1.png",
+                "images/msu_mfsd_multiple_mcq/question_15_2.png"
+            ],
+            "question_text": "Which image is spoof attacked?",
+            "options": [
+                "Both Images",
+                "Image 1",
+                "Image 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Both Images"
+        },
+        "16": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_16_1.png",
+                "images/msu_mfsd_multiple_mcq/question_16_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "None of the above",
+                "Image 1",
+                "Image 2",
+                "Both Images"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "17": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_17_1.png",
+                "images/msu_mfsd_multiple_mcq/question_17_2.png",
+                "images/msu_mfsd_multiple_mcq/question_17_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 1 and Image 2",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 and Image 3"
+        },
+        "18": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_18_1.png",
+                "images/msu_mfsd_multiple_mcq/question_18_2.png",
+                "images/msu_mfsd_multiple_mcq/question_18_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "Image 1 and Image 2 and Image 3",
+                "Image 2",
+                "Image 2 and Image 3",
+                "Image 3 and Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 2 and Image 3"
+        },
+        "19": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_19_1.png",
+                "images/msu_mfsd_multiple_mcq/question_19_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Both images are bonafide",
+                "Both images are attacks",
+                "Image 1 is attack and Image 2 is bonafide",
+                "Image 1 is bonafide and Image 2 is attack"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 is attack and Image 2 is bonafide"
+        },
+        "20": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_20_1.png",
+                "images/msu_mfsd_multiple_mcq/question_20_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Both images are bonafide",
+                "Image 1 is bonafide and Image 2 is attack",
+                "Image 1 is attack and Image 2 is bonafide",
+                "Both images are attacks"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Both images are attacks"
+        },
+        "21": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_21_1.png",
+                "images/msu_mfsd_multiple_mcq/question_21_2.png"
+            ],
+            "question_text": "Which image is spoof attacked?",
+            "options": [
+                "Image 1",
+                "Both Images",
+                "Image 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Both Images"
+        },
+        "22": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_22_1.png",
+                "images/msu_mfsd_multiple_mcq/question_22_2.png",
+                "images/msu_mfsd_multiple_mcq/question_22_3.png"
+            ],
+            "question_text": "Which images are spoof attacked?",
+            "options": [
+                "Image 1",
+                "Image 3 and Image 1",
+                "Image 2 and Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2 and Image 3"
+        },
+        "23": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_23_1.png",
+                "images/msu_mfsd_multiple_mcq/question_23_2.png",
+                "images/msu_mfsd_multiple_mcq/question_23_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "Image 3",
+                "Image 2",
+                "Image 2 and Image 3",
+                "Image 1 and Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2"
+        },
+        "24": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_24_1.png",
+                "images/msu_mfsd_multiple_mcq/question_24_2.png",
+                "images/msu_mfsd_multiple_mcq/question_24_3.png"
+            ],
+            "question_text": "Which images depict bonafide individuals?",
+            "options": [
+                "Image 2",
+                "None of the above",
+                "Image 1 and Image 2",
+                "Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 3"
+        },
+        "25": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_25_1.png",
+                "images/msu_mfsd_multiple_mcq/question_25_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Image 1",
+                "Both Images",
+                "None of the above",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Both Images"
+        },
+        "26": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_26_1.png",
+                "images/msu_mfsd_multiple_mcq/question_26_2.png"
+            ],
+            "question_text": "Which image is spoof attacked?",
+            "options": [
+                "Both Images",
+                "Image 2",
+                "Image 1",
+                "None of the above"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        },
+        "27": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_27_1.png",
+                "images/msu_mfsd_multiple_mcq/question_27_2.png",
+                "images/msu_mfsd_multiple_mcq/question_27_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "3",
+                "1",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0"
+        },
+        "28": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_28_1.png",
+                "images/msu_mfsd_multiple_mcq/question_28_2.png",
+                "images/msu_mfsd_multiple_mcq/question_28_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "2",
+                "0",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0"
+        },
+        "29": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_29_1.png",
+                "images/msu_mfsd_multiple_mcq/question_29_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "None of the above",
+                "Image 1",
+                "Both Images",
+                "Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2"
+        },
+        "30": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_30_1.png",
+                "images/msu_mfsd_multiple_mcq/question_30_2.png"
+            ],
+            "question_text": "Which image is spoof attacked?",
+            "options": [
+                "Both Images",
+                "None of the above",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Both Images"
+        },
+        "31": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_31_1.png",
+                "images/msu_mfsd_multiple_mcq/question_31_2.png"
+            ],
+            "question_text": "Which image is spoof attacked?",
+            "options": [
+                "Both Images",
+                "None of the above",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Both Images"
+        },
+        "32": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_32_1.png",
+                "images/msu_mfsd_multiple_mcq/question_32_2.png",
+                "images/msu_mfsd_multiple_mcq/question_32_3.png"
+            ],
+            "question_text": "How many images are spoof attacked?",
+            "options": [
+                "3",
+                "0",
+                "1",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "3"
+        },
+        "33": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_33_1.png",
+                "images/msu_mfsd_multiple_mcq/question_33_2.png",
+                "images/msu_mfsd_multiple_mcq/question_33_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "None of the above",
+                "Image 1",
+                "Image 3",
+                "Image 1 and Image 2 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 2 and Image 3"
+        },
+        "34": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_34_1.png",
+                "images/msu_mfsd_multiple_mcq/question_34_2.png"
+            ],
+            "question_text": "Which image is spoof attacked?",
+            "options": [
+                "Image 2",
+                "Both Images",
+                "Image 1",
+                "None of the above"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Both Images"
+        },
+        "35": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_35_1.png",
+                "images/msu_mfsd_multiple_mcq/question_35_2.png",
+                "images/msu_mfsd_multiple_mcq/question_35_3.png"
+            ],
+            "question_text": "How many images are bonafide?",
+            "options": [
+                "3",
+                "2",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1"
+        },
+        "36": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_36_1.png",
+                "images/msu_mfsd_multiple_mcq/question_36_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Image 2",
+                "None of the above",
+                "Both Images",
+                "Image 1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Both Images"
+        },
+        "37": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_37_1.png",
+                "images/msu_mfsd_multiple_mcq/question_37_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Image 1 is bonafide and Image 2 is attack",
+                "Image 1 is attack and Image 2 is bonafide",
+                "Both images are bonafide",
+                "Both images are attacks"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 is attack and Image 2 is bonafide"
+        },
+        "38": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_38_1.png",
+                "images/msu_mfsd_multiple_mcq/question_38_2.png",
+                "images/msu_mfsd_multiple_mcq/question_38_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "None of the above",
+                "Image 1 and Image 2 and Image 3",
+                "Image 3 and Image 1",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2 and Image 3"
+        },
+        "39": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_39_1.png",
+                "images/msu_mfsd_multiple_mcq/question_39_2.png"
+            ],
+            "question_text": "Which statement best describes the images?",
+            "options": [
+                "Both images are attacks",
+                "Image 1 is bonafide and Image 2 is attack",
+                "Both images are bonafide",
+                "Image 1 is attack and Image 2 is bonafide"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 is attack and Image 2 is bonafide"
+        },
+        "40": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_40_1.png",
+                "images/msu_mfsd_multiple_mcq/question_40_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Both Images",
+                "Image 1",
+                "Image 2",
+                "None of the above"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "41": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_41_1.png",
+                "images/msu_mfsd_multiple_mcq/question_41_2.png",
+                "images/msu_mfsd_multiple_mcq/question_41_3.png"
+            ],
+            "question_text": "Which images depict bonafide individuals?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 3 and Image 1",
+                "Image 2",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "42": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_42_1.png",
+                "images/msu_mfsd_multiple_mcq/question_42_2.png",
+                "images/msu_mfsd_multiple_mcq/question_42_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "Image 3 and Image 1",
+                "Image 3",
+                "Image 1",
+                "Image 1 and Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 2"
+        },
+        "43": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_43_1.png",
+                "images/msu_mfsd_multiple_mcq/question_43_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "None of the above",
+                "Image 2",
+                "Both Images",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "None of the above"
+        },
+        "44": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_44_1.png",
+                "images/msu_mfsd_multiple_mcq/question_44_2.png"
+            ],
+            "question_text": "Which image is spoof attacked?",
+            "options": [
+                "Image 1",
+                "Both Images",
+                "None of the above",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Both Images"
+        },
+        "45": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_45_1.png",
+                "images/msu_mfsd_multiple_mcq/question_45_2.png",
+                "images/msu_mfsd_multiple_mcq/question_45_3.png"
+            ],
+            "question_text": "Which images depict bonafide individuals?",
+            "options": [
+                "Image 1",
+                "Image 1 and Image 2 and Image 3",
+                "None of the above",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "None of the above"
+        },
+        "46": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_46_1.png",
+                "images/msu_mfsd_multiple_mcq/question_46_2.png",
+                "images/msu_mfsd_multiple_mcq/question_46_3.png"
+            ],
+            "question_text": "Which images are not bonafide?",
+            "options": [
+                "Image 2",
+                "Image 1 and Image 2 and Image 3",
+                "Image 1 and Image 2",
+                "Image 3 and Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2 and Image 3"
+        },
+        "47": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_47_1.png",
+                "images/msu_mfsd_multiple_mcq/question_47_2.png",
+                "images/msu_mfsd_multiple_mcq/question_47_3.png"
+            ],
+            "question_text": "Which images depict bonafide individuals?",
+            "options": [
+                "Image 1 and Image 2 and Image 3",
+                "None of the above",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "None of the above"
+        },
+        "48": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_48_1.png",
+                "images/msu_mfsd_multiple_mcq/question_48_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Image 2",
+                "Both Images",
+                "Image 1",
+                "None of the above"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        },
+        "49": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_49_1.png",
+                "images/msu_mfsd_multiple_mcq/question_49_2.png",
+                "images/msu_mfsd_multiple_mcq/question_49_3.png"
+            ],
+            "question_text": "Which images are spoof attacked?",
+            "options": [
+                "Image 2 and Image 3",
+                "Image 1 and Image 2",
+                "Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 and Image 2"
+        },
+        "50": {
+            "image_paths": [
+                "images/msu_mfsd_multiple_mcq/question_50_1.png",
+                "images/msu_mfsd_multiple_mcq/question_50_2.png"
+            ],
+            "question_text": "Which image shows a bonafide person?",
+            "options": [
+                "Image 2",
+                "None of the above",
+                "Image 1",
+                "Both Images"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        }
+    }
+}

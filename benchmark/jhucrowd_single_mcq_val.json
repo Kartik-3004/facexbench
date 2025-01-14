@@ -1,0 +1,711 @@
+{
+    "category": "face_localization",
+    "sub-category": "crowd_counting",
+    "dataset": "jhucrowd",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "prepend_text": "Crowd counting involves estimating the number of people present in an image, typically in a crowded scene. You have to perform the task of crowd counting.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_1.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                28,
+                33,
+                32,
+                30
+            ],
+            "correct_answer_option": "D",
+            "answer": 30
+        },
+        "2": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_2.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                41,
+                40,
+                43,
+                38
+            ],
+            "correct_answer_option": "B",
+            "answer": 40
+        },
+        "3": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_3.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                40,
+                43,
+                42,
+                39
+            ],
+            "correct_answer_option": "A",
+            "answer": 40
+        },
+        "4": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_4.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                18,
+                14,
+                15,
+                12
+            ],
+            "correct_answer_option": "C",
+            "answer": 15
+        },
+        "5": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_5.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                61,
+                63,
+                60,
+                57
+            ],
+            "correct_answer_option": "C",
+            "answer": 60
+        },
+        "6": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_6.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                79,
+                80,
+                77,
+                78
+            ],
+            "correct_answer_option": "A",
+            "answer": 79
+        },
+        "7": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_7.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                9,
+                5,
+                6,
+                4
+            ],
+            "correct_answer_option": "C",
+            "answer": 6
+        },
+        "8": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_8.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                69,
+                68,
+                71,
+                70
+            ],
+            "correct_answer_option": "A",
+            "answer": 69
+        },
+        "9": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_9.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                23,
+                20,
+                24,
+                22
+            ],
+            "correct_answer_option": "D",
+            "answer": 22
+        },
+        "10": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_10.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                93,
+                96,
+                95,
+                99
+            ],
+            "correct_answer_option": "B",
+            "answer": 96
+        },
+        "11": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_11.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                46,
+                45,
+                44,
+                43
+            ],
+            "correct_answer_option": "B",
+            "answer": 45
+        },
+        "12": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_12.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                48,
+                49,
+                47,
+                44
+            ],
+            "correct_answer_option": "C",
+            "answer": 47
+        },
+        "13": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_13.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                96,
+                98,
+                97,
+                95
+            ],
+            "correct_answer_option": "D",
+            "answer": 95
+        },
+        "14": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_14.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                90,
+                93,
+                92,
+                89
+            ],
+            "correct_answer_option": "A",
+            "answer": 90
+        },
+        "15": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_15.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                88,
+                91,
+                90,
+                93
+            ],
+            "correct_answer_option": "C",
+            "answer": 90
+        },
+        "16": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_16.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                94,
+                92,
+                93,
+                90
+            ],
+            "correct_answer_option": "C",
+            "answer": 93
+        },
+        "17": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_17.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                40,
+                39,
+                41,
+                38
+            ],
+            "correct_answer_option": "A",
+            "answer": 40
+        },
+        "18": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_18.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                69,
+                73,
+                70,
+                68
+            ],
+            "correct_answer_option": "C",
+            "answer": 70
+        },
+        "19": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_19.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                96,
+                98,
+                94,
+                97
+            ],
+            "correct_answer_option": "A",
+            "answer": 96
+        },
+        "20": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_20.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                40,
+                39,
+                41,
+                43
+            ],
+            "correct_answer_option": "A",
+            "answer": 40
+        },
+        "21": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_21.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                82,
+                80,
+                81,
+                79
+            ],
+            "correct_answer_option": "D",
+            "answer": 79
+        },
+        "22": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_22.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                24,
+                23,
+                22,
+                21
+            ],
+            "correct_answer_option": "B",
+            "answer": 23
+        },
+        "23": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_23.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                16,
+                14,
+                17,
+                12
+            ],
+            "correct_answer_option": "B",
+            "answer": 14
+        },
+        "24": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_24.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                75,
+                73,
+                74,
+                77
+            ],
+            "correct_answer_option": "A",
+            "answer": 75
+        },
+        "25": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_25.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                13,
+                16,
+                10,
+                11
+            ],
+            "correct_answer_option": "A",
+            "answer": 13
+        },
+        "26": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_26.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                40,
+                43,
+                46,
+                44
+            ],
+            "correct_answer_option": "B",
+            "answer": 43
+        },
+        "27": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_27.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                55,
+                53,
+                54,
+                51
+            ],
+            "correct_answer_option": "B",
+            "answer": 53
+        },
+        "28": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_28.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                12,
+                8,
+                9,
+                6
+            ],
+            "correct_answer_option": "C",
+            "answer": 9
+        },
+        "29": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_29.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                45,
+                48,
+                43,
+                46
+            ],
+            "correct_answer_option": "A",
+            "answer": 45
+        },
+        "30": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_30.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                72,
+                71,
+                68,
+                69
+            ],
+            "correct_answer_option": "D",
+            "answer": 69
+        },
+        "31": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_31.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                93,
+                90,
+                95,
+                94
+            ],
+            "correct_answer_option": "A",
+            "answer": 93
+        },
+        "32": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_32.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                21,
+                19,
+                24,
+                23
+            ],
+            "correct_answer_option": "A",
+            "answer": 21
+        },
+        "33": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_33.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                52,
+                51,
+                49,
+                50
+            ],
+            "correct_answer_option": "A",
+            "answer": 52
+        },
+        "34": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_34.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                29,
+                26,
+                28,
+                27
+            ],
+            "correct_answer_option": "A",
+            "answer": 29
+        },
+        "35": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_35.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                34,
+                38,
+                35,
+                32
+            ],
+            "correct_answer_option": "C",
+            "answer": 35
+        },
+        "36": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_36.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                72,
+                68,
+                69,
+                71
+            ],
+            "correct_answer_option": "C",
+            "answer": 69
+        },
+        "37": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_37.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                48,
+                47,
+                45,
+                44
+            ],
+            "correct_answer_option": "B",
+            "answer": 47
+        },
+        "38": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_38.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                68,
+                64,
+                67,
+                69
+            ],
+            "correct_answer_option": "C",
+            "answer": 67
+        },
+        "39": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_39.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                51,
+                48,
+                52,
+                54
+            ],
+            "correct_answer_option": "A",
+            "answer": 51
+        },
+        "40": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_40.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                18,
+                14,
+                16,
+                13
+            ],
+            "correct_answer_option": "C",
+            "answer": 16
+        },
+        "41": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_41.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                3,
+                2,
+                4,
+                1
+            ],
+            "correct_answer_option": "B",
+            "answer": 2
+        },
+        "42": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_42.png"
+            ],
+            "question_text": "How many people are present in this image?",
+            "options": [
+                44,
+                46,
+                42,
+                43
+            ],
+            "correct_answer_option": "A",
+            "answer": 44
+        },
+        "43": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_43.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                43,
+                40,
+                39,
+                38
+            ],
+            "correct_answer_option": "B",
+            "answer": 40
+        },
+        "44": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_44.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                90,
+                86,
+                85,
+                87
+            ],
+            "correct_answer_option": "D",
+            "answer": 87
+        },
+        "45": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_45.png"
+            ],
+            "question_text": "Determine the number of people in this picture.",
+            "options": [
+                27,
+                32,
+                30,
+                29
+            ],
+            "correct_answer_option": "D",
+            "answer": 29
+        },
+        "46": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_46.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                30,
+                33,
+                32,
+                31
+            ],
+            "correct_answer_option": "D",
+            "answer": 31
+        },
+        "47": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_47.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                47,
+                46,
+                43,
+                45
+            ],
+            "correct_answer_option": "B",
+            "answer": 46
+        },
+        "48": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_48.png"
+            ],
+            "question_text": "Please identify the number of individuals in this image.",
+            "options": [
+                79,
+                80,
+                77,
+                78
+            ],
+            "correct_answer_option": "D",
+            "answer": 78
+        },
+        "49": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_49.png"
+            ],
+            "question_text": "What is the number of individuals shown in this image?",
+            "options": [
+                87,
+                88,
+                92,
+                90
+            ],
+            "correct_answer_option": "D",
+            "answer": 90
+        },
+        "50": {
+            "image_paths": [
+                "images/jhucrowd_single_mcq_val/question_50.png"
+            ],
+            "question_text": "Estimate the count of people present in this image.",
+            "options": [
+                38,
+                36,
+                35,
+                37
+            ],
+            "correct_answer_option": "A",
+            "answer": 38
+        }
+    }
+}

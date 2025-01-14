@@ -1,0 +1,863 @@
+{
+    "category": "face_localization",
+    "sub-category": "headpose",
+    "dataset": "biwi",
+    "question_type": "MCQ",
+    "num_images": "multiple",
+    "prepend_text": "Headpose estimation involves predicting the orientation of a person's head in an image by estimating the yaw, pitch, and roll angles. For this task, the euler angles are divided into the following bins: -100 to -90, -90 to -80, -80 to -70, -70 to -60, -60 to -50, -50 to -40, -40 to -30, -30 to -20, -20 to -10, -10 to 0, 0 to 10, 10 to 20, 20 to 30, 30 to 40, 40 to 50, 50 to 60, 60 to 70, 70 to 80, 80 to 90, and 90 to 100. You have to perform the task of headpose estimation.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_1_1.png",
+                "images/biwi_multiple_mcq/question_1_2.png"
+            ],
+            "question_text": "Which images have a person with the pitch angle of headpose orientation in range 10 to 20?",
+            "options": [
+                "All of the images",
+                "None of the images",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        },
+        "2": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_2_1.png",
+                "images/biwi_multiple_mcq/question_2_2.png",
+                "images/biwi_multiple_mcq/question_2_3.png",
+                "images/biwi_multiple_mcq/question_2_4.png"
+            ],
+            "question_text": "Which images have a person with the pitch and roll angles of headpose orientation between -20 and -10, -10 and 0 degrees respectively?",
+            "options": [
+                "Image 1 and Image 3 and Image 4",
+                "Image 3 and Image 4",
+                "Image 1 and Image 3",
+                "None of the images"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 3 and Image 4"
+        },
+        "3": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_3_1.png",
+                "images/biwi_multiple_mcq/question_3_2.png",
+                "images/biwi_multiple_mcq/question_3_3.png"
+            ],
+            "question_text": "How many images have a person with the pitch angle of headpose orientation in range 20 to 30?",
+            "options": [
+                3,
+                0,
+                1,
+                2
+            ],
+            "correct_answer_option": "C",
+            "answer": 1
+        },
+        "4": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_4_1.png",
+                "images/biwi_multiple_mcq/question_4_2.png",
+                "images/biwi_multiple_mcq/question_4_3.png",
+                "images/biwi_multiple_mcq/question_4_4.png"
+            ],
+            "question_text": "How many images have a person with the yaw angle of headpose orientation in range 60 to 70?",
+            "options": [
+                2,
+                1,
+                3,
+                0
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "5": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_5_1.png",
+                "images/biwi_multiple_mcq/question_5_2.png",
+                "images/biwi_multiple_mcq/question_5_3.png",
+                "images/biwi_multiple_mcq/question_5_4.png"
+            ],
+            "question_text": "Which pair of images have person that share the same pitch angle bin index of headpose orientation, given that the total pitch angle range is from -100 to 100 degrees, with bins of 10 degrees each?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 2 and Image 4",
+                "Image 2 and Image 3",
+                "Image 1 and Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 2"
+        },
+        "6": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_6_1.png",
+                "images/biwi_multiple_mcq/question_6_2.png",
+                "images/biwi_multiple_mcq/question_6_3.png",
+                "images/biwi_multiple_mcq/question_6_4.png",
+                "images/biwi_multiple_mcq/question_6_5.png"
+            ],
+            "question_text": "Which images have a person with the yaw, pitch, and roll angles of headpose orientation between 0 and 10, 0 and 10, -10 and 0 degrees respectively?",
+            "options": [
+                "Image 5",
+                "Image 2",
+                "Image 4",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 2"
+        },
+        "7": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_7_1.png",
+                "images/biwi_multiple_mcq/question_7_2.png",
+                "images/biwi_multiple_mcq/question_7_3.png",
+                "images/biwi_multiple_mcq/question_7_4.png"
+            ],
+            "question_text": "How many images have a person with the yaw angle of headpose orientation in range 0 to 10?",
+            "options": [
+                3,
+                1,
+                0,
+                2
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "8": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_8_1.png",
+                "images/biwi_multiple_mcq/question_8_2.png",
+                "images/biwi_multiple_mcq/question_8_3.png",
+                "images/biwi_multiple_mcq/question_8_4.png",
+                "images/biwi_multiple_mcq/question_8_5.png"
+            ],
+            "question_text": "How many images have a person with the roll angle of headpose orientation in range -20 to -10?",
+            "options": [
+                2,
+                0,
+                3,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "9": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_9_1.png",
+                "images/biwi_multiple_mcq/question_9_2.png"
+            ],
+            "question_text": "Which images have a person with the pitch angle of headpose orientation in range -20 to -10?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "All of the images",
+                "None of the images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "10": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_10_1.png",
+                "images/biwi_multiple_mcq/question_10_2.png",
+                "images/biwi_multiple_mcq/question_10_3.png",
+                "images/biwi_multiple_mcq/question_10_4.png"
+            ],
+            "question_text": "Which images have a person with the pitch angle of headpose orientation in range 10 to 20?",
+            "options": [
+                "Image 2",
+                "Image 4",
+                "Image 1 and Image 3",
+                "None of the images"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 4"
+        },
+        "11": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_11_1.png",
+                "images/biwi_multiple_mcq/question_11_2.png",
+                "images/biwi_multiple_mcq/question_11_3.png",
+                "images/biwi_multiple_mcq/question_11_4.png"
+            ],
+            "question_text": "Which images have a person with the yaw and roll angles of headpose orientation between 10 and 20, -10 and 0 degrees respectively?",
+            "options": [
+                "Image 3",
+                "Image 1",
+                "Image 2",
+                "Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "12": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_12_1.png",
+                "images/biwi_multiple_mcq/question_12_2.png",
+                "images/biwi_multiple_mcq/question_12_3.png",
+                "images/biwi_multiple_mcq/question_12_4.png",
+                "images/biwi_multiple_mcq/question_12_5.png"
+            ],
+            "question_text": "Which pair of images have person that share the same pitch angle bin index of headpose orientation, given that the total pitch angle range is from -100 to 100 degrees, with bins of 10 degrees each?",
+            "options": [
+                "Image 2 and Image 4",
+                "Image 4 and Image 5",
+                "Image 3 and Image 4",
+                "Image 2 and Image 5"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 4 and Image 5"
+        },
+        "13": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_13_1.png",
+                "images/biwi_multiple_mcq/question_13_2.png",
+                "images/biwi_multiple_mcq/question_13_3.png",
+                "images/biwi_multiple_mcq/question_13_4.png"
+            ],
+            "question_text": "How many images have a person with the yaw angle of headpose orientation in range -10 to 0?",
+            "options": [
+                0,
+                2,
+                1,
+                3
+            ],
+            "correct_answer_option": "C",
+            "answer": 1
+        },
+        "14": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_14_1.png",
+                "images/biwi_multiple_mcq/question_14_2.png"
+            ],
+            "question_text": "Which images have a person with the yaw angle of headpose orientation in range -10 to 0?",
+            "options": [
+                "All of the images",
+                "Image 1",
+                "None of the images",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "15": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_15_1.png",
+                "images/biwi_multiple_mcq/question_15_2.png",
+                "images/biwi_multiple_mcq/question_15_3.png",
+                "images/biwi_multiple_mcq/question_15_4.png",
+                "images/biwi_multiple_mcq/question_15_5.png"
+            ],
+            "question_text": "How many images have a person with the pitch angle of headpose orientation in range 10 to 20?",
+            "options": [
+                1,
+                0,
+                2,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "16": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_16_1.png",
+                "images/biwi_multiple_mcq/question_16_2.png",
+                "images/biwi_multiple_mcq/question_16_3.png",
+                "images/biwi_multiple_mcq/question_16_4.png"
+            ],
+            "question_text": "Which images have a person with the yaw angle of headpose orientation in range -30 to -20?",
+            "options": [
+                "None of the images",
+                "Image 3",
+                "Image 2 and Image 4",
+                "Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 4"
+        },
+        "17": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_17_1.png",
+                "images/biwi_multiple_mcq/question_17_2.png",
+                "images/biwi_multiple_mcq/question_17_3.png",
+                "images/biwi_multiple_mcq/question_17_4.png",
+                "images/biwi_multiple_mcq/question_17_5.png"
+            ],
+            "question_text": "Which images have a person with the yaw, pitch, and roll angles of headpose orientation between 50 and 60, 10 and 20, 10 and 20 degrees respectively?",
+            "options": [
+                "Image 4",
+                "Image 3",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "18": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_18_1.png",
+                "images/biwi_multiple_mcq/question_18_2.png",
+                "images/biwi_multiple_mcq/question_18_3.png",
+                "images/biwi_multiple_mcq/question_18_4.png"
+            ],
+            "question_text": "Which images have a person with the pitch and roll angles of headpose orientation between 40 and 50, 20 and 30 degrees respectively?",
+            "options": [
+                "Image 1 and Image 4",
+                "Image 3 and Image 4",
+                "Image 4",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 4"
+        },
+        "19": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_19_1.png",
+                "images/biwi_multiple_mcq/question_19_2.png",
+                "images/biwi_multiple_mcq/question_19_3.png",
+                "images/biwi_multiple_mcq/question_19_4.png",
+                "images/biwi_multiple_mcq/question_19_5.png"
+            ],
+            "question_text": "Which pair of images have person that share the same yaw angle bin index of headpose orientation, given that the total yaw angle range is from -100 to 100 degrees, with bins of 10 degrees each?",
+            "options": [
+                "Image 3 and Image 5",
+                "Image 1 and Image 3",
+                "Image 2 and Image 4",
+                "Image 1 and Image 5"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 5"
+        },
+        "20": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_20_1.png",
+                "images/biwi_multiple_mcq/question_20_2.png",
+                "images/biwi_multiple_mcq/question_20_3.png",
+                "images/biwi_multiple_mcq/question_20_4.png"
+            ],
+            "question_text": "Which images have a person with the yaw and pitch angles of headpose orientation between 30 and 40, -30 and -20 degrees respectively?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 2",
+                "Image 3",
+                "Image 2 and Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3"
+        },
+        "21": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_21_1.png",
+                "images/biwi_multiple_mcq/question_21_2.png",
+                "images/biwi_multiple_mcq/question_21_3.png",
+                "images/biwi_multiple_mcq/question_21_4.png",
+                "images/biwi_multiple_mcq/question_21_5.png"
+            ],
+            "question_text": "How many images have a person with the roll angle of headpose orientation in range 0 to 10?",
+            "options": [
+                2,
+                0,
+                3,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "22": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_22_1.png",
+                "images/biwi_multiple_mcq/question_22_2.png",
+                "images/biwi_multiple_mcq/question_22_3.png",
+                "images/biwi_multiple_mcq/question_22_4.png"
+            ],
+            "question_text": "Which images have a person with the yaw and pitch angles of headpose orientation between 0 and 10, 10 and 20 degrees respectively?",
+            "options": [
+                "Image 1 and Image 4",
+                "Image 4",
+                "Image 1 and Image 2",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1 and Image 2"
+        },
+        "23": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_23_1.png",
+                "images/biwi_multiple_mcq/question_23_2.png",
+                "images/biwi_multiple_mcq/question_23_3.png",
+                "images/biwi_multiple_mcq/question_23_4.png",
+                "images/biwi_multiple_mcq/question_23_5.png"
+            ],
+            "question_text": "How many images have a person with the pitch angle of headpose orientation in range 20 to 30?",
+            "options": [
+                4,
+                0,
+                1,
+                2
+            ],
+            "correct_answer_option": "D",
+            "answer": 2
+        },
+        "24": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_24_1.png",
+                "images/biwi_multiple_mcq/question_24_2.png"
+            ],
+            "question_text": "Which images have a person with the yaw angle of headpose orientation in range 0 to 10?",
+            "options": [
+                "All of the images",
+                "None of the images",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2"
+        },
+        "25": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_25_1.png",
+                "images/biwi_multiple_mcq/question_25_2.png",
+                "images/biwi_multiple_mcq/question_25_3.png",
+                "images/biwi_multiple_mcq/question_25_4.png",
+                "images/biwi_multiple_mcq/question_25_5.png"
+            ],
+            "question_text": "How many images have a person with the pitch angle of headpose orientation in range -10 to 0?",
+            "options": [
+                1,
+                2,
+                0,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "26": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_26_1.png",
+                "images/biwi_multiple_mcq/question_26_2.png",
+                "images/biwi_multiple_mcq/question_26_3.png",
+                "images/biwi_multiple_mcq/question_26_4.png"
+            ],
+            "question_text": "Which images have a person with the pitch and roll angles of headpose orientation between 20 and 30, 0 and 10 degrees respectively?",
+            "options": [
+                "Image 2",
+                "Image 4",
+                "Image 1",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 4"
+        },
+        "27": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_27_1.png",
+                "images/biwi_multiple_mcq/question_27_2.png",
+                "images/biwi_multiple_mcq/question_27_3.png",
+                "images/biwi_multiple_mcq/question_27_4.png"
+            ],
+            "question_text": "Which images have a person with the yaw and pitch angles of headpose orientation between 0 and 10, 10 and 20 degrees respectively?",
+            "options": [
+                "Image 4",
+                "Image 3",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 4"
+        },
+        "28": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_28_1.png",
+                "images/biwi_multiple_mcq/question_28_2.png",
+                "images/biwi_multiple_mcq/question_28_3.png",
+                "images/biwi_multiple_mcq/question_28_4.png",
+                "images/biwi_multiple_mcq/question_28_5.png"
+            ],
+            "question_text": "Which images have a person with the yaw, pitch, and roll angles of headpose orientation between 50 and 60, 40 and 50, 20 and 30 degrees respectively?",
+            "options": [
+                "Image 5",
+                "Image 4",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 5"
+        },
+        "29": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_29_1.png",
+                "images/biwi_multiple_mcq/question_29_2.png",
+                "images/biwi_multiple_mcq/question_29_3.png",
+                "images/biwi_multiple_mcq/question_29_4.png"
+            ],
+            "question_text": "Which images have a person with the yaw and roll angles of headpose orientation between 0 and 10, 0 and 10 degrees respectively?",
+            "options": [
+                "Image 1",
+                "Image 2",
+                "Image 3",
+                "Image 4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1"
+        },
+        "30": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_30_1.png",
+                "images/biwi_multiple_mcq/question_30_2.png"
+            ],
+            "question_text": "Which images have a person with the roll angle of headpose orientation in range 0 to 10?",
+            "options": [
+                "All of the images",
+                "None of the images",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "All of the images"
+        },
+        "31": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_31_1.png",
+                "images/biwi_multiple_mcq/question_31_2.png",
+                "images/biwi_multiple_mcq/question_31_3.png",
+                "images/biwi_multiple_mcq/question_31_4.png",
+                "images/biwi_multiple_mcq/question_31_5.png"
+            ],
+            "question_text": "How many images have a person with the pitch angle of headpose orientation in range -20 to -10?",
+            "options": [
+                3,
+                2,
+                0,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "32": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_32_1.png",
+                "images/biwi_multiple_mcq/question_32_2.png",
+                "images/biwi_multiple_mcq/question_32_3.png",
+                "images/biwi_multiple_mcq/question_32_4.png"
+            ],
+            "question_text": "Which images have a person with the yaw and pitch angles of headpose orientation between -10 and 0, -40 and -30 degrees respectively?",
+            "options": [
+                "Image 4",
+                "Image 1",
+                "Image 1 and Image 2 and Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 4"
+        },
+        "33": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_33_1.png",
+                "images/biwi_multiple_mcq/question_33_2.png",
+                "images/biwi_multiple_mcq/question_33_3.png",
+                "images/biwi_multiple_mcq/question_33_4.png",
+                "images/biwi_multiple_mcq/question_33_5.png"
+            ],
+            "question_text": "How many images have a person with the pitch angle of headpose orientation in range -10 to 0?",
+            "options": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "34": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_34_1.png",
+                "images/biwi_multiple_mcq/question_34_2.png"
+            ],
+            "question_text": "Which images have a person with the roll angle of headpose orientation in range 0 to 10?",
+            "options": [
+                "All of the images",
+                "Image 2",
+                "None of the images",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "35": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_35_1.png",
+                "images/biwi_multiple_mcq/question_35_2.png",
+                "images/biwi_multiple_mcq/question_35_3.png",
+                "images/biwi_multiple_mcq/question_35_4.png",
+                "images/biwi_multiple_mcq/question_35_5.png"
+            ],
+            "question_text": "Which pair of images have person that share the same pitch angle bin index of headpose orientation, given that the total pitch angle range is from -100 to 100 degrees, with bins of 10 degrees each?",
+            "options": [
+                "Image 1 and Image 3",
+                "Image 2 and Image 5",
+                "Image 2 and Image 4",
+                "Image 1 and Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 4"
+        },
+        "36": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_36_1.png",
+                "images/biwi_multiple_mcq/question_36_2.png",
+                "images/biwi_multiple_mcq/question_36_3.png",
+                "images/biwi_multiple_mcq/question_36_4.png"
+            ],
+            "question_text": "Which images have a person with the yaw and pitch angles of headpose orientation between -10 and 0, 30 and 40 degrees respectively?",
+            "options": [
+                "Image 2",
+                "Image 4",
+                "Image 1",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 4"
+        },
+        "37": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_37_1.png",
+                "images/biwi_multiple_mcq/question_37_2.png"
+            ],
+            "question_text": "Which images have a person with the yaw angle of headpose orientation in range 10 to 20?",
+            "options": [
+                "None of the images",
+                "All of the images",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "All of the images"
+        },
+        "38": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_38_1.png",
+                "images/biwi_multiple_mcq/question_38_2.png",
+                "images/biwi_multiple_mcq/question_38_3.png"
+            ],
+            "question_text": "How many images have a person with the yaw angle of headpose orientation in range 40 to 50?",
+            "options": [
+                1,
+                0,
+                2,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "39": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_39_1.png",
+                "images/biwi_multiple_mcq/question_39_2.png",
+                "images/biwi_multiple_mcq/question_39_3.png",
+                "images/biwi_multiple_mcq/question_39_4.png"
+            ],
+            "question_text": "Which pair of images have person that share the same roll angle bin index of headpose orientation, given that the total roll angle range is from -100 to 100 degrees, with bins of 10 degrees each?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 2 and Image 3",
+                "Image 3 and Image 4",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 3 and Image 4"
+        },
+        "40": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_40_1.png",
+                "images/biwi_multiple_mcq/question_40_2.png",
+                "images/biwi_multiple_mcq/question_40_3.png",
+                "images/biwi_multiple_mcq/question_40_4.png",
+                "images/biwi_multiple_mcq/question_40_5.png"
+            ],
+            "question_text": "How many images have a person with the pitch angle of headpose orientation in range 30 to 40?",
+            "options": [
+                3,
+                2,
+                4,
+                1
+            ],
+            "correct_answer_option": "B",
+            "answer": 2
+        },
+        "41": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_41_1.png",
+                "images/biwi_multiple_mcq/question_41_2.png",
+                "images/biwi_multiple_mcq/question_41_3.png",
+                "images/biwi_multiple_mcq/question_41_4.png"
+            ],
+            "question_text": "Which images have a person with the yaw and roll angles of headpose orientation between -20 and -10, 10 and 20 degrees respectively?",
+            "options": [
+                "Image 1",
+                "Image 2",
+                "Image 4",
+                "None of the images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1"
+        },
+        "42": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_42_1.png",
+                "images/biwi_multiple_mcq/question_42_2.png",
+                "images/biwi_multiple_mcq/question_42_3.png",
+                "images/biwi_multiple_mcq/question_42_4.png",
+                "images/biwi_multiple_mcq/question_42_5.png"
+            ],
+            "question_text": "Which images have a person with the yaw, pitch, and roll angles of headpose orientation between -20 and -10, 20 and 30, 0 and 10 degrees respectively?",
+            "options": [
+                "Image 3",
+                "Image 2",
+                "Image 2 and Image 4 and Image 5",
+                "Image 5"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 5"
+        },
+        "43": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_43_1.png",
+                "images/biwi_multiple_mcq/question_43_2.png",
+                "images/biwi_multiple_mcq/question_43_3.png"
+            ],
+            "question_text": "Which images have a person with the roll angle of headpose orientation in range -10 to 0?",
+            "options": [
+                "None of the images",
+                "Image 1",
+                "Image 2 and Image 3",
+                "Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2 and Image 3"
+        },
+        "44": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_44_1.png",
+                "images/biwi_multiple_mcq/question_44_2.png",
+                "images/biwi_multiple_mcq/question_44_3.png",
+                "images/biwi_multiple_mcq/question_44_4.png",
+                "images/biwi_multiple_mcq/question_44_5.png"
+            ],
+            "question_text": "How many images have a person with the roll angle of headpose orientation in range -30 to -20?",
+            "options": [
+                2,
+                3,
+                1,
+                0
+            ],
+            "correct_answer_option": "C",
+            "answer": 1
+        },
+        "45": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_45_1.png",
+                "images/biwi_multiple_mcq/question_45_2.png",
+                "images/biwi_multiple_mcq/question_45_3.png",
+                "images/biwi_multiple_mcq/question_45_4.png",
+                "images/biwi_multiple_mcq/question_45_5.png"
+            ],
+            "question_text": "How many images have a person with the yaw angle of headpose orientation in range -20 to -10?",
+            "options": [
+                1,
+                3,
+                0,
+                2
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "46": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_46_1.png",
+                "images/biwi_multiple_mcq/question_46_2.png",
+                "images/biwi_multiple_mcq/question_46_3.png",
+                "images/biwi_multiple_mcq/question_46_4.png",
+                "images/biwi_multiple_mcq/question_46_5.png"
+            ],
+            "question_text": "Which images have a person with the yaw, pitch, and roll angles of headpose orientation between -40 and -30, -20 and -10, 0 and 10 degrees respectively?",
+            "options": [
+                "Image 4",
+                "Image 3",
+                "Image 2",
+                "Image 5"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 4"
+        },
+        "47": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_47_1.png",
+                "images/biwi_multiple_mcq/question_47_2.png",
+                "images/biwi_multiple_mcq/question_47_3.png",
+                "images/biwi_multiple_mcq/question_47_4.png"
+            ],
+            "question_text": "Which images have a person with the pitch angle of headpose orientation in range 20 to 30?",
+            "options": [
+                "All of the images",
+                "Image 4",
+                "Image 1",
+                "None of the images"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 4"
+        },
+        "48": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_48_1.png",
+                "images/biwi_multiple_mcq/question_48_2.png",
+                "images/biwi_multiple_mcq/question_48_3.png",
+                "images/biwi_multiple_mcq/question_48_4.png",
+                "images/biwi_multiple_mcq/question_48_5.png"
+            ],
+            "question_text": "How many images have a person with the yaw angle of headpose orientation in range -40 to -30?",
+            "options": [
+                1,
+                0,
+                3,
+                2
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "49": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_49_1.png",
+                "images/biwi_multiple_mcq/question_49_2.png",
+                "images/biwi_multiple_mcq/question_49_3.png"
+            ],
+            "question_text": "How many images have a person with the yaw angle of headpose orientation in range 30 to 40?",
+            "options": [
+                3,
+                1,
+                0,
+                2
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "50": {
+            "image_paths": [
+                "images/biwi_multiple_mcq/question_50_1.png",
+                "images/biwi_multiple_mcq/question_50_2.png",
+                "images/biwi_multiple_mcq/question_50_3.png",
+                "images/biwi_multiple_mcq/question_50_4.png",
+                "images/biwi_multiple_mcq/question_50_5.png"
+            ],
+            "question_text": "Which pair of images have person that share the same yaw angle bin index of headpose orientation, given that the total yaw angle range is from -100 to 100 degrees, with bins of 10 degrees each?",
+            "options": [
+                "Image 1 and Image 2",
+                "Image 1 and Image 5",
+                "Image 3 and Image 5",
+                "Image 4 and Image 5"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1 and Image 2"
+        }
+    }
+}

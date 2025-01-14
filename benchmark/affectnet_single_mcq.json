@@ -1,0 +1,1411 @@
+{
+    "category": "attributes_expression",
+    "sub-category": "expression",
+    "dataset": "affectnet",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "prepend_text": "Facial expression recognition involves identifying the emotional state of a person based on their facial expressions in an image. You have to perform the task of facial expression recognition.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_1.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "fear",
+                "sad",
+                "neutral",
+                "anger"
+            ],
+            "correct_answer_option": "B",
+            "answer": "sad"
+        },
+        "2": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_2.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "happy",
+                "sad",
+                "neutral",
+                "surprise"
+            ],
+            "correct_answer_option": "D",
+            "answer": "surprise"
+        },
+        "3": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_3.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "fear",
+                "sad",
+                "disgust",
+                "surprise"
+            ],
+            "correct_answer_option": "B",
+            "answer": "sad"
+        },
+        "4": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_4.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "disgust",
+                "contempt",
+                "happy",
+                "anger"
+            ],
+            "correct_answer_option": "A",
+            "answer": "disgust"
+        },
+        "5": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_5.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "happy",
+                "surprise",
+                "contempt",
+                "sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "surprise"
+        },
+        "6": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_6.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "disgust",
+                "contempt",
+                "surprise",
+                "fear"
+            ],
+            "correct_answer_option": "C",
+            "answer": "surprise"
+        },
+        "7": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_7.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "contempt",
+                "neutral",
+                "happy",
+                "surprise"
+            ],
+            "correct_answer_option": "D",
+            "answer": "surprise"
+        },
+        "8": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_8.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "anger",
+                "surprise",
+                "contempt",
+                "happy"
+            ],
+            "correct_answer_option": "A",
+            "answer": "anger"
+        },
+        "9": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_9.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "happy",
+                "disgust",
+                "fear",
+                "sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "disgust"
+        },
+        "10": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_10.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "sad",
+                "happy",
+                "contempt",
+                "anger"
+            ],
+            "correct_answer_option": "B",
+            "answer": "happy"
+        },
+        "11": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_11.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "anger",
+                "surprise",
+                "fear",
+                "neutral"
+            ],
+            "correct_answer_option": "D",
+            "answer": "neutral"
+        },
+        "12": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_12.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "anger",
+                "disgust",
+                "happy",
+                "sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "disgust"
+        },
+        "13": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_13.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "neutral",
+                "disgust",
+                "sad",
+                "anger"
+            ],
+            "correct_answer_option": "D",
+            "answer": "anger"
+        },
+        "14": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_14.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "contempt",
+                "happy",
+                "fear",
+                "surprise"
+            ],
+            "correct_answer_option": "D",
+            "answer": "surprise"
+        },
+        "15": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_15.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "surprise",
+                "neutral",
+                "fear",
+                "disgust"
+            ],
+            "correct_answer_option": "C",
+            "answer": "fear"
+        },
+        "16": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_16.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "anger",
+                "fear",
+                "contempt",
+                "surprise"
+            ],
+            "correct_answer_option": "D",
+            "answer": "surprise"
+        },
+        "17": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_17.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "contempt",
+                "sad",
+                "surprise",
+                "fear"
+            ],
+            "correct_answer_option": "C",
+            "answer": "surprise"
+        },
+        "18": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_18.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "happy",
+                "disgust",
+                "anger",
+                "contempt"
+            ],
+            "correct_answer_option": "B",
+            "answer": "disgust"
+        },
+        "19": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_19.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "fear",
+                "happy",
+                "anger",
+                "sad"
+            ],
+            "correct_answer_option": "C",
+            "answer": "anger"
+        },
+        "20": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_20.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "happy",
+                "fear",
+                "anger",
+                "sad"
+            ],
+            "correct_answer_option": "A",
+            "answer": "happy"
+        },
+        "21": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_21.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "sad",
+                "disgust",
+                "anger",
+                "fear"
+            ],
+            "correct_answer_option": "D",
+            "answer": "fear"
+        },
+        "22": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_22.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "disgust",
+                "happy",
+                "contempt",
+                "fear"
+            ],
+            "correct_answer_option": "A",
+            "answer": "disgust"
+        },
+        "23": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_23.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "anger",
+                "contempt",
+                "happy",
+                "sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "contempt"
+        },
+        "24": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_24.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "surprise",
+                "disgust",
+                "neutral",
+                "sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "disgust"
+        },
+        "25": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_25.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "happy",
+                "anger",
+                "contempt",
+                "disgust"
+            ],
+            "correct_answer_option": "C",
+            "answer": "contempt"
+        },
+        "26": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_26.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "contempt",
+                "disgust",
+                "surprise",
+                "sad"
+            ],
+            "correct_answer_option": "C",
+            "answer": "surprise"
+        },
+        "27": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_27.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "surprise",
+                "sad",
+                "anger",
+                "neutral"
+            ],
+            "correct_answer_option": "A",
+            "answer": "surprise"
+        },
+        "28": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_28.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "contempt",
+                "neutral",
+                "surprise",
+                "fear"
+            ],
+            "correct_answer_option": "D",
+            "answer": "fear"
+        },
+        "29": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_29.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "disgust",
+                "surprise",
+                "neutral",
+                "fear"
+            ],
+            "correct_answer_option": "B",
+            "answer": "surprise"
+        },
+        "30": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_30.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "contempt",
+                "surprise",
+                "disgust",
+                "sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "surprise"
+        },
+        "31": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_31.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "contempt",
+                "fear",
+                "neutral",
+                "anger"
+            ],
+            "correct_answer_option": "B",
+            "answer": "fear"
+        },
+        "32": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_32.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "anger",
+                "fear",
+                "happy",
+                "neutral"
+            ],
+            "correct_answer_option": "D",
+            "answer": "neutral"
+        },
+        "33": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_33.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "anger",
+                "sad",
+                "happy",
+                "disgust"
+            ],
+            "correct_answer_option": "C",
+            "answer": "happy"
+        },
+        "34": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_34.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "happy",
+                "sad",
+                "surprise",
+                "anger"
+            ],
+            "correct_answer_option": "D",
+            "answer": "anger"
+        },
+        "35": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_35.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "sad",
+                "anger",
+                "happy",
+                "neutral"
+            ],
+            "correct_answer_option": "B",
+            "answer": "anger"
+        },
+        "36": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_36.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "disgust",
+                "neutral",
+                "surprise",
+                "contempt"
+            ],
+            "correct_answer_option": "D",
+            "answer": "contempt"
+        },
+        "37": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_37.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "fear",
+                "disgust",
+                "sad",
+                "surprise"
+            ],
+            "correct_answer_option": "C",
+            "answer": "sad"
+        },
+        "38": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_38.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "sad",
+                "disgust",
+                "fear",
+                "contempt"
+            ],
+            "correct_answer_option": "D",
+            "answer": "contempt"
+        },
+        "39": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_39.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "surprise",
+                "disgust",
+                "happy",
+                "neutral"
+            ],
+            "correct_answer_option": "B",
+            "answer": "disgust"
+        },
+        "40": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_40.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "happy",
+                "surprise",
+                "anger",
+                "contempt"
+            ],
+            "correct_answer_option": "A",
+            "answer": "happy"
+        },
+        "41": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_41.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "sad",
+                "neutral",
+                "anger",
+                "happy"
+            ],
+            "correct_answer_option": "A",
+            "answer": "sad"
+        },
+        "42": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_42.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "surprise",
+                "contempt",
+                "neutral",
+                "anger"
+            ],
+            "correct_answer_option": "D",
+            "answer": "anger"
+        },
+        "43": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_43.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "anger",
+                "sad",
+                "contempt",
+                "surprise"
+            ],
+            "correct_answer_option": "D",
+            "answer": "surprise"
+        },
+        "44": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_44.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "contempt",
+                "sad",
+                "fear",
+                "surprise"
+            ],
+            "correct_answer_option": "C",
+            "answer": "fear"
+        },
+        "45": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_45.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "anger",
+                "sad",
+                "fear",
+                "disgust"
+            ],
+            "correct_answer_option": "D",
+            "answer": "disgust"
+        },
+        "46": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_46.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "neutral",
+                "happy",
+                "fear",
+                "disgust"
+            ],
+            "correct_answer_option": "B",
+            "answer": "happy"
+        },
+        "47": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_47.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "anger",
+                "disgust",
+                "contempt",
+                "neutral"
+            ],
+            "correct_answer_option": "C",
+            "answer": "contempt"
+        },
+        "48": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_48.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "sad",
+                "anger",
+                "contempt",
+                "fear"
+            ],
+            "correct_answer_option": "C",
+            "answer": "contempt"
+        },
+        "49": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_49.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "happy",
+                "sad",
+                "neutral",
+                "fear"
+            ],
+            "correct_answer_option": "C",
+            "answer": "neutral"
+        },
+        "50": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_50.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "neutral",
+                "disgust",
+                "fear",
+                "happy"
+            ],
+            "correct_answer_option": "D",
+            "answer": "happy"
+        },
+        "51": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_51.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "surprise",
+                "disgust",
+                "contempt",
+                "anger"
+            ],
+            "correct_answer_option": "D",
+            "answer": "anger"
+        },
+        "52": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_52.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "contempt",
+                "anger",
+                "sad",
+                "disgust"
+            ],
+            "correct_answer_option": "B",
+            "answer": "anger"
+        },
+        "53": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_53.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "neutral",
+                "sad",
+                "fear",
+                "anger"
+            ],
+            "correct_answer_option": "A",
+            "answer": "neutral"
+        },
+        "54": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_54.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "contempt",
+                "sad",
+                "surprise",
+                "happy"
+            ],
+            "correct_answer_option": "C",
+            "answer": "surprise"
+        },
+        "55": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_55.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "surprise",
+                "fear",
+                "disgust",
+                "happy"
+            ],
+            "correct_answer_option": "A",
+            "answer": "surprise"
+        },
+        "56": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_56.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "neutral",
+                "sad",
+                "disgust",
+                "surprise"
+            ],
+            "correct_answer_option": "A",
+            "answer": "neutral"
+        },
+        "57": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_57.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "neutral",
+                "happy",
+                "sad",
+                "surprise"
+            ],
+            "correct_answer_option": "D",
+            "answer": "surprise"
+        },
+        "58": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_58.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "surprise",
+                "contempt",
+                "anger",
+                "disgust"
+            ],
+            "correct_answer_option": "A",
+            "answer": "surprise"
+        },
+        "59": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_59.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "sad",
+                "surprise",
+                "happy",
+                "disgust"
+            ],
+            "correct_answer_option": "B",
+            "answer": "surprise"
+        },
+        "60": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_60.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "neutral",
+                "sad",
+                "fear",
+                "disgust"
+            ],
+            "correct_answer_option": "B",
+            "answer": "sad"
+        },
+        "61": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_61.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "fear",
+                "contempt",
+                "disgust",
+                "happy"
+            ],
+            "correct_answer_option": "C",
+            "answer": "disgust"
+        },
+        "62": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_62.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "anger",
+                "contempt",
+                "fear",
+                "sad"
+            ],
+            "correct_answer_option": "D",
+            "answer": "sad"
+        },
+        "63": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_63.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "surprise",
+                "anger",
+                "disgust",
+                "neutral"
+            ],
+            "correct_answer_option": "C",
+            "answer": "disgust"
+        },
+        "64": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_64.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "fear",
+                "contempt",
+                "anger",
+                "disgust"
+            ],
+            "correct_answer_option": "C",
+            "answer": "anger"
+        },
+        "65": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_65.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "fear",
+                "contempt",
+                "disgust",
+                "anger"
+            ],
+            "correct_answer_option": "D",
+            "answer": "anger"
+        },
+        "66": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_66.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "fear",
+                "disgust",
+                "contempt",
+                "surprise"
+            ],
+            "correct_answer_option": "D",
+            "answer": "surprise"
+        },
+        "67": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_67.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "fear",
+                "neutral",
+                "happy",
+                "surprise"
+            ],
+            "correct_answer_option": "C",
+            "answer": "happy"
+        },
+        "68": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_68.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "sad",
+                "neutral",
+                "contempt",
+                "surprise"
+            ],
+            "correct_answer_option": "A",
+            "answer": "sad"
+        },
+        "69": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_69.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "surprise",
+                "sad",
+                "contempt",
+                "happy"
+            ],
+            "correct_answer_option": "A",
+            "answer": "surprise"
+        },
+        "70": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_70.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "contempt",
+                "surprise",
+                "happy",
+                "neutral"
+            ],
+            "correct_answer_option": "B",
+            "answer": "surprise"
+        },
+        "71": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_71.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "anger",
+                "happy",
+                "disgust",
+                "fear"
+            ],
+            "correct_answer_option": "A",
+            "answer": "anger"
+        },
+        "72": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_72.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "surprise",
+                "disgust",
+                "fear",
+                "sad"
+            ],
+            "correct_answer_option": "B",
+            "answer": "disgust"
+        },
+        "73": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_73.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "neutral",
+                "contempt",
+                "anger",
+                "surprise"
+            ],
+            "correct_answer_option": "A",
+            "answer": "neutral"
+        },
+        "74": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_74.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "fear",
+                "anger",
+                "surprise",
+                "disgust"
+            ],
+            "correct_answer_option": "D",
+            "answer": "disgust"
+        },
+        "75": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_75.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "contempt",
+                "fear",
+                "anger",
+                "surprise"
+            ],
+            "correct_answer_option": "A",
+            "answer": "contempt"
+        },
+        "76": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_76.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "sad",
+                "contempt",
+                "surprise",
+                "neutral"
+            ],
+            "correct_answer_option": "C",
+            "answer": "surprise"
+        },
+        "77": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_77.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "fear",
+                "neutral",
+                "contempt",
+                "surprise"
+            ],
+            "correct_answer_option": "C",
+            "answer": "contempt"
+        },
+        "78": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_78.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "happy",
+                "disgust",
+                "anger",
+                "neutral"
+            ],
+            "correct_answer_option": "D",
+            "answer": "neutral"
+        },
+        "79": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_79.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "happy",
+                "contempt",
+                "fear",
+                "anger"
+            ],
+            "correct_answer_option": "A",
+            "answer": "happy"
+        },
+        "80": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_80.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "disgust",
+                "neutral",
+                "surprise",
+                "happy"
+            ],
+            "correct_answer_option": "A",
+            "answer": "disgust"
+        },
+        "81": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_81.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "sad",
+                "anger",
+                "disgust",
+                "surprise"
+            ],
+            "correct_answer_option": "C",
+            "answer": "disgust"
+        },
+        "82": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_82.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "contempt",
+                "happy",
+                "fear",
+                "sad"
+            ],
+            "correct_answer_option": "C",
+            "answer": "fear"
+        },
+        "83": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_83.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "anger",
+                "happy",
+                "contempt",
+                "disgust"
+            ],
+            "correct_answer_option": "B",
+            "answer": "happy"
+        },
+        "84": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_84.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "sad",
+                "disgust",
+                "fear",
+                "surprise"
+            ],
+            "correct_answer_option": "D",
+            "answer": "surprise"
+        },
+        "85": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_85.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "sad",
+                "contempt",
+                "disgust",
+                "anger"
+            ],
+            "correct_answer_option": "A",
+            "answer": "sad"
+        },
+        "86": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_86.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "anger",
+                "neutral",
+                "sad",
+                "surprise"
+            ],
+            "correct_answer_option": "D",
+            "answer": "surprise"
+        },
+        "87": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_87.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "surprise",
+                "disgust",
+                "happy",
+                "sad"
+            ],
+            "correct_answer_option": "D",
+            "answer": "sad"
+        },
+        "88": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_88.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "surprise",
+                "disgust",
+                "happy",
+                "contempt"
+            ],
+            "correct_answer_option": "C",
+            "answer": "happy"
+        },
+        "89": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_89.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "contempt",
+                "neutral",
+                "sad",
+                "surprise"
+            ],
+            "correct_answer_option": "D",
+            "answer": "surprise"
+        },
+        "90": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_90.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "anger",
+                "fear",
+                "sad",
+                "neutral"
+            ],
+            "correct_answer_option": "A",
+            "answer": "anger"
+        },
+        "91": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_91.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "surprise",
+                "anger",
+                "sad",
+                "happy"
+            ],
+            "correct_answer_option": "C",
+            "answer": "sad"
+        },
+        "92": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_92.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "disgust",
+                "surprise",
+                "sad",
+                "fear"
+            ],
+            "correct_answer_option": "D",
+            "answer": "fear"
+        },
+        "93": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_93.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "disgust",
+                "sad",
+                "fear",
+                "neutral"
+            ],
+            "correct_answer_option": "A",
+            "answer": "disgust"
+        },
+        "94": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_94.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "fear",
+                "anger",
+                "sad",
+                "disgust"
+            ],
+            "correct_answer_option": "B",
+            "answer": "anger"
+        },
+        "95": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_95.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "neutral",
+                "sad",
+                "fear",
+                "disgust"
+            ],
+            "correct_answer_option": "C",
+            "answer": "fear"
+        },
+        "96": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_96.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "contempt",
+                "surprise",
+                "neutral",
+                "happy"
+            ],
+            "correct_answer_option": "B",
+            "answer": "surprise"
+        },
+        "97": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_97.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "anger",
+                "surprise",
+                "sad",
+                "neutral"
+            ],
+            "correct_answer_option": "D",
+            "answer": "neutral"
+        },
+        "98": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_98.png"
+            ],
+            "question_text": "What is the main expression of the person in the image?",
+            "options": [
+                "neutral",
+                "disgust",
+                "surprise",
+                "happy"
+            ],
+            "correct_answer_option": "C",
+            "answer": "surprise"
+        },
+        "99": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_99.png"
+            ],
+            "question_text": "Which expression is the person showing in the image?",
+            "options": [
+                "surprise",
+                "anger",
+                "contempt",
+                "sad"
+            ],
+            "correct_answer_option": "A",
+            "answer": "surprise"
+        },
+        "100": {
+            "image_paths": [
+                "images/affectnet_single_mcq/question_100.png"
+            ],
+            "question_text": "Identify the primary expression shown by the person in the image.",
+            "options": [
+                "surprise",
+                "fear",
+                "anger",
+                "disgust"
+            ],
+            "correct_answer_option": "C",
+            "answer": "anger"
+        }
+    }
+}

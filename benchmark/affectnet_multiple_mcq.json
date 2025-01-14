@@ -1,0 +1,1680 @@
+{
+    "category": "attributes_expression",
+    "sub-category": "expression",
+    "dataset": "affectnet",
+    "question_type": "MCQ",
+    "num_images": "multiple",
+    "prepend_text": "Facial expression recognition involves identifying the emotional state of a person based on their facial expressions in an image. You have to perform the task of facial expression recognition.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_1_1.png",
+                "images/affectnet_multiple_mcq/question_1_2.png"
+            ],
+            "question_text": "Which images have a person with the expression 'anger'?",
+            "options": [
+                "Image 2",
+                "All of the images",
+                "None of the images",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "2": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_2_1.png",
+                "images/affectnet_multiple_mcq/question_2_2.png"
+            ],
+            "question_text": "Which images have a person with the expression 'contempt'?",
+            "options": [
+                "All of the images",
+                "None of the images",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "3": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_3_1.png",
+                "images/affectnet_multiple_mcq/question_3_2.png",
+                "images/affectnet_multiple_mcq/question_3_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'sad'?",
+            "options": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "4": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_4_1.png",
+                "images/affectnet_multiple_mcq/question_4_2.png",
+                "images/affectnet_multiple_mcq/question_4_3.png",
+                "images/affectnet_multiple_mcq/question_4_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                3,
+                2,
+                1,
+                4
+            ],
+            "correct_answer_option": "C",
+            "answer": 1
+        },
+        "5": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_5_1.png",
+                "images/affectnet_multiple_mcq/question_5_2.png"
+            ],
+            "question_text": "Which image has a person with the expression 'sad'?",
+            "options": [
+                "Neither",
+                "Image 1",
+                "Both",
+                "Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2"
+        },
+        "6": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_6_1.png",
+                "images/affectnet_multiple_mcq/question_6_2.png",
+                "images/affectnet_multiple_mcq/question_6_3.png",
+                "images/affectnet_multiple_mcq/question_6_4.png"
+            ],
+            "question_text": "Which images do not have a person with the expression 'fear'?",
+            "options": [
+                "Image 2",
+                "Image 3, Image 4",
+                "All of the images",
+                "Image 1, Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "All of the images"
+        },
+        "7": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_7_1.png",
+                "images/affectnet_multiple_mcq/question_7_2.png",
+                "images/affectnet_multiple_mcq/question_7_3.png",
+                "images/affectnet_multiple_mcq/question_7_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'sad'?",
+            "options": [
+                4,
+                2,
+                3,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "8": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_8_1.png",
+                "images/affectnet_multiple_mcq/question_8_2.png",
+                "images/affectnet_multiple_mcq/question_8_3.png",
+                "images/affectnet_multiple_mcq/question_8_4.png"
+            ],
+            "question_text": "Which images do not have a person with the expression 'anger'?",
+            "options": [
+                "Image 1, Image 2, Image 3",
+                "Image 3, Image 4",
+                "Image 2, Image 3, Image 4",
+                "Image 2, Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2, Image 3, Image 4"
+        },
+        "9": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_9_1.png",
+                "images/affectnet_multiple_mcq/question_9_2.png",
+                "images/affectnet_multiple_mcq/question_9_3.png",
+                "images/affectnet_multiple_mcq/question_9_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'contempt'?",
+            "options": [
+                0,
+                4,
+                3,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "10": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_10_1.png",
+                "images/affectnet_multiple_mcq/question_10_2.png",
+                "images/affectnet_multiple_mcq/question_10_3.png",
+                "images/affectnet_multiple_mcq/question_10_4.png",
+                "images/affectnet_multiple_mcq/question_10_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'anger'?",
+            "options": [
+                4,
+                1,
+                3,
+                0
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "11": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_11_1.png",
+                "images/affectnet_multiple_mcq/question_11_2.png",
+                "images/affectnet_multiple_mcq/question_11_3.png",
+                "images/affectnet_multiple_mcq/question_11_4.png"
+            ],
+            "question_text": "Which images do not have a person with the expression 'fear'?",
+            "options": [
+                "Image 2",
+                "Image 1, Image 4",
+                "All of the images",
+                "Image 2, Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "All of the images"
+        },
+        "12": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_12_1.png",
+                "images/affectnet_multiple_mcq/question_12_2.png",
+                "images/affectnet_multiple_mcq/question_12_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'disgust'?",
+            "options": [
+                2,
+                0,
+                3,
+                1
+            ],
+            "correct_answer_option": "A",
+            "answer": 2
+        },
+        "13": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_13_1.png",
+                "images/affectnet_multiple_mcq/question_13_2.png",
+                "images/affectnet_multiple_mcq/question_13_3.png",
+                "images/affectnet_multiple_mcq/question_13_4.png",
+                "images/affectnet_multiple_mcq/question_13_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'happy'?",
+            "options": [
+                4,
+                5,
+                2,
+                1
+            ],
+            "correct_answer_option": "C",
+            "answer": 2
+        },
+        "14": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_14_1.png",
+                "images/affectnet_multiple_mcq/question_14_2.png",
+                "images/affectnet_multiple_mcq/question_14_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'disgust'?",
+            "options": [
+                2,
+                3,
+                1,
+                0
+            ],
+            "correct_answer_option": "A",
+            "answer": 2
+        },
+        "15": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_15_1.png",
+                "images/affectnet_multiple_mcq/question_15_2.png"
+            ],
+            "question_text": "Which images have a person with the expression 'neutral'?",
+            "options": [
+                "None of the images",
+                "All of the images",
+                "Image 2",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "16": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_16_1.png",
+                "images/affectnet_multiple_mcq/question_16_2.png",
+                "images/affectnet_multiple_mcq/question_16_3.png",
+                "images/affectnet_multiple_mcq/question_16_4.png",
+                "images/affectnet_multiple_mcq/question_16_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                3,
+                2,
+                5,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "17": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_17_1.png",
+                "images/affectnet_multiple_mcq/question_17_2.png",
+                "images/affectnet_multiple_mcq/question_17_3.png",
+                "images/affectnet_multiple_mcq/question_17_4.png",
+                "images/affectnet_multiple_mcq/question_17_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                2,
+                0,
+                5,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "18": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_18_1.png",
+                "images/affectnet_multiple_mcq/question_18_2.png",
+                "images/affectnet_multiple_mcq/question_18_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'happy'?",
+            "options": [
+                3,
+                0,
+                2,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "19": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_19_1.png",
+                "images/affectnet_multiple_mcq/question_19_2.png",
+                "images/affectnet_multiple_mcq/question_19_3.png",
+                "images/affectnet_multiple_mcq/question_19_4.png"
+            ],
+            "question_text": "Which images have a person with the expression 'sad'?",
+            "options": [
+                "Image 2",
+                "Image 1, Image 3, Image 4",
+                "None of the images",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "20": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_20_1.png",
+                "images/affectnet_multiple_mcq/question_20_2.png",
+                "images/affectnet_multiple_mcq/question_20_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                1,
+                3,
+                0,
+                2
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "21": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_21_1.png",
+                "images/affectnet_multiple_mcq/question_21_2.png",
+                "images/affectnet_multiple_mcq/question_21_3.png",
+                "images/affectnet_multiple_mcq/question_21_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'neutral'?",
+            "options": [
+                1,
+                3,
+                4,
+                2
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "22": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_22_1.png",
+                "images/affectnet_multiple_mcq/question_22_2.png",
+                "images/affectnet_multiple_mcq/question_22_3.png",
+                "images/affectnet_multiple_mcq/question_22_4.png"
+            ],
+            "question_text": "Which images have a person with the expression 'fear'?",
+            "options": [
+                "Image 2, Image 4",
+                "None of the images",
+                "Image 1",
+                "Image 2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        },
+        "23": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_23_1.png",
+                "images/affectnet_multiple_mcq/question_23_2.png"
+            ],
+            "question_text": "Which images have a person with the expression 'contempt'?",
+            "options": [
+                "Image 1",
+                "All of the images",
+                "Image 2",
+                "None of the images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1"
+        },
+        "24": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_24_1.png",
+                "images/affectnet_multiple_mcq/question_24_2.png"
+            ],
+            "question_text": "Which image has a person with the expression 'disgust'?",
+            "options": [
+                "Both",
+                "Image 2",
+                "Image 1",
+                "Neither"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 1"
+        },
+        "25": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_25_1.png",
+                "images/affectnet_multiple_mcq/question_25_2.png",
+                "images/affectnet_multiple_mcq/question_25_3.png",
+                "images/affectnet_multiple_mcq/question_25_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'neutral'?",
+            "options": [
+                2,
+                3,
+                4,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "26": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_26_1.png",
+                "images/affectnet_multiple_mcq/question_26_2.png",
+                "images/affectnet_multiple_mcq/question_26_3.png",
+                "images/affectnet_multiple_mcq/question_26_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'sad'?",
+            "options": [
+                1,
+                4,
+                3,
+                0
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "27": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_27_1.png",
+                "images/affectnet_multiple_mcq/question_27_2.png",
+                "images/affectnet_multiple_mcq/question_27_3.png",
+                "images/affectnet_multiple_mcq/question_27_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'contempt'?",
+            "options": [
+                1,
+                3,
+                0,
+                2
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "28": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_28_1.png",
+                "images/affectnet_multiple_mcq/question_28_2.png",
+                "images/affectnet_multiple_mcq/question_28_3.png",
+                "images/affectnet_multiple_mcq/question_28_4.png",
+                "images/affectnet_multiple_mcq/question_28_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'anger'?",
+            "options": [
+                3,
+                0,
+                2,
+                5
+            ],
+            "correct_answer_option": "C",
+            "answer": 2
+        },
+        "29": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_29_1.png",
+                "images/affectnet_multiple_mcq/question_29_2.png",
+                "images/affectnet_multiple_mcq/question_29_3.png",
+                "images/affectnet_multiple_mcq/question_29_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'anger'?",
+            "options": [
+                0,
+                1,
+                4,
+                3
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "30": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_30_1.png",
+                "images/affectnet_multiple_mcq/question_30_2.png",
+                "images/affectnet_multiple_mcq/question_30_3.png",
+                "images/affectnet_multiple_mcq/question_30_4.png",
+                "images/affectnet_multiple_mcq/question_30_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'neutral'?",
+            "options": [
+                0,
+                2,
+                1,
+                3
+            ],
+            "correct_answer_option": "D",
+            "answer": 3
+        },
+        "31": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_31_1.png",
+                "images/affectnet_multiple_mcq/question_31_2.png",
+                "images/affectnet_multiple_mcq/question_31_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'anger'?",
+            "options": [
+                3,
+                2,
+                1,
+                0
+            ],
+            "correct_answer_option": "B",
+            "answer": 2
+        },
+        "32": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_32_1.png",
+                "images/affectnet_multiple_mcq/question_32_2.png",
+                "images/affectnet_multiple_mcq/question_32_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                2,
+                1,
+                0,
+                3
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "33": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_33_1.png",
+                "images/affectnet_multiple_mcq/question_33_2.png",
+                "images/affectnet_multiple_mcq/question_33_3.png",
+                "images/affectnet_multiple_mcq/question_33_4.png"
+            ],
+            "question_text": "Which images do not have a person with the expression 'fear'?",
+            "options": [
+                "Image 1",
+                "Image 1, Image 2, Image 3",
+                "Image 2",
+                "Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1, Image 2, Image 3"
+        },
+        "34": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_34_1.png",
+                "images/affectnet_multiple_mcq/question_34_2.png",
+                "images/affectnet_multiple_mcq/question_34_3.png",
+                "images/affectnet_multiple_mcq/question_34_4.png",
+                "images/affectnet_multiple_mcq/question_34_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'neutral'?",
+            "options": [
+                5,
+                1,
+                2,
+                0
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "35": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_35_1.png",
+                "images/affectnet_multiple_mcq/question_35_2.png"
+            ],
+            "question_text": "Which image has a person with the expression 'surprise'?",
+            "options": [
+                "Image 1",
+                "Neither",
+                "Both",
+                "Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1"
+        },
+        "36": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_36_1.png",
+                "images/affectnet_multiple_mcq/question_36_2.png"
+            ],
+            "question_text": "Which image has a person with the expression 'neutral'?",
+            "options": [
+                "Image 1",
+                "Image 2",
+                "Both",
+                "Neither"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1"
+        },
+        "37": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_37_1.png",
+                "images/affectnet_multiple_mcq/question_37_2.png"
+            ],
+            "question_text": "Which image has a person with the expression 'surprise'?",
+            "options": [
+                "Image 2",
+                "Both",
+                "Image 1",
+                "Neither"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Both"
+        },
+        "38": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_38_1.png",
+                "images/affectnet_multiple_mcq/question_38_2.png",
+                "images/affectnet_multiple_mcq/question_38_3.png",
+                "images/affectnet_multiple_mcq/question_38_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'happy'?",
+            "options": [
+                0,
+                1,
+                3,
+                2
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "39": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_39_1.png",
+                "images/affectnet_multiple_mcq/question_39_2.png",
+                "images/affectnet_multiple_mcq/question_39_3.png",
+                "images/affectnet_multiple_mcq/question_39_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'happy'?",
+            "options": [
+                4,
+                3,
+                2,
+                0
+            ],
+            "correct_answer_option": "B",
+            "answer": 3
+        },
+        "40": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_40_1.png",
+                "images/affectnet_multiple_mcq/question_40_2.png",
+                "images/affectnet_multiple_mcq/question_40_3.png",
+                "images/affectnet_multiple_mcq/question_40_4.png",
+                "images/affectnet_multiple_mcq/question_40_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'anger'?",
+            "options": [
+                1,
+                2,
+                0,
+                5
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "41": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_41_1.png",
+                "images/affectnet_multiple_mcq/question_41_2.png",
+                "images/affectnet_multiple_mcq/question_41_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'sad'?",
+            "options": [
+                1,
+                3,
+                0,
+                2
+            ],
+            "correct_answer_option": "D",
+            "answer": 2
+        },
+        "42": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_42_1.png",
+                "images/affectnet_multiple_mcq/question_42_2.png",
+                "images/affectnet_multiple_mcq/question_42_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                0,
+                3,
+                2,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "43": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_43_1.png",
+                "images/affectnet_multiple_mcq/question_43_2.png",
+                "images/affectnet_multiple_mcq/question_43_3.png",
+                "images/affectnet_multiple_mcq/question_43_4.png"
+            ],
+            "question_text": "Which images do not have a person with the expression 'surprise'?",
+            "options": [
+                "Image 1, Image 2, Image 4",
+                "Image 1, Image 3",
+                "All of the images",
+                "Image 2, Image 3, Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "All of the images"
+        },
+        "44": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_44_1.png",
+                "images/affectnet_multiple_mcq/question_44_2.png",
+                "images/affectnet_multiple_mcq/question_44_3.png",
+                "images/affectnet_multiple_mcq/question_44_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'fear'?",
+            "options": [
+                0,
+                3,
+                2,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "45": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_45_1.png",
+                "images/affectnet_multiple_mcq/question_45_2.png",
+                "images/affectnet_multiple_mcq/question_45_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'neutral'?",
+            "options": [
+                2,
+                3,
+                0,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "46": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_46_1.png",
+                "images/affectnet_multiple_mcq/question_46_2.png"
+            ],
+            "question_text": "Which images have a person with the expression 'fear'?",
+            "options": [
+                "Image 2",
+                "All of the images",
+                "None of the images",
+                "Image 1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "All of the images"
+        },
+        "47": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_47_1.png",
+                "images/affectnet_multiple_mcq/question_47_2.png",
+                "images/affectnet_multiple_mcq/question_47_3.png",
+                "images/affectnet_multiple_mcq/question_47_4.png",
+                "images/affectnet_multiple_mcq/question_47_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'contempt'?",
+            "options": [
+                2,
+                1,
+                0,
+                3
+            ],
+            "correct_answer_option": "D",
+            "answer": 3
+        },
+        "48": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_48_1.png",
+                "images/affectnet_multiple_mcq/question_48_2.png",
+                "images/affectnet_multiple_mcq/question_48_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'anger'?",
+            "options": [
+                1,
+                2,
+                3,
+                0
+            ],
+            "correct_answer_option": "B",
+            "answer": 2
+        },
+        "49": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_49_1.png",
+                "images/affectnet_multiple_mcq/question_49_2.png",
+                "images/affectnet_multiple_mcq/question_49_3.png",
+                "images/affectnet_multiple_mcq/question_49_4.png"
+            ],
+            "question_text": "Which images do not have a person with the expression 'contempt'?",
+            "options": [
+                "Image 1, Image 4",
+                "Image 1, Image 2, Image 4",
+                "Image 2, Image 3",
+                "Image 1, Image 3, Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 3, Image 4"
+        },
+        "50": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_50_1.png",
+                "images/affectnet_multiple_mcq/question_50_2.png"
+            ],
+            "question_text": "Which images have a person with the expression 'surprise'?",
+            "options": [
+                "Image 1",
+                "Image 2",
+                "All of the images",
+                "None of the images"
+            ],
+            "correct_answer_option": "C",
+            "answer": "All of the images"
+        },
+        "51": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_51_1.png",
+                "images/affectnet_multiple_mcq/question_51_2.png",
+                "images/affectnet_multiple_mcq/question_51_3.png",
+                "images/affectnet_multiple_mcq/question_51_4.png",
+                "images/affectnet_multiple_mcq/question_51_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'contempt'?",
+            "options": [
+                1,
+                3,
+                5,
+                4
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "52": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_52_1.png",
+                "images/affectnet_multiple_mcq/question_52_2.png",
+                "images/affectnet_multiple_mcq/question_52_3.png",
+                "images/affectnet_multiple_mcq/question_52_4.png",
+                "images/affectnet_multiple_mcq/question_52_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'contempt'?",
+            "options": [
+                0,
+                3,
+                2,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "53": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_53_1.png",
+                "images/affectnet_multiple_mcq/question_53_2.png",
+                "images/affectnet_multiple_mcq/question_53_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                0,
+                3,
+                2,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "54": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_54_1.png",
+                "images/affectnet_multiple_mcq/question_54_2.png",
+                "images/affectnet_multiple_mcq/question_54_3.png",
+                "images/affectnet_multiple_mcq/question_54_4.png",
+                "images/affectnet_multiple_mcq/question_54_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'disgust'?",
+            "options": [
+                5,
+                1,
+                4,
+                0
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "55": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_55_1.png",
+                "images/affectnet_multiple_mcq/question_55_2.png",
+                "images/affectnet_multiple_mcq/question_55_3.png",
+                "images/affectnet_multiple_mcq/question_55_4.png",
+                "images/affectnet_multiple_mcq/question_55_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'fear'?",
+            "options": [
+                4,
+                0,
+                5,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "56": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_56_1.png",
+                "images/affectnet_multiple_mcq/question_56_2.png",
+                "images/affectnet_multiple_mcq/question_56_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                3,
+                2,
+                0,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "57": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_57_1.png",
+                "images/affectnet_multiple_mcq/question_57_2.png",
+                "images/affectnet_multiple_mcq/question_57_3.png",
+                "images/affectnet_multiple_mcq/question_57_4.png",
+                "images/affectnet_multiple_mcq/question_57_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'disgust'?",
+            "options": [
+                4,
+                1,
+                2,
+                3
+            ],
+            "correct_answer_option": "C",
+            "answer": 2
+        },
+        "58": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_58_1.png",
+                "images/affectnet_multiple_mcq/question_58_2.png",
+                "images/affectnet_multiple_mcq/question_58_3.png"
+            ],
+            "question_text": "Which pair of images share the same expression?",
+            "options": [
+                "Image 1 & Image 3",
+                "Image 1 & Image 2",
+                "Image 2 & Image 3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2 & Image 3"
+        },
+        "59": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_59_1.png",
+                "images/affectnet_multiple_mcq/question_59_2.png",
+                "images/affectnet_multiple_mcq/question_59_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                3,
+                1,
+                0,
+                2
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "60": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_60_1.png",
+                "images/affectnet_multiple_mcq/question_60_2.png",
+                "images/affectnet_multiple_mcq/question_60_3.png",
+                "images/affectnet_multiple_mcq/question_60_4.png",
+                "images/affectnet_multiple_mcq/question_60_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'neutral'?",
+            "options": [
+                2,
+                5,
+                4,
+                0
+            ],
+            "correct_answer_option": "A",
+            "answer": 2
+        },
+        "61": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_61_1.png",
+                "images/affectnet_multiple_mcq/question_61_2.png",
+                "images/affectnet_multiple_mcq/question_61_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'disgust'?",
+            "options": [
+                3,
+                0,
+                1,
+                2
+            ],
+            "correct_answer_option": "C",
+            "answer": 1
+        },
+        "62": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_62_1.png",
+                "images/affectnet_multiple_mcq/question_62_2.png"
+            ],
+            "question_text": "Which image has a person with the expression 'happy'?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "Neither",
+                "Both"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "63": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_63_1.png",
+                "images/affectnet_multiple_mcq/question_63_2.png",
+                "images/affectnet_multiple_mcq/question_63_3.png",
+                "images/affectnet_multiple_mcq/question_63_4.png"
+            ],
+            "question_text": "Which images have a person with the expression 'neutral'?",
+            "options": [
+                "Image 1, Image 2",
+                "Image 2, Image 4",
+                "Image 2",
+                "Image 1, Image 2, Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2"
+        },
+        "64": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_64_1.png",
+                "images/affectnet_multiple_mcq/question_64_2.png"
+            ],
+            "question_text": "Which images have a person with the expression 'disgust'?",
+            "options": [
+                "None of the images",
+                "Image 1",
+                "All of the images",
+                "Image 2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1"
+        },
+        "65": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_65_1.png",
+                "images/affectnet_multiple_mcq/question_65_2.png",
+                "images/affectnet_multiple_mcq/question_65_3.png",
+                "images/affectnet_multiple_mcq/question_65_4.png",
+                "images/affectnet_multiple_mcq/question_65_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                4,
+                3,
+                0,
+                2
+            ],
+            "correct_answer_option": "D",
+            "answer": 2
+        },
+        "66": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_66_1.png",
+                "images/affectnet_multiple_mcq/question_66_2.png",
+                "images/affectnet_multiple_mcq/question_66_3.png",
+                "images/affectnet_multiple_mcq/question_66_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'anger'?",
+            "options": [
+                4,
+                0,
+                3,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "67": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_67_1.png",
+                "images/affectnet_multiple_mcq/question_67_2.png"
+            ],
+            "question_text": "Which image has a person with the expression 'contempt'?",
+            "options": [
+                "Neither",
+                "Image 2",
+                "Both",
+                "Image 1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1"
+        },
+        "68": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_68_1.png",
+                "images/affectnet_multiple_mcq/question_68_2.png",
+                "images/affectnet_multiple_mcq/question_68_3.png",
+                "images/affectnet_multiple_mcq/question_68_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'neutral'?",
+            "options": [
+                2,
+                1,
+                3,
+                0
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "69": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_69_1.png",
+                "images/affectnet_multiple_mcq/question_69_2.png",
+                "images/affectnet_multiple_mcq/question_69_3.png"
+            ],
+            "question_text": "Which pair of images share the same expression?",
+            "options": [
+                "Image 1 & Image 2",
+                "Image 1 & Image 3",
+                "Image 2 & Image 3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 1 & Image 3"
+        },
+        "70": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_70_1.png",
+                "images/affectnet_multiple_mcq/question_70_2.png",
+                "images/affectnet_multiple_mcq/question_70_3.png",
+                "images/affectnet_multiple_mcq/question_70_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'contempt'?",
+            "options": [
+                4,
+                2,
+                1,
+                3
+            ],
+            "correct_answer_option": "C",
+            "answer": 1
+        },
+        "71": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_71_1.png",
+                "images/affectnet_multiple_mcq/question_71_2.png",
+                "images/affectnet_multiple_mcq/question_71_3.png",
+                "images/affectnet_multiple_mcq/question_71_4.png"
+            ],
+            "question_text": "Which images do not have a person with the expression 'contempt'?",
+            "options": [
+                "Image 3",
+                "Image 2, Image 4",
+                "Image 2, Image 3, Image 4",
+                "Image 4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2, Image 3, Image 4"
+        },
+        "72": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_72_1.png",
+                "images/affectnet_multiple_mcq/question_72_2.png",
+                "images/affectnet_multiple_mcq/question_72_3.png",
+                "images/affectnet_multiple_mcq/question_72_4.png",
+                "images/affectnet_multiple_mcq/question_72_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'sad'?",
+            "options": [
+                5,
+                1,
+                2,
+                4
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "73": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_73_1.png",
+                "images/affectnet_multiple_mcq/question_73_2.png",
+                "images/affectnet_multiple_mcq/question_73_3.png",
+                "images/affectnet_multiple_mcq/question_73_4.png"
+            ],
+            "question_text": "Which images have a person with the expression 'contempt'?",
+            "options": [
+                "Image 1, Image 3, Image 4",
+                "Image 1",
+                "Image 1, Image 3",
+                "Image 2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2"
+        },
+        "74": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_74_1.png",
+                "images/affectnet_multiple_mcq/question_74_2.png",
+                "images/affectnet_multiple_mcq/question_74_3.png",
+                "images/affectnet_multiple_mcq/question_74_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'happy'?",
+            "options": [
+                2,
+                4,
+                3,
+                0
+            ],
+            "correct_answer_option": "A",
+            "answer": 2
+        },
+        "75": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_75_1.png",
+                "images/affectnet_multiple_mcq/question_75_2.png",
+                "images/affectnet_multiple_mcq/question_75_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'disgust'?",
+            "options": [
+                2,
+                0,
+                3,
+                1
+            ],
+            "correct_answer_option": "A",
+            "answer": 2
+        },
+        "76": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_76_1.png",
+                "images/affectnet_multiple_mcq/question_76_2.png",
+                "images/affectnet_multiple_mcq/question_76_3.png",
+                "images/affectnet_multiple_mcq/question_76_4.png",
+                "images/affectnet_multiple_mcq/question_76_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'contempt'?",
+            "options": [
+                2,
+                5,
+                3,
+                0
+            ],
+            "correct_answer_option": "A",
+            "answer": 2
+        },
+        "77": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_77_1.png",
+                "images/affectnet_multiple_mcq/question_77_2.png",
+                "images/affectnet_multiple_mcq/question_77_3.png",
+                "images/affectnet_multiple_mcq/question_77_4.png",
+                "images/affectnet_multiple_mcq/question_77_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                5,
+                3,
+                2,
+                1
+            ],
+            "correct_answer_option": "C",
+            "answer": 2
+        },
+        "78": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_78_1.png",
+                "images/affectnet_multiple_mcq/question_78_2.png"
+            ],
+            "question_text": "Which image has a person with the expression 'sad'?",
+            "options": [
+                "Image 1",
+                "Both",
+                "Image 2",
+                "Neither"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 1"
+        },
+        "79": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_79_1.png",
+                "images/affectnet_multiple_mcq/question_79_2.png",
+                "images/affectnet_multiple_mcq/question_79_3.png",
+                "images/affectnet_multiple_mcq/question_79_4.png",
+                "images/affectnet_multiple_mcq/question_79_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'sad'?",
+            "options": [
+                5,
+                1,
+                3,
+                2
+            ],
+            "correct_answer_option": "D",
+            "answer": 2
+        },
+        "80": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_80_1.png",
+                "images/affectnet_multiple_mcq/question_80_2.png",
+                "images/affectnet_multiple_mcq/question_80_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'surprise'?",
+            "options": [
+                3,
+                1,
+                0,
+                2
+            ],
+            "correct_answer_option": "B",
+            "answer": 1
+        },
+        "81": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_81_1.png",
+                "images/affectnet_multiple_mcq/question_81_2.png",
+                "images/affectnet_multiple_mcq/question_81_3.png",
+                "images/affectnet_multiple_mcq/question_81_4.png",
+                "images/affectnet_multiple_mcq/question_81_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'anger'?",
+            "options": [
+                0,
+                3,
+                5,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "82": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_82_1.png",
+                "images/affectnet_multiple_mcq/question_82_2.png",
+                "images/affectnet_multiple_mcq/question_82_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'neutral'?",
+            "options": [
+                1,
+                2,
+                0,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "83": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_83_1.png",
+                "images/affectnet_multiple_mcq/question_83_2.png",
+                "images/affectnet_multiple_mcq/question_83_3.png",
+                "images/affectnet_multiple_mcq/question_83_4.png",
+                "images/affectnet_multiple_mcq/question_83_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'neutral'?",
+            "options": [
+                4,
+                3,
+                1,
+                0
+            ],
+            "correct_answer_option": "C",
+            "answer": 1
+        },
+        "84": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_84_1.png",
+                "images/affectnet_multiple_mcq/question_84_2.png",
+                "images/affectnet_multiple_mcq/question_84_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'disgust'?",
+            "options": [
+                2,
+                0,
+                1,
+                3
+            ],
+            "correct_answer_option": "C",
+            "answer": 1
+        },
+        "85": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_85_1.png",
+                "images/affectnet_multiple_mcq/question_85_2.png",
+                "images/affectnet_multiple_mcq/question_85_3.png"
+            ],
+            "question_text": "Which pair of images share the same expression?",
+            "options": [
+                "Image 2 & Image 3",
+                "Image 1 & Image 3",
+                "Image 1 & Image 2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2 & Image 3"
+        },
+        "86": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_86_1.png",
+                "images/affectnet_multiple_mcq/question_86_2.png",
+                "images/affectnet_multiple_mcq/question_86_3.png",
+                "images/affectnet_multiple_mcq/question_86_4.png"
+            ],
+            "question_text": "Which images have a person with the expression 'anger'?",
+            "options": [
+                "All of the images",
+                "Image 3",
+                "Image 4",
+                "Image 2, Image 3, Image 4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Image 3"
+        },
+        "87": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_87_1.png",
+                "images/affectnet_multiple_mcq/question_87_2.png"
+            ],
+            "question_text": "Which image has a person with the expression 'anger'?",
+            "options": [
+                "Image 2",
+                "Image 1",
+                "Neither",
+                "Both"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Image 2"
+        },
+        "88": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_88_1.png",
+                "images/affectnet_multiple_mcq/question_88_2.png",
+                "images/affectnet_multiple_mcq/question_88_3.png",
+                "images/affectnet_multiple_mcq/question_88_4.png"
+            ],
+            "question_text": "Which images have a person with the expression 'anger'?",
+            "options": [
+                "None of the images",
+                "Image 2, Image 3",
+                "Image 2, Image 3, Image 4",
+                "Image 2, Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 2, Image 4"
+        },
+        "89": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_89_1.png",
+                "images/affectnet_multiple_mcq/question_89_2.png",
+                "images/affectnet_multiple_mcq/question_89_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'happy'?",
+            "options": [
+                0,
+                3,
+                1,
+                2
+            ],
+            "correct_answer_option": "C",
+            "answer": 1
+        },
+        "90": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_90_1.png",
+                "images/affectnet_multiple_mcq/question_90_2.png",
+                "images/affectnet_multiple_mcq/question_90_3.png",
+                "images/affectnet_multiple_mcq/question_90_4.png",
+                "images/affectnet_multiple_mcq/question_90_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'disgust'?",
+            "options": [
+                3,
+                5,
+                0,
+                1
+            ],
+            "correct_answer_option": "D",
+            "answer": 1
+        },
+        "91": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_91_1.png",
+                "images/affectnet_multiple_mcq/question_91_2.png",
+                "images/affectnet_multiple_mcq/question_91_3.png",
+                "images/affectnet_multiple_mcq/question_91_4.png",
+                "images/affectnet_multiple_mcq/question_91_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'disgust'?",
+            "options": [
+                2,
+                3,
+                4,
+                0
+            ],
+            "correct_answer_option": "A",
+            "answer": 2
+        },
+        "92": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_92_1.png",
+                "images/affectnet_multiple_mcq/question_92_2.png",
+                "images/affectnet_multiple_mcq/question_92_3.png",
+                "images/affectnet_multiple_mcq/question_92_4.png",
+                "images/affectnet_multiple_mcq/question_92_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'fear'?",
+            "options": [
+                1,
+                4,
+                5,
+                2
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "93": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_93_1.png",
+                "images/affectnet_multiple_mcq/question_93_2.png",
+                "images/affectnet_multiple_mcq/question_93_3.png",
+                "images/affectnet_multiple_mcq/question_93_4.png",
+                "images/affectnet_multiple_mcq/question_93_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'neutral'?",
+            "options": [
+                0,
+                5,
+                1,
+                2
+            ],
+            "correct_answer_option": "C",
+            "answer": 1
+        },
+        "94": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_94_1.png",
+                "images/affectnet_multiple_mcq/question_94_2.png",
+                "images/affectnet_multiple_mcq/question_94_3.png",
+                "images/affectnet_multiple_mcq/question_94_4.png"
+            ],
+            "question_text": "Which images do not have a person with the expression 'sad'?",
+            "options": [
+                "None of the images",
+                "Image 1, Image 4",
+                "Image 3",
+                "All of the images"
+            ],
+            "correct_answer_option": "D",
+            "answer": "All of the images"
+        },
+        "95": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_95_1.png",
+                "images/affectnet_multiple_mcq/question_95_2.png",
+                "images/affectnet_multiple_mcq/question_95_3.png",
+                "images/affectnet_multiple_mcq/question_95_4.png",
+                "images/affectnet_multiple_mcq/question_95_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'neutral'?",
+            "options": [
+                3,
+                1,
+                2,
+                5
+            ],
+            "correct_answer_option": "C",
+            "answer": 2
+        },
+        "96": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_96_1.png",
+                "images/affectnet_multiple_mcq/question_96_2.png",
+                "images/affectnet_multiple_mcq/question_96_3.png"
+            ],
+            "question_text": "How many images have a person with the expression 'happy'?",
+            "options": [
+                1,
+                0,
+                2,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "97": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_97_1.png",
+                "images/affectnet_multiple_mcq/question_97_2.png",
+                "images/affectnet_multiple_mcq/question_97_3.png",
+                "images/affectnet_multiple_mcq/question_97_4.png"
+            ],
+            "question_text": "Which images do not have a person with the expression 'fear'?",
+            "options": [
+                "All of the images",
+                "Image 1, Image 3",
+                "Image 1, Image 2, Image 3",
+                "None of the images"
+            ],
+            "correct_answer_option": "A",
+            "answer": "All of the images"
+        },
+        "98": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_98_1.png",
+                "images/affectnet_multiple_mcq/question_98_2.png",
+                "images/affectnet_multiple_mcq/question_98_3.png",
+                "images/affectnet_multiple_mcq/question_98_4.png"
+            ],
+            "question_text": "How many images have a person with the expression 'sad'?",
+            "options": [
+                1,
+                0,
+                4,
+                3
+            ],
+            "correct_answer_option": "A",
+            "answer": 1
+        },
+        "99": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_99_1.png",
+                "images/affectnet_multiple_mcq/question_99_2.png",
+                "images/affectnet_multiple_mcq/question_99_3.png",
+                "images/affectnet_multiple_mcq/question_99_4.png"
+            ],
+            "question_text": "Which images do not have a person with the expression 'surprise'?",
+            "options": [
+                "Image 1",
+                "Image 3",
+                "Image 2, Image 4",
+                "Image 1, Image 2, Image 4"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1, Image 2, Image 4"
+        },
+        "100": {
+            "image_paths": [
+                "images/affectnet_multiple_mcq/question_100_1.png",
+                "images/affectnet_multiple_mcq/question_100_2.png",
+                "images/affectnet_multiple_mcq/question_100_3.png",
+                "images/affectnet_multiple_mcq/question_100_4.png",
+                "images/affectnet_multiple_mcq/question_100_5.png"
+            ],
+            "question_text": "How many images have a person with the expression 'sad'?",
+            "options": [
+                5,
+                2,
+                0,
+                1
+            ],
+            "correct_answer_option": "B",
+            "answer": 2
+        }
+    }
+}

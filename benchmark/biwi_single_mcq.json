@@ -1,0 +1,2111 @@
+{
+    "category": "face_localization",
+    "sub-category": "headpose",
+    "dataset": "biwi",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "prepend_text": "Headpose estimation involves predicting the orientation of a person's head in an image by estimating the yaw, pitch, and roll angles. For this task, the euler angles are divided into the following bins: -100 to -90, -90 to -80, -80 to -70, -70 to -60, -60 to -50, -50 to -40, -40 to -30, -30 to -20, -20 to -10, -10 to 0, 0 to 10, 10 to 20, 20 to 30, 30 to 40, 40 to 50, 50 to 60, 60 to 70, 70 to 80, 80 to 90, and 90 to 100. You have to perform the task of headpose estimation.",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_1.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-10 to 0"
+        },
+        "2": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_2.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "0 to 10",
+                "20 to 30",
+                "10 to 20"
+            ],
+            "correct_answer_option": "D",
+            "answer": "10 to 20"
+        },
+        "3": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_3.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "4": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_4.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-10 to 0"
+        },
+        "5": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_5.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "60 to 70",
+                "30 to 40",
+                "40 to 50",
+                "20 to 30"
+            ],
+            "correct_answer_option": "C",
+            "answer": "40 to 50"
+        },
+        "6": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_6.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "10 to 20",
+                "0 to 10"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-10 to 0"
+        },
+        "7": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_7.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "-30 to -20",
+                "-50 to -40"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-30 to -20"
+        },
+        "8": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_8.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-20 to -10",
+                "-10 to 0",
+                "10 to 20"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "9": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_9.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "40 to 50",
+                "20 to 30",
+                "30 to 40",
+                "10 to 20"
+            ],
+            "correct_answer_option": "C",
+            "answer": "30 to 40"
+        },
+        "10": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_10.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "10 to 20",
+                "20 to 30",
+                "0 to 10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "10 to 20"
+        },
+        "11": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_11.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "0 to 10",
+                "20 to 30",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "10 to 20"
+        },
+        "12": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_12.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-10 to 0",
+                "-20 to -10",
+                "0 to 10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-10 to 0"
+        },
+        "13": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_13.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "0 to 10",
+                "-20 to -10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-10 to 0"
+        },
+        "14": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_14.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-50 to -40",
+                "-20 to -10",
+                "-60 to -50",
+                "-40 to -30"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-40 to -30"
+        },
+        "15": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_15.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "20 to 30",
+                "10 to 20",
+                "30 to 40"
+            ],
+            "correct_answer_option": "B",
+            "answer": "20 to 30"
+        },
+        "16": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_16.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "-10 to 0",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "17": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_17.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "40 to 50",
+                "20 to 30",
+                "30 to 40",
+                "60 to 70"
+            ],
+            "correct_answer_option": "A",
+            "answer": "40 to 50"
+        },
+        "18": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_18.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-40 to -30",
+                "-20 to -10",
+                "-60 to -50",
+                "-50 to -40"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-40 to -30"
+        },
+        "19": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_19.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0 to 10"
+        },
+        "20": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_20.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0",
+                "20 to 30"
+            ],
+            "correct_answer_option": "B",
+            "answer": "10 to 20"
+        },
+        "21": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_21.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "20 to 30",
+                "30 to 40",
+                "10 to 20"
+            ],
+            "correct_answer_option": "B",
+            "answer": "20 to 30"
+        },
+        "22": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_22.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "10 to 20",
+                "20 to 30",
+                "0 to 10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "10 to 20"
+        },
+        "23": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_23.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-10 to 0",
+                "10 to 20",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-10 to 0"
+        },
+        "24": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_24.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "10 to 20",
+                "0 to 10",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "25": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_25.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "0 to 10",
+                "-20 to -10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0 to 10"
+        },
+        "26": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_26.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "0 to 10",
+                "-40 to -30",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-20 to -10"
+        },
+        "27": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_27.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "20 to 30",
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "10 to 20"
+        },
+        "28": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_28.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "-10 to 0",
+                "0 to 10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-10 to 0"
+        },
+        "29": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_29.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "0 to 10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "30": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_30.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "-10 to 0",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "31": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_31.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "10 to 20",
+                "0 to 10"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-10 to 0"
+        },
+        "32": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_32.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "-10 to 0",
+                "0 to 10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "33": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_33.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-20 to -10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "34": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_34.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-10 to 0",
+                "-20 to -10",
+                "0 to 10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-10 to 0"
+        },
+        "35": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_35.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "20 to 30",
+                "0 to 10",
+                "30 to 40"
+            ],
+            "correct_answer_option": "B",
+            "answer": "20 to 30"
+        },
+        "36": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_36.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "20 to 30",
+                "-10 to 0",
+                "0 to 10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "D",
+            "answer": "10 to 20"
+        },
+        "37": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_37.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-20 to -10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "38": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_38.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "10 to 20",
+                "0 to 10"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-10 to 0"
+        },
+        "39": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_39.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "40 to 50",
+                "20 to 30",
+                "30 to 40"
+            ],
+            "correct_answer_option": "D",
+            "answer": "30 to 40"
+        },
+        "40": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_40.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-10 to 0",
+                "0 to 10",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "41": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_41.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-10 to 0"
+        },
+        "42": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_42.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "0 to 10",
+                "10 to 20",
+                "20 to 30"
+            ],
+            "correct_answer_option": "C",
+            "answer": "10 to 20"
+        },
+        "43": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_43.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "-30 to -20",
+                "-50 to -40"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-30 to -20"
+        },
+        "44": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_44.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "20 to 30",
+                "-10 to 0",
+                "0 to 10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "D",
+            "answer": "10 to 20"
+        },
+        "45": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_45.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-40 to -30",
+                "-20 to -10",
+                "-10 to 0",
+                "0 to 10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-20 to -10"
+        },
+        "46": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_46.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "30 to 40",
+                "20 to 30",
+                "40 to 50",
+                "10 to 20"
+            ],
+            "correct_answer_option": "A",
+            "answer": "30 to 40"
+        },
+        "47": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_47.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "-10 to 0",
+                "0 to 10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "48": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_48.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "0 to 10",
+                "-10 to 0",
+                "10 to 20"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-10 to 0"
+        },
+        "49": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_49.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-10 to 0",
+                "-20 to -10",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "50": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_50.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "0 to 10",
+                "10 to 20",
+                "20 to 30"
+            ],
+            "correct_answer_option": "C",
+            "answer": "10 to 20"
+        },
+        "51": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_51.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "20 to 30",
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "10 to 20"
+        },
+        "52": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_52.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-10 to 0",
+                "10 to 20",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-10 to 0"
+        },
+        "53": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_53.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-20 to -10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "54": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_54.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "20 to 30",
+                "30 to 40",
+                "40 to 50",
+                "10 to 20"
+            ],
+            "correct_answer_option": "B",
+            "answer": "30 to 40"
+        },
+        "55": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_55.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "0 to 10",
+                "-40 to -30"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-20 to -10"
+        },
+        "56": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_56.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-20 to -10",
+                "10 to 20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-10 to 0"
+        },
+        "57": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_57.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-20 to -10",
+                "-10 to 0",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "58": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_58.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "59": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_59.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-10 to 0",
+                "0 to 10",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "60": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_60.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-20 to -10",
+                "-10 to 0",
+                "0 to 10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-10 to 0"
+        },
+        "61": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_61.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "0 to 10",
+                "-40 to -30"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-20 to -10"
+        },
+        "62": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_62.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-20 to -10",
+                "10 to 20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "63": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_63.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "10 to 20",
+                "0 to 10",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "64": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_64.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "20 to 30",
+                "10 to 20",
+                "30 to 40",
+                "0 to 10"
+            ],
+            "correct_answer_option": "A",
+            "answer": "20 to 30"
+        },
+        "65": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_65.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-50 to -40",
+                "-60 to -50",
+                "-20 to -10",
+                "-40 to -30"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-40 to -30"
+        },
+        "66": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_66.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "-50 to -40",
+                "-30 to -20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-30 to -20"
+        },
+        "67": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_67.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-10 to 0",
+                "0 to 10",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "68": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_68.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-20 to -10",
+                "10 to 20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-10 to 0"
+        },
+        "69": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_69.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "0 to 10",
+                "-20 to -10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-10 to 0"
+        },
+        "70": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_70.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "-10 to 0",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "71": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_71.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0",
+                "20 to 30"
+            ],
+            "correct_answer_option": "B",
+            "answer": "10 to 20"
+        },
+        "72": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_72.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-10 to 0"
+        },
+        "73": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_73.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-60 to -50",
+                "-50 to -40",
+                "-40 to -30",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-40 to -30"
+        },
+        "74": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_74.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-20 to -10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "75": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_75.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-50 to -40",
+                "-60 to -50",
+                "-40 to -30",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-40 to -30"
+        },
+        "76": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_76.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-20 to -10",
+                "-10 to 0",
+                "10 to 20"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "77": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_77.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "0 to 10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-10 to 0"
+        },
+        "78": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_78.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "79": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_79.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "-30 to -20",
+                "-10 to 0",
+                "-50 to -40"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-30 to -20"
+        },
+        "80": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_80.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "0 to 10",
+                "-10 to 0",
+                "10 to 20"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-10 to 0"
+        },
+        "81": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_81.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "30 to 40",
+                "70 to 80",
+                "50 to 60",
+                "60 to 70"
+            ],
+            "correct_answer_option": "C",
+            "answer": "50 to 60"
+        },
+        "82": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_82.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-10 to 0"
+        },
+        "83": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_83.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-10 to 0"
+        },
+        "84": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_84.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "10 to 20",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "85": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_85.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "0 to 10",
+                "-10 to 0",
+                "10 to 20"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-10 to 0"
+        },
+        "86": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_86.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "20 to 30",
+                "10 to 20",
+                "0 to 10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "10 to 20"
+        },
+        "87": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_87.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "30 to 40",
+                "20 to 30",
+                "10 to 20",
+                "0 to 10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "20 to 30"
+        },
+        "88": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_88.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "-50 to -40",
+                "-30 to -20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-30 to -20"
+        },
+        "89": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_89.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-10 to 0"
+        },
+        "90": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_90.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "20 to 30",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "10 to 20"
+        },
+        "91": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_91.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-40 to -30",
+                "-60 to -50",
+                "-20 to -10",
+                "-50 to -40"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-40 to -30"
+        },
+        "92": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_92.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "93": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_93.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0",
+                "20 to 30"
+            ],
+            "correct_answer_option": "B",
+            "answer": "10 to 20"
+        },
+        "94": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_94.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "20 to 30",
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "10 to 20"
+        },
+        "95": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_95.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "10 to 20",
+                "-20 to -10",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "96": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_96.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0",
+                "20 to 30"
+            ],
+            "correct_answer_option": "A",
+            "answer": "10 to 20"
+        },
+        "97": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_97.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0 to 10"
+        },
+        "98": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_98.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "0 to 10",
+                "-10 to 0",
+                "10 to 20"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-10 to 0"
+        },
+        "99": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_99.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "30 to 40",
+                "0 to 10",
+                "20 to 30"
+            ],
+            "correct_answer_option": "D",
+            "answer": "20 to 30"
+        },
+        "100": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_100.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "20 to 30",
+                "30 to 40",
+                "40 to 50"
+            ],
+            "correct_answer_option": "C",
+            "answer": "30 to 40"
+        },
+        "101": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_101.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-20 to -10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "102": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_102.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "0 to 10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-10 to 0"
+        },
+        "103": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_103.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "10 to 20",
+                "-20 to -10",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "104": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_104.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "30 to 40",
+                "10 to 20",
+                "20 to 30"
+            ],
+            "correct_answer_option": "D",
+            "answer": "20 to 30"
+        },
+        "105": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_105.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "30 to 40",
+                "20 to 30",
+                "10 to 20"
+            ],
+            "correct_answer_option": "C",
+            "answer": "20 to 30"
+        },
+        "106": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_106.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "80 to 90",
+                "60 to 70",
+                "70 to 80",
+                "40 to 50"
+            ],
+            "correct_answer_option": "B",
+            "answer": "60 to 70"
+        },
+        "107": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_107.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-20 to -10",
+                "-10 to 0",
+                "10 to 20"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-10 to 0"
+        },
+        "108": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_108.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-20 to -10",
+                "10 to 20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "109": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_109.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "-10 to 0",
+                "0 to 10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-10 to 0"
+        },
+        "110": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_110.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-10 to 0",
+                "-20 to -10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "111": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_111.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0",
+                "20 to 30"
+            ],
+            "correct_answer_option": "A",
+            "answer": "10 to 20"
+        },
+        "112": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_112.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "10 to 20",
+                "-20 to -10",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "113": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_113.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-10 to 0",
+                "0 to 10",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "114": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_114.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "-50 to -40",
+                "-30 to -20"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-30 to -20"
+        },
+        "115": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_115.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-20 to -10",
+                "-10 to 0",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "116": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_116.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-20 to -10",
+                "10 to 20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-10 to 0"
+        },
+        "117": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_117.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "40 to 50",
+                "10 to 20",
+                "30 to 40",
+                "20 to 30"
+            ],
+            "correct_answer_option": "C",
+            "answer": "30 to 40"
+        },
+        "118": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_118.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "0 to 10",
+                "10 to 20",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-10 to 0"
+        },
+        "119": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_119.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-10 to 0",
+                "10 to 20",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-10 to 0"
+        },
+        "120": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_120.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-50 to -40",
+                "-70 to -60",
+                "-60 to -50",
+                "-80 to -70"
+            ],
+            "correct_answer_option": "C",
+            "answer": "-60 to -50"
+        },
+        "121": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_121.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-30 to -20",
+                "-10 to 0",
+                "-20 to -10",
+                "-50 to -40"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-30 to -20"
+        },
+        "122": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_122.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "40 to 50",
+                "60 to 70",
+                "70 to 80",
+                "80 to 90"
+            ],
+            "correct_answer_option": "B",
+            "answer": "60 to 70"
+        },
+        "123": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_123.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "20 to 30",
+                "40 to 50",
+                "10 to 20",
+                "30 to 40"
+            ],
+            "correct_answer_option": "D",
+            "answer": "30 to 40"
+        },
+        "124": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_124.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-10 to 0",
+                "20 to 30",
+                "10 to 20"
+            ],
+            "correct_answer_option": "D",
+            "answer": "10 to 20"
+        },
+        "125": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_125.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "-10 to 0",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "126": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_126.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "30 to 40",
+                "20 to 30",
+                "10 to 20",
+                "40 to 50"
+            ],
+            "correct_answer_option": "A",
+            "answer": "30 to 40"
+        },
+        "127": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_127.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-20 to -10",
+                "0 to 10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-10 to 0"
+        },
+        "128": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_128.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "129": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_129.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0",
+                "20 to 30"
+            ],
+            "correct_answer_option": "A",
+            "answer": "10 to 20"
+        },
+        "130": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_130.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "30 to 40",
+                "20 to 30",
+                "0 to 10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "B",
+            "answer": "20 to 30"
+        },
+        "131": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_131.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "-20 to -10",
+                "-50 to -40",
+                "-30 to -20"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-30 to -20"
+        },
+        "132": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_132.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "0 to 10",
+                "-20 to -10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-10 to 0"
+        },
+        "133": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_133.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "-40 to -30",
+                "-10 to 0",
+                "0 to 10"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-20 to -10"
+        },
+        "134": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_134.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "10 to 20",
+                "-10 to 0",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0 to 10"
+        },
+        "135": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_135.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-20 to -10",
+                "-40 to -30",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-20 to -10"
+        },
+        "136": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_136.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "-10 to 0",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "137": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_137.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "20 to 30",
+                "30 to 40",
+                "40 to 50",
+                "10 to 20"
+            ],
+            "correct_answer_option": "B",
+            "answer": "30 to 40"
+        },
+        "138": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_138.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "20 to 30",
+                "0 to 10",
+                "30 to 40"
+            ],
+            "correct_answer_option": "B",
+            "answer": "20 to 30"
+        },
+        "139": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_139.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "0 to 10",
+                "-20 to -10",
+                "10 to 20"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0 to 10"
+        },
+        "140": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_140.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "-40 to -30",
+                "-10 to 0",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "-20 to -10"
+        },
+        "141": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_141.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "20 to 30",
+                "10 to 20",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "10 to 20"
+        },
+        "142": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_142.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "0 to 10",
+                "20 to 30",
+                "30 to 40",
+                "10 to 20"
+            ],
+            "correct_answer_option": "B",
+            "answer": "20 to 30"
+        },
+        "143": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_143.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "20 to 30",
+                "10 to 20",
+                "0 to 10",
+                "30 to 40"
+            ],
+            "correct_answer_option": "A",
+            "answer": "20 to 30"
+        },
+        "144": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_144.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-10 to 0",
+                "0 to 10",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-10 to 0"
+        },
+        "145": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_145.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 to 10"
+        },
+        "146": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_146.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "0 to 10",
+                "-10 to 0",
+                "-20 to -10"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0 to 10"
+        },
+        "147": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_147.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-10 to 0",
+                "10 to 20",
+                "-20 to -10",
+                "0 to 10"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-10 to 0"
+        },
+        "148": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_148.png"
+            ],
+            "question_text": "What is the roll angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-40 to -30",
+                "-20 to -10",
+                "0 to 10",
+                "-10 to 0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "-20 to -10"
+        },
+        "149": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_149.png"
+            ],
+            "question_text": "What is the yaw angle range of headpose orientation for the person in this image?",
+            "options": [
+                "10 to 20",
+                "-10 to 0",
+                "-20 to -10",
+                "0 to 10"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 to 10"
+        },
+        "150": {
+            "image_paths": [
+                "images/biwi_single_mcq/question_150.png"
+            ],
+            "question_text": "What is the pitch angle range of headpose orientation for the person in this image?",
+            "options": [
+                "-20 to -10",
+                "-10 to 0",
+                "0 to 10",
+                "-40 to -30"
+            ],
+            "correct_answer_option": "A",
+            "answer": "-20 to -10"
+        }
+    }
+}
