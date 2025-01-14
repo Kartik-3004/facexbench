@@ -1,7 +1,7 @@
 <div align="center">
 <img src="docs/static/images/logo.png" alt="Image" width="100">
   
-# FaceXBench: Evaluating Multimodal LLMs on Face Understanding
+# FaceXBench: Evaluating Multimodal LLMs <br> on Face Understanding
 
 
 [Kartik Narayan](https://kartik-3004.github.io/portfolio/) &emsp; [Vibashan VS](https://vibashan.github.io) &emsp; [Vishal M. Patel](https://engineering.jhu.edu/faculty/vishal-patel/)
