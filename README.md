@@ -9,7 +9,7 @@
 Johns Hopkins University
 
 <a href='https://kartik-3004.github.io/facexbench/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
-<a href='[https://arxiv.org/abs/2501.10360](https://arxiv.org/abs/2501.10360)'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
+<a href='https://arxiv.org/abs/2501.10360'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 
 </div>
 <hr />
