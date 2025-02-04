@@ -54,6 +54,18 @@ Table 1. Results of different models on the FaceXBench. We categorize the open-s
 ## :rocket: News
 - [01/16/2025] 🔥 We release FaceXBench.
 
+## Data preparation
+Create a folder named data inside facexbench. Download [ReplayAttack](https://www.idiap.ch/en/scientific-research/data/replayattack) and [WMCA](https://www.idiap.ch/en/scientific-research/data/wmca) dataset from the respective links and place it inside the data folder.
+
+The structure of the data directory should look like: 
+```bash
+
+. data/
+  ├── ReplayAttack
+  ├── WMCA
+
+``` 
+
 ## Usage
 The images of FaceXBench are at [facexbench/benchmark/images](images). The json files are in the folder [facexbench/benchmark](benchmark)<br>
 Evaluate your mulitmodal LLMs on our benchmark with the help of https://github.com/open-compass/VLMEvalKit.
