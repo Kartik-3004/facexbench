@@ -9,9 +9,9 @@
     "questions": {
         "1": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_1_1.png",
-                "images/wmca_multiple_mcq/question_1_2.png",
-                "images/wmca_multiple_mcq/question_1_3.png"
+                "data/WMCA/RGB/004_02_000_0_00/Frame_29.png",
+                "data/WMCA/RGB/019_02_000_0_00/Frame_6.png",
+                "data/WMCA/RGB/001_07_000_3_02/Frame_13.png"
             ],
             "question_text": "How many images are spoof attacks?",
             "options": [
@@ -25,9 +25,9 @@
         },
         "2": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_2_1.png",
-                "images/wmca_multiple_mcq/question_2_2.png",
-                "images/wmca_multiple_mcq/question_2_3.png"
+                "data/WMCA/RGB/019_03_004_4_01/Frame_31.png",
+                "data/WMCA/RGB/012_03_000_0_01/Frame_43.png",
+                "data/WMCA/RGB/018_07_000_2_86/Frame_21.png"
             ],
             "question_text": "Which images are not bonafide?",
             "options": [
@@ -41,8 +41,8 @@
         },
         "3": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_3_1.png",
-                "images/wmca_multiple_mcq/question_3_2.png"
+                "data/WMCA/RGB/019_03_011_4_08/Frame_30.png",
+                "data/WMCA/RGB/019_05_000_2_87/Frame_14.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -56,8 +56,8 @@
         },
         "4": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_4_1.png",
-                "images/wmca_multiple_mcq/question_4_2.png"
+                "data/WMCA/RGB/002_01_050_2_13/Frame_35.png",
+                "data/WMCA/RGB/018_01_032_3_06/Frame_27.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -71,8 +71,8 @@
         },
         "5": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_5_1.png",
-                "images/wmca_multiple_mcq/question_5_2.png"
+                "data/WMCA/RGB/005_03_006_4_10/Frame_34.png",
+                "data/WMCA/RGB/001_07_000_3_01/Frame_8.png"
             ],
             "question_text": "Which image is attacked and are of the type Wig?",
             "options": [
@@ -86,8 +86,8 @@
         },
         "6": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_6_1.png",
-                "images/wmca_multiple_mcq/question_6_2.png"
+                "data/WMCA/RGB/001_01_002_2_08/Frame_16.png",
+                "data/WMCA/RGB/001_01_033_2_08/Frame_47.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -101,8 +101,8 @@
         },
         "7": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_7_1.png",
-                "images/wmca_multiple_mcq/question_7_2.png"
+                "data/WMCA/RGB/018_02_029_3_08/Frame_40.png",
+                "data/WMCA/RGB/002_05_000_2_13/Frame_47.png"
             ],
             "question_text": "Which image is an attack?",
             "options": [
@@ -116,8 +116,8 @@
         },
         "8": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_8_1.png",
-                "images/wmca_multiple_mcq/question_8_2.png"
+                "data/WMCA/RGB/001_05_000_2_08/Frame_30.png",
+                "data/WMCA/RGB/004_05_000_0_00/Frame_3.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -131,9 +131,9 @@
         },
         "9": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_9_1.png",
-                "images/wmca_multiple_mcq/question_9_2.png",
-                "images/wmca_multiple_mcq/question_9_3.png"
+                "data/WMCA/RGB/060_03_000_0_00/Frame_0.png",
+                "data/WMCA/RGB/019_04_000_4_14/Frame_36.png",
+                "data/WMCA/RGB/019_06_000_4_07/Frame_2.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -147,9 +147,9 @@
         },
         "10": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_10_1.png",
-                "images/wmca_multiple_mcq/question_10_2.png",
-                "images/wmca_multiple_mcq/question_10_3.png"
+                "data/WMCA/RGB/019_02_003_4_14/Frame_38.png",
+                "data/WMCA/RGB/018_03_000_3_10/Frame_16.png",
+                "data/WMCA/RGB/002_01_000_2_82/Frame_43.png"
             ],
             "question_text": "Which images are of attack type Print?",
             "options": [
@@ -163,8 +163,8 @@
         },
         "11": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_11_1.png",
-                "images/wmca_multiple_mcq/question_11_2.png"
+                "data/WMCA/RGB/019_03_026_2_90/Frame_23.png",
+                "data/WMCA/RGB/072_05_000_0_01/Frame_12.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -178,8 +178,8 @@
         },
         "12": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_12_1.png",
-                "images/wmca_multiple_mcq/question_12_2.png"
+                "data/WMCA/RGB/070_05_000_0_00/Frame_44.png",
+                "data/WMCA/RGB/018_07_038_3_10/Frame_25.png"
             ],
             "question_text": "Which image is attacked and are of the type Wig?",
             "options": [
@@ -193,8 +193,8 @@
         },
         "13": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_13_1.png",
-                "images/wmca_multiple_mcq/question_13_2.png"
+                "data/WMCA/RGB/002_05_000_2_82/Frame_4.png",
+                "data/WMCA/RGB/012_06_000_4_16/Frame_17.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -208,8 +208,8 @@
         },
         "14": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_14_1.png",
-                "images/wmca_multiple_mcq/question_14_2.png"
+                "data/WMCA/RGB/001_03_055_3_05/Frame_37.png",
+                "data/WMCA/RGB/002_01_000_2_13/Frame_41.png"
             ],
             "question_text": "Which image is attacked and are of the type Wig?",
             "options": [
@@ -223,8 +223,8 @@
         },
         "15": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_15_1.png",
-                "images/wmca_multiple_mcq/question_15_2.png"
+                "data/WMCA/RGB/005_02_000_0_01/Frame_37.png",
+                "data/WMCA/RGB/019_01_013_2_87/Frame_42.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -238,9 +238,9 @@
         },
         "16": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_16_1.png",
-                "images/wmca_multiple_mcq/question_16_2.png",
-                "images/wmca_multiple_mcq/question_16_3.png"
+                "data/WMCA/RGB/001_04_000_3_02/Frame_18.png",
+                "data/WMCA/RGB/019_07_000_4_07/Frame_8.png",
+                "data/WMCA/RGB/002_03_051_2_82/Frame_34.png"
             ],
             "question_text": "Which images are bonafide?",
             "options": [
@@ -254,8 +254,8 @@
         },
         "17": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_17_1.png",
-                "images/wmca_multiple_mcq/question_17_2.png"
+                "data/WMCA/RGB/001_04_000_3_02/Frame_8.png",
+                "data/WMCA/RGB/001_06_065_2_12/Frame_35.png"
             ],
             "question_text": "Which statement is true about the images?",
             "options": [
@@ -269,8 +269,8 @@
         },
         "18": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_18_1.png",
-                "images/wmca_multiple_mcq/question_18_2.png"
+                "data/WMCA/RGB/018_05_000_2_86/Frame_25.png",
+                "data/WMCA/RGB/071_07_000_0_01/Frame_46.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -284,8 +284,8 @@
         },
         "19": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_19_1.png",
-                "images/wmca_multiple_mcq/question_19_2.png"
+                "data/WMCA/RGB/019_05_000_0_00/Frame_11.png",
+                "data/WMCA/RGB/002_03_000_2_81/Frame_37.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -299,8 +299,8 @@
         },
         "20": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_20_1.png",
-                "images/wmca_multiple_mcq/question_20_2.png"
+                "data/WMCA/RGB/002_06_000_0_00/Frame_23.png",
+                "data/WMCA/RGB/002_04_000_2_81/Frame_22.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -314,8 +314,8 @@
         },
         "21": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_21_1.png",
-                "images/wmca_multiple_mcq/question_21_2.png"
+                "data/WMCA/RGB/019_07_018_2_17/Frame_46.png",
+                "data/WMCA/RGB/001_07_000_3_03/Frame_42.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -329,8 +329,8 @@
         },
         "22": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_22_1.png",
-                "images/wmca_multiple_mcq/question_22_2.png"
+                "data/WMCA/RGB/001_04_000_2_80/Frame_7.png",
+                "data/WMCA/RGB/018_01_000_3_09/Frame_39.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -344,9 +344,9 @@
         },
         "23": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_23_1.png",
-                "images/wmca_multiple_mcq/question_23_2.png",
-                "images/wmca_multiple_mcq/question_23_3.png"
+                "data/WMCA/RGB/019_02_000_0_01/Frame_49.png",
+                "data/WMCA/RGB/018_07_069_3_08/Frame_33.png",
+                "data/WMCA/RGB/012_04_010_2_14/Frame_48.png"
             ],
             "question_text": "How many images are of attack type Wig?",
             "options": [
@@ -360,9 +360,9 @@
         },
         "24": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_24_1.png",
-                "images/wmca_multiple_mcq/question_24_2.png",
-                "images/wmca_multiple_mcq/question_24_3.png"
+                "data/WMCA/RGB/019_04_010_2_87/Frame_15.png",
+                "data/WMCA/RGB/019_01_005_2_17/Frame_6.png",
+                "data/WMCA/RGB/001_05_000_2_80/Frame_9.png"
             ],
             "question_text": "Which images are attacks of the same type?",
             "options": [
@@ -376,9 +376,9 @@
         },
         "25": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_25_1.png",
-                "images/wmca_multiple_mcq/question_25_2.png",
-                "images/wmca_multiple_mcq/question_25_3.png"
+                "data/WMCA/RGB/018_04_010_2_86/Frame_13.png",
+                "data/WMCA/RGB/030_03_000_0_02/Frame_19.png",
+                "data/WMCA/RGB/019_04_010_2_17/Frame_12.png"
             ],
             "question_text": "How many images are bonafide?",
             "options": [
@@ -392,8 +392,8 @@
         },
         "26": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_26_1.png",
-                "images/wmca_multiple_mcq/question_26_2.png"
+                "data/WMCA/RGB/001_06_014_3_03/Frame_32.png",
+                "data/WMCA/RGB/018_02_004_3_10/Frame_25.png"
             ],
             "question_text": "Which image is an attack?",
             "options": [
@@ -407,9 +407,9 @@
         },
         "27": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_27_1.png",
-                "images/wmca_multiple_mcq/question_27_2.png",
-                "images/wmca_multiple_mcq/question_27_3.png"
+                "data/WMCA/RGB/018_02_051_2_16/Frame_29.png",
+                "data/WMCA/RGB/002_04_000_2_81/Frame_6.png",
+                "data/WMCA/RGB/018_06_069_3_06/Frame_45.png"
             ],
             "question_text": "Are there more bonafide or attack images?",
             "options": [
@@ -423,9 +423,9 @@
         },
         "28": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_28_1.png",
-                "images/wmca_multiple_mcq/question_28_2.png",
-                "images/wmca_multiple_mcq/question_28_3.png"
+                "data/WMCA/RGB/019_05_003_2_17/Frame_25.png",
+                "data/WMCA/RGB/009_02_000_0_00/Frame_29.png",
+                "data/WMCA/RGB/012_07_006_4_16/Frame_40.png"
             ],
             "question_text": "Which images depict bonafide individuals?",
             "options": [
@@ -439,8 +439,8 @@
         },
         "29": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_29_1.png",
-                "images/wmca_multiple_mcq/question_29_2.png"
+                "data/WMCA/RGB/001_07_065_2_88/Frame_0.png",
+                "data/WMCA/RGB/018_06_069_3_10/Frame_2.png"
             ],
             "question_text": "Which statement is true about the images?",
             "options": [
@@ -454,8 +454,8 @@
         },
         "30": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_30_1.png",
-                "images/wmca_multiple_mcq/question_30_2.png"
+                "data/WMCA/RGB/070_05_000_0_00/Frame_34.png",
+                "data/WMCA/RGB/012_04_003_4_15/Frame_8.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -469,9 +469,9 @@
         },
         "31": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_31_1.png",
-                "images/wmca_multiple_mcq/question_31_2.png",
-                "images/wmca_multiple_mcq/question_31_3.png"
+                "data/WMCA/RGB/013_02_000_0_01/Frame_9.png",
+                "data/WMCA/RGB/018_07_000_3_07/Frame_6.png",
+                "data/WMCA/RGB/002_04_010_2_81/Frame_32.png"
             ],
             "question_text": "Which images are attacks of the same type?",
             "options": [
@@ -485,9 +485,9 @@
         },
         "32": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_32_1.png",
-                "images/wmca_multiple_mcq/question_32_2.png",
-                "images/wmca_multiple_mcq/question_32_3.png"
+                "data/WMCA/RGB/021_02_000_0_00/Frame_21.png",
+                "data/WMCA/RGB/007_01_000_0_01/Frame_9.png",
+                "data/WMCA/RGB/024_02_000_0_01/Frame_16.png"
             ],
             "question_text": "How many images are spoof attacks?",
             "options": [
@@ -501,8 +501,8 @@
         },
         "33": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_33_1.png",
-                "images/wmca_multiple_mcq/question_33_2.png"
+                "data/WMCA/RGB/029_03_000_0_01/Frame_29.png",
+                "data/WMCA/RGB/001_07_000_2_08/Frame_37.png"
             ],
             "question_text": "Which statement is true about the images?",
             "options": [
@@ -516,9 +516,9 @@
         },
         "34": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_34_1.png",
-                "images/wmca_multiple_mcq/question_34_2.png",
-                "images/wmca_multiple_mcq/question_34_3.png"
+                "data/WMCA/RGB/038_07_000_0_00/Frame_22.png",
+                "data/WMCA/RGB/019_01_000_4_08/Frame_23.png",
+                "data/WMCA/RGB/012_02_043_2_89/Frame_24.png"
             ],
             "question_text": "Are there more bonafide or attack images?",
             "options": [
@@ -532,9 +532,9 @@
         },
         "35": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_35_1.png",
-                "images/wmca_multiple_mcq/question_35_2.png",
-                "images/wmca_multiple_mcq/question_35_3.png"
+                "data/WMCA/RGB/001_02_000_3_05/Frame_28.png",
+                "data/WMCA/RGB/005_02_011_4_09/Frame_9.png",
+                "data/WMCA/RGB/012_03_000_4_03/Frame_24.png"
             ],
             "question_text": "Which images are attacks of the same type?",
             "options": [
@@ -548,9 +548,9 @@
         },
         "36": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_36_1.png",
-                "images/wmca_multiple_mcq/question_36_2.png",
-                "images/wmca_multiple_mcq/question_36_3.png"
+                "data/WMCA/RGB/004_03_000_0_00/Frame_42.png",
+                "data/WMCA/RGB/019_06_000_4_08/Frame_37.png",
+                "data/WMCA/RGB/019_07_072_4_08/Frame_19.png"
             ],
             "question_text": "How many images are bonafide?",
             "options": [
@@ -564,9 +564,9 @@
         },
         "37": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_37_1.png",
-                "images/wmca_multiple_mcq/question_37_2.png",
-                "images/wmca_multiple_mcq/question_37_3.png"
+                "data/WMCA/RGB/018_04_010_3_09/Frame_14.png",
+                "data/WMCA/RGB/012_01_038_4_16/Frame_23.png",
+                "data/WMCA/RGB/035_01_000_0_00/Frame_11.png"
             ],
             "question_text": "How many images are bonafide?",
             "options": [
@@ -580,8 +580,8 @@
         },
         "38": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_38_1.png",
-                "images/wmca_multiple_mcq/question_38_2.png"
+                "data/WMCA/RGB/012_01_051_2_89/Frame_25.png",
+                "data/WMCA/RGB/001_03_000_3_03/Frame_7.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -595,9 +595,9 @@
         },
         "39": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_39_1.png",
-                "images/wmca_multiple_mcq/question_39_2.png",
-                "images/wmca_multiple_mcq/question_39_3.png"
+                "data/WMCA/RGB/071_07_000_0_01/Frame_8.png",
+                "data/WMCA/RGB/001_02_021_2_12/Frame_10.png",
+                "data/WMCA/RGB/019_07_000_4_13/Frame_5.png"
             ],
             "question_text": "Which image is a bonafide and which are attacks?",
             "options": [
@@ -611,8 +611,8 @@
         },
         "40": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_40_1.png",
-                "images/wmca_multiple_mcq/question_40_2.png"
+                "data/WMCA/RGB/019_04_000_2_17/Frame_27.png",
+                "data/WMCA/RGB/012_02_000_0_00/Frame_36.png"
             ],
             "question_text": "Which image shows a bonafide person?",
             "options": [
@@ -626,8 +626,8 @@
         },
         "41": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_41_1.png",
-                "images/wmca_multiple_mcq/question_41_2.png"
+                "data/WMCA/RGB/018_03_000_3_06/Frame_4.png",
+                "data/WMCA/RGB/018_01_052_3_08/Frame_28.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -641,8 +641,8 @@
         },
         "42": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_42_1.png",
-                "images/wmca_multiple_mcq/question_42_2.png"
+                "data/WMCA/RGB/019_02_004_4_13/Frame_47.png",
+                "data/WMCA/RGB/018_03_000_3_10/Frame_30.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -656,8 +656,8 @@
         },
         "43": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_43_1.png",
-                "images/wmca_multiple_mcq/question_43_2.png"
+                "data/WMCA/RGB/001_06_000_2_88/Frame_6.png",
+                "data/WMCA/RGB/001_06_000_2_08/Frame_30.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -671,9 +671,9 @@
         },
         "44": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_44_1.png",
-                "images/wmca_multiple_mcq/question_44_2.png",
-                "images/wmca_multiple_mcq/question_44_3.png"
+                "data/WMCA/RGB/019_03_011_4_07/Frame_22.png",
+                "data/WMCA/RGB/003_01_000_0_00/Frame_12.png",
+                "data/WMCA/RGB/012_06_004_4_03/Frame_2.png"
             ],
             "question_text": "How many images are of attack type Wig?",
             "options": [
@@ -687,8 +687,8 @@
         },
         "45": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_45_1.png",
-                "images/wmca_multiple_mcq/question_45_2.png"
+                "data/WMCA/RGB/001_02_000_2_88/Frame_46.png",
+                "data/WMCA/RGB/002_07_073_2_13/Frame_2.png"
             ],
             "question_text": "Which statement is true about the images?",
             "options": [
@@ -702,9 +702,9 @@
         },
         "46": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_46_1.png",
-                "images/wmca_multiple_mcq/question_46_2.png",
-                "images/wmca_multiple_mcq/question_46_3.png"
+                "data/WMCA/RGB/002_03_022_2_81/Frame_28.png",
+                "data/WMCA/RGB/001_06_000_3_04/Frame_45.png",
+                "data/WMCA/RGB/024_03_000_0_01/Frame_41.png"
             ],
             "question_text": "How many images are bonafide?",
             "options": [
@@ -718,9 +718,9 @@
         },
         "47": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_47_1.png",
-                "images/wmca_multiple_mcq/question_47_2.png",
-                "images/wmca_multiple_mcq/question_47_3.png"
+                "data/WMCA/RGB/018_05_038_3_07/Frame_2.png",
+                "data/WMCA/RGB/012_05_066_2_83/Frame_45.png",
+                "data/WMCA/RGB/012_05_008_2_11/Frame_14.png"
             ],
             "question_text": "Which images are spoof attacks?",
             "options": [
@@ -734,8 +734,8 @@
         },
         "48": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_48_1.png",
-                "images/wmca_multiple_mcq/question_48_2.png"
+                "data/WMCA/RGB/001_03_055_3_05/Frame_2.png",
+                "data/WMCA/RGB/035_03_000_0_01/Frame_4.png"
             ],
             "question_text": "Which image shows a bonafide person?",
             "options": [
@@ -749,9 +749,9 @@
         },
         "49": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_49_1.png",
-                "images/wmca_multiple_mcq/question_49_2.png",
-                "images/wmca_multiple_mcq/question_49_3.png"
+                "data/WMCA/RGB/019_07_070_4_13/Frame_24.png",
+                "data/WMCA/RGB/019_07_005_2_87/Frame_15.png",
+                "data/WMCA/RGB/002_07_000_2_81/Frame_30.png"
             ],
             "question_text": "Which images are bonafide?",
             "options": [
@@ -765,8 +765,8 @@
         },
         "50": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_50_1.png",
-                "images/wmca_multiple_mcq/question_50_2.png"
+                "data/WMCA/RGB/019_04_004_4_02/Frame_30.png",
+                "data/WMCA/RGB/001_06_014_3_03/Frame_16.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -780,8 +780,8 @@
         },
         "51": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_51_1.png",
-                "images/wmca_multiple_mcq/question_51_2.png"
+                "data/WMCA/RGB/005_05_000_4_09/Frame_21.png",
+                "data/WMCA/RGB/068_07_000_0_00/Frame_28.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -795,8 +795,8 @@
         },
         "52": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_52_1.png",
-                "images/wmca_multiple_mcq/question_52_2.png"
+                "data/WMCA/RGB/002_05_000_2_81/Frame_2.png",
+                "data/WMCA/RGB/007_02_000_0_01/Frame_38.png"
             ],
             "question_text": "Which statement is true about the images?",
             "options": [
@@ -810,9 +810,9 @@
         },
         "53": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_53_1.png",
-                "images/wmca_multiple_mcq/question_53_2.png",
-                "images/wmca_multiple_mcq/question_53_3.png"
+                "data/WMCA/RGB/018_04_010_2_86/Frame_25.png",
+                "data/WMCA/RGB/019_05_005_4_13/Frame_9.png",
+                "data/WMCA/RGB/067_06_000_0_00/Frame_11.png"
             ],
             "question_text": "Which images depict bonafide individuals?",
             "options": [
@@ -826,9 +826,9 @@
         },
         "54": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_54_1.png",
-                "images/wmca_multiple_mcq/question_54_2.png",
-                "images/wmca_multiple_mcq/question_54_3.png"
+                "data/WMCA/RGB/012_06_000_2_11/Frame_7.png",
+                "data/WMCA/RGB/018_05_000_3_08/Frame_27.png",
+                "data/WMCA/RGB/012_04_010_2_14/Frame_17.png"
             ],
             "question_text": "Which images are attacks of the same type?",
             "options": [
@@ -842,8 +842,8 @@
         },
         "55": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_55_1.png",
-                "images/wmca_multiple_mcq/question_55_2.png"
+                "data/WMCA/RGB/001_05_014_3_01/Frame_29.png",
+                "data/WMCA/RGB/001_01_000_2_88/Frame_21.png"
             ],
             "question_text": "Which image shows a bonafide person?",
             "options": [
@@ -857,9 +857,9 @@
         },
         "56": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_56_1.png",
-                "images/wmca_multiple_mcq/question_56_2.png",
-                "images/wmca_multiple_mcq/question_56_3.png"
+                "data/WMCA/RGB/022_03_000_0_00/Frame_0.png",
+                "data/WMCA/RGB/019_05_072_4_08/Frame_10.png",
+                "data/WMCA/RGB/012_04_000_4_15/Frame_10.png"
             ],
             "question_text": "Which images are of attack type Print?",
             "options": [
@@ -873,8 +873,8 @@
         },
         "57": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_57_1.png",
-                "images/wmca_multiple_mcq/question_57_2.png"
+                "data/WMCA/RGB/002_01_028_2_82/Frame_29.png",
+                "data/WMCA/RGB/007_02_000_0_01/Frame_18.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -888,9 +888,9 @@
         },
         "58": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_58_1.png",
-                "images/wmca_multiple_mcq/question_58_2.png",
-                "images/wmca_multiple_mcq/question_58_3.png"
+                "data/WMCA/RGB/006_06_000_0_02/Frame_30.png",
+                "data/WMCA/RGB/002_03_000_2_81/Frame_0.png",
+                "data/WMCA/RGB/012_04_010_2_83/Frame_0.png"
             ],
             "question_text": "Are there more bonafide or attack images?",
             "options": [
@@ -904,9 +904,9 @@
         },
         "59": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_59_1.png",
-                "images/wmca_multiple_mcq/question_59_2.png",
-                "images/wmca_multiple_mcq/question_59_3.png"
+                "data/WMCA/RGB/001_02_000_2_12/Frame_3.png",
+                "data/WMCA/RGB/001_06_000_3_03/Frame_46.png",
+                "data/WMCA/RGB/014_02_000_0_00/Frame_39.png"
             ],
             "question_text": "How many images are spoof attacks?",
             "options": [
@@ -920,9 +920,9 @@
         },
         "60": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_60_1.png",
-                "images/wmca_multiple_mcq/question_60_2.png",
-                "images/wmca_multiple_mcq/question_60_3.png"
+                "data/WMCA/RGB/018_06_000_3_08/Frame_10.png",
+                "data/WMCA/RGB/005_02_010_4_10/Frame_43.png",
+                "data/WMCA/RGB/019_03_000_2_87/Frame_13.png"
             ],
             "question_text": "Which images are spoof attacks?",
             "options": [
@@ -936,9 +936,9 @@
         },
         "61": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_61_1.png",
-                "images/wmca_multiple_mcq/question_61_2.png",
-                "images/wmca_multiple_mcq/question_61_3.png"
+                "data/WMCA/RGB/019_06_073_4_01/Frame_16.png",
+                "data/WMCA/RGB/007_03_000_0_00/Frame_36.png",
+                "data/WMCA/RGB/019_01_000_4_14/Frame_33.png"
             ],
             "question_text": "Which images are attacks of the same type?",
             "options": [
@@ -952,9 +952,9 @@
         },
         "62": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_62_1.png",
-                "images/wmca_multiple_mcq/question_62_2.png",
-                "images/wmca_multiple_mcq/question_62_3.png"
+                "data/WMCA/RGB/038_07_000_0_00/Frame_35.png",
+                "data/WMCA/RGB/012_01_003_4_04/Frame_7.png",
+                "data/WMCA/RGB/001_01_000_2_88/Frame_19.png"
             ],
             "question_text": "How many images are bonafide?",
             "options": [
@@ -968,9 +968,9 @@
         },
         "63": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_63_1.png",
-                "images/wmca_multiple_mcq/question_63_2.png",
-                "images/wmca_multiple_mcq/question_63_3.png"
+                "data/WMCA/RGB/064_04_007_2_75/Frame_47.png",
+                "data/WMCA/RGB/019_04_000_4_02/Frame_48.png",
+                "data/WMCA/RGB/012_05_000_4_04/Frame_46.png"
             ],
             "question_text": "How many images are bonafide?",
             "options": [
@@ -984,9 +984,9 @@
         },
         "64": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_64_1.png",
-                "images/wmca_multiple_mcq/question_64_2.png",
-                "images/wmca_multiple_mcq/question_64_3.png"
+                "data/WMCA/RGB/001_05_000_2_12/Frame_36.png",
+                "data/WMCA/RGB/005_07_000_0_01/Frame_37.png",
+                "data/WMCA/RGB/002_01_050_2_13/Frame_26.png"
             ],
             "question_text": "Which images are not bonafide?",
             "options": [
@@ -1000,8 +1000,8 @@
         },
         "65": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_65_1.png",
-                "images/wmca_multiple_mcq/question_65_2.png"
+                "data/WMCA/RGB/019_04_000_4_02/Frame_38.png",
+                "data/WMCA/RGB/003_06_000_0_00/Frame_21.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -1015,9 +1015,9 @@
         },
         "66": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_66_1.png",
-                "images/wmca_multiple_mcq/question_66_2.png",
-                "images/wmca_multiple_mcq/question_66_3.png"
+                "data/WMCA/RGB/001_01_040_3_03/Frame_20.png",
+                "data/WMCA/RGB/001_03_000_2_80/Frame_2.png",
+                "data/WMCA/RGB/019_01_000_4_02/Frame_12.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -1031,9 +1031,9 @@
         },
         "67": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_67_1.png",
-                "images/wmca_multiple_mcq/question_67_2.png",
-                "images/wmca_multiple_mcq/question_67_3.png"
+                "data/WMCA/RGB/001_02_027_2_08/Frame_20.png",
+                "data/WMCA/RGB/019_07_038_4_02/Frame_4.png",
+                "data/WMCA/RGB/028_02_000_0_00/Frame_37.png"
             ],
             "question_text": "Which images depict bonafide individuals?",
             "options": [
@@ -1047,8 +1047,8 @@
         },
         "68": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_68_1.png",
-                "images/wmca_multiple_mcq/question_68_2.png"
+                "data/WMCA/RGB/021_02_000_0_00/Frame_9.png",
+                "data/WMCA/RGB/012_01_025_2_89/Frame_6.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -1062,9 +1062,9 @@
         },
         "69": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_69_1.png",
-                "images/wmca_multiple_mcq/question_69_2.png",
-                "images/wmca_multiple_mcq/question_69_3.png"
+                "data/WMCA/RGB/038_05_000_0_00/Frame_37.png",
+                "data/WMCA/RGB/001_02_026_3_01/Frame_33.png",
+                "data/WMCA/RGB/001_02_008_2_80/Frame_39.png"
             ],
             "question_text": "How many images are bonafide?",
             "options": [
@@ -1078,9 +1078,9 @@
         },
         "70": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_70_1.png",
-                "images/wmca_multiple_mcq/question_70_2.png",
-                "images/wmca_multiple_mcq/question_70_3.png"
+                "data/WMCA/RGB/018_01_060_2_16/Frame_19.png",
+                "data/WMCA/RGB/001_01_014_2_12/Frame_27.png",
+                "data/WMCA/RGB/002_07_000_2_13/Frame_46.png"
             ],
             "question_text": "Which images are bonafide?",
             "options": [
@@ -1094,9 +1094,9 @@
         },
         "71": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_71_1.png",
-                "images/wmca_multiple_mcq/question_71_2.png",
-                "images/wmca_multiple_mcq/question_71_3.png"
+                "data/WMCA/RGB/001_02_000_2_88/Frame_48.png",
+                "data/WMCA/RGB/001_07_007_3_03/Frame_9.png",
+                "data/WMCA/RGB/007_02_000_0_01/Frame_31.png"
             ],
             "question_text": "Which images are bonafide?",
             "options": [
@@ -1110,8 +1110,8 @@
         },
         "72": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_72_1.png",
-                "images/wmca_multiple_mcq/question_72_2.png"
+                "data/WMCA/RGB/012_05_008_2_11/Frame_8.png",
+                "data/WMCA/RGB/006_01_000_0_00/Frame_38.png"
             ],
             "question_text": "Which image is an attack?",
             "options": [
@@ -1125,8 +1125,8 @@
         },
         "73": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_73_1.png",
-                "images/wmca_multiple_mcq/question_73_2.png"
+                "data/WMCA/RGB/012_03_051_2_14/Frame_19.png",
+                "data/WMCA/RGB/019_04_007_2_90/Frame_5.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -1140,8 +1140,8 @@
         },
         "74": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_74_1.png",
-                "images/wmca_multiple_mcq/question_74_2.png"
+                "data/WMCA/RGB/012_07_000_4_04/Frame_9.png",
+                "data/WMCA/RGB/012_07_000_2_83/Frame_46.png"
             ],
             "question_text": "Which image is attacked and are of the type Wig?",
             "options": [
@@ -1155,9 +1155,9 @@
         },
         "75": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_75_1.png",
-                "images/wmca_multiple_mcq/question_75_2.png",
-                "images/wmca_multiple_mcq/question_75_3.png"
+                "data/WMCA/RGB/028_01_000_0_01/Frame_39.png",
+                "data/WMCA/RGB/005_01_000_4_10/Frame_1.png",
+                "data/WMCA/RGB/005_03_043_4_09/Frame_17.png"
             ],
             "question_text": "Which images are spoof attacks?",
             "options": [
@@ -1171,9 +1171,9 @@
         },
         "76": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_76_1.png",
-                "images/wmca_multiple_mcq/question_76_2.png",
-                "images/wmca_multiple_mcq/question_76_3.png"
+                "data/WMCA/RGB/002_05_000_2_81/Frame_29.png",
+                "data/WMCA/RGB/002_05_073_2_81/Frame_13.png",
+                "data/WMCA/RGB/072_07_000_0_00/Frame_47.png"
             ],
             "question_text": "Which image is a bonafide and which are attacks?",
             "options": [
@@ -1187,9 +1187,9 @@
         },
         "77": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_77_1.png",
-                "images/wmca_multiple_mcq/question_77_2.png",
-                "images/wmca_multiple_mcq/question_77_3.png"
+                "data/WMCA/RGB/018_02_000_3_09/Frame_41.png",
+                "data/WMCA/RGB/007_03_000_0_01/Frame_30.png",
+                "data/WMCA/RGB/002_03_051_2_82/Frame_41.png"
             ],
             "question_text": "Which images are of attack type Print?",
             "options": [
@@ -1203,8 +1203,8 @@
         },
         "78": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_78_1.png",
-                "images/wmca_multiple_mcq/question_78_2.png"
+                "data/WMCA/RGB/019_01_063_4_14/Frame_4.png",
+                "data/WMCA/RGB/019_02_022_2_90/Frame_4.png"
             ],
             "question_text": "Which statement is true about the images?",
             "options": [
@@ -1218,9 +1218,9 @@
         },
         "79": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_79_1.png",
-                "images/wmca_multiple_mcq/question_79_2.png",
-                "images/wmca_multiple_mcq/question_79_3.png"
+                "data/WMCA/RGB/012_02_004_4_03/Frame_16.png",
+                "data/WMCA/RGB/019_01_000_4_08/Frame_35.png",
+                "data/WMCA/RGB/019_03_052_2_90/Frame_26.png"
             ],
             "question_text": "Are there more bonafide or attack images?",
             "options": [
@@ -1234,8 +1234,8 @@
         },
         "80": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_80_1.png",
-                "images/wmca_multiple_mcq/question_80_2.png"
+                "data/WMCA/RGB/012_07_070_2_83/Frame_46.png",
+                "data/WMCA/RGB/072_07_000_0_00/Frame_25.png"
             ],
             "question_text": "Which image shows a bonafide person?",
             "options": [
@@ -1249,9 +1249,9 @@
         },
         "81": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_81_1.png",
-                "images/wmca_multiple_mcq/question_81_2.png",
-                "images/wmca_multiple_mcq/question_81_3.png"
+                "data/WMCA/RGB/055_02_000_0_00/Frame_45.png",
+                "data/WMCA/RGB/019_02_024_4_08/Frame_13.png",
+                "data/WMCA/RGB/019_01_036_2_17/Frame_43.png"
             ],
             "question_text": "Which images are not bonafide?",
             "options": [
@@ -1265,9 +1265,9 @@
         },
         "82": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_82_1.png",
-                "images/wmca_multiple_mcq/question_82_2.png",
-                "images/wmca_multiple_mcq/question_82_3.png"
+                "data/WMCA/RGB/004_06_000_0_00/Frame_4.png",
+                "data/WMCA/RGB/019_02_000_4_07/Frame_5.png",
+                "data/WMCA/RGB/018_05_000_3_10/Frame_44.png"
             ],
             "question_text": "Which images depict bonafide individuals?",
             "options": [
@@ -1281,8 +1281,8 @@
         },
         "83": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_83_1.png",
-                "images/wmca_multiple_mcq/question_83_2.png"
+                "data/WMCA/RGB/001_07_065_2_88/Frame_29.png",
+                "data/WMCA/RGB/012_07_002_2_14/Frame_27.png"
             ],
             "question_text": "Which statement best describes the images?",
             "options": [
@@ -1296,9 +1296,9 @@
         },
         "84": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_84_1.png",
-                "images/wmca_multiple_mcq/question_84_2.png",
-                "images/wmca_multiple_mcq/question_84_3.png"
+                "data/WMCA/RGB/019_05_000_0_01/Frame_14.png",
+                "data/WMCA/RGB/018_03_037_3_10/Frame_43.png",
+                "data/WMCA/RGB/018_05_000_3_07/Frame_12.png"
             ],
             "question_text": "Which images depict bonafide individuals?",
             "options": [
@@ -1312,9 +1312,9 @@
         },
         "85": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_85_1.png",
-                "images/wmca_multiple_mcq/question_85_2.png",
-                "images/wmca_multiple_mcq/question_85_3.png"
+                "data/WMCA/RGB/005_02_011_4_09/Frame_32.png",
+                "data/WMCA/RGB/019_01_014_2_90/Frame_24.png",
+                "data/WMCA/RGB/030_02_000_0_00/Frame_4.png"
             ],
             "question_text": "Which image is a bonafide and which are attacks?",
             "options": [
@@ -1328,9 +1328,9 @@
         },
         "86": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_86_1.png",
-                "images/wmca_multiple_mcq/question_86_2.png",
-                "images/wmca_multiple_mcq/question_86_3.png"
+                "data/WMCA/RGB/005_06_000_4_10/Frame_5.png",
+                "data/WMCA/RGB/001_06_008_2_08/Frame_41.png",
+                "data/WMCA/RGB/019_02_001_2_87/Frame_44.png"
             ],
             "question_text": "Which images are bonafide?",
             "options": [
@@ -1344,9 +1344,9 @@
         },
         "87": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_87_1.png",
-                "images/wmca_multiple_mcq/question_87_2.png",
-                "images/wmca_multiple_mcq/question_87_3.png"
+                "data/WMCA/RGB/015_03_000_0_00/Frame_23.png",
+                "data/WMCA/RGB/019_05_000_4_01/Frame_46.png",
+                "data/WMCA/RGB/012_06_018_2_83/Frame_6.png"
             ],
             "question_text": "Which images are spoof attacks?",
             "options": [
@@ -1360,8 +1360,8 @@
         },
         "88": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_88_1.png",
-                "images/wmca_multiple_mcq/question_88_2.png"
+                "data/WMCA/RGB/002_06_000_2_13/Frame_37.png",
+                "data/WMCA/RGB/012_01_000_4_03/Frame_7.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
@@ -1375,9 +1375,9 @@
         },
         "89": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_89_1.png",
-                "images/wmca_multiple_mcq/question_89_2.png",
-                "images/wmca_multiple_mcq/question_89_3.png"
+                "data/WMCA/RGB/012_02_035_2_14/Frame_10.png",
+                "data/WMCA/RGB/019_03_025_2_17/Frame_23.png",
+                "data/WMCA/RGB/012_07_002_2_14/Frame_38.png"
             ],
             "question_text": "Which images are not bonafide?",
             "options": [
@@ -1391,9 +1391,9 @@
         },
         "90": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_90_1.png",
-                "images/wmca_multiple_mcq/question_90_2.png",
-                "images/wmca_multiple_mcq/question_90_3.png"
+                "data/WMCA/RGB/018_01_032_3_06/Frame_42.png",
+                "data/WMCA/RGB/071_06_000_0_00/Frame_24.png",
+                "data/WMCA/RGB/005_02_000_4_09/Frame_3.png"
             ],
             "question_text": "How many different attack types are present?",
             "options": [
@@ -1407,9 +1407,9 @@
         },
         "91": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_91_1.png",
-                "images/wmca_multiple_mcq/question_91_2.png",
-                "images/wmca_multiple_mcq/question_91_3.png"
+                "data/WMCA/RGB/068_06_000_0_00/Frame_30.png",
+                "data/WMCA/RGB/019_01_000_2_90/Frame_30.png",
+                "data/WMCA/RGB/005_07_018_4_09/Frame_5.png"
             ],
             "question_text": "How many images are bonafide?",
             "options": [
@@ -1423,9 +1423,9 @@
         },
         "92": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_92_1.png",
-                "images/wmca_multiple_mcq/question_92_2.png",
-                "images/wmca_multiple_mcq/question_92_3.png"
+                "data/WMCA/RGB/005_01_063_4_09/Frame_43.png",
+                "data/WMCA/RGB/028_01_000_0_01/Frame_25.png",
+                "data/WMCA/RGB/018_05_038_3_07/Frame_5.png"
             ],
             "question_text": "How many different attack types are present?",
             "options": [
@@ -1439,8 +1439,8 @@
         },
         "93": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_93_1.png",
-                "images/wmca_multiple_mcq/question_93_2.png"
+                "data/WMCA/RGB/005_05_000_0_00/Frame_40.png",
+                "data/WMCA/RGB/002_06_004_2_82/Frame_0.png"
             ],
             "question_text": "Which statement is true about the images?",
             "options": [
@@ -1454,8 +1454,8 @@
         },
         "94": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_94_1.png",
-                "images/wmca_multiple_mcq/question_94_2.png"
+                "data/WMCA/RGB/001_02_000_0_01/Frame_31.png",
+                "data/WMCA/RGB/018_02_047_3_07/Frame_21.png"
             ],
             "question_text": "Which statement is true about the images?",
             "options": [
@@ -1469,9 +1469,9 @@
         },
         "95": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_95_1.png",
-                "images/wmca_multiple_mcq/question_95_2.png",
-                "images/wmca_multiple_mcq/question_95_3.png"
+                "data/WMCA/RGB/019_07_000_2_17/Frame_4.png",
+                "data/WMCA/RGB/019_01_003_4_08/Frame_11.png",
+                "data/WMCA/RGB/012_01_000_4_04/Frame_20.png"
             ],
             "question_text": "Which images are attacks of the same type?",
             "options": [
@@ -1485,9 +1485,9 @@
         },
         "96": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_96_1.png",
-                "images/wmca_multiple_mcq/question_96_2.png",
-                "images/wmca_multiple_mcq/question_96_3.png"
+                "data/WMCA/RGB/018_04_010_3_08/Frame_0.png",
+                "data/WMCA/RGB/005_01_000_0_01/Frame_0.png",
+                "data/WMCA/RGB/006_05_000_0_00/Frame_0.png"
             ],
             "question_text": "Which images are not bonafide?",
             "options": [
@@ -1501,9 +1501,9 @@
         },
         "97": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_97_1.png",
-                "images/wmca_multiple_mcq/question_97_2.png",
-                "images/wmca_multiple_mcq/question_97_3.png"
+                "data/WMCA/RGB/005_01_000_0_01/Frame_0.png",
+                "data/WMCA/RGB/015_01_000_0_00/Frame_40.png",
+                "data/WMCA/RGB/005_03_000_4_09/Frame_12.png"
             ],
             "question_text": "How many images are of attack type Wig?",
             "options": [
@@ -1517,8 +1517,8 @@
         },
         "98": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_98_1.png",
-                "images/wmca_multiple_mcq/question_98_2.png"
+                "data/WMCA/RGB/012_06_066_2_89/Frame_13.png",
+                "data/WMCA/RGB/014_07_000_0_02/Frame_17.png"
             ],
             "question_text": "Which statement is true about the images?",
             "options": [
@@ -1532,9 +1532,9 @@
         },
         "99": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_99_1.png",
-                "images/wmca_multiple_mcq/question_99_2.png",
-                "images/wmca_multiple_mcq/question_99_3.png"
+                "data/WMCA/RGB/065_06_000_0_00/Frame_17.png",
+                "data/WMCA/RGB/018_05_000_3_08/Frame_45.png",
+                "data/WMCA/RGB/001_07_007_3_03/Frame_15.png"
             ],
             "question_text": "Which images are spoof attacks?",
             "options": [
@@ -1548,8 +1548,8 @@
         },
         "100": {
             "image_paths": [
-                "images/wmca_multiple_mcq/question_100_1.png",
-                "images/wmca_multiple_mcq/question_100_2.png"
+                "data/WMCA/RGB/001_01_000_3_01/Frame_17.png",
+                "data/WMCA/RGB/012_07_068_4_04/Frame_47.png"
             ],
             "question_text": "Which images are of attack type Replay?",
             "options": [
