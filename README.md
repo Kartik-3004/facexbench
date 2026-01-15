@@ -2,6 +2,7 @@
 <img src="docs/static/images/logo.png" alt="Image" width="100">
   
 # FaceXBench: Evaluating Multimodal LLMs <br> on Face Understanding
+<h3><strong>IEEE T-BIOM</strong></h3>
 
 
 [Kartik Narayan](https://kartik-3004.github.io/portfolio/) &emsp; [Vibashan VS](https://vibashan.github.io) &emsp; [Vishal M. Patel](https://engineering.jhu.edu/faculty/vishal-patel/)
@@ -52,6 +53,7 @@ Table 1. Results of different models on the FaceXBench. We categorize the open-s
 
 
 ## :rocket: News
+- [10/28/2025] FaceXBench was accepted in IEEE T-BIOM.
 - [01/16/2025] 🔥 We release FaceXBench.
 
 ## Data preparation
