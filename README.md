@@ -102,7 +102,12 @@ python VLMEValKit/aggregate_results.py \
 If you find FaceXBench useful for your research, please consider citing us:
 
 ```bibtex
-Coming Soon !!!
+@article{narayan2025facexbench,
+  title={Facexbench: Evaluating multimodal llms on face understanding},
+  author={Narayan, Kartik and VS, Vibashan and Patel, Vishal M},
+  journal={arXiv preprint arXiv:2501.10360},
+  year={2025}
+}
 ```
 
 ## Contact
